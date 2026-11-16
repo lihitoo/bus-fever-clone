@@ -1,0 +1,329 @@
+﻿key,english,vietnamese
+ad_loading,Ad Loading...,Đang tải quảng cáo...
+no_internet_title,No Internet,Không có Internet
+no_internet_check,Please check your <color=#c6243a>Internet</color>!,Vui lòng kiểm tra <color=#c6243a>kết nối Internet</color>
+entry_hard,HARD,KHÓ
+entry_superhard,SUPER HARD,RẤT KHÓ
+guide1_ambulance,1  <sprite=7> waits 4 <sprite=2>  and 1 <sprite=0>,1  <sprite=7> chờ 4 <sprite=2>  và 1 <sprite=0>
+guide2_ambulance,"The <sprite=1>  shows the<color=#d82d2d> moves </color>
+ to rescue the <sprite=0>","<sprite=1>  hiển thị số <color=#d82d2d>lượt di chuyển</color>
+để cứu <sprite=0>"
+guide3_ambulance,<color=#d82d2d>Game over</color> when the moves end,"Khi hết lượt di chuyển
+<color=#d82d2d>Game over</color>"
+guide_business,"1 Business vehicle waits
+<color=#ec6f00>6</color> business executives","1 Xe kinh doanh đang chờ đợi
+<color=#ec6f00>6</color> nhà quản lý kinh doanh"
+guide_continue,Tap to continue,Chạm để tiếp tục
+guide1_firetruck,1  <sprite=6> waits for 10  <sprite=4>,1  <sprite=6> chờ 10  <sprite=4>
+guide2_firetruck,"The  <sprite=5> shows the <color=#d82d2d>time</color>
+ left to put out the <sprite=3>"," <sprite=5> hiển thị <color=#d82d2d>thời gian</color>
+còn lại để dập tắt <sprite=3>"
+guide3_firetruck,<color=#d82d2d>Game Over </color>when the time ends,Khi hết thời gian <color=#d82d2d>Game Over</color>
+guide_garage,"Make way! Vehicle in
+truck will drive out!","Nhường đường! Xe trong
+xe tải sẽ ra ngoài!"
+guide_limit,"Limited passes,
+rotating access!","Lượt đi giới hạn,
+truy cập xoay vòng!"
+guide_police,"1 Police car waits
+<color=#ec6f00>4</color> police officers","1 xe cảnh sát đang chờ đợi
+<color=#ec6f00>4</color> cảnh sát"
+btn_claim,Claim,Lấy
+guide_question,"Uncover the cover
+Encolor the color","Bóc lớp phủ
+Tô màu!"
+guide_firetruck_title,New Item,Vật phẩm mới
+guide_trafficlight,"Pass the open lane.
+Blocked lanes will rotate!","Thẻ giới hạn,
+truy cập xoay!"
+guide_level_info,"Tap the vehicle to
+match the passengers","Nhấn xe
+để ghép hành khách"
+guide_wrench,Drive Wrench Cars to repair Gear Cars!,Lái xe cờ lê để sửa xe bánh răng!
+guide_limousine,"1 Limousine waits <color=#ec6f00>6</color>
+affluent passengers","1 Limousine đang chờ <color=#ec6f00>6</color>
+hành khách giàu có"
+guide_combined,"Complete the front section
+to open the rear","Hoàn thành phần trước để
+mở phần sau"
+guide_linked,"Click front, the rear follows","Nhấp vào phần trước, phần sau theo sau"
+home_play,Play,Chơi
+level_lose_retry,Retry,Thử lại
+level_lose_title,Level Failed,Thất Bại
+level_num,Level {0},Màn {0}
+lockprop_arrange,Level 15,Màn 15
+lockprop_jumble,Level 5,Màn 5
+lockprop_vip,Level 10,Màn 10
+pause_home,Home,Trang chủ
+pause_retry,Restart,Khởi Lại
+privacy_btn,Accept,Chấp nhận
+privacy_des,Please accept our latest Terms of Service and confirm you’ve read our latest Privacy Policy.,Vui lòng chấp nhận Điều khoản Dịch vụ mới nhất của chúng tôi và xác nhận bạn đã đọc Chính sách Bảo mật mới nhất của chúng tôi.
+privacy_privacy,Privacy Policy,Chính sách Bảo mật
+privacy_terms,Terms of Service,Điều khoản Dịch vụ
+privacy_title,Welcome,Chào Mừng
+prop_ad,Free,Miễn phí
+prop_arrange,Arrange,Sắp Xếp
+prop_arrange_info,"Arrange <color=#ec6f00>passengers</color> in
+line by assigned colors",Xếp <color=#ec6f00>hành khách</color> theo màu đã chỉ định
+prop_jumble,Jumble,Trộn
+prop_jumble_info,"Jumble <color=#ec6f00>colors</color> of
+vehicles","Trộn <color=#ec6f00>màu</color> của các
+phương tiện"
+prop_revive_info,"<color=#ec6f00>Clear</color> all parked buses
+and <color=#ec6f00>unlock</color> 1 extra spot!","<color=#ec6f00>Di chuyển</color> tất cả xe buýt đang đỗ
+và <color=#ec6f00>mở khóa</color> thêm 1 chỗ!"
+prop_revive_title,Out of Spots,Hết chỗ đỗ
+prop_revive_ambulance,Reset steps to save life,"Đặt lại các bước để
+cứu sống"
+prop_revive_firetruck,Reset clock to stop fire,"Đặt lại đồng hồ để
+dừng lửa"
+prop_revive_splice,"<color=#ec6f00>Arrange </color>passenger to
+keep playing!","<color=#ec6f00>Sắp xếp </color>hành khách để
+ tiếp tục chơi!"
+prop_spot,Extra Spot,Chỗ thêm
+prop_spot_info,Unlock a parking spot!,Mở khóa chỗ đậu xe!
+prop_vip,VIP,VIP
+prop_vip_info,"Send a vehicle to fly to
+the <color=#ec6f00>VIP</color> parking spot",Gửi một phương tiện bay đến điểm đỗ xe <color=#ec6f00>VIP</color>
+prop_vip_select_desc,Select a Vehicle for the <color=#ec6f00>VIP</color> Spot, Chọn một phương tiện cho điểm <color=#ec6f00>VIP</color>
+rate_guide_title,Having Fun?,Có vui không?
+rate_guide_desc,"Your opinion matters, <color=#c6243a>rate us</color>!","Ý kiến của bạn quan trọng,
+<color=#c6243a>đánh giá chúng tôi</color>!"
+rate_thank_title,Thank You!,Cảm ơn!
+rate_thank_desc,Thanks for your feedback.,Cảm ơn phản hồi của bạn.
+replay_info,Restart this level?,Khởi động lại cấp độ này?
+replay_no,No,Không
+replay_title,Restart,Khởi Lại
+replay_yes,Yes,Có
+setting_contact,Contact,Liên hệ
+setting_music,Music,Âm nhạc
+setting_privacy,Privacy Policy,Chính sách Bảo mật
+setting_restore,Restore,Khôi phục
+setting_sound,Sound,Âm thanh
+setting_terms,Terms of Service,Điều khoản Dịch vụ
+setting_title,Settings,Cài Đặt
+setting_vibration,Vibration,Rung
+toast_adhint,Ad is not ready yet,Quảng cáo chưa sẵn sàng
+toast_lockprop,Unlock at level {0},Mở khóa ở cấp {0}
+toast_nogold,Not enough gold,Không đủ vàng
+toast_nospot,No spots available,Không còn chỗ trống
+toast_arrange_1,No vehicles to arrange,Không có xe để sắp xếp
+toast_arrange_2,Wait for passengers to board,Vui lòng chờ hành khách lên xe
+toast_jumble_1,Vehicles insufficient,Không đủ phương tiện
+toast_jumble_2,Vehicles in transit,Phương tiện đang di chuyển
+toast_jumble_3,Wait for passengers to board,Vui lòng chờ hành khách lên xe
+toast_vip,VIP spot in use,Vị trí VIP đang được sử dụng
+toast_firetruck,Fire truck failed to reach in time,Xe cứu hỏa không đến kịp thời
+toast_restore_null,Nothing to restore,Không có gì để khôi phục
+toast_supply_lock_on_tap,Supplies unlock in order.,Vật phẩm mở khóa theo thứ tự
+toast_supply_cd,Next reward in <color=#fff000>{0}</color>.,Phần thưởng tiếp theo trong <color=#fff000>{0}</color>
+toast_purchases_not_ready,Purchases not ready,Mua hàng chưa sẵn sàng
+toast_gear_on_tap,Need wrench car first!,Cần xe cờ lê trước!
+toast_linked_on_tap,Need front car moved first!,Cần di chuyển xe phía trước trước!
+toast_dailybonus_cd,Reward already claimed.,Phần thưởng đã được nhận.
+toast_no_spin,Spin Not Ready,Quay chưa sẵn sàng
+toast_ambulance,Ambulance failed to reach in time,Xe cứu thương không đến kịp thời
+toast_fail_spot,Out of Space!,Hết chỗ đậu xe!
+toast_fail_ambulance,Out of Steps!,Hết bước!
+toast_fail_firetruck,Out of Time!,Hết giờ!
+toast_fail_splice,Front Not Full,Xe trước chưa đầy
+toast_vip_1,Wait for passengers to board,Vui lòng chờ hành khách lên xe
+adfree_title,Ad-Free Pass,Thẻ Không QC
+adfreebundle_title,Ad-Free Bundle,Gói Không QC
+beginnerbundle_title,Beginner Bundle,Gói Người mới
+advancedbundle_title,Advanced Bundle,Gói Nâng cao
+expertbundle_title,Expert Bundle,Gói Chuyên gia
+expertbundle_tag,Popular,Phổ biến
+ultimatebundle_title,Ultimate Bundle,Gói Tối thượng
+ultimatebundle_tag,Bargain,Mặc cả
+3dayvippass_title,3-Day VIP Pass,Thẻ VIP 3 ngày
+7dayvippass_title,7-Day VIP Pass,Thẻ VIP 7 ngày
+15dayvippass_title,15-Day VIP Pass,Thẻ VIP 15 ngày
+vippass_desc1,No Ads,Không QC
+vippass_desc2,Bonus,Thưởng
+vippass_desc2_sp,Bonus,Thưởng
+vippass_desc3,+1 Spot,+1 Vị trí
+vippass_desc4,Daily Reward,Thưởng Ngày
+claim_btn,Claim,Lấy
+claimed_btn,Claimed,Đã lấy
+removeads_title,No Ads,Không QC
+allinonepack_title,All-In-One Pack,Gói nhìn chung
+boostpack_title,Boost Pack,Gói Tăng tốc
+surprisepack_title,Surprise Pack,Gói Bất ngờ
+enjoypack_title,Enjoy Pack,Gói Vui Vẻ
+purchase_loading_desc,Please wait…,Vui lòng đợi...
+purchase_success_title,Success!,Xong!
+purchase_success_desc,Purchase completed!,Mua hàng hoàn tất!
+continue_btn,Continue,Tiếp tục
+purchase_fail_title,Failed!,Thất bại!
+purchase_fail_title_desc,Purchase failed!,Mua hàng thất bại!
+reward_title,Rewards,Cấp Cho
+btn_tap_claim,Tap to Claim,Chạm để nhận
+toast_no_internet,No Internet connection,Không có kết nối Internet
+restore_loading,Restoring...,Đang khôi phục..
+toast_restore_success,Restore successed,Khôi phục thành công
+toast_restore_fail,Restore failed,Khôi phục thất bại
+shop_title,SHOP,Cửa hàng
+gap_busbundle,Bus Bundles,Gói Xe buýt
+gap_vippass,VIP Pass,Thẻ VIP
+rule_not_purchased,Not Purchased,Chưa mua
+gap_gold,Gold,Vàng
+beginner_short_title,On Sale,Người mới
+shop_home_title,Shop,Cửa hàng
+vip_home_title,Ad Free,Không QC
+gap_vip,No Ads,Không QC
+currency_code,$,₫
+o_supply_home,Supplies,Cung Cấp
+o_sign_home,Check-In,Điểm danh
+o_supply_title,Bus Supplies,Vật tư hàng ngày
+o_supply_reset_hint,Supplies ready in <color=#fff000>{0}</color>.,Tất cả vật tư sẽ đặt lại sau <color=#fff000>{0}</color>.
+o_supply_hint,Grab Your <color=#fff000>Free</color> supplies!,Nhận vật phẩm <color=#fff000>miễn phí</color> của bạn!
+o_spin_title,Lucky Spin,Vòng Quay May Mắn
+o_spin_hint1,<color=#affeff>Win 10 levels to spin</color>,<color=#affeff>Thắng 10 cấp để quay</color>
+o_spin_hint2,Next free spin in <color=#fff000>{0}</color>.,Quay miễn phí tiếp theo sau <color=#fff000>{0}</color>.
+o_spin_btn,Spin,Quay
+o_spin_card,Prob.,Tỷ lệ
+o_sign_title,Daily Bonus,Tiền thưởng hàng ngày
+o_sign_card,Day {0},Ngày {0}
+TaskBarReward_title,Color Journey,Hành Trình Màu Sắc
+TaskBarReward_finished,Finished,Kết thúc
+TaskBarGuide_desc1,Beat Levels!,Vượt qua Cấp độ!
+TaskBarGuide_desc2,Collect Passengers!,Thu thập hành khách!
+TaskBarGuide_desc3,Win Rewards!,Nhận phần thưởng!
+TaskBarGuide_tap_continue,Tap to Continue,Chạm để Tiếp tục
+TaskBarRetain_desc,"You will lose your
+<color=#c6243a>passengers</color>!","Bạn sẽ mất
+<color=#c6243a>hành khách</color>!"
+prop_unlock_title,Unlocked,Đã mở
+value,{0},{0}
+prop_revive_restart,Restart,Chơi lại
+prop_revive_map,Hold to see the map,Nhấn giữ để xem bản đồ
+btn_next,Next,Tiếp
+prop_revive_Revive,Revive,Hồi sinh
+guide4_switch,"Move the bus and make the 
+switching bus change direction!","Di chuyển xe buýt để xe buýt
+chuyển hướng đổi hướng!"
+guide4_VIP,"Send the VIP bus to pick up the 
+suited passengers!","Đưa xe buýt VIP đi đón
+những hành khách mặc vest!"
+guide4_Ambulance,"Hurry! Get the ambulance out
+ before run out of moves!","Nhanh lên! Đưa xe cứu thương ra
+trước khi hết lượt di chuyển!"
+guide4_Truck,"Make way! Vehicle in
+truck will drive out!","Nhường đường! Xe trong
+xe tải sẽ ra ngoài!"
+guide4_CarGate,Send the bus through the gate!,Cho xe buýt đi qua cổng!
+guide4_Elevator,"Clear the upper parking area to
+ open the lower level!","Dọn trống khu đỗ xe phía
+trên để mở tầng phía dưới!"
+removeads_desc,REMOVE FORCED ADS FOREVER,XÓA QUẢNG CÁO BẮT BUỘC VĨNH VIỄN
+entry_banner_1,No item used in the level - top <color=#fff000>{0}%</color> world wide!,Không sử dụng vật phẩm nào trong màn chơi - top <color=#fff000>{0}%</color> toàn cầu!
+entry_banner_2,You cleared it with no help - top <color=#fff000>{0}%</color> around the world!,Bạn đã hoàn thành mà không cần trợ giúp - top <color=#fff000>{0}%</color> trên toàn thế giới!
+entry_banner_3,A pure skill clear! You surpassed <color=#fff000>{0}%</color> of players without using any items.,Hoàn thành bằng kỹ năng thuần túy! Bạn đã vượt qua <color=#fff000>{0}%</color> người chơi mà không sử dụng bất kỳ vật phẩm nào.
+entry_banner_4,No items required. Your strategy beat <color=#fff000>{0}%</color> of the competition!,Không cần vật phẩm. Chiến lược của bạn đã đánh bại <color=#fff000>{0}%</color> đối thủ!
+entry_banner_5,Zero mistakes! You ranked in the top <color=#fff000>{0}%</color> on this level.,Không mắc lỗi! Bạn nằm trong top <color=#fff000>{0}%</color> ở màn chơi này.
+entry_banner_6,"Your first approach was the right one, placing you ahead of <color=#fff000>{0}%</color> of players!","Cách tiếp cận đầu tiên của bạn là đúng, giúp bạn vượt lên trước <color=#fff000>{0}%</color> người chơi!"
+entry_banner_7,One try was enough last time. Only <color=#fff000>{0}%</color> of players matched that result!,Lần trước chỉ cần một lần thử là đủ. Chỉ có <color=#fff000>{0}%</color> người chơi đạt được kết quả đó!
+entry_banner_8,"You needed only one run on the last level, beating <color=#fff000>{0}%</color> of players!","Bạn chỉ cần một lần chơi ở màn cuối cùng, đánh bại <color=#fff000>{0}%</color> người chơi!"
+entry_banner_9,Only <color=#fff000>{0}%</color> cleared this level without items. Can you?,Chỉ có <color=#fff000>{0}%</color> người chơi hoàn thành màn chơi này mà không cần vật phẩm. Bạn có thể làm được không?
+entry_banner_10,The best <color=#fff000>{0}%</color> cleared this cleanly. Ready to compete?,<color=#fff000>{0}%</color> người chơi xuất sắc nhất đã hoàn thành thử thách này một cách xuất sắc. Bạn đã sẵn sàng cạnh tranh chưa?
+entry_banner_11,Join the fearless <color=#fff000>{0}%</color> who conquered this challenge!,Hãy tham gia cùng <color=#fff000>{0}%</color> người chơi dũng cảm đã chinh phục thử thách này!
+entry_banner_12,Only <color=#fff000>{0}%</color> have mastered this challenge. Chase them down!,Chỉ <color=#fff000>{0}%</color> người chơi đã thành thạo thử thách này. Hãy đuổi kịp họ!
+entry_banner_13,"<color=#fff000>{0}%</color> restarted the last level, but you cleared it first try!","<color=#fff000>{0}%</color> người chơi đã chơi lại cấp độ cuối cùng, nhưng bạn đã hoàn thành ngay lần thử đầu tiên!"
+entry_banner_14,<color=#fff000>{0}%</color> of players made it through. Join them!,<color=#fff000>{0}%</color> người chơi đã vượt qua. Hãy tham gia cùng họ!
+entry_banner_15,Can you join the <color=#fff000>{0}%</color> who cleared it without help?,Bạn có thể tham gia cùng <color=#fff000>{0}%</color> người chơi đã hoàn thành mà không cần trợ giúp không?
+entry_banner_16,Incredible! You outperformed <color=#fff000>{0}%</color> of players.,Thật đáng kinh ngạc! Bạn đã vượt trội hơn <color=#fff000>{0}%</color> người chơi.
+entry_banner_17,You finished ahead of <color=#fff000>{0}%</color> of players!,Bạn đã hoàn thành trước <color=#fff000>{0}%</color> người chơi!
+entry_banner_18,You handled that better than <color=#fff000>{0}%</color> of players!,Bạn đã xử lý tình huống này tốt hơn <color=#fff000>{0}%</color> người chơi!
+entry_banner_19,You're already ahead of <color=#fff000>{0}%</color> of players. Keep climbing!,Bạn đã vượt trước <color=#fff000>{0}%</color> người chơi rồi. Cứ tiếp tục cố gắng nhé!
+entry_banner_20,<color=#fff000>{0}%</color> of players have completed the level - join them!,<color=#fff000>{0}%</color> người chơi đã hoàn thành màn chơi - hãy tham gia cùng họ!
+entry_banner_21,Champions keep fighting through all <color=#fff000>{0}</color> attempts!,Những nhà vô địch tiếp tục chiến đấu qua tất cả <color=#fff000>{0}</color> lần thử!
+entry_banner_22,This level averages <color=#fff000>{0}</color> tries. What an impressive result!,Màn chơi này trung bình cần <color=#fff000>{0}</color> lần thử. Một kết quả thật ấn tượng!
+entry_banner_23,<color=#fff000>{0}</color>% of players needed another look at this level. Take your time.,<color=#fff000>{0}</color>% người chơi cần xem lại màn chơi này. Cứ từ từ.
+entry_banner_24,A fresh run helped <color=#fff000>{0}%</color> of players see the level differently.,Một lần chơi mới đã giúp <color=#fff000>{0}%</color> người chơi nhìn nhận màn chơi theo cách khác.
+entry_banner_25,This challenge slowed down <color=#fff000>{0}%</color> of players. You're doing fine!,Thử thách này đã làm chậm <color=#fff000>{0}%</color> người chơi. Bạn đang làm rất tốt!
+entry_banner_26,<color=#fff000>{0}%</color> of players chose to give this challenge one more shot.,<color=#fff000>{0}%</color> người chơi đã chọn thử thách này thêm một lần nữa.
+entry_banner_27,<color=#fff000>{0}%</color> of players had to regroup. Keep your confidence!,<color=#fff000>{0}%</color> người chơi phải tập hợp lại. Hãy giữ vững sự tự tin!
+entry_banner_28,<color=#fff000>{0}%</color> of players have stood exactly where you are now.,<color=#fff000>{0}%</color> người chơi đã đứng chính xác ở vị trí bạn đang đứng bây giờ.
+entry_banner_29,<color=#fff000>{0}%</color> of players hit retry and came back with a new plan.,<color=#fff000>{0}%</color> người chơi đã nhấn thử lại và quay lại với một kế hoạch mới.
+entry_banner_30,<color=#fff000>{0}%</color> of players paused here before moving forward.,<color=#fff000>{0}%</color> người chơi đã dừng lại ở đây trước khi tiếp tục.
+entry_banner_31,You`re not alone -<color=#fff000>{0}%</color> of players also retried level.,Bạn không đơn độc - <color=#fff000>{0}%</color> người chơi cũng đã thử lại màn này.
+entry_banner_32,<color=#fff000>{0}%</color> of players discovered that a restart can change everything.,<color=#fff000>{0}%</color> người chơi phát hiện ra rằng việc khởi động lại có thể thay đổi mọi thứ.
+entry_banner_33,<color=#fff000>{0}%</color> of players found this level tricky too.,<color=#fff000>{0}%</color> người chơi cũng thấy màn này khó.
+entry_banner_34,<color=#fff000>{0}%</color> of players gave the level another tap. Your turn to flip the result.,<color=#fff000>{0}%</color> người chơi đã thử lại màn này. Đến lượt bạn lật ngược tình thế.
+entry_banner_35,Around <color=#fff000>{0}</color> tries is part of the shared experience on this level.,Khoảng <color=#fff000>{0}</color> lần thử là một phần trải nghiệm chung ở màn này.
+entry_banner_36,Most players need <color=#fff000>{0}</color> attempts here. Keep going!,Hầu hết người chơi cần <color=#fff000>{0}</color> lần thử ở đây. Cứ tiếp tục đi!
+entry_banner_37,Most players need <color=#fff000>{0}</color> attempts. You made it look effortless!,Hầu hết người chơi cần <color=#fff000>{0}</color> lần thử. Bạn làm cho nó trông thật dễ dàng!
+entry_banner_38,Players average <color=#fff000>{0}</color> attempts here. The next move might surprise you.,Người chơi trung bình cần <color=#fff000>{0}</color> lần thử ở đây. Nước đi tiếp theo có thể làm bạn bất ngờ.
+entry_banner_39,Players average <color=#fff000>{0}</color> tries on this level. You've got this!,Người chơi trung bình cần <color=#fff000>{0}</color> lần thử ở màn này. Bạn làm được mà!
+entry_banner_40,Players spend about <color=#fff000>{0}</color> attempts learning this one. Be patient with yourself,Người chơi dành khoảng <color=#fff000>{0}</color> lần thử để học màn này. Hãy kiên nhẫn với chính mình
+entry_banner_41,Players usually break through by attempt <color=#fff000>{0}</color>. Keep pushing!,Người chơi thường vượt qua ở lần thử thứ <color=#fff000>{0}</color>. Cứ tiếp tục cố gắng!
+entry_banner_42,The average clear takes <color=#fff000>{0}</color> attempts. You're getting there!,Trung bình cần <color=#fff000>{0}</color> lần thử để vượt qua. Bạn sắp thành công rồi!
+entry_banner_43,The usual journey through this level lasts about <color=#fff000>{0}</color> attempts.,Hành trình thông thường qua cấp độ này kéo dài khoảng <color=#fff000>{0}</color> lần thử.
+entry_banner_44,"This challenge takes about <color=#fff000>{0}</color> attempts. One more run, one more clue.","Thử thách này mất khoảng <color=#fff000>{0}</color> lần thử. Thêm một lần chơi nữa, thêm một manh mối nữa."
+entry_banner_45,This level tests players for about <color=#fff000>{0}</color> tries. Stay relentless!,Cấp độ này thử thách người chơi trong khoảng <color=#fff000>{0}</color> lần thử. Hãy kiên trì!
+rescue_failed,Rescue failed,Giải cứu thất bại
+rescue_failed_exclamation,Rescue failed!,Giải cứu thất bại!
+toast_fail_block,Car Jammed !,Xe bị kẹt!
+prop_revive_block_title,Car Jammed !,Xe bị kẹt!
+prop_revive_block_info,"Send vehicle to  <color=#ec6f00>VIP</color>  spot
+ to solve  jammed car!","Đưa xe đến chỗ đỗ <color=#ec6f00>VIP</color>
+để giải phóng xe bị kẹt!"
+take_a_break,Take A Break,Hãy nghỉ giải lao
+ranking_loading,Loading...,Đang tải…
+ranking_no_internet,No Internet...Try Later!,Mất mạng. Thử lại sau!
+ranking_weekly,Weekly,Hàng tuần
+ranking_leaderboard,Leaderboard,Xếp hạng
+ranking_unlock_info,Reach level 29 to unlock Leaderboard!,Mở bảng xếp hạng ở cấp 29!
+ranking_players,Players,Người chơi
+ranking_score,Score,Điểm
+ranking_level,Level,Cấp
+ranking_rank,Rank,Xếp hạng
+ranking_guide_01,"Beat Levels
+Earn Points!","Vượt màn
+Nhận điểm!"
+ranking_guide_02,Take the Lead!,Dẫn đầu!
+ranking_guide_title,Weekly Contest,Thi hằng tuần
+ranking_result,Nice job! You finished #4 last week.,Giỏi lắm! Tuần trước bạn hạng 4.
+Weekly Rank,Weekly Rank,Hạng tuần
+cloud_save_title,Cloud Save,Lưu đám mây
+cloud_save_ad_on,On,Bật
+cloud_save_ad_off,Off,Tắt
+cloud_save_tip,You can try it later in setting panel of homepage,Thử lại sau trong Cài đặt Trang chủ.
+cloud_save_recent_record,Recent record,Bản lưu mới nhất
+cloud_save_level,Level:,Cấp:
+cloud_save_cancel,Cancel,Hủy
+cloud_save_sync,Sync,Đồng bộ
+cloud_save_progress,Progress,Tiến độ
+cloud_save_signed_in,Signed In,Đã đăng nhập
+cloud_save_sign_in_apple,Sign in with Apple,Đăng nhập bằng Apple
+cloud_save_sign_in_Google,Sign in with Google,Đăng nhập bằng Google
+cloud_save_sign_in_progress,Sign in to save your progress!,Đăng nhập để lưu tiến độ!
+cloud_save_connected,Signed in,Đã đăng nhập
+toast_cloudsave_success,Sync Success!,Đồng bộ thành công!
+toast_cloudsave_failed,Sync Failed!,Đồng bộ thất bại!
+taskbar_guide_01,Beat Levels!,Vượt ải!
+taskbar_guide_02,Collect Passengeers!,Đón khách!
+taskbar_guide_03,Win Rewards!,Nhận thưởng!
+taskbar_promo_desc,Complete all stages to win the Grand Prize!,Qua mọi màn để giành giải thưởng lớn!
+profile_edit_title,Edit Profile,Sửa hồ sơ
+profile_title,Profile,Hồ sơ
+profile_save_btn,Save,Lưu
+profile_level,Current Level,Màn hiện tại
+profile_passenger,Passenger helped,Hành khách đã giúp
+profile_game_days,Game Days,Số ngày chơi
+toast_userprofile_name_empty,Empty Name!,Chưa có tên!
+profile_enter_name,Enter name...,Nhập tên…
+save_progress_btn,Save Progress,Lưu tiến độ
+cloud_save_connected_google,You have connected to your Google account!,Đã kết nối tài khoản Google!
+cloud_save_connected_apple,You have connected to your Apple account!,Đã kết nối tài khoản Apple!
+toast_userprofile_name_bad,Username contains invalid characters,Tên người dùng có ký tự không hợp lệ
+more_lives_title,More Lives!,Thêm mạng!
+more_lives_des,Time to next life:,Mạng tiếp theo sau:
+quit_level_title,Quit Level?,Thoát màn?
+quit_level_des,You will lose a life!,Bạn sẽ mất 1 mạng!
+quit_level_quit_btn,Quit,Thoát
+quit_level_stay_btn,Stay,Ở lại
+lives_retry_title,Are you sure?,Chắc chứ?
+lives_retry_desc,You will lose a life!,Bạn sẽ mất 1 mạng!
+lives_full,Full,Đầy

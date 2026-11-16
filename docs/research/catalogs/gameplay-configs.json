@@ -1,0 +1,2091 @@
+[
+  {
+    "collection": "cab-9353e628604a5f00f4076b7dd3a7ecee",
+    "path_id": 8781155508150047499,
+    "bundle": "color_guess_3b28b0a6f48fcc1be3e483352938875.bundle",
+    "type": "MonoBehaviour",
+    "name": "ColorGuessConfig",
+    "script": "BusJam.ColorGuess.ColorGuessConfig",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 6727379326910093420
+      },
+      "m_Name": "ColorGuessConfig",
+      "<Enable>k__BackingField": 0,
+      "<DurationSeconds>k__BackingField": 259200,
+      "<MissingPotionToastKey>k__BackingField": "toast_colorguess_no_potion",
+      "<GuideBottleCount>k__BackingField": 5,
+      "<BasePotionReward>k__BackingField": 1,
+      "<WinStreakMultipliers>k__BackingField": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "<ResetWinStreakOnNewCycle>k__BackingField": 1,
+      "<Rounds>k__BackingField": [
+        {
+          "Id": 1,
+          "Bottles": [
+            0,
+            2,
+            5
+          ],
+          "CorrectOrder": [
+            5,
+            2,
+            0
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 10002,
+          "RewardAmount": 1
+        },
+        {
+          "Id": 2,
+          "Bottles": [
+            1,
+            3,
+            6
+          ],
+          "CorrectOrder": [
+            1,
+            3,
+            6
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 10001,
+          "RewardAmount": 1
+        },
+        {
+          "Id": 3,
+          "Bottles": [
+            0,
+            3,
+            4
+          ],
+          "CorrectOrder": [
+            4,
+            0,
+            3
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 10003,
+          "RewardAmount": 1
+        },
+        {
+          "Id": 4,
+          "Bottles": [
+            0,
+            2,
+            5,
+            6
+          ],
+          "CorrectOrder": [
+            6,
+            5,
+            2,
+            0
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 1,
+          "RewardAmount": 500
+        },
+        {
+          "Id": 5,
+          "Bottles": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "CorrectOrder": [
+            1,
+            6,
+            3,
+            4
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 1,
+          "RewardAmount": 500
+        },
+        {
+          "Id": 6,
+          "Bottles": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "CorrectOrder": [
+            0,
+            5,
+            3,
+            2
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 10002,
+          "RewardAmount": 1
+        },
+        {
+          "Id": 7,
+          "Bottles": [
+            0,
+            2,
+            3,
+            5,
+            6
+          ],
+          "CorrectOrder": [
+            6,
+            5,
+            3,
+            0,
+            2
+          ],
+          "RewardKind": 1,
+          "RewardItemId": 10002,
+          "RewardAmount": 900
+        },
+        {
+          "Id": 8,
+          "Bottles": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "CorrectOrder": [
+            6,
+            2,
+            3,
+            1,
+            4
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 10001,
+          "RewardAmount": 1
+        },
+        {
+          "Id": 9,
+          "Bottles": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "CorrectOrder": [
+            5,
+            0,
+            2,
+            1,
+            4
+          ],
+          "RewardKind": 1,
+          "RewardItemId": 10001,
+          "RewardAmount": 900
+        },
+        {
+          "Id": 10,
+          "Bottles": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "CorrectOrder": [
+            3,
+            1,
+            0,
+            6,
+            2,
+            5
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 1,
+          "RewardAmount": 1000
+        },
+        {
+          "Id": 11,
+          "Bottles": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "CorrectOrder": [
+            5,
+            1,
+            4,
+            6,
+            3,
+            2
+          ],
+          "RewardKind": 1,
+          "RewardItemId": 10003,
+          "RewardAmount": 1800
+        },
+        {
+          "Id": 12,
+          "Bottles": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "CorrectOrder": [
+            6,
+            1,
+            0,
+            3,
+            2,
+            4
+          ],
+          "RewardKind": 1,
+          "RewardItemId": 10002,
+          "RewardAmount": 1800
+        },
+        {
+          "Id": 13,
+          "Bottles": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "CorrectOrder": [
+            6,
+            3,
+            0,
+            4,
+            1,
+            2,
+            5
+          ],
+          "RewardKind": 1,
+          "RewardItemId": 10001,
+          "RewardAmount": 1800
+        },
+        {
+          "Id": 14,
+          "Bottles": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "CorrectOrder": [
+            4,
+            3,
+            2,
+            5,
+            6,
+            1,
+            0
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 1,
+          "RewardAmount": 1000
+        },
+        {
+          "Id": 15,
+          "Bottles": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "CorrectOrder": [
+            1,
+            3,
+            4,
+            2,
+            6,
+            0,
+            5
+          ],
+          "RewardKind": 0,
+          "RewardItemId": 1,
+          "RewardAmount": 1000
+        }
+      ]
+    }
+  },
+  {
+    "collection": "cab-273e1485c8482c9a82d84dc440f349fe",
+    "path_id": -2506726432667429596,
+    "bundle": "game_config_2c84fdf30bbb79697c3937ff30e7fc.bundle",
+    "type": "MonoBehaviour",
+    "name": "FunctionUnlockConfig",
+    "script": "BusJam.FunctionUnlock.FunctionUnlockConfig",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 7212233022018813589
+      },
+      "m_Name": "FunctionUnlockConfig",
+      "functions": []
+    }
+  },
+  {
+    "collection": "cab-273e1485c8482c9a82d84dc440f349fe",
+    "path_id": 1715995698947729619,
+    "bundle": "game_config_2c84fdf30bbb79697c3937ff30e7fc.bundle",
+    "type": "MonoBehaviour",
+    "name": "CloudSaveConfig",
+    "script": "BusJam.Home.CloudSaveConfig",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8668268875023110305
+      },
+      "m_Name": "CloudSaveConfig",
+      "<Enable>k__BackingField": 0,
+      "<FetchTimeoutSeconds>k__BackingField": 10.0
+    }
+  },
+  {
+    "collection": "cab-273e1485c8482c9a82d84dc440f349fe",
+    "path_id": 5323027763515874015,
+    "bundle": "game_config_2c84fdf30bbb79697c3937ff30e7fc.bundle",
+    "type": "MonoBehaviour",
+    "name": "BusJamConfig",
+    "script": "BusJam.BusJamConfig",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -4418897628879975172
+      },
+      "m_Name": "BusJamConfig",
+      "Android_ContactUsURL": "lumigamesteam@outlook.com",
+      "IOS_ContactUsURL": "lumigamesteam@outlook.com",
+      "EmailProductName": "【Bus Fever Feedback - GridPlus】",
+      "iOsAppStoreId": "6746743297",
+      "vehicleAnimIdle": {
+        "m_FileID": 0,
+        "m_PathID": -3049661870177405408
+      },
+      "vehicleAnimIdleLinkageTail": {
+        "m_FileID": 0,
+        "m_PathID": 9095878671059257328
+      },
+      "vehicleAnimBoarding": {
+        "m_FileID": 0,
+        "m_PathID": 3893124464614296752
+      },
+      "vehicleAnimEnterStation": {
+        "m_FileID": 0,
+        "m_PathID": 7001950924047352041
+      },
+      "vehicleAnimHiddenIn": {
+        "m_FileID": 0,
+        "m_PathID": -3054849411948946829
+      },
+      "vehicleAnimHiddenOut": {
+        "m_FileID": 0,
+        "m_PathID": -3052325858239890839
+      },
+      "vehicleAnimElevator": {
+        "m_FileID": 0,
+        "m_PathID": 7896822678278841100
+      },
+      "vehicleSize4": {
+        "x": 0.27000001072883606,
+        "y": 0.27000001072883606,
+        "z": 0.47157901525497437
+      },
+      "vehicleSize6": {
+        "x": 0.27000001072883606,
+        "y": 0.3149999976158142,
+        "z": 0.4860000014305115
+      },
+      "vehicleSize10": {
+        "x": 0.27000001072883606,
+        "y": 0.3869999945163727,
+        "z": 0.6785897016525269
+      },
+      "vehicleSizeCombination": {
+        "x": 0.27000001072883606,
+        "y": 0.3869999945163727,
+        "z": 0.7200000286102295
+      },
+      "garageSize": {
+        "x": 0.5042546391487122,
+        "y": 0.4303121864795685,
+        "z": 0.6687750220298767
+      },
+      "garageParkPos": 0.699999988079071,
+      "garageOutDelay": 0.10000000149011612,
+      "garageBlockDelay": 0.10000000149011612,
+      "conveyorBeltExtraSize": {
+        "x": 2.2300000190734863,
+        "y": 0.6000000238418579,
+        "z": 1.659999966621399
+      },
+      "conveyorBeltExtraBeltWidth": 0.6000000238418579,
+      "conveyorBeltParkingAreaBottomDistance": 0.15000000596046448,
+      "conveyorBeltMinVehicleGap": 0.27000001072883606,
+      "conveyorBeltSpeed": 0.4000000059604645,
+      "conveyorBeltWallSize": {
+        "x": 1.399999976158142,
+        "y": 1.0,
+        "z": 0.019999999552965164
+      },
+      "conveyorBeltWallOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.5600000023841858
+      },
+      "parkingAreaDriveOutOffset": 0.1599999964237213,
+      "gateQueuePathShrinkDuration": 0.25,
+      "gateQueuePathShrinkCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "gateQueueShrinkPathAfterShift": 0,
+      "gateQueueCloseDelay": 0.0,
+      "gateQueueVehicleFrontExtension4": 0.20000000298023224,
+      "gateQueueVehicleFrontExtension6": 0.2800000011920929,
+      "gateQueueVehicleFrontExtension10": 0.3499999940395355,
+      "gateQueueVehicleRearExtension4": 0.30000001192092896,
+      "gateQueueVehicleRearExtension6": 0.2800000011920929,
+      "gateQueueVehicleRearExtension10": 0.3499999940395355,
+      "parkingSpotPassengerStopPoint": {
+        "x": -0.05000000074505806,
+        "y": -0.05000000074505806,
+        "z": -0.07999999821186066
+      },
+      "vehicleScaleCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "vehicleScaleData": [
+        {
+          "count": 4,
+          "scale": 0.9700000286102295
+        },
+        {
+          "count": 6,
+          "scale": 1.0
+        },
+        {
+          "count": 10,
+          "scale": 0.9700000286102295
+        }
+      ],
+      "parkingAreaScaleThreshold": {
+        "x": 3.5999999046325684,
+        "y": 3.700000047683716
+      },
+      "turnVehicleRotateDuration": 0.25,
+      "turnVehicleRotateCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "normalArrowVisual": {
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 111015241096072319
+        },
+        "material": {
+          "m_FileID": 0,
+          "m_PathID": 5331486349963280706
+        },
+        "infos": [
+          {
+            "count": 4,
+            "position": {
+              "x": 0.0,
+              "y": 1.6799999475479126,
+              "z": -0.25
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 180.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "count": 6,
+            "position": {
+              "x": 0.0,
+              "y": 1.9199999570846558,
+              "z": -0.07599999755620956
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 180.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "count": 10,
+            "position": {
+              "x": 0.0,
+              "y": 2.140000104904175,
+              "z": 0.07999999821186066
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 180.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.125,
+              "y": 1.125,
+              "z": 1.125
+            }
+          }
+        ]
+      },
+      "turnArrowVisual": {
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 5335254923757148780
+        },
+        "material": {
+          "m_FileID": 0,
+          "m_PathID": 5331486349963280706
+        },
+        "infos": [
+          {
+            "count": 4,
+            "position": {
+              "x": 0.0,
+              "y": 1.6799999475479126,
+              "z": 0.07999999821186066
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.125,
+              "y": 1.125,
+              "z": 1.125
+            }
+          },
+          {
+            "count": 6,
+            "position": {
+              "x": 0.03799999877810478,
+              "y": 1.7899999618530273,
+              "z": 0.5550000071525574
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "count": 10,
+            "position": {
+              "x": 0.029899999499320984,
+              "y": 2.140000104904175,
+              "z": 1.4769999980926514
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.125,
+              "y": 1.125,
+              "z": 1.125
+            }
+          }
+        ]
+      },
+      "gateArrowVisual": {
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": -67028329885541778
+        },
+        "material": {
+          "m_FileID": 0,
+          "m_PathID": 5331486349963280706
+        },
+        "infos": [
+          {
+            "count": 4,
+            "position": {
+              "x": 0.0,
+              "y": 1.6799999475479126,
+              "z": -0.25
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 180.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "count": 6,
+            "position": {
+              "x": 0.0,
+              "y": 1.9199999570846558,
+              "z": -0.07599999755620956
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 180.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "count": 10,
+            "position": {
+              "x": 0.0,
+              "y": 2.140000104904175,
+              "z": 0.07999999821186066
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 180.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.125,
+              "y": 1.125,
+              "z": 1.125
+            }
+          }
+        ]
+      },
+      "m_AmbulanceWarningLimitSteps": 5,
+      "m_AmbulanceReviveAddSteps": 4,
+      "m_FiretruckReviveAddTime": 30,
+      "m_FiretruckWarningTimes": [
+        30,
+        20,
+        10
+      ],
+      "passengerGroupSpacing": 0.12999999523162842,
+      "passengerGroupAboardInterval": 0.03999999910593033,
+      "passengerAboardInterval": 0.029999999329447746,
+      "passengerGroupAboardSpeed": 3.799999952316284,
+      "passengerAniDelay": 0.30000001192092896,
+      "passengerSmokeEffectReturnDelay": 2.5,
+      "colorMap": {
+        "list": [
+          {
+            "Key": 1,
+            "Value": 6
+          },
+          {
+            "Key": 2,
+            "Value": 7
+          },
+          {
+            "Key": 3,
+            "Value": 4
+          },
+          {
+            "Key": 4,
+            "Value": 8
+          },
+          {
+            "Key": 5,
+            "Value": 1
+          },
+          {
+            "Key": 6,
+            "Value": 2
+          },
+          {
+            "Key": 7,
+            "Value": 5
+          },
+          {
+            "Key": 8,
+            "Value": 3
+          },
+          {
+            "Key": 9,
+            "Value": 10
+          },
+          {
+            "Key": 10,
+            "Value": 11
+          },
+          {
+            "Key": 11,
+            "Value": 9
+          }
+        ],
+        "keyCollision": 0
+      },
+      "levelSections": [
+        {
+          "startLevel": 21,
+          "endLevel": 100
+        }
+      ],
+      "wrenchColorMap": {
+        "list": [
+          {
+            "Key": 0,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -8296532588150289114
+            }
+          },
+          {
+            "Key": 1,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -3410847322752094704
+            }
+          },
+          {
+            "Key": 2,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -5389227768104146201
+            }
+          },
+          {
+            "Key": 3,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 8653665544346180079
+            }
+          },
+          {
+            "Key": 4,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -5625727405396946907
+            }
+          }
+        ],
+        "keyCollision": 0
+      },
+      "highWrenchColorMap": {
+        "list": [
+          {
+            "Key": 0,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 7364317343343191996
+            }
+          },
+          {
+            "Key": 1,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -8836666228563554248
+            }
+          },
+          {
+            "Key": 2,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -1632638287989380597
+            }
+          },
+          {
+            "Key": 3,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -572193928137361252
+            }
+          },
+          {
+            "Key": 4,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -5039935986440774654
+            }
+          }
+        ],
+        "keyCollision": 0
+      },
+      "combinationColorMap": {
+        "list": [
+          {
+            "Key": 1,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 7413923797590717464
+            }
+          },
+          {
+            "Key": 2,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 2389722424440514514
+            }
+          },
+          {
+            "Key": 3,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -6247638002284722781
+            }
+          },
+          {
+            "Key": 4,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 3972095008469258702
+            }
+          },
+          {
+            "Key": 5,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -6719782435580719532
+            }
+          },
+          {
+            "Key": 6,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 6511025160403260446
+            }
+          },
+          {
+            "Key": 7,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 8487138260960438336
+            }
+          },
+          {
+            "Key": 8,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -4421963047509722508
+            }
+          },
+          {
+            "Key": 9,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 7673383727792353796
+            }
+          },
+          {
+            "Key": 10,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 178838037829138495
+            }
+          },
+          {
+            "Key": 11,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -8982443249173070544
+            }
+          }
+        ],
+        "keyCollision": 0
+      },
+      "vehicle4MaterialColorMap": {
+        "list": [
+          {
+            "Key": 1,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 8928570426475397632
+            }
+          },
+          {
+            "Key": 2,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -1606546670797267023
+            }
+          },
+          {
+            "Key": 3,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -1800411953719937329
+            }
+          },
+          {
+            "Key": 4,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 1666550258846575834
+            }
+          },
+          {
+            "Key": 5,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 4656419824581041183
+            }
+          },
+          {
+            "Key": 6,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -6309578778155938507
+            }
+          },
+          {
+            "Key": 7,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 8202098205659948234
+            }
+          },
+          {
+            "Key": 8,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 4975514655110598915
+            }
+          },
+          {
+            "Key": 9,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -8702503732981148855
+            }
+          },
+          {
+            "Key": 10,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": -4962467449146939404
+            }
+          },
+          {
+            "Key": 11,
+            "Value": {
+              "m_FileID": 0,
+              "m_PathID": 2309998625116759217
+            }
+          }
+        ],
+        "keyCollision": 0
+      },
+      "m_EnableOneParkingSpotADPriority": 1,
+      "m_EnableOneParkingSpotADDelay": 0.0,
+      "m_ArrangePriority": 1,
+      "m_ArrangeDelay": 0.0,
+      "ClickVehicleDisableInputSeconds": 0.029999999329447746,
+      "m_AfterFirstIdleWaitTime": 2.0,
+      "emojiDuration": {
+        "x": 4.0,
+        "y": 6.0
+      },
+      "emojiMaxShowCount": 1,
+      "emojiListPositive": [
+        "kaixing",
+        "zhayan"
+      ],
+      "emojiListNegative": [
+        "fennu",
+        "kun",
+        "wuliao"
+      ],
+      "carJamJudgeDelay": 2.5,
+      "m_AdInitialFreeAfterPurchase": 259200,
+      "m_AdExpBInitialStartProtect1": 180,
+      "m_AdExpBInitialStartProtect2": 60,
+      "m_AdExpBInitialCdLoginDayRange": [
+        {
+          "x": 2,
+          "y": 120
+        },
+        {
+          "x": 6,
+          "y": 90
+        },
+        {
+          "x": 999,
+          "y": 60
+        }
+      ],
+      "m_AdExpBInitialFirstFailProtect": 1,
+      "m_AdExpCInitialLoginDayProtect": 6,
+      "m_EarlyInterstitialPoints": [
+        {
+          "Trigger": 0,
+          "TriggerParameter": 16,
+          "OnlineHours": 1.75
+        },
+        {
+          "Trigger": 1,
+          "TriggerParameter": 30,
+          "OnlineHours": 17.0
+        }
+      ],
+      "m_MonthStepDic": {
+        "list": [
+          {
+            "Key": "gridplus_busjam_3dayvippass",
+            "Value": 1
+          },
+          {
+            "Key": "gridplus_busjam_7dayvippass",
+            "Value": 2
+          },
+          {
+            "Key": "gridplus_busjam_15dayvippass",
+            "Value": 3
+          }
+        ],
+        "keyCollision": 0
+      },
+      "passengerColorData": [
+        {
+          "id": 1,
+          "color": {
+            "r": 0.3137255012989044,
+            "g": 0.6549019813537598,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.14901961386203766,
+            "g": 0.21568627655506134,
+            "b": 0.40392157435417175,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 2,
+          "color": {
+            "r": 0.3333333432674408,
+            "g": 0.8117647171020508,
+            "b": 0.38823530077934265,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.06666667014360428,
+            "g": 0.3764705955982208,
+            "b": 0.10588235408067703,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 3,
+          "color": {
+            "r": 1.0,
+            "g": 0.5176470875740051,
+            "b": 0.9921568632125854,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.6823529601097107,
+            "g": 0.15294118225574493,
+            "b": 0.42352941632270813,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 4,
+          "color": {
+            "r": 0.7882353067398071,
+            "g": 0.3529411852359772,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.3529411852359772,
+            "g": 0.21176470816135406,
+            "b": 0.5058823823928833,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 5,
+          "color": {
+            "r": 0.95686274766922,
+            "g": 0.3450980484485626,
+            "b": 0.3529411852359772,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.48627451062202454,
+            "g": 0.12941177189350128,
+            "b": 0.125490203499794,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 6,
+          "color": {
+            "r": 1.0,
+            "g": 0.7921568751335144,
+            "b": 0.07450980693101883,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.4431372582912445,
+            "g": 0.2235294133424759,
+            "b": 0.0313725508749485,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 7,
+          "color": {
+            "r": 1.0,
+            "g": 0.572549045085907,
+            "b": 0.16078431904315948,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.5882353186607361,
+            "g": 0.22745098173618317,
+            "b": 0.05882352963089943,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 8,
+          "color": {
+            "r": 0.3019607961177826,
+            "g": 0.9176470637321472,
+            "b": 0.9254902005195618,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.12156862765550613,
+            "g": 0.4274509847164154,
+            "b": 0.3607843220233917,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 9,
+          "color": {
+            "r": 0.7058823704719543,
+            "g": 0.3960784375667572,
+            "b": 0.3176470696926117,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.43921568989753723,
+            "g": 0.16470588743686676,
+            "b": 0.03529411926865578,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 10,
+          "color": {
+            "r": 0.2078431397676468,
+            "g": 0.6745098233222961,
+            "b": 0.5764706134796143,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.13333334028720856,
+            "g": 0.38823530077934265,
+            "b": 0.3333333432674408,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 11,
+          "color": {
+            "r": 0.24313725531101227,
+            "g": 0.2705882489681244,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.08627451211214066,
+            "g": 0.10588235408067703,
+            "b": 0.43529412150382996,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 12,
+          "color": {
+            "r": 0.18431372940540314,
+            "g": 0.30980393290519714,
+            "b": 0.30980393290519714,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.18431372940540314,
+            "g": 0.30980393290519714,
+            "b": 0.30980393290519714,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 13,
+          "color": {
+            "r": 0.6980392336845398,
+            "g": 0.13333334028720856,
+            "b": 0.13333334028720856,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.6980392336845398,
+            "g": 0.13333334028720856,
+            "b": 0.13333334028720856,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 14,
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.7411764860153198,
+            "g": 0.1411764770746231,
+            "b": 0.1764705926179886,
+            "a": 0.0
+          },
+          "txtColor1": {
+            "r": 0.7411764860153198,
+            "g": 0.1411764770746231,
+            "b": 0.1764705926179886,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 6960323030461529085
+          }
+        },
+        {
+          "id": 15,
+          "color": {
+            "r": 0.8313725590705872,
+            "g": 0.686274528503418,
+            "b": 0.21568627655506134,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.8313725590705872,
+            "g": 0.686274528503418,
+            "b": 0.21568627655506134,
+            "a": 1.0
+          },
+          "txtColor1": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        },
+        {
+          "id": 16,
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "txtColor": {
+            "r": 0.40000003576278687,
+            "g": 0.23137256503105164,
+            "b": 0.03529411926865578,
+            "a": 0.0
+          },
+          "txtColor1": {
+            "r": 0.40000003576278687,
+            "g": 0.23137256503105164,
+            "b": 0.03529411926865578,
+            "a": 1.0
+          },
+          "material": {
+            "m_FileID": 0,
+            "m_PathID": 8904011804229892791
+          }
+        }
+      ]
+    }
+  },
+  {
+    "collection": "cab-9068730dc68c2920755d6f6788a74ee7",
+    "path_id": -5857028370298269398,
+    "bundle": "inventory_de9788145f1cba66da5115e289a97dbe.bundle",
+    "type": "MonoBehaviour",
+    "name": "ItemPropConfigVip",
+    "script": "BusJam.ItemPropConfigVip",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -4125838964089481441
+      },
+      "m_Name": "ItemPropConfigVip",
+      "itemId": 10003,
+      "itemName": "prop_vip",
+      "itemIcon": {
+        "m_FileID": 0,
+        "m_PathID": 5301161595637079001
+      },
+      "initNumber": 0,
+      "bigIcon": {
+        "m_FileID": 0,
+        "m_PathID": 4517475180235025257
+      },
+      "description": "prop_vip_info",
+      "buyCountAd": 1,
+      "buyCountCoin": 1,
+      "rewardPrefabAddress": "Car.prefab"
+    }
+  },
+  {
+    "collection": "cab-9068730dc68c2920755d6f6788a74ee7",
+    "path_id": -5730506718090716916,
+    "bundle": "inventory_de9788145f1cba66da5115e289a97dbe.bundle",
+    "type": "MonoBehaviour",
+    "name": "ItemPropConfigJumble",
+    "script": "BusJam.ItemPropConfigJumble",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4389622020902498288
+      },
+      "m_Name": "ItemPropConfigJumble",
+      "itemId": 10002,
+      "itemName": "prop_jumble",
+      "itemIcon": {
+        "m_FileID": 0,
+        "m_PathID": -1802763973169443545
+      },
+      "initNumber": 0,
+      "bigIcon": {
+        "m_FileID": 0,
+        "m_PathID": 2095283097486414448
+      },
+      "description": "prop_jumble_info",
+      "buyCountAd": 1,
+      "buyCountCoin": 1,
+      "rewardPrefabAddress": "Ball.prefab"
+    }
+  },
+  {
+    "collection": "cab-9068730dc68c2920755d6f6788a74ee7",
+    "path_id": 3301523769696919017,
+    "bundle": "inventory_de9788145f1cba66da5115e289a97dbe.bundle",
+    "type": "MonoBehaviour",
+    "name": "ItemPropConfigArrange",
+    "script": "BusJam.ItemPropConfigArrange",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -1430510077277071287
+      },
+      "m_Name": "ItemPropConfigArrange",
+      "itemId": 10001,
+      "itemName": "prop_arrange",
+      "itemIcon": {
+        "m_FileID": 0,
+        "m_PathID": -365021068395240828
+      },
+      "initNumber": 0,
+      "bigIcon": {
+        "m_FileID": 0,
+        "m_PathID": -7212942699737641920
+      },
+      "description": "prop_arrange_info",
+      "buyCountAd": 1,
+      "buyCountCoin": 1,
+      "rewardPrefabAddress": "Arrange.prefab",
+      "boardingInterval": 0.10000000149011612,
+      "spiralRadius": 0.20000000298023224,
+      "yLiftCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 1.2856496572494507,
+            "outSlope": 1.2856496572494507,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.05934721976518631
+          },
+          {
+            "time": 0.6000000238418579,
+            "value": 0.800000011920929,
+            "inSlope": -0.05093217268586159,
+            "outSlope": -0.05093217268586159,
+            "weightedMode": 0,
+            "inWeight": 0.08369415998458862,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 1.0,
+            "value": 0.0,
+            "inSlope": -5.369434356689453,
+            "outSlope": -5.369434356689453,
+            "weightedMode": 0,
+            "inWeight": 0.02597406692802906,
+            "outWeight": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "spiralDistancePerLoop": 2.4000000953674316,
+      "spiralSpeed": 5.0,
+      "spiralExitDistance": 0.10000000149011612,
+      "spiralXSpeed": 540.0,
+      "spiralPhaseOffset": 120.0
+    }
+  },
+  {
+    "collection": "cab-fe6ef5e787b5dbe767faee540fa76ef3",
+    "path_id": -1370378173145876403,
+    "bundle": "ranking_ed7efb9afcf9c3bf6b63deba33bfde9.bundle",
+    "type": "MonoBehaviour",
+    "name": "RankingConfig",
+    "script": "BusJam.Ranking.RankingConfig",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -7072821287953872613
+      },
+      "m_Name": "RankingConfig",
+      "<Enable>k__BackingField": 1,
+      "<UnlockAfterLevel>k__BackingField": 29,
+      "<WeeklyBotCount>k__BackingField": 8,
+      "<RewardBubbleDurationSeconds>k__BackingField": 1.5,
+      "<GlobalLeaderboardKey>k__BackingField": "total",
+      "<GlobalRefreshCooldownSeconds>k__BackingField": 300,
+      "<GlobalSubmitCooldownSeconds>k__BackingField": 1800,
+      "<GlobalSubmitDailyLimit>k__BackingField": 3,
+      "<GlobalFetchTimeoutSeconds>k__BackingField": 5.0,
+      "<GlobalFetchMinimumSeconds>k__BackingField": 0.5,
+      "<LevelGroups>k__BackingField": [
+        {
+          "Group": 0,
+          "LevelFrom": 0,
+          "LevelTo": 28,
+          "DailyBaseScore": 5.0
+        },
+        {
+          "Group": 1,
+          "LevelFrom": 29,
+          "LevelTo": 100,
+          "DailyBaseScore": 7.690000057220459
+        },
+        {
+          "Group": 2,
+          "LevelFrom": 101,
+          "LevelTo": 300,
+          "DailyBaseScore": 10.100000381469727
+        },
+        {
+          "Group": 3,
+          "LevelFrom": 301,
+          "LevelTo": 700,
+          "DailyBaseScore": 15.770000457763672
+        },
+        {
+          "Group": 4,
+          "LevelFrom": 701,
+          "LevelTo": -1,
+          "DailyBaseScore": 21.040000915527344
+        }
+      ],
+      "<BotTiers>k__BackingField": [
+        {
+          "TierId": "Casual",
+          "Count": 2,
+          "PercentMin": 0.30000001192092896,
+          "PercentMax": 0.699999988079071,
+          "ReleasePercents": [
+            20,
+            20,
+            30,
+            30
+          ]
+        },
+        {
+          "TierId": "SameA",
+          "Count": 2,
+          "PercentMin": 0.75,
+          "PercentMax": 1.149999976158142,
+          "ReleasePercents": [
+            16,
+            17,
+            17,
+            17,
+            16,
+            17
+          ]
+        },
+        {
+          "TierId": "SameB",
+          "Count": 2,
+          "PercentMin": 0.75,
+          "PercentMax": 1.149999976158142,
+          "ReleasePercents": [
+            5,
+            10,
+            15,
+            20,
+            25,
+            25
+          ]
+        },
+        {
+          "TierId": "Competitive",
+          "Count": 1,
+          "PercentMin": 1.149999976158142,
+          "PercentMax": 1.4500000476837158,
+          "ReleasePercents": [
+            12,
+            14,
+            16,
+            18,
+            19,
+            21
+          ]
+        },
+        {
+          "TierId": "Strong",
+          "Count": 1,
+          "PercentMin": 1.4500000476837158,
+          "PercentMax": 2.0,
+          "ReleasePercents": [
+            18,
+            16,
+            14,
+            13,
+            12,
+            10,
+            9,
+            8
+          ]
+        }
+      ],
+      "<WeeklyRewards>k__BackingField": [
+        {
+          "Rank": 1,
+          "BoxIcon": {
+            "m_FileID": 0,
+            "m_PathID": 7267438098485238266
+          },
+          "BoxOpenIcon": {
+            "m_FileID": 0,
+            "m_PathID": -3796156068887750066
+          },
+          "Items": [
+            {
+              "ItemId": 10001,
+              "Icon": {
+                "m_FileID": 0,
+                "m_PathID": -6166771761382668126
+              },
+              "Amount": 3
+            },
+            {
+              "ItemId": 10002,
+              "Icon": {
+                "m_FileID": 0,
+                "m_PathID": 5798806966626071173
+              },
+              "Amount": 3
+            },
+            {
+              "ItemId": 10003,
+              "Icon": {
+                "m_FileID": 0,
+                "m_PathID": 386458577461960225
+              },
+              "Amount": 3
+            }
+          ]
+        },
+        {
+          "Rank": 2,
+          "BoxIcon": {
+            "m_FileID": 0,
+            "m_PathID": 8992808822343207880
+          },
+          "BoxOpenIcon": {
+            "m_FileID": 0,
+            "m_PathID": 2263044021523710348
+          },
+          "Items": [
+            {
+              "ItemId": 10001,
+              "Icon": {
+                "m_FileID": 0,
+                "m_PathID": -6166771761382668126
+              },
+              "Amount": 2
+            },
+            {
+              "ItemId": 10002,
+              "Icon": {
+                "m_FileID": 0,
+                "m_PathID": 5798806966626071173
+              },
+              "Amount": 2
+            },
+            {
+              "ItemId": 10003,
+              "Icon": {
+                "m_FileID": 0,
+                "m_PathID": 386458577461960225
+              },
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Rank": 3,
+          "BoxIcon": {
+            "m_FileID": 0,
+            "m_PathID": 1576146733341920580
+          },
+          "BoxOpenIcon": {
+            "m_FileID": 0,
+            "m_PathID": -5407393529694866668
+          },
+          "Items": [
+            {
+              "ItemId": 10001,
+              "Icon": {
+                "m_FileID": 0,
+                "m_PathID": -6166771761382668126
+              },
+              "Amount": 1
+            },
+            {
+              "ItemId": 10002,
+              "Icon": {
+                "m_FileID": 0,
+                "m_PathID": 5798806966626071173
+              },
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "collection": "cab-7f23e129730b33a4ff09503900448271",
+    "path_id": 6657110470881539673,
+    "bundle": "task_bar_1935d225565f8b5d1c4a73474d773e7.bundle",
+    "type": "MonoBehaviour",
+    "name": "TaskBarConfig",
+    "script": "BusJam.TaskBar.Scripts.TaskBarConfig",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -2337900804254339500
+      },
+      "m_Name": "TaskBarConfig",
+      "<LevelCollectionThreshold>k__BackingField": 40,
+      "<TemplateConfigs>k__BackingField": [
+        {
+          "m_TemplateId": 1,
+          "m_FinishDay": 4,
+          "m_AddressExcel": "TaskBar2.txt"
+        },
+        {
+          "m_TemplateId": 2,
+          "m_FinishDay": 0,
+          "m_AddressExcel": "TaskBar1.txt"
+        }
+      ],
+      "<CollectionConfigs>k__BackingField": [
+        {
+          "m_MatchColor": 5
+        },
+        {
+          "m_MatchColor": 1
+        },
+        {
+          "m_MatchColor": 6
+        },
+        {
+          "m_MatchColor": 2
+        }
+      ]
+    }
+  },
+  {
+    "collection": "cab-44a55b1c3a7feb388c347896661f5cfb",
+    "path_id": -316628526378288308,
+    "bundle": "user_profile_7de049d95e25f067ff604eccbaeb3265.bundle",
+    "type": "MonoBehaviour",
+    "name": "UserProfileConfig",
+    "script": "BusJam.UserProfile.UserProfileConfig",
+    "fields": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8604482891769480258
+      },
+      "m_Name": "UserProfileConfig",
+      "m_Enable": 1,
+      "m_EmptyNicknameToastKey": "toast_userprofile_name_empty",
+      "m_BadNicknameToastKey": "toast_userprofile_name_bad",
+      "m_MaxNicknameLength": 15,
+      "m_InputFieldContentType": 4,
+      "m_Avatars": [
+        {
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 8203369638286974082
+          },
+          "Id": 1
+        },
+        {
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -741720504409275875
+          },
+          "Id": 2
+        },
+        {
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 1550643995836511513
+          },
+          "Id": 3
+        },
+        {
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 5703914751358626364
+          },
+          "Id": 4
+        },
+        {
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -1966354111655910414
+          },
+          "Id": 5
+        },
+        {
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -3080896579081519015
+          },
+          "Id": 6
+        },
+        {
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -6535244606218872703
+          },
+          "Id": 7
+        },
+        {
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -9093074008466863223
+          },
+          "Id": 8
+        },
+        {
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 2586200941270135620
+          },
+          "Id": 9
+        }
+      ]
+    }
+  }
+]

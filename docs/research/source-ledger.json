@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-16",
+  "sources": [
+    {
+      "id": "bus-fever-xapk-132",
+      "path": "D:\\Downloads\\Bus+Fever+Party!_1.3.2_APKPure.xapk",
+      "sha256": "e8288abeccd9047ac19a0ee26723110b4e768be33582c7d34af128f1fc519ad7",
+      "role": "static-artifact"
+    },
+    {
+      "id": "bus-fever-playstore-133",
+      "url": "https://play.google.com/store/apps/details?id=gridplus.busjam.carpuzzle",
+      "role": "identity plus installed runtime reference",
+      "observed_version": "1.3.3 (66)"
+    },
+    {
+      "id": "rea-local",
+      "version": "6.8.0",
+      "source_commit": "1173c0a9dc1b352a60943a491462294db8f353ae",
+      "role": "IL2CPP metadata and native address linking; no native decompilation"
+    },
+    {
+      "id": "assetripper-local",
+      "version": "2.0.0.0",
+      "path": "D:\\Game\\BlockOutExtraction\\1264\\tools\\AssetRipper-2.0.0\\AssetRipper.GUI.Free.exe",
+      "role": "serialized structure and native asset export"
+    },
+    {
+      "id": "unitypy-local",
+      "version": "1.25.4",
+      "role": "typetree inspection and sprite/audio export"
+    }
+  ]
+}

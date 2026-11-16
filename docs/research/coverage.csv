@@ -1,0 +1,29 @@
+﻿feature_id,state_id,capture_id,runtime_status,gaps
+launch,splash,R002-playstore-launch,partial,loading/error/retry incomplete
+gameplay,level1-tutorial,R004-level1-blocked-test,observed,collision vs tutorial input gate unresolved
+gameplay,boarding,R022-level2-boarding,observed,same-color priority unresolved
+gameplay,no-spots-toast,R023-level2-lower-lanes,observed,not fail condition proof
+settings,gameplay,R016-pause-stable,observed,sound/haptic and simulation pause semantics unresolved
+settings,music-off,R017-settings-music-off,observed,mixer not instrumented
+settings,restart,R018-restart-prompt,observed,post-home life cost not tested
+victory,normal,R011-level1-result,observed,hard/superhard/taskbar variant incomplete
+vip,unlock,R046-level4-ready,observed,grant inventory semantics unresolved
+vip,target,R048-vip-select-target,observed,cancel path not tested
+vip,flight,R049-vip-flight,observed,timing not measured
+parking,extra-spot,R053-extra-parking,observed,rewarded completion/cancel/no-fill incomplete
+home,level6,R063-board-state,observed,exact unlock transition not captured
+profile,view,R064-user-profile,observed,stats derivation unresolved
+profile,edit,R065-profile-edit,observed,save/invalid/cancel changed avatar not tested
+settings,home,R067-home-settings,observed,external links not activated
+settings,restore-empty,R068-restore-result,observed,restore with purchase not tested
+shop,offers,R069-shop-entry,observed,purchase transaction states not tested
+shop,coin-packs,R071-shop-coins,observed,prices region/date scoped
+ranking,locked,R073-ranking-locked,observed,unlocked ranking requires level29
+supplies,free,R074-supplies,observed,ad tiers incomplete
+supplies,claimed,R075-supplies-claimed,observed,timer lifecycle incomplete
+spin,entry,R076-spin-entry,observed,spin transaction not tested
+spin,probability-ui,R077-spin-info,observed,RNG not sampled
+fail-revive,all,,not-observed,needs normal gameplay failure
+boosters,level8-and13,,locked,needs progression
+levels,AES-layouts,,blocked,four AES bundles not decoded
+taskbar-daily-colorguess-life,runtime,,not-observed,source present; runtime entry not established

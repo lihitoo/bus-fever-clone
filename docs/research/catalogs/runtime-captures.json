@@ -1,0 +1,849 @@
+[
+  {
+    "utc": "2026-11-16T15:21:35.285402+00:00",
+    "action": "snap",
+    "args": [
+      "R001-first-launch"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R001-first-launch.png",
+    "sha256": "018073d00f7e76e85df8961975a27a47f9adf7df02bb741656b1b11f46b4ed37",
+    "bytes": 39054
+  },
+  {
+    "utc": "2026-11-16T15:33:00.741824+00:00",
+    "action": "snap",
+    "args": [
+      "R002-playstore-launch"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R002-playstore-launch.png",
+    "sha256": "54d57abcf4b6c14c694df123d2000fae42bebff44553c1b4eb93a9f7d52a2399",
+    "bytes": 486535
+  },
+  {
+    "utc": "2026-11-16T15:33:25.224008+00:00",
+    "action": "snap",
+    "args": [
+      "R003-after-loading"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R003-after-loading.png",
+    "sha256": "e0bccb488c0cfc711667de02b752e2320306a9b47aae8e80e3f2e78317aac13e",
+    "bytes": 886973
+  },
+  {
+    "utc": "2026-11-16T15:33:50.105295+00:00",
+    "action": "snap",
+    "args": [
+      "R004-level1-blocked-test"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R004-level1-blocked-test.png",
+    "sha256": "aa6b21312e839427cbf6db08a10001d7b575f891c2bd70dfbd8350bb7c8594d2",
+    "bytes": 1088662
+  },
+  {
+    "utc": "2026-11-16T15:33:52.144854+00:00",
+    "action": "snap",
+    "args": [
+      "R005-level1-blue-departure"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R005-level1-blue-departure.png",
+    "sha256": "08f45f055d443d6d77b8768dbb283069ec0b88097ee6e680bcf4a5353d4d5be8",
+    "bytes": 1087611
+  },
+  {
+    "utc": "2026-11-16T15:34:25.494170+00:00",
+    "action": "snap",
+    "args": [
+      "R006-level1-first-input"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R006-level1-first-input.png",
+    "sha256": "0b96b3cce48f5b8474584142dd8a48e7e095d7ac1da17e5da0827c9fd3d1d467",
+    "bytes": 1051700
+  },
+  {
+    "utc": "2026-11-16T15:35:02.564360+00:00",
+    "action": "snap",
+    "args": [
+      "R007-level1-midplay"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R007-level1-midplay.png",
+    "sha256": "3fa173be3bec0056e7ca152d4650a964387e59ea67f8ab84dd30a266a8bccb10",
+    "bytes": 1036484
+  },
+  {
+    "utc": "2026-11-16T15:35:12.065555+00:00",
+    "action": "snap",
+    "args": [
+      "R008-level1-after-taps"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R008-level1-after-taps.png",
+    "sha256": "2ae382bda232848dd0c627420c6b802f34910aa29572ac3f37fd6adbd920e49b",
+    "bytes": 968688
+  },
+  {
+    "utc": "2026-11-16T15:35:27.955872+00:00",
+    "action": "snap",
+    "args": [
+      "R009-level1-progress"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R009-level1-progress.png",
+    "sha256": "3c257d1f905fab46afcee0f7fd11a29d6d22c0858fb39a6a1dda0380bd01da91",
+    "bytes": 914946
+  },
+  {
+    "utc": "2026-11-16T15:35:42.297972+00:00",
+    "action": "snap",
+    "args": [
+      "R010-level1-last-buses"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R010-level1-last-buses.png",
+    "sha256": "d856b120f1d95c7acaa8d6d68dfe56ffed2654c263305e50b4a322092e9901b7",
+    "bytes": 748845
+  },
+  {
+    "utc": "2026-11-16T15:36:49.399736+00:00",
+    "action": "snap",
+    "args": [
+      "R011-level1-result"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R011-level1-result.png",
+    "sha256": "a99a3db792f4c1a7e2203ef48eb45539dd8bbd64745dfead8e7424529d8162da",
+    "bytes": 931664
+  },
+  {
+    "utc": "2026-11-16T15:37:07.957092+00:00",
+    "action": "snap",
+    "args": [
+      "R012-current"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R012-current.png",
+    "sha256": "fb0d5c1ec5b04f535ed887176be2bcfcf7ad8417d2cf0a7f4a7bcbb0c15f28a1",
+    "bytes": 827312
+  },
+  {
+    "utc": "2026-11-16T15:37:43.472426+00:00",
+    "action": "snap",
+    "args": [
+      "R013-next-level"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R013-next-level.png",
+    "sha256": "8640e4a3b1dfc2fe3b12e109a4a7a5d018a58fef6e64e91816e97d9298bfed63",
+    "bytes": 861536
+  },
+  {
+    "utc": "2026-11-16T15:38:10.083314+00:00",
+    "action": "snap",
+    "args": [
+      "R014-after-next"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R014-after-next.png",
+    "sha256": "81bd31334a9a24d799932f153b212ba77355cc408bd3ed7df337c9cfd99cc489",
+    "bytes": 1070627
+  },
+  {
+    "utc": "2026-11-16T15:38:42.047083+00:00",
+    "action": "snap",
+    "args": [
+      "R015-pause-opening"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R015-pause-opening.png",
+    "sha256": "d1ece3b3be59eb047921f55c54a0d297deda61f5422f11b2fd226f2e0178c5b3",
+    "bytes": 1038300
+  },
+  {
+    "utc": "2026-11-16T15:38:48.059205+00:00",
+    "action": "snap",
+    "args": [
+      "R016-pause-stable"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R016-pause-stable.png",
+    "sha256": "0800521d1ed24dcc0dcc75b0a322a82d284e72676700f669f82a61210f9eb667",
+    "bytes": 573647
+  },
+  {
+    "utc": "2026-11-16T15:39:11.612567+00:00",
+    "action": "snap",
+    "args": [
+      "R017-settings-music-off"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R017-settings-music-off.png",
+    "sha256": "4a89468f00ff4b3a310c25ef52e05f1bb5bb7890b89516fd5238a91b4e74a839",
+    "bytes": 573835
+  },
+  {
+    "utc": "2026-11-16T15:39:14.674424+00:00",
+    "action": "snap",
+    "args": [
+      "R018-restart-prompt"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R018-restart-prompt.png",
+    "sha256": "1df4bbadabefc1d223a4c8f34b5af756e483283f06345cef0324055ad0c68cc8",
+    "bytes": 517714
+  },
+  {
+    "utc": "2026-11-16T15:39:50.586618+00:00",
+    "action": "snap",
+    "args": [
+      "R019-level2-restarted"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R019-level2-restarted.png",
+    "sha256": "986e7ab83718f4f91837c7a59377eb1f3c6791c6e118232dd7dc46cfe91666c7",
+    "bytes": 1073456
+  },
+  {
+    "utc": "2026-11-16T15:40:04.471631+00:00",
+    "action": "snap",
+    "args": [
+      "R020-level2-blocked-car"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R020-level2-blocked-car.png",
+    "sha256": "aea58257c87243e9864dc438a85d08e7b20852ba6b7dd199a1af582ff0d49804",
+    "bytes": 1070948
+  },
+  {
+    "utc": "2026-11-16T15:40:08.122730+00:00",
+    "action": "snap",
+    "args": [
+      "R021-level2-top-cleared"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R021-level2-top-cleared.png",
+    "sha256": "2a2c5599e53837a7b105fe8108eee2e9f04bf970c19afef98382f52303d223e6",
+    "bytes": 1054416
+  },
+  {
+    "utc": "2026-11-16T15:40:34.031958+00:00",
+    "action": "snap",
+    "args": [
+      "R022-level2-boarding"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R022-level2-boarding.png",
+    "sha256": "5b2b4d6899be2c2c03ebfa7fb8460c0287a3d5921c17fce1ea29f486ade594e8",
+    "bytes": 1003949
+  },
+  {
+    "utc": "2026-11-16T15:40:37.679574+00:00",
+    "action": "snap",
+    "args": [
+      "R023-level2-lower-lanes"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R023-level2-lower-lanes.png",
+    "sha256": "760d18d10ecb1f1cae7e5aac5d7433634fb9b3dc646ca099fbf81c482cf0f4b3",
+    "bytes": 942951
+  },
+  {
+    "utc": "2026-11-16T15:41:07.626065+00:00",
+    "action": "snap",
+    "args": [
+      "R024-level2-end-attempt"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R024-level2-end-attempt.png",
+    "sha256": "5dccb644a9f3f7f9a5c85195af1dc65ce3439e40f92e9eab2a04b95ee2c87cc4",
+    "bytes": 993906
+  },
+  {
+    "utc": "2026-11-16T15:41:26.630329+00:00",
+    "action": "snap",
+    "args": [
+      "R025-level2-green-cleared"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R025-level2-green-cleared.png",
+    "sha256": "553303658713bf62c278a2614ca9fd9d36f11836e8c6c7db38985e3fa3dd734d",
+    "bytes": 989891
+  },
+  {
+    "utc": "2026-11-16T15:41:48.136713+00:00",
+    "action": "snap",
+    "args": [
+      "R026-level2-last-cars"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R026-level2-last-cars.png",
+    "sha256": "359f0497b486572009d34fd846b939dbafc3b9195ffdfa344de1de812ba00280",
+    "bytes": 935535
+  },
+  {
+    "utc": "2026-11-16T15:42:01.829100+00:00",
+    "action": "snap",
+    "args": [
+      "R027-level2-settled"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R027-level2-settled.png",
+    "sha256": "7e3b438c6b251d83d788fd82211c99349fd29f1ac8d5971d418b4c1ef83a28c3",
+    "bytes": 755984
+  },
+  {
+    "utc": "2026-11-16T15:42:24.104921+00:00",
+    "action": "snap",
+    "args": [
+      "R028-level2-final-green"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R028-level2-final-green.png",
+    "sha256": "ff5728bc081241e1845bf2c8d06d9c3407ee25bed2d8d15cc2aeafca49cb788b",
+    "bytes": 734963
+  },
+  {
+    "utc": "2026-11-16T15:43:13.507670+00:00",
+    "action": "snap",
+    "args": [
+      "R029-level2-victory"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R029-level2-victory.png",
+    "sha256": "c83e3f2ad43ae4658c601a5cc2d7cd465fc5319b2b11dfd3c15c79f53bdb3873",
+    "bytes": 833260
+  },
+  {
+    "utc": "2026-11-16T15:43:17.515308+00:00",
+    "action": "snap",
+    "args": [
+      "R030-level3-entry"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R030-level3-entry.png",
+    "sha256": "22c4abfa2e26b90d66711b9ab2816bfc9cd6db935965409d9de01e0837beacb6",
+    "bytes": 671188
+  },
+  {
+    "utc": "2026-11-16T15:43:38.153952+00:00",
+    "action": "snap",
+    "args": [
+      "R031-current-state"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R031-current-state.png",
+    "sha256": "a29c86c852ae1ef4640dfc6854b3de84e0f8d5b72662ed7ef361d52a61b12213",
+    "bytes": 1200715
+  },
+  {
+    "utc": "2026-11-16T15:44:11.108151+00:00",
+    "action": "snap",
+    "args": [
+      "R032-level3-boundary-buses"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R032-level3-boundary-buses.png",
+    "sha256": "fe07e2f85340200e55673070a1aff78dca0a5b234b1475dfc3b70ffe952934a2",
+    "bytes": 1167475
+  },
+  {
+    "utc": "2026-11-16T15:45:03.544213+00:00",
+    "action": "snap",
+    "args": [
+      "R033-level3-small-cars"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R033-level3-small-cars.png",
+    "sha256": "2f209f778cd54e481ef1eb8d5b9580307d6916fc1a2f595cde22f70b83275c86",
+    "bytes": 1109245
+  },
+  {
+    "utc": "2026-11-16T15:45:07.719442+00:00",
+    "action": "snap",
+    "args": [
+      "R034-level3-lower-cars"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R034-level3-lower-cars.png",
+    "sha256": "bdafa88f2028558eb8c8c799a44f55b0edff7f4092d26673540860fa734e11d8",
+    "bytes": 1037398
+  },
+  {
+    "utc": "2026-11-16T15:45:31.296676+00:00",
+    "action": "snap",
+    "args": [
+      "R035-level3-central-exit"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R035-level3-central-exit.png",
+    "sha256": "c342a610ce246d8c61ffd0ad8c967e432951e5a57e18c40b8c400e4768b8d8c6",
+    "bytes": 1001439
+  },
+  {
+    "utc": "2026-11-16T15:45:53.205366+00:00",
+    "action": "snap",
+    "args": [
+      "R036-level3-top-small-cars"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R036-level3-top-small-cars.png",
+    "sha256": "5be102cb25bed3ac04c77725457c1335170ad553d3d19d8f96f59127ad6d772a",
+    "bytes": 961553
+  },
+  {
+    "utc": "2026-11-16T15:45:58.046952+00:00",
+    "action": "snap",
+    "args": [
+      "R037-level3-clearing"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R037-level3-clearing.png",
+    "sha256": "4f26d8942e088318f75ab6d97000e08703e464ea6bdd3e89b2c2e26e969b9622",
+    "bytes": 853989
+  },
+  {
+    "utc": "2026-11-16T15:46:23.698666+00:00",
+    "action": "snap",
+    "args": [
+      "R038-level3-final"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R038-level3-final.png",
+    "sha256": "49d87d2022ec2e8c09c7b5905c35b6c838b4645cbea0b4c462ce4217a33a314c",
+    "bytes": 769798
+  },
+  {
+    "utc": "2026-11-16T15:46:44.623893+00:00",
+    "action": "snap",
+    "args": [
+      "R039-level3-last-red"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R039-level3-last-red.png",
+    "sha256": "49afd65e4db831948df8f820332ac2819ee052314f6f7a5da579e7f151c94e80",
+    "bytes": 758266
+  },
+  {
+    "utc": "2026-11-16T15:47:03.495587+00:00",
+    "action": "snap",
+    "args": [
+      "R040-level3-outcome"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R040-level3-outcome.png",
+    "sha256": "f70ab9fc598059b9ec6d35c23a93559e4c56694542901a3f97c73ed10763be9c",
+    "bytes": 708844
+  },
+  {
+    "utc": "2026-11-16T15:47:13.210117+00:00",
+    "action": "snap",
+    "args": [
+      "R041-after-level3"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R041-after-level3.png",
+    "sha256": "9344c08a36ae53e01310620004612c866f4f3ddd1d3d15a62f3c042c1132ae19",
+    "bytes": 707491
+  },
+  {
+    "utc": "2026-11-16T15:47:31.761655+00:00",
+    "action": "snap",
+    "args": [
+      "R042-current-board"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R042-current-board.png",
+    "sha256": "49c7b508e93d72b97da36d9b941e03fff075ea827f36be5bde6d97b09d01ede8",
+    "bytes": 702720
+  },
+  {
+    "utc": "2026-11-16T15:47:59.626407+00:00",
+    "action": "snap",
+    "args": [
+      "R043-level3-final-blue"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R043-level3-final-blue.png",
+    "sha256": "1a8ee75c41cf7f71e016617889ac3cce042d22ebcab576a2f944c3418746db0f",
+    "bytes": 705881
+  },
+  {
+    "utc": "2026-11-16T15:48:16.427842+00:00",
+    "action": "snap",
+    "args": [
+      "R044-level3-victory"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R044-level3-victory.png",
+    "sha256": "ae9118d05291ba66cf2314b6fe640143bc7057c0a01caad6aaf7bdb9c13132e9",
+    "bytes": 828358
+  },
+  {
+    "utc": "2026-11-16T15:48:19.623554+00:00",
+    "action": "snap",
+    "args": [
+      "R045-level4-entry"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R045-level4-entry.png",
+    "sha256": "d4b98f35cc7314015870787ff6b2ae040e3224cfd3d521dc2815089192dfa03c",
+    "bytes": 656322
+  },
+  {
+    "utc": "2026-11-16T15:48:46.626915+00:00",
+    "action": "snap",
+    "args": [
+      "R046-level4-ready"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R046-level4-ready.png",
+    "sha256": "99840e757126193760c3b61a58fb1b41f7555e0d113dde9203f5d5380d36ffa7",
+    "bytes": 668784
+  },
+  {
+    "utc": "2026-11-16T15:49:29.368492+00:00",
+    "action": "snap",
+    "args": [
+      "R047-vip-claimed"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R047-vip-claimed.png",
+    "sha256": "e8bcc4a3b7a4ffb224697d5a719174a0c8d8f448e0dbd5aadc3653658c76217b",
+    "bytes": 732811
+  },
+  {
+    "utc": "2026-11-16T15:49:48.614394+00:00",
+    "action": "snap",
+    "args": [
+      "R048-vip-select-target"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R048-vip-select-target.png",
+    "sha256": "b0840de18347043ced3ef0b0a79b7eec8862995ef7eb6ee8750229decdd11568",
+    "bytes": 1018252
+  },
+  {
+    "utc": "2026-11-16T15:50:13.574440+00:00",
+    "action": "snap",
+    "args": [
+      "R049-vip-flight"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R049-vip-flight.png",
+    "sha256": "a0bbbfe7f8651aff155c7d22bb08dbf9489303124140438e9326a7505be1fc27",
+    "bytes": 1368320
+  },
+  {
+    "utc": "2026-11-16T15:50:16.303614+00:00",
+    "action": "snap",
+    "args": [
+      "R050-vip-parked"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R050-vip-parked.png",
+    "sha256": "5676292a9b9dac8e9181a3a6efb6279198bc69c20c0241203c1fcf2440f9cba0",
+    "bytes": 1338980
+  },
+  {
+    "utc": "2026-11-16T15:50:19.378870+00:00",
+    "action": "snap",
+    "args": [
+      "R051-level4-settings"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R051-level4-settings.png",
+    "sha256": "1df3bf0c9dbca5b686a3e4777904a41ac1dbf637bfe3e7d86af0e179c98c2014",
+    "bytes": 646638
+  },
+  {
+    "utc": "2026-11-16T15:50:40.548117+00:00",
+    "action": "snap",
+    "args": [
+      "R052-android-back"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R052-android-back.png",
+    "sha256": "f50d849777ff60df8d3b32618dc4125e06bf43b5931da9e42338fe2110b275f6",
+    "bytes": 1346001
+  },
+  {
+    "utc": "2026-11-16T15:51:08.323871+00:00",
+    "action": "snap",
+    "args": [
+      "R053-extra-parking"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R053-extra-parking.png",
+    "sha256": "7af1f9950853048eea582be6b1d62a5e5fae9f00fa775cbec76c2faa12da579a",
+    "bytes": 702411
+  },
+  {
+    "utc": "2026-11-16T15:51:43.792789+00:00",
+    "action": "snap",
+    "args": [
+      "R054-extra-spot-ad-result"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R054-extra-spot-ad-result.png",
+    "sha256": "47fdfb7b42099a31e3585a28840f539c67bfc2fb30d90ee64a29ced0e4a97049",
+    "bytes": 258577
+  },
+  {
+    "utc": "2026-11-16T15:52:11.927736+00:00",
+    "action": "snap",
+    "args": [
+      "R055-rewarded-ad"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R055-rewarded-ad.png",
+    "sha256": "1b782736c12dfe611e00b391b859648fd389871331876d23c1d2923bb56ef919",
+    "bytes": 404239
+  },
+  {
+    "utc": "2026-11-16T15:52:35.280624+00:00",
+    "action": "snap",
+    "args": [
+      "R056-return-to-game"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R056-return-to-game.png",
+    "sha256": "54d57abcf4b6c14c694df123d2000fae42bebff44553c1b4eb93a9f7d52a2399",
+    "bytes": 486535
+  },
+  {
+    "utc": "2026-11-16T15:52:59.023051+00:00",
+    "action": "snap",
+    "args": [
+      "R057-returning-launch"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R057-returning-launch.png",
+    "sha256": "196a991945c5d1039b751cdffa4b9c63b527a1ed4a0a0ccc7d1827d3f69f90f5",
+    "bytes": 1361728
+  },
+  {
+    "utc": "2026-11-16T15:53:43.420829+00:00",
+    "action": "snap",
+    "args": [
+      "R058-level4-first-cars"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R058-level4-first-cars.png",
+    "sha256": "b42c72d0259621153ef9f21f29a32202a4c168128483a83f28db253da16a8cfb",
+    "bytes": 1320075
+  },
+  {
+    "utc": "2026-11-16T15:56:59.221269+00:00",
+    "action": "snap",
+    "args": [
+      "R059-level4-upper-row"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R059-level4-upper-row.png",
+    "sha256": "4c33872776d0d65c27e8e2b70acb484e622724c424994901de8a4f9583eeb2a7",
+    "bytes": 725373
+  },
+  {
+    "utc": "2026-11-16T15:57:03.227424+00:00",
+    "action": "snap",
+    "args": [
+      "R060-level4-bottom-row"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R060-level4-bottom-row.png",
+    "sha256": "55b7f1051eacbc6a813b4bff0a58ef520df5daff70bc48d05452f3eea0001eb6",
+    "bytes": 1209796
+  },
+  {
+    "utc": "2026-11-16T15:57:40.468353+00:00",
+    "action": "snap",
+    "args": [
+      "R061-level4-current"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R061-level4-current.png",
+    "sha256": "c1afe1327dbba5b8e6687c3bf128c5271f27c3797b977e58a261b81329158231",
+    "bytes": 1176745
+  },
+  {
+    "utc": "2026-11-16T15:58:12.850822+00:00",
+    "action": "snap",
+    "args": [
+      "R062-level4-mid-cars"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R062-level4-mid-cars.png",
+    "sha256": "f24be76d840c678c57303b1be5f946714543bf074a8ef38af2833a1810fb7eba",
+    "bytes": 958710
+  },
+  {
+    "utc": "2026-11-16T15:59:34.271149+00:00",
+    "action": "snap",
+    "args": [
+      "R063-board-state"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R063-board-state.png",
+    "sha256": "9d2cd1b32ca16c1c63439d5643118053c4a37bb0f0c2700d1cd1b0770fd395f6",
+    "bytes": 1712964
+  },
+  {
+    "utc": "2026-11-16T16:00:25.179284+00:00",
+    "action": "snap",
+    "args": [
+      "R064-user-profile"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R064-user-profile.png",
+    "sha256": "9ad9b5bde7ed893bc60a186eed15f17f1208ef4c536b19dbd2c965dab4a18796",
+    "bytes": 618175
+  },
+  {
+    "utc": "2026-11-16T16:00:45.263411+00:00",
+    "action": "snap",
+    "args": [
+      "R065-profile-edit"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R065-profile-edit.png",
+    "sha256": "e9e628f7509bc6ccfc6a59710296572c0c194ee21d357f9cd9e72212e5e03bcf",
+    "bytes": 1001105
+  },
+  {
+    "utc": "2026-11-16T16:00:48.380017+00:00",
+    "action": "snap",
+    "args": [
+      "R066-profile-close-test"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R066-profile-close-test.png",
+    "sha256": "a4b31cfa1b357d437f7fbb14a79423099657cd543d4aa423536872ef9aa95462",
+    "bytes": 639461
+  },
+  {
+    "utc": "2026-11-16T16:01:15.523564+00:00",
+    "action": "snap",
+    "args": [
+      "R067-home-settings"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R067-home-settings.png",
+    "sha256": "bf654b85e8fc248a2d109c0221e0db2b379db6e4d80f23f216269c14946ced7d",
+    "bytes": 581314
+  },
+  {
+    "utc": "2026-11-16T16:01:37.838253+00:00",
+    "action": "snap",
+    "args": [
+      "R068-restore-result"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R068-restore-result.png",
+    "sha256": "786e0e33e2d36254a237c8ffa01a3a5c9742b264c1cd1538bb4069d661fe3ce9",
+    "bytes": 607332
+  },
+  {
+    "utc": "2026-11-16T16:01:41.090742+00:00",
+    "action": "snap",
+    "args": [
+      "R069-shop-entry"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R069-shop-entry.png",
+    "sha256": "29cfc9ad194cc679070e292ed28249a90fc7e092c0dc52db4485f89933e9c59d",
+    "bytes": 1285798
+  },
+  {
+    "utc": "2026-11-16T16:02:20.318363+00:00",
+    "action": "snap",
+    "args": [
+      "R070-shop-middle"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R070-shop-middle.png",
+    "sha256": "5825be4b7dba4b23ec8e0fb5e985d42ad09939f64ef84cb2b8d40319c45437f7",
+    "bytes": 1501554
+  },
+  {
+    "utc": "2026-11-16T16:02:24.735068+00:00",
+    "action": "snap",
+    "args": [
+      "R071-shop-coins"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R071-shop-coins.png",
+    "sha256": "f9fc75d712acbed3be2f5e7855d257fb1f67e1b3335a43258330bb80d4fbb99e",
+    "bytes": 1415503
+  },
+  {
+    "utc": "2026-11-16T16:02:29.125316+00:00",
+    "action": "snap",
+    "args": [
+      "R072-shop-bottom"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R072-shop-bottom.png",
+    "sha256": "5cd4d6051ebe4d8fad9c2cc705aad1e63adf678867309b652f17634448a24426",
+    "bytes": 1414331
+  },
+  {
+    "utc": "2026-11-16T16:02:33.359688+00:00",
+    "action": "snap",
+    "args": [
+      "R073-ranking-locked"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R073-ranking-locked.png",
+    "sha256": "f73563dfbfcfb79c270ab847836d323846c09ffe371b97928629936570e359ff",
+    "bytes": 207194
+  },
+  {
+    "utc": "2026-11-16T16:03:07.123829+00:00",
+    "action": "snap",
+    "args": [
+      "R074-supplies"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R074-supplies.png",
+    "sha256": "c94b6c50bf9dd56bc84b46775d683bd5f9d9e33d80f800776928aebaa520ff9f",
+    "bytes": 903678
+  },
+  {
+    "utc": "2026-11-16T16:03:33.073400+00:00",
+    "action": "snap",
+    "args": [
+      "R075-supplies-claimed"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R075-supplies-claimed.png",
+    "sha256": "704eed6034cac2bdda8e168c4efe91aec4a0a8e17a8064938283909eb1c7953e",
+    "bytes": 901487
+  },
+  {
+    "utc": "2026-11-16T16:03:36.578427+00:00",
+    "action": "snap",
+    "args": [
+      "R076-spin-entry"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R076-spin-entry.png",
+    "sha256": "70c22f669338bc0d86ec83a98013b2771577014ca1c139b66fa575479f132d35",
+    "bytes": 1751284
+  },
+  {
+    "utc": "2026-11-16T16:04:18.307835+00:00",
+    "action": "snap",
+    "args": [
+      "R077-spin-info"
+    ],
+    "device": "emulator-5554",
+    "path": "D:\\Game\\bus-fever-clone\\docs\\research\\media\\screens\\R077-spin-info.png",
+    "sha256": "e4a7fd3a1579189373e8cee75b779212b342f3c01c2d507237d54fa4f63c431f",
+    "bytes": 649595
+  }
+]

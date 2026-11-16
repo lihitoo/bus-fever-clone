@@ -1,0 +1,402 @@
+[
+  {
+    "name": "prop_jumble_1",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -8973324572912464304,
+    "duration_seconds": 3.4305667877197266,
+    "path": "media/audio/prop_jumble_1__-8973324572912464304__0.wav",
+    "sha256": "75c827036940e6aa039895a1c25e81317576b5bb8350e4d46593b9e123e63c02"
+  },
+  {
+    "name": "prop_collect V1.1",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -8883400502977145790,
+    "duration_seconds": 1.806802749633789,
+    "path": "media/audio/prop_collect V1.1__-8883400502977145790__0.wav",
+    "sha256": "20da754495ef5e8ddcc6a4f1688edadfa55beaf9eb90b8ab757b377428b61e0c"
+  },
+  {
+    "name": "hidden_reveal",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -8713408712378948164,
+    "duration_seconds": 0.4693424105644226,
+    "path": "media/audio/hidden_reveal__-8713408712378948164__0.wav",
+    "sha256": "3ee8e8dad90e56fb51724bcef65e73d827b58311f57fa735beac38651a109fb3"
+  },
+  {
+    "name": "ambulance_countdown_V2",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -8123888670963666516,
+    "duration_seconds": 1.0040816068649292,
+    "path": "media/audio/ambulance_countdown_V2__-8123888670963666516__0.wav",
+    "sha256": "60160a9c357c4b97b3627c6513314f296bbfb981e707bc7ab2accd7abb62222b"
+  },
+  {
+    "name": "passenger_entry",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -8065835682814590281,
+    "duration_seconds": 2.1546666622161865,
+    "path": "media/audio/passenger_entry__-8065835682814590281__0.wav",
+    "sha256": "4e8c9ebd6e9039f28c87f2d75bd34eab9467f38a08ba1970c67519c2231399c7"
+  },
+  {
+    "name": "gear_complete",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -7592549003445892858,
+    "duration_seconds": 1.8504761457443237,
+    "path": "media/audio/gear_complete__-7592549003445892858__0.wav",
+    "sha256": "7ddef0302e77435fd5e73ccd797c5b2e56a2955dda50c86553140c828b39565c"
+  },
+  {
+    "name": "banner_hard",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -7566612784383536076,
+    "duration_seconds": 4.6946940422058105,
+    "path": "media/audio/banner_hard__-7566612784383536076__0.wav",
+    "sha256": "cd5c9f10e3485646df336c6c3962007a070897db28014d12c41cf43b4195d3fb"
+  },
+  {
+    "name": "police_siren",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -7289201030352197472,
+    "duration_seconds": 1.8055329322814941,
+    "path": "media/audio/police_siren__-7289201030352197472__0.wav",
+    "sha256": "f416b593010f8111a1769154e873d8c62488adffcfc70db113be8820b7b3d86d"
+  },
+  {
+    "name": "passenger_up_02",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -6160889326453807730,
+    "duration_seconds": 0.13333334028720856,
+    "path": "media/audio/passenger_up_02__-6160889326453807730__0.wav",
+    "sha256": "35c6d3aecaebf6c4418158a60ccbc078f27b0d3937778cd8bfddffb581c15bc0"
+  },
+  {
+    "name": "VIP_展开螺旋桨",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -5951829126986223217,
+    "duration_seconds": 0.24095238745212555,
+    "path": "media/audio/VIP_展开螺旋桨__-5951829126986223217__0.wav",
+    "sha256": "b65020093b0e86627eceadac7395279663ad2738bc046ecab1a9cb6e20f32329"
+  },
+  {
+    "name": "firetruck_3",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -5454824001824489397,
+    "duration_seconds": 1.7544671297073364,
+    "path": "media/audio/firetruck_3__-5454824001824489397__0.wav",
+    "sha256": "1ca8549c4233f4f023a29a77116293e989605ccb198cceebc2877ad3dabb4875"
+  },
+  {
+    "name": "VIP_收起螺旋桨",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -4690747588363096219,
+    "duration_seconds": 0.33011338114738464,
+    "path": "media/audio/VIP_收起螺旋桨__-4690747588363096219__0.wav",
+    "sha256": "9360daf6e3fc3751f2e816749d10ef85532d318314220c1946909a8665c51eaa"
+  },
+  {
+    "name": "VIP_飞行",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -4468768558066053821,
+    "duration_seconds": 0.5340589284896851,
+    "path": "media/audio/VIP_飞行__-4468768558066053821__0.wav",
+    "sha256": "3da5dfb8aa2488a05c1740b3c4a7cb16db33d077b19a38ca1477915bdb016000"
+  },
+  {
+    "name": "VIP_上升",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -4128824653902396949,
+    "duration_seconds": 0.26308390498161316,
+    "path": "media/audio/VIP_上升__-4128824653902396949__0.wav",
+    "sha256": "64e763b7c95b6813eafc97497c4856f4d8535a885f50e3b59fc6ffe0699c43fc"
+  },
+  {
+    "name": "prop_arrange01",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -4064063808004049689,
+    "duration_seconds": 3.1118366718292236,
+    "path": "media/audio/prop_arrange01__-4064063808004049689__0.wav",
+    "sha256": "e0726c61f13de110f72593810884f67ca4ec424c9a933ca40288319e4f293ac0"
+  },
+  {
+    "name": "prop_arrange02",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -3886220824306698477,
+    "duration_seconds": 0.024671202525496483,
+    "path": "media/audio/prop_arrange02__-3886220824306698477__0.wav",
+    "sha256": "f5cc35fdf4112e03b1b5624e537d7a4d8aa6de814ef41f3510f977dc5c4cebb6"
+  },
+  {
+    "name": "scene_switch_1",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -3777556534164499696,
+    "duration_seconds": 1.300317406654358,
+    "path": "media/audio/scene_switch_1__-3777556534164499696__0.wav",
+    "sha256": "9bfc2c241fcc449579dd26649b453b900bbd118390e94e9f4652d9efa520d555"
+  },
+  {
+    "name": "bar_01",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -3544568632401785839,
+    "duration_seconds": 0.4988333284854889,
+    "path": "media/audio/bar_01__-3544568632401785839__0.wav",
+    "sha256": "08d017a3fbd35089746f5f482a2a6a1e8c41c20273eb68c6e2a73c000a6c0776"
+  },
+  {
+    "name": "guidemove",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -3484958258842241276,
+    "duration_seconds": 0.26836735010147095,
+    "path": "media/audio/guidemove__-3484958258842241276__0.wav",
+    "sha256": "48777f99b34a4d0d01cac7149402955ac8d41bb762a8484da40154e88e42c164"
+  },
+  {
+    "name": "rank_top",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -3340286678466137412,
+    "duration_seconds": 0.9173333048820496,
+    "path": "media/audio/rank_top__-3340286678466137412__0.wav",
+    "sha256": "344bd3eeb9dddf3b190a6dbccb509857240194957b7a56516a4ea4f8d63cb98b"
+  },
+  {
+    "name": "banner_normal",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -2145196146703926727,
+    "duration_seconds": 4.307120323181152,
+    "path": "media/audio/banner_normal__-2145196146703926727__0.wav",
+    "sha256": "c150eba12356848193709b3a21c6364dc2f772b89afc710da8ef48250b1ea431"
+  },
+  {
+    "name": "gear_fix",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -1540415464164431980,
+    "duration_seconds": 1.369977355003357,
+    "path": "media/audio/gear_fix__-1540415464164431980__0.wav",
+    "sha256": "7905cb665af0161609a1fa17b4e2e006e0ce25dbee8753255295acbce2d68b9d"
+  },
+  {
+    "name": "scene_switch_2",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -1261934044310034193,
+    "duration_seconds": 1.486077070236206,
+    "path": "media/audio/scene_switch_2__-1261934044310034193__0.wav",
+    "sha256": "8945f79cbf34cbc9d98891f0a6a1e1178d83f094381d4f6a9c229d086a06e091"
+  },
+  {
+    "name": "button_click",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": -835624214853174612,
+    "duration_seconds": 0.09718821197748184,
+    "path": "media/audio/button_click__-835624214853174612__0.wav",
+    "sha256": "6c7955d21efc0a46d67e5898126a5362feecdbcb52d8f82abfbd97a776a2136b"
+  },
+  {
+    "name": "guidecall",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 81023183120308185,
+    "duration_seconds": 2.0,
+    "path": "media/audio/guidecall__81023183120308185__0.wav",
+    "sha256": "9e62953b340a9063b89459cfe6b23848b9682d1d1b1b01c66f2f04490e68033e"
+  },
+  {
+    "name": "prop_jumble_2",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 516187863595046058,
+    "duration_seconds": 0.06544217467308044,
+    "path": "media/audio/prop_jumble_2__516187863595046058__0.wav",
+    "sha256": "a5a34a0f18ac17100dc654fac698ec09a5666fc1fe8a21e9847544c705b43e3c"
+  },
+  {
+    "name": "Spin",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 780805861484439427,
+    "duration_seconds": 6.849886417388916,
+    "path": "media/audio/Spin__780805861484439427__0.wav",
+    "sha256": "3f3954962d274df9298be421140eb9e213b8015981692ba9128b1151c286938e"
+  },
+  {
+    "name": "wrench_fly",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 1150705807906455726,
+    "duration_seconds": 1.8437868356704712,
+    "path": "media/audio/wrench_fly__1150705807906455726__0.wav",
+    "sha256": "f80af65793e40ad80fbbb3c6ddb338095f2ffce82b9e92d0d68b41d7cba71645"
+  },
+  {
+    "name": "level_fail",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 1205593172326220052,
+    "duration_seconds": 2.604807138442993,
+    "path": "media/audio/level_fail__1205593172326220052__0.wav",
+    "sha256": "8717952a2d17837919284506b1079e6e05bc13e055f995ede78110aec5ebd3dc"
+  },
+  {
+    "name": "garage_clear",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 1486029824805736139,
+    "duration_seconds": 0.3039909303188324,
+    "path": "media/audio/garage_clear__1486029824805736139__0.wav",
+    "sha256": "4a6875a98e2ff65fa2b1c7c32957bc63352c9b42d62b7f530113abf0946e52ae"
+  },
+  {
+    "name": "bus_moving_V5",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 1581407159596617684,
+    "duration_seconds": 0.27863946557044983,
+    "path": "media/audio/bus_moving_V5__1581407159596617684__0.wav",
+    "sha256": "80269c973da5f21345962c9af74d5aa1bf6a8266d78e326c064a8feacb92c920"
+  },
+  {
+    "name": "firetruck_1",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 1762919422294713678,
+    "duration_seconds": 2.739954710006714,
+    "path": "media/audio/firetruck_1__1762919422294713678__0.wav",
+    "sha256": "cca3b575affb389ef3fd3bf9b21e3320ae82b90f337941ec4dc52372ea571313"
+  },
+  {
+    "name": "level_win",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 2022182339323098527,
+    "duration_seconds": 7.5,
+    "path": "media/audio/level_win__2022182339323098527__0.wav",
+    "sha256": "dde2a20fcdbb91ab968a43febeb33614dec1fe003bc2893a4e73fcfec7103647"
+  },
+  {
+    "name": "rank_up",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 2295482952828274078,
+    "duration_seconds": 0.3840000033378601,
+    "path": "media/audio/rank_up__2295482952828274078__0.wav",
+    "sha256": "4e659b9a2c4770675bde9ec7d48ce4e2b64e3ad14255fa650c7fdfc86f8ab753"
+  },
+  {
+    "name": "gudiejump",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 3267919106017604515,
+    "duration_seconds": 0.10341666638851166,
+    "path": "media/audio/gudiejump__3267919106017604515__0.wav",
+    "sha256": "644d008d6e4f5384f158aa7fc5dfe81160c7a2a1c934270c15a1b620709b89c3"
+  },
+  {
+    "name": "prop_add_spot",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 3795114262797474147,
+    "duration_seconds": 1.0216779708862305,
+    "path": "media/audio/prop_add_spot__3795114262797474147__0.wav",
+    "sha256": "404f782e7f2f0f8036de9426efcab82f591a5f723bab5553fed0953ea1e79afd"
+  },
+  {
+    "name": "passenger_up_01",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 4108167528112681485,
+    "duration_seconds": 0.10829932242631912,
+    "path": "media/audio/passenger_up_01__4108167528112681485__0.wav",
+    "sha256": "885466ae8edaf0a30b3ef4fe6ef317e09058cb0f7f59ef4b118a421da87c9c81"
+  },
+  {
+    "name": "bus_hit_V5",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 4261325980184314117,
+    "duration_seconds": 0.9424943327903748,
+    "path": "media/audio/bus_hit_V5__4261325980184314117__0.wav",
+    "sha256": "4a4da076dbb2ceb6982ed52d471ee9f43248bc7d9c97c134df91c9f5e5d7b57e"
+  },
+  {
+    "name": "bus_full",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 4599076562111552537,
+    "duration_seconds": 2.351564645767212,
+    "path": "media/audio/bus_full__4599076562111552537__0.wav",
+    "sha256": "9446f843ed7d4d30a82ed05ad9435f1706e61db67750a02715ab48a4a880e427"
+  },
+  {
+    "name": "coin_collect V2",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 4629379989058713442,
+    "duration_seconds": 1.7414965629577637,
+    "path": "media/audio/coin_collect V2__4629379989058713442__0.wav",
+    "sha256": "59d8e25462d6904f233a69bb062292b8138377e8e21178000405326b62973c5a"
+  },
+  {
+    "name": "garage_out V1.1",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 4833526515259574708,
+    "duration_seconds": 1.3499773740768433,
+    "path": "media/audio/garage_out V1.1__4833526515259574708__0.wav",
+    "sha256": "2848d78b532c7dc9bd67507f0eb942bd0753c8877b0d0d962c2ad91a25c8df45"
+  },
+  {
+    "name": "gear_locked",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 5278278372903931456,
+    "duration_seconds": 2.135999917984009,
+    "path": "media/audio/gear_locked__5278278372903931456__0.wav",
+    "sha256": "852ca2d767e0424a63e23d2a861dd07c1883dbedb21c8617dda268d7d816a8ad"
+  },
+  {
+    "name": "bus_full V2",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 5605709965120113242,
+    "duration_seconds": 2.931020498275757,
+    "path": "media/audio/bus_full V2__5605709965120113242__0.wav",
+    "sha256": "fb5258e34d562551a94bbf55d1b1ce65c25038d02f1a6a29c2afab253a8d82f8"
+  },
+  {
+    "name": "passenger_up_03",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 6264976488987280609,
+    "duration_seconds": 0.10000000149011612,
+    "path": "media/audio/passenger_up_03__6264976488987280609__0.wav",
+    "sha256": "84a341fe10d6cebd63cf0280320ec3c7b7df2c798430e8d09781e2c6f0eb3909"
+  },
+  {
+    "name": "rank_confirm",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 6313383981323543761,
+    "duration_seconds": 0.3840000033378601,
+    "path": "media/audio/rank_confirm__6313383981323543761__0.wav",
+    "sha256": "5c1194a1cca63c0129125c064393a48de7de8322c5775794b16a8092fa47b937"
+  },
+  {
+    "name": "elevator_open",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 7228816836388774130,
+    "duration_seconds": 0.19602082669734955,
+    "path": "media/audio/elevator_open__7228816836388774130__0.wav",
+    "sha256": "c6298d8de110605b2d5e278b32b9c8f47cf12a121e9dac6434f29d5c25f6e860"
+  },
+  {
+    "name": "level_switch",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 7525644745830895630,
+    "duration_seconds": 3.3030385971069336,
+    "path": "media/audio/level_switch__7525644745830895630__0.wav",
+    "sha256": "f8f021104c8bf60ebe87aa42271be5d62de93c9111702d8bf9e6d065c494b512"
+  },
+  {
+    "name": "banner_superhard",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 8344482317613484919,
+    "duration_seconds": 4.802811622619629,
+    "path": "media/audio/banner_superhard__8344482317613484919__0.wav",
+    "sha256": "bc303ef74f95953d0a063cb3c11e2c34c2932db69bfd062199398b2a7c32db05"
+  },
+  {
+    "name": "VIP_落地",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 8583794233483988288,
+    "duration_seconds": 0.8266666531562805,
+    "path": "media/audio/VIP_落地__8583794233483988288__0.wav",
+    "sha256": "252eba3c9a999ff34e33174783eacdeecb9ecc8c0ed1bfbc778ca4e24536dfea"
+  },
+  {
+    "name": "level_fail3",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 9188582293356884110,
+    "duration_seconds": 2.66448974609375,
+    "path": "media/audio/level_fail3__9188582293356884110__0.wav",
+    "sha256": "87a22a7de958803a35781193bab5f1d30e5ee6b9489b1d7ce3d89b621d18856a"
+  }
+]

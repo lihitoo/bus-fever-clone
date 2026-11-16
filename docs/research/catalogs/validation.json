@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "markdown_links_checked": 222,
+  "pngs_decoded": 89,
+  "runtime_captures": 77,
+  "ui_components": 3673,
+  "media_binding_properties_checked": 1634,
+  "unique_media_paths_and_hashes_checked": 596,
+  "audio_decode": {
+    "decoded_audio_files": 50,
+    "decode_failures": [],
+    "tool": "D:\\GameAudit\\bus-fever-1.3.2\\tools\\pyenv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v9.0.2.exe"
+  },
+  "source_sha256": "e8288abeccd9047ac19a0ee26723110b4e768be33582c7d34af128f1fc519ad7",
+  "errors": [],
+  "limits": "Integrity/link/decode checks do not establish runtime completeness, native behavior, timing or clone parity."
+}

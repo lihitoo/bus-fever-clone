@@ -1,0 +1,586 @@
+[
+  {
+    "address": "assets/busjam/colorguess/bundleables/colorguess_btn.prefab",
+    "name": "ColorGuess_Btn",
+    "collection": "cab-9353e628604a5f00f4076b7dd3a7ecee",
+    "root_path_id": -3935796809126474009,
+    "node_count": 5,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ColorGuess_Btn--3935796809126474009.json"
+  },
+  {
+    "address": "assets/busjam/colorguess/bundleables/colorguessbottleitem.prefab",
+    "name": "ColorGuessBottleItem",
+    "collection": "cab-9353e628604a5f00f4076b7dd3a7ecee",
+    "root_path_id": 1645903815491387986,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ColorGuessBottleItem-1645903815491387986.json"
+  },
+  {
+    "address": "assets/busjam/colorguess/bundleables/colorguessguidepanel.prefab",
+    "name": "ColorGuessGuidePanel",
+    "collection": "cab-9353e628604a5f00f4076b7dd3a7ecee",
+    "root_path_id": -5261013287165335441,
+    "node_count": 53,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ColorGuessGuidePanel--5261013287165335441.json"
+  },
+  {
+    "address": "assets/busjam/colorguess/bundleables/colorguessinfopanel.prefab",
+    "name": "ColorGuessInfoPanel",
+    "collection": "cab-9353e628604a5f00f4076b7dd3a7ecee",
+    "root_path_id": -4063227237500599680,
+    "node_count": 5,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ColorGuessInfoPanel--4063227237500599680.json"
+  },
+  {
+    "address": "assets/busjam/colorguess/bundleables/colorguesspanel.prefab",
+    "name": "ColorGuessPanel",
+    "collection": "cab-9353e628604a5f00f4076b7dd3a7ecee",
+    "root_path_id": -159046536631780011,
+    "node_count": 31,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ColorGuessPanel--159046536631780011.json"
+  },
+  {
+    "address": "assets/busjam/colorguess/bundleables/colorguesspromopanel.prefab",
+    "name": "ColorGuessPromoPanel",
+    "collection": "cab-9353e628604a5f00f4076b7dd3a7ecee",
+    "root_path_id": -2315363569497872408,
+    "node_count": 8,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ColorGuessPromoPanel--2315363569497872408.json"
+  },
+  {
+    "address": "assets/busjam/colorguess/bundleables/colorguessslotbase.prefab",
+    "name": "ColorGuessSlotBase",
+    "collection": "cab-9353e628604a5f00f4076b7dd3a7ecee",
+    "root_path_id": -8750390698396173767,
+    "node_count": 3,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ColorGuessSlotBase--8750390698396173767.json"
+  },
+  {
+    "address": "assets/busjam/dailybonus/bundleables/dailybonuspanel.prefab",
+    "name": "DailybonusPanel",
+    "collection": "cab-d1b12779c3c83477417610aba36d63b9",
+    "root_path_id": 5712582644454720612,
+    "node_count": 248,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\DailybonusPanel-5712582644454720612.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/boostpackpanel.prefab",
+    "name": "BoostPackPanel",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 8089972981026536076,
+    "node_count": 35,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\BoostPackPanel-8089972981026536076.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/btn_add.prefab",
+    "name": "Btn_Add",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 7578760600563846083,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Btn_Add-7578760600563846083.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/btn_close.prefab",
+    "name": "Btn_Close",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 6101060607314676687,
+    "node_count": 2,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Btn_Close-6101060607314676687.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/btn_gold.prefab",
+    "name": "Btn_Gold",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -8141937869154697432,
+    "node_count": 6,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Btn_Gold--8141937869154697432.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/btn_green.prefab",
+    "name": "Btn_Green",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -6727784141575564486,
+    "node_count": 8,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Btn_Green--6727784141575564486.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/btn_lives.prefab",
+    "name": "Btn_Lives",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 318172236552849551,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Btn_Lives-318172236552849551.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/btn_pause.prefab",
+    "name": "Btn_Pause",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -9122160738927719857,
+    "node_count": 2,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Btn_Pause--9122160738927719857.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/btn_replay.prefab",
+    "name": "Btn_Replay",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 1577791207746149385,
+    "node_count": 2,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Btn_Replay-1577791207746149385.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/btn_yellow.prefab",
+    "name": "Btn_Yellow",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 5184598778579963023,
+    "node_count": 8,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Btn_Yellow-5184598778579963023.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/entrybanner.prefab",
+    "name": "EntryBanner",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 8092329548654171237,
+    "node_count": 66,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\EntryBanner-8092329548654171237.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/entrytiptextbanner.prefab",
+    "name": "EntryTipTextBanner",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -4448226559568550179,
+    "node_count": 11,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\EntryTipTextBanner--4448226559568550179.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/failpanel.prefab",
+    "name": "FailPanel",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 4822470541037261632,
+    "node_count": 82,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\FailPanel-4822470541037261632.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/gamepanel.prefab",
+    "name": "GamePanel",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 8006976771310432658,
+    "node_count": 150,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\GamePanel-8006976771310432658.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/itempurchasepanel.prefab",
+    "name": "ItemPurchasePanel",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -8397599525100777001,
+    "node_count": 83,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ItemPurchasePanel--8397599525100777001.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/lock_empty.prefab",
+    "name": "Lock_Empty",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 7589023949550933210,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Lock_Empty-7589023949550933210.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/pausepanel.prefab",
+    "name": "PausePanel",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": 5377289984839025356,
+    "node_count": 62,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\PausePanel-5377289984839025356.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/purchaseparkingspace.prefab",
+    "name": "PurchaseParkingSpace",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -3032326987265035649,
+    "node_count": 117,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\PurchaseParkingSpace--3032326987265035649.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/replaypanel.prefab",
+    "name": "ReplayPanel",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -4639755073713792013,
+    "node_count": 29,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ReplayPanel--4639755073713792013.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/revive_frameanim.prefab",
+    "name": "Revive_FrameAnim",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -4662912866964864667,
+    "node_count": 1,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Revive_FrameAnim--4662912866964864667.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/revivejam_frameanim.prefab",
+    "name": "ReviveJam_FrameAnim",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -4456670905638098603,
+    "node_count": 1,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ReviveJam_FrameAnim--4456670905638098603.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/revivepanel.prefab",
+    "name": "RevivePanel",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -3189233359750107036,
+    "node_count": 159,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\RevivePanel--3189233359750107036.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/victorypanel.prefab",
+    "name": "VictoryPanel",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -8198114099090031186,
+    "node_count": 307,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\VictoryPanel--8198114099090031186.json"
+  },
+  {
+    "address": "assets/busjam/game/bundleables/ui/viptransitionpanel.prefab",
+    "name": "VipTransitionPanel",
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "root_path_id": -2290774991152681717,
+    "node_count": 9,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\VipTransitionPanel--2290774991152681717.json"
+  },
+  {
+    "address": "assets/busjam/home/bundleables/homepanel.prefab",
+    "name": "HomePanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -4916766221874607132,
+    "node_count": 264,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\HomePanel--4916766221874607132.json"
+  },
+  {
+    "address": "assets/busjam/home/bundleables/settingpanel.prefab",
+    "name": "SettingPanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -3195466391104825780,
+    "node_count": 74,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\SettingPanel--3195466391104825780.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/adfreebundlepanel.prefab",
+    "name": "AdFreeBundlePanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": 5811176040418170825,
+    "node_count": 53,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\AdFreeBundlePanel-5811176040418170825.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/adfreepanel.prefab",
+    "name": "ADFreePanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -7389052718004737263,
+    "node_count": 36,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ADFreePanel--7389052718004737263.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/arrange.prefab",
+    "name": "Arrange",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": 5930666342685906821,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Arrange-5930666342685906821.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/ball.prefab",
+    "name": "Ball",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -5933180234144770876,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Ball--5933180234144770876.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/car.prefab",
+    "name": "Car",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": 6206139243388047040,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Car-6206139243388047040.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/coin1.prefab",
+    "name": "Coin1",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -6240088295287516443,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Coin1--6240088295287516443.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/coin2.prefab",
+    "name": "Coin2",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": 8393834845206693486,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Coin2-8393834845206693486.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/coin3.prefab",
+    "name": "Coin3",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -3556608984014537719,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Coin3--3556608984014537719.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/coin4.prefab",
+    "name": "Coin4",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": 1067302842929007637,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Coin4-1067302842929007637.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/coin5.prefab",
+    "name": "Coin5",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -7154332859470693195,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Coin5--7154332859470693195.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/coin6.prefab",
+    "name": "Coin6",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": 3091892611208816034,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Coin6-3091892611208816034.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/failedpanel.prefab",
+    "name": "FailedPanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": 4609097134348282187,
+    "node_count": 20,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\FailedPanel-4609097134348282187.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/loadingpanel.prefab",
+    "name": "LoadingPanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -4561641165158145882,
+    "node_count": 9,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\LoadingPanel--4561641165158145882.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/packagepanel.prefab",
+    "name": "PackagePanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -804022514141818829,
+    "node_count": 53,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\PackagePanel--804022514141818829.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/restoreloading.prefab",
+    "name": "RestoreLoading",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -8823548044883792689,
+    "node_count": 7,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\RestoreLoading--8823548044883792689.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/rewardpanel.prefab",
+    "name": "RewardPanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": 6801295207435457544,
+    "node_count": 91,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\RewardPanel-6801295207435457544.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/rewardpanelscale.prefab",
+    "name": "RewardPanelScale",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -4941223990474418660,
+    "node_count": 93,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\RewardPanelScale--4941223990474418660.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/shopcard1 1.prefab",
+    "name": "ShopCard1 1",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -2249957739278443134,
+    "node_count": 32,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ShopCard1_1--2249957739278443134.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/shopcard1.prefab",
+    "name": "ShopCard1",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": 2077664315858621087,
+    "node_count": 31,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ShopCard1-2077664315858621087.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/shopcard3.prefab",
+    "name": "ShopCard3",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -6020925882684448025,
+    "node_count": 48,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ShopCard3--6020925882684448025.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/shopcard4.prefab",
+    "name": "ShopCard4",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -8842487219959657251,
+    "node_count": 40,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ShopCard4--8842487219959657251.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/shoppanel.prefab",
+    "name": "ShopPanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -3111942624852417160,
+    "node_count": 17,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\ShopPanel--3111942624852417160.json"
+  },
+  {
+    "address": "assets/busjam/shop/bundleables/successpanel.prefab",
+    "name": "SuccessPanel",
+    "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+    "root_path_id": -1216226815810582862,
+    "node_count": 19,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\SuccessPanel--1216226815810582862.json"
+  },
+  {
+    "address": "assets/busjam/life/bundleables/effect_life_collect.prefab",
+    "name": "Effect_Life_Collect",
+    "collection": "cab-ced7e846da7d5f2740680d949ba52d6e",
+    "root_path_id": -7754967019070694192,
+    "node_count": 17,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\Effect_Life_Collect--7754967019070694192.json"
+  },
+  {
+    "address": "assets/busjam/notifications/bundleables/notificationspanel.prefab",
+    "name": "NotificationsPanel",
+    "collection": "cab-b866bebff5dc292cbd6a2a704b50d1af",
+    "root_path_id": -6417047390164840171,
+    "node_count": 29,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\NotificationsPanel--6417047390164840171.json"
+  },
+  {
+    "address": "assets/busjam/ranking/bundleables/rankingguidepanel.prefab",
+    "name": "RankingGuidePanel",
+    "collection": "cab-fe6ef5e787b5dbe767faee540fa76ef3",
+    "root_path_id": -7476537169072666493,
+    "node_count": 36,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\RankingGuidePanel--7476537169072666493.json"
+  },
+  {
+    "address": "assets/busjam/ranking/bundleables/rankingpanel.prefab",
+    "name": "RankingPanel",
+    "collection": "cab-fe6ef5e787b5dbe767faee540fa76ef3",
+    "root_path_id": -3991560530754826404,
+    "node_count": 101,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\RankingPanel--3991560530754826404.json"
+  },
+  {
+    "address": "assets/busjam/ranking/bundleables/rankingrewardpanel.prefab",
+    "name": "RankingRewardPanel",
+    "collection": "cab-fe6ef5e787b5dbe767faee540fa76ef3",
+    "root_path_id": -2665748930027933751,
+    "node_count": 216,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\RankingRewardPanel--2665748930027933751.json"
+  },
+  {
+    "address": "assets/modulecollectionspin/bundleables/dailyspin.prefab",
+    "name": "DailySpin",
+    "collection": "cab-90e74aa9927d77fbf3683cae543e952c",
+    "root_path_id": 8240440102278310212,
+    "node_count": 244,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\DailySpin-8240440102278310212.json"
+  },
+  {
+    "address": "assets/busjam/supplies/bundleables/suppliespanel.prefab",
+    "name": "SuppliesPanel",
+    "collection": "cab-9a5e9f45685b1dcfe6b0fa0479b2af61",
+    "root_path_id": 2833317021906981172,
+    "node_count": 229,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\SuppliesPanel-2833317021906981172.json"
+  },
+  {
+    "address": "assets/busjam/taskbar/bundleables/taskbarballpanel.prefab",
+    "name": "TaskBarBallPanel",
+    "collection": "cab-7f23e129730b33a4ff09503900448271",
+    "root_path_id": -217014558700518439,
+    "node_count": 20,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\TaskBarBallPanel--217014558700518439.json"
+  },
+  {
+    "address": "assets/busjam/taskbar/bundleables/taskbarcollectionpanel.prefab",
+    "name": "TaskBarCollectionPanel",
+    "collection": "cab-7f23e129730b33a4ff09503900448271",
+    "root_path_id": -8350218644096805331,
+    "node_count": 102,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\TaskBarCollectionPanel--8350218644096805331.json"
+  },
+  {
+    "address": "assets/busjam/taskbar/bundleables/taskbargamecollect.prefab",
+    "name": "TaskBarGameCollect",
+    "collection": "cab-7f23e129730b33a4ff09503900448271",
+    "root_path_id": 543594415454553197,
+    "node_count": 10,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\TaskBarGameCollect-543594415454553197.json"
+  },
+  {
+    "address": "assets/busjam/taskbar/bundleables/taskbargiftpanel.prefab",
+    "name": "TaskBarGiftPanel",
+    "collection": "cab-7f23e129730b33a4ff09503900448271",
+    "root_path_id": -1611876222297821000,
+    "node_count": 24,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\TaskBarGiftPanel--1611876222297821000.json"
+  },
+  {
+    "address": "assets/busjam/taskbar/bundleables/taskbarguidepanel.prefab",
+    "name": "TaskBarGuidePanel",
+    "collection": "cab-7f23e129730b33a4ff09503900448271",
+    "root_path_id": 482552798206242545,
+    "node_count": 21,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\TaskBarGuidePanel-482552798206242545.json"
+  },
+  {
+    "address": "assets/busjam/taskbar/bundleables/taskbarpanel.prefab",
+    "name": "TaskBarPanel",
+    "collection": "cab-7f23e129730b33a4ff09503900448271",
+    "root_path_id": 8565667609588266778,
+    "node_count": 65,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\TaskBarPanel-8565667609588266778.json"
+  },
+  {
+    "address": "assets/busjam/taskbar/bundleables/taskbarpromopanel.prefab",
+    "name": "TaskBarPromoPanel",
+    "collection": "cab-7f23e129730b33a4ff09503900448271",
+    "root_path_id": -3288744446796827147,
+    "node_count": 41,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\TaskBarPromoPanel--3288744446796827147.json"
+  },
+  {
+    "address": "assets/busjam/taskbar/bundleables/taskbarrewardpanel.prefab",
+    "name": "TaskBarRewardPanel",
+    "collection": "cab-7f23e129730b33a4ff09503900448271",
+    "root_path_id": 1216094977177685637,
+    "node_count": 102,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\TaskBarRewardPanel-1216094977177685637.json"
+  },
+  {
+    "address": "assets/busjam/userprofile/bundleables/userprofileeditpanel.prefab",
+    "name": "UserProfileEditPanel",
+    "collection": "cab-44a55b1c3a7feb388c347896661f5cfb",
+    "root_path_id": -5718353632048593941,
+    "node_count": 29,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\UserProfileEditPanel--5718353632048593941.json"
+  },
+  {
+    "address": "assets/busjam/userprofile/bundleables/userprofilepanel.prefab",
+    "name": "UserProfilePanel",
+    "collection": "cab-44a55b1c3a7feb388c347896661f5cfb",
+    "root_path_id": -2923158569113926936,
+    "node_count": 30,
+    "tree_path": "D:\\GameAudit\\bus-fever-1.3.2\\static-trees-v2\\panels\\UserProfilePanel--2923158569113926936.json"
+  }
+]

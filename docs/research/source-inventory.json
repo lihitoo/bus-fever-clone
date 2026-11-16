@@ -1,0 +1,331 @@
+{
+  "inspected_date": "2026-11-16",
+  "evidence_type": "file-observed",
+  "artifact": {
+    "path": "D:\\Downloads\\Bus+Fever+Party!_1.3.2_APKPure.xapk",
+    "size_bytes": 243160913,
+    "sha256": "e8288abeccd9047ac19a0ee26723110b4e768be33582c7d34af128f1fc519ad7"
+  },
+  "runtime_observed": false,
+  "assetripper_exported": false,
+  "rea_analysis_completed": false,
+  "apks": [
+    {
+      "path": "gridplus.busjam.carpuzzle.apk",
+      "size_bytes": 209089559,
+      "entry_count": 2960,
+      "relevant_entries": [
+        {
+          "path": "assets/Sandbox/BundlesManifest_1.bytes",
+          "size_bytes": 467816
+        },
+        {
+          "path": "assets/Sandbox/BundlesManifest_1.hash",
+          "size_bytes": 30
+        },
+        {
+          "path": "assets/Sandbox/Version.bytes",
+          "size_bytes": 1
+        },
+        {
+          "path": "assets/Sandbox/bus_and_passenger_62fe1f29dfc6f475b48ac65943d8aad.bundle",
+          "size_bytes": 4103228
+        },
+        {
+          "path": "assets/Sandbox/color_guess_3b28b0a6f48fcc1be3e483352938875.bundle",
+          "size_bytes": 682129
+        },
+        {
+          "path": "assets/Sandbox/common_b49933ac6a04e2c48d3a8777b185537.bundle",
+          "size_bytes": 10356869
+        },
+        {
+          "path": "assets/Sandbox/dailybonus_f277134084cf168283464b8f6e44ffd2.bundle",
+          "size_bytes": 153243
+        },
+        {
+          "path": "assets/Sandbox/effects_a845a58146a7fe52298a6b8204628ff.bundle",
+          "size_bytes": 3461116
+        },
+        {
+          "path": "assets/Sandbox/excels_b7855c6c8d2f67e64c5634e8cae4ec8.bundle",
+          "size_bytes": 108626
+        },
+        {
+          "path": "assets/Sandbox/game_config_2c84fdf30bbb79697c3937ff30e7fc.bundle",
+          "size_bytes": 317499
+        },
+        {
+          "path": "assets/Sandbox/game_prefabs_2d712f88a7f6f2ffbf11b63d942c.bundle",
+          "size_bytes": 4969560
+        },
+        {
+          "path": "assets/Sandbox/game_scene_dependence_129b416c1fbc59c6b0c316a353614a74.bundle",
+          "size_bytes": 10399712
+        },
+        {
+          "path": "assets/Sandbox/game_ui_de96115c8bc901abe956f63a04416d0.bundle",
+          "size_bytes": 6292459
+        },
+        {
+          "path": "assets/Sandbox/globalconfig_5ebf3ead41c3963be4edb4fbff9a915c.bundle",
+          "size_bytes": 723546
+        },
+        {
+          "path": "assets/Sandbox/guide_272d41631242a490dc2f28a0c5b4330.bundle",
+          "size_bytes": 86798
+        },
+        {
+          "path": "assets/Sandbox/highlight_3866df3b3a48dbbd6ad3a76a64be9db8.bundle",
+          "size_bytes": 3809
+        },
+        {
+          "path": "assets/Sandbox/home_68243827eeae9db198b0464003a172.bundle",
+          "size_bytes": 21591950
+        },
+        {
+          "path": "assets/Sandbox/inventory_de9788145f1cba66da5115e289a97dbe.bundle",
+          "size_bytes": 7319
+        },
+        {
+          "path": "assets/Sandbox/level_escape_a_3dae1cddac3d8a375d314d21fbfe563c.bundle",
+          "size_bytes": 237472
+        },
+        {
+          "path": "assets/Sandbox/level_escape_b_d2723de388d5149348e3c8e8630e29.bundle",
+          "size_bytes": 262528
+        },
+        {
+          "path": "assets/Sandbox/level_escape_c_a6ec6f538d639a58835452bcd0db91e.bundle",
+          "size_bytes": 272673
+        },
+        {
+          "path": "assets/Sandbox/level_escape_e_b62f81b4c05a5d3aea779b71a1be99b.bundle",
+          "size_bytes": 60405
+        },
+        {
+          "path": "assets/Sandbox/life_2c8054e1bb9c3b26849e91ed7d2b9c5.bundle",
+          "size_bytes": 103615
+        },
+        {
+          "path": "assets/Sandbox/notifications_28988f27a98a764f1e164c92eacefe7c.bundle",
+          "size_bytes": 27695
+        },
+        {
+          "path": "assets/Sandbox/ranking_ed7efb9afcf9c3bf6b63deba33bfde9.bundle",
+          "size_bytes": 3640220
+        },
+        {
+          "path": "assets/Sandbox/shadercollection_8b9ae2c5478113a4217a4c7bcafba54.bundle",
+          "size_bytes": 467128
+        },
+        {
+          "path": "assets/Sandbox/sound_3e126c1a16738b8df562ed4f629e4162.bundle",
+          "size_bytes": 1786055
+        },
+        {
+          "path": "assets/Sandbox/spin_2318f5a5d046c3d084a9237219b4a112.bundle",
+          "size_bytes": 2755581
+        },
+        {
+          "path": "assets/Sandbox/supplies_d8f668c0bc94e734807e356f45242eb.bundle",
+          "size_bytes": 126522
+        },
+        {
+          "path": "assets/Sandbox/task_bar_1935d225565f8b5d1c4a73474d773e7.bundle",
+          "size_bytes": 6007510
+        },
+        {
+          "path": "assets/Sandbox/uispriteatlas_c32db7217fc6d958a6946f9efddd3d49.bundle",
+          "size_bytes": 11424078
+        },
+        {
+          "path": "assets/Sandbox/user_profile_7de049d95e25f067ff604eccbaeb3265.bundle",
+          "size_bytes": 1033579
+        },
+        {
+          "path": "assets/bin/Data/Managed/Metadata/global-metadata.dat",
+          "size_bytes": 12050376
+        },
+        {
+          "path": "assets/bin/Data/boot.config",
+          "size_bytes": 214
+        },
+        {
+          "path": "assets/bin/Data/globalgamemanagers",
+          "size_bytes": 320700
+        },
+        {
+          "path": "assets/bin/Data/globalgamemanagers.assets.split0",
+          "size_bytes": 1048576
+        },
+        {
+          "path": "assets/bin/Data/globalgamemanagers.assets.split1",
+          "size_bytes": 1048576
+        },
+        {
+          "path": "assets/bin/Data/globalgamemanagers.assets.split2",
+          "size_bytes": 42460
+        }
+      ]
+    },
+    {
+      "path": "config.arm64_v8a.apk",
+      "size_bytes": 33999510,
+      "entry_count": 34,
+      "relevant_entries": [
+        {
+          "path": "lib/arm64-v8a/libil2cpp.so",
+          "size_bytes": 82237120
+        },
+        {
+          "path": "lib/arm64-v8a/libunity.so",
+          "size_bytes": 18528928
+        }
+      ]
+    }
+  ],
+  "xapk_manifest": {
+    "xapk_version": 2,
+    "package_name": "gridplus.busjam.carpuzzle",
+    "name": "Bus Fever Party!",
+    "locales_name": {
+      "af": "Bus Fever Party!",
+      "am": "Bus Fever Party!",
+      "ar": "Bus Fever Party!",
+      "as": "Bus Fever Party!",
+      "az": "Bus Fever Party!",
+      "be": "Bus Fever Party!",
+      "bg": "Bus Fever Party!",
+      "bn": "Bus Fever Party!",
+      "bs": "Bus Fever Party!",
+      "ca": "Bus Fever Party!",
+      "cs": "Bus Fever Party!",
+      "da": "Bus Fever Party!",
+      "de": "Bus Fever Party!",
+      "de-DE": "Bus Fever Party!",
+      "el": "Bus Fever Party!",
+      "en": "Bus Fever Party!",
+      "en-AU": "Bus Fever Party!",
+      "en-CA": "Bus Fever Party!",
+      "en-GB": "Bus Fever Party!",
+      "en-IN": "Bus Fever Party!",
+      "en-XC": "Bus Fever Party!",
+      "es": "Bus Fever Party!",
+      "es-419": "Bus Fever Party!",
+      "es-ES": "Bus Fever Party!",
+      "es-US": "Bus Fever Party!",
+      "et": "Bus Fever Party!",
+      "eu": "Bus Fever Party!",
+      "fa": "Bus Fever Party!",
+      "fi": "Bus Fever Party!",
+      "fr": "Bus Fever Party!",
+      "fr-CA": "Bus Fever Party!",
+      "gl": "Bus Fever Party!",
+      "gu": "Bus Fever Party!",
+      "hi": "Bus Fever Party!",
+      "hr": "Bus Fever Party!",
+      "hu": "Bus Fever Party!",
+      "hy": "Bus Fever Party!",
+      "id": "Bus Fever Party!",
+      "in": "Bus Fever Party!",
+      "is": "Bus Fever Party!",
+      "it": "Bus Fever Party!",
+      "iw": "Bus Fever Party!",
+      "ja": "Bus Fever Party!",
+      "ja-JP": "Bus Fever Party!",
+      "ka": "Bus Fever Party!",
+      "kk": "Bus Fever Party!",
+      "km": "Bus Fever Party!",
+      "kn": "Bus Fever Party!",
+      "ko": "Bus Fever Party!",
+      "ky": "Bus Fever Party!",
+      "lo": "Bus Fever Party!",
+      "lt": "Bus Fever Party!",
+      "lv": "Bus Fever Party!",
+      "mk": "Bus Fever Party!",
+      "ml": "Bus Fever Party!",
+      "mn": "Bus Fever Party!",
+      "mr": "Bus Fever Party!",
+      "ms": "Bus Fever Party!",
+      "my": "Bus Fever Party!",
+      "nb": "Bus Fever Party!",
+      "ne": "Bus Fever Party!",
+      "nl": "Bus Fever Party!",
+      "or": "Bus Fever Party!",
+      "pa": "Bus Fever Party!",
+      "pl": "Bus Fever Party!",
+      "pt": "Bus Fever Party!",
+      "pt-BR": "Bus Fever Party!",
+      "pt-PT": "Bus Fever Party!",
+      "ro": "Bus Fever Party!",
+      "ru": "Bus Fever Party!",
+      "si": "Bus Fever Party!",
+      "sk": "Bus Fever Party!",
+      "sl": "Bus Fever Party!",
+      "sq": "Bus Fever Party!",
+      "sr": "Bus Fever Party!",
+      "sr-Latn": "Bus Fever Party!",
+      "sv": "Bus Fever Party!",
+      "sw": "Bus Fever Party!",
+      "ta": "Bus Fever Party!",
+      "te": "Bus Fever Party!",
+      "th": "Bus Fever Party!",
+      "tl": "Bus Fever Party!",
+      "tr": "Bus Fever Party!",
+      "tw": "Bus Fever Party!",
+      "uk": "Bus Fever Party!",
+      "ur": "Bus Fever Party!",
+      "uz": "Bus Fever Party!",
+      "vi": "Bus Fever Party!",
+      "zh": "Bus Fever Party!",
+      "zh-CN": "Bus Fever Party!",
+      "zh-HK": "Bus Fever Party!",
+      "zh-MO": "Bus Fever Party!",
+      "zh-TW": "Bus Fever Party!",
+      "zu": "Bus Fever Party!"
+    },
+    "version_code": "65",
+    "version_name": "1.3.2",
+    "min_sdk_version": "26",
+    "target_sdk_version": "36",
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.VIBRATE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "com.google.android.gms.permission.AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+      "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_WIFI_STATE",
+      "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+      "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+      "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+      "android.permission.POST_NOTIFICATIONS",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "com.android.vending.BILLING",
+      "gridplus.busjam.carpuzzle.permission.C2D_MESSAGE",
+      "android.permission.FOREGROUND_SERVICE",
+      "gridplus.busjam.carpuzzle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "com.android.vending.CHECK_LICENSE"
+    ],
+    "split_configs": [
+      "config.arm64_v8a"
+    ],
+    "total_size": 243089069,
+    "icon": "icon.png",
+    "split_apks": [
+      {
+        "file": "gridplus.busjam.carpuzzle.apk",
+        "id": "base"
+      },
+      {
+        "file": "config.arm64_v8a.apk",
+        "id": "config.arm64_v8a"
+      }
+    ]
+  }
+}

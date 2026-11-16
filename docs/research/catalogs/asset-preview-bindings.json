@@ -1,0 +1,158 @@
+[
+  {
+    "panel": "PausePanel",
+    "hierarchy": "PausePanel/SafeArea/All_Anim/Board_Bg",
+    "sprite": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 3829166763255880048,
+      "type": "Sprite",
+      "name": "Main_Prop_Bg",
+      "resolved": true
+    },
+    "path": "media/asset-previews/PausePanel-Main_Prop_Bg__3829166763255880048.png",
+    "sha256": "6ef47f57bc8696c49d2dc5fde20c5d506b2c526bff56ab081b888dc33d88f39a"
+  },
+  {
+    "panel": "PausePanel",
+    "hierarchy": "PausePanel/SafeArea/All_Anim/Board_Bg/Bg_Img_1",
+    "sprite": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -1424733722048768482,
+      "type": "Sprite",
+      "name": "Main_Setting_NewBg3",
+      "resolved": true
+    },
+    "path": "media/asset-previews/PausePanel-Main_Setting_NewBg3__-1424733722048768482.png",
+    "sha256": "7802e81e1af5b468d897d556046a78b0a8c32086df46aa8f546e636687c1a7c1"
+  },
+  {
+    "panel": "PausePanel",
+    "hierarchy": "PausePanel/SafeArea/All_Anim/Board_Bg/Bg_Img",
+    "sprite": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 2411468819089031296,
+      "type": "Sprite",
+      "name": "Main_Setting_NewBg2",
+      "resolved": true
+    },
+    "path": "media/asset-previews/PausePanel-Main_Setting_NewBg2__2411468819089031296.png",
+    "sha256": "9e1ebd32d49e677d238cfcf9dd944a5081fe8c5498357d07545eeea30d303b40"
+  },
+  {
+    "panel": "VictoryPanel",
+    "hierarchy": "VictoryPanel/All_Empty/Title_Img",
+    "sprite": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -987349137527174068,
+      "type": "Sprite",
+      "name": "Main_Victory_Title",
+      "resolved": true
+    },
+    "path": "media/asset-previews/VictoryPanel-Main_Victory_Title__-987349137527174068.png",
+    "sha256": "ec15bef0c2704a20a2377a48311d37c3dabea759dee6fb72667337845e71e825"
+  },
+  {
+    "panel": "VictoryPanel",
+    "hierarchy": "VictoryPanel/All_Empty/Title_Img/Title_Mask",
+    "sprite": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8031761115233838116,
+      "type": "Sprite",
+      "name": "Main_Victory_TitleMask",
+      "resolved": true
+    },
+    "path": "media/asset-previews/VictoryPanel-Main_Victory_TitleMask__-8031761115233838116.png",
+    "sha256": "786d24c5c6e86f831217708f6f394560c1f07da3eef9a18ddef53c998a71d339"
+  },
+  {
+    "panel": "VictoryPanel",
+    "hierarchy": "VictoryPanel/All_Empty/Title_Img/Title_Mask/Glow",
+    "sprite": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -871262021355916264,
+      "type": "Sprite",
+      "name": "SoftMask_01",
+      "resolved": true
+    },
+    "path": "media/asset-previews/VictoryPanel-SoftMask_01__-871262021355916264.png",
+    "sha256": "f3ac51834c958e077d754cf15854d70e96f23dabf9c7cf9760c770ce9ef32769"
+  },
+  {
+    "panel": "ShopPanel",
+    "hierarchy": "ShopPanel/SafeArea/All_Empty/Scroll View",
+    "sprite": {
+      "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+      "path_id": -6932470282978226757,
+      "type": "Sprite",
+      "name": "Background",
+      "resolved": true
+    },
+    "path": "media/asset-previews/ShopPanel-Background__-6932470282978226757.png",
+    "sha256": "46e2a8c6759bf24681f9f3f6073973ca65ac95e8d1ed8b8e025137819857fb2d"
+  },
+  {
+    "panel": "ShopPanel",
+    "hierarchy": "ShopPanel/SafeArea/All_Empty/Scroll View/Viewport",
+    "sprite": {
+      "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+      "path_id": -2320101112833093935,
+      "type": "Sprite",
+      "name": "UIMask",
+      "resolved": true
+    },
+    "path": "media/asset-previews/ShopPanel-UIMask__-2320101112833093935.png",
+    "sha256": "f4a5d66db3e62d0c8638692e7859cf3b8dc4974740161f1145335870b48260f3"
+  },
+  {
+    "panel": "ShopPanel",
+    "hierarchy": "ShopPanel/SafeArea/All_Empty/Top_Empty/TopBg_Img",
+    "sprite": {
+      "collection": "cab-bf857883ab59c9e8e0c5bc3e9e761e33",
+      "path_id": -7310952763354339512,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Top_Bg",
+      "resolved": true
+    },
+    "path": "media/asset-previews/ShopPanel-Main_ShopPanel_Top_Bg__-7310952763354339512.png",
+    "sha256": "19eb251d4ccf411b8b29de184660800cec389a1e2e1365221d170c280ee7be52"
+  },
+  {
+    "panel": "UserProfilePanel",
+    "hierarchy": "UserProfilePanel/SafeArea/All_Anim/Bg_Img",
+    "sprite": {
+      "collection": "cab-44a55b1c3a7feb388c347896661f5cfb",
+      "path_id": 3829166763255880048,
+      "type": "Sprite",
+      "name": "Main_Prop_Bg",
+      "resolved": true
+    },
+    "path": "media/asset-previews/UserProfilePanel-Main_Prop_Bg__3829166763255880048.png",
+    "sha256": "6ef47f57bc8696c49d2dc5fde20c5d506b2c526bff56ab081b888dc33d88f39a"
+  },
+  {
+    "panel": "UserProfilePanel",
+    "hierarchy": "UserProfilePanel/SafeArea/All_Anim/Btn_Close/Close_Btn",
+    "sprite": {
+      "collection": "cab-44a55b1c3a7feb388c347896661f5cfb",
+      "path_id": 8144542434295774639,
+      "type": "Sprite",
+      "name": "Main_Prop_Close",
+      "resolved": true
+    },
+    "path": "media/asset-previews/UserProfilePanel-Main_Prop_Close__8144542434295774639.png",
+    "sha256": "e70058b7a2f52104d0bfda6546de2f74c9b329b604ac0aa83cc4474285b9d587"
+  },
+  {
+    "panel": "UserProfilePanel",
+    "hierarchy": "UserProfilePanel/SafeArea/All_Anim/Top_Empty/UsingAvatar_Empty/AvatarFrame_Img",
+    "sprite": {
+      "collection": "cab-44a55b1c3a7feb388c347896661f5cfb",
+      "path_id": -8157773232708776471,
+      "type": "Sprite",
+      "name": "Main_NameEditPanel_AvatarFrame",
+      "resolved": true
+    },
+    "path": "media/asset-previews/UserProfilePanel-Main_NameEditPanel_AvatarFrame__-8157773232708776471.png",
+    "sha256": "2bf13cc6c8bcf013a6f130a3ec521c406634844360cce0f9dc745e2ad33e6f7f"
+  }
+]
