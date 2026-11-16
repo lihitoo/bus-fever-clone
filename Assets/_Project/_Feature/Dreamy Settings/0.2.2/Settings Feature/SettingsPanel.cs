@@ -22,6 +22,15 @@ namespace Dreamy.Feature.Settings.Integration
         [SerializeField] private TMP_Text languageError;
         [SerializeField] private TMP_Text languageLabel;
         [SerializeField] private SettingsLanguageIcons languageIcons;
+        [SerializeField] private Button contactButton;
+        [SerializeField] private Button termsButton;
+        [SerializeField] private Button privacyButton;
+        [SerializeField] private TMP_Text operationStatus;
+        [SerializeField] private Button restartButton;
+        public event Action RestartRequested;
+        private bool canRestorePurchases;
+        public event Action<SettingsExternalAction> ExternalActionRequested;
+        public void RenderOperationStatus(string message) { if (operationStatus != null) operationStatus.text = message; }
         private readonly List<string> languageCodes = new();
         public event Action<string> LanguageRequested;
         public void RenderLanguage(SettingsLanguageState state)
@@ -76,10 +85,15 @@ namespace Dreamy.Feature.Settings.Integration
             musicToggle.onValueChanged.AddListener(RequestMusicToggle);
             sfxToggle.onValueChanged.AddListener(RequestSfxToggle);
             if (hapticsToggle != null) hapticsToggle.onValueChanged.AddListener(RequestHapticsToggle);
-            gdprButton.onClick.AddListener(RequestGdpr);
-            restorePurchasesButton.onClick.AddListener(RequestRestorePurchases);
-            openRateUsButton.onClick.AddListener(RequestOpenRateUs);
+            gdprButton?.onClick.AddListener(RequestGdpr);
+            restorePurchasesButton?.onClick.AddListener(RequestRestorePurchases);
+            openRateUsButton?.onClick.AddListener(RequestOpenRateUs);
             closeButton.onClick.AddListener(RequestClose);
+            contactButton?.onClick.AddListener(RequestContact);
+            termsButton?.onClick.AddListener(RequestTerms);
+            privacyButton?.onClick.AddListener(RequestPrivacy);
+            restartButton?.onClick.AddListener(RequestRestart);
+            if (operationStatus != null) operationStatus.text = "";
         }
 
         protected override void OnDisable()
@@ -88,10 +102,14 @@ namespace Dreamy.Feature.Settings.Integration
             musicToggle.onValueChanged.RemoveListener(RequestMusicToggle);
             sfxToggle.onValueChanged.RemoveListener(RequestSfxToggle);
             if (hapticsToggle != null) hapticsToggle.onValueChanged.RemoveListener(RequestHapticsToggle);
-            gdprButton.onClick.RemoveListener(RequestGdpr);
-            restorePurchasesButton.onClick.RemoveListener(RequestRestorePurchases);
-            openRateUsButton.onClick.RemoveListener(RequestOpenRateUs);
+            gdprButton?.onClick.RemoveListener(RequestGdpr);
+            restorePurchasesButton?.onClick.RemoveListener(RequestRestorePurchases);
+            openRateUsButton?.onClick.RemoveListener(RequestOpenRateUs);
             closeButton.onClick.RemoveListener(RequestClose);
+            contactButton?.onClick.RemoveListener(RequestContact);
+            termsButton?.onClick.RemoveListener(RequestTerms);
+            privacyButton?.onClick.RemoveListener(RequestPrivacy);
+            restartButton?.onClick.RemoveListener(RequestRestart);
             base.OnDisable();
         }
 
@@ -104,15 +122,17 @@ namespace Dreamy.Feature.Settings.Integration
                 hapticsToggle.SetIsOnWithoutNotify(state.HapticsEnabled);
                 hapticsToggle.interactable = state.CanSetHaptics;
             }
-            gdprButton.gameObject.SetActive(state.CanShowGdprConsent);
-            restorePurchasesButton.gameObject.SetActive(state.CanRestorePurchases);
-            openRateUsButton.gameObject.SetActive(state.CanRequestReview);
+            if (gdprButton != null) gdprButton.gameObject.SetActive(state.CanShowGdprConsent);
+            canRestorePurchases = state.CanRestorePurchases;
+            if (restorePurchasesButton != null) restorePurchasesButton.gameObject.SetActive(true);
+            if (openRateUsButton != null) openRateUsButton.gameObject.SetActive(state.CanRequestReview);
+            foreach (var visual in GetComponentsInChildren<SettingsToggleVisual>(true)) visual.Refresh();
         }
 
         public void SetPlatformActionsInteractable(bool interactable)
         {
-            gdprButton.interactable = interactable;
-            restorePurchasesButton.interactable = interactable;
+            if (gdprButton != null) gdprButton.interactable = interactable;
+            if (restorePurchasesButton != null) restorePurchasesButton.interactable = interactable;
         }
 
         public void Close() => Hide().Forget();
@@ -121,7 +141,15 @@ namespace Dreamy.Feature.Settings.Integration
         private void RequestSfxToggle(bool isOn) => SfxVolumeChanged?.Invoke(isOn ? 1f : 0f);
         private void RequestHapticsToggle(bool isOn) => HapticsEnabledChanged?.Invoke(isOn);
         private void RequestGdpr() => GdprRequested?.Invoke();
-        private void RequestRestorePurchases() => RestorePurchasesRequested?.Invoke();
+        private void RequestRestorePurchases()
+        {
+            if (canRestorePurchases) RestorePurchasesRequested?.Invoke();
+            else ExternalActionRequested?.Invoke(SettingsExternalAction.Restore);
+        }
+        private void RequestContact() => ExternalActionRequested?.Invoke(SettingsExternalAction.Contact);
+        private void RequestTerms() => ExternalActionRequested?.Invoke(SettingsExternalAction.Terms);
+        private void RequestPrivacy() => ExternalActionRequested?.Invoke(SettingsExternalAction.Privacy);
+        private void RequestRestart() => RestartRequested?.Invoke();
         private void RequestOpenRateUs() => OpenRateUsRequested?.Invoke();
         private void RequestClose() => CloseRequested?.Invoke();
     }

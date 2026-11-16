@@ -1,0 +1,304 @@
+[
+  {
+    "name": "com.dreamy.feature.progression",
+    "commit": "5a76a7c887ca4a635ab27ee43ea5ba4c105fbff7",
+    "package": {
+      "name": "com.dreamy.feature.progression",
+      "version": "0.2.1",
+      "displayName": "Dreamy Progression",
+      "description": "Reusable sequential-level and experience-based progression with persistent idempotent advancement and optional economy rewards.",
+      "unity": "6000.0",
+      "type": "library",
+      "license": "UNLICENSED",
+      "author": {
+        "name": "Dreamy Game Studio"
+      },
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.dataconfig": "0.2.0",
+        "com.dreamy.datasave": "0.2.0",
+        "com.dreamy.feature.economy": "0.5.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.dreamy.ui": "0.2.0",
+        "com.cysharp.unitask": "2.5.10"
+      },
+      "keywords": [
+        "progression",
+        "level",
+        "experience",
+        "economy",
+        "dreamy"
+      ],
+      "testables": [
+        "Tests"
+      ],
+      "samples": [
+        {
+          "displayName": "Basic Progression",
+          "description": "Interactive progression demo panel, HUD and JSON catalog for sequential or experience progression.",
+          "path": "Samples~/Basic Progression"
+        },
+        {
+          "displayName": "Progression Rewards",
+          "description": "Persistent multi-reward milestones, per-entry status, fault injection, retry and restart recovery. Host-owned inventory destinations.",
+          "path": "Samples~/Progression Rewards"
+        }
+      ]
+    },
+    "source": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.progression/tree/5a76a7c887ca4a635ab27ee43ea5ba4c105fbff7",
+    "readme": "# Dreamy Progression\n\nPackage thu\u1ed9c Dreamy Game Studio. H\u01b0\u1edbng d\u1eabn d\u01b0\u1edbi \u0111\u00e2y m\u00f4 t\u1ea3 c\u1ea5u tr\u00fac, c\u00e1ch c\u00e0i v\u00e0o project v\u00e0 t\u00edch h\u1ee3p \u1edf root/scene.\n\n## C\u00e0i package\n\nD\u00f9ng Unity 6000.0 tr\u1edf l\u00ean. Sandbox \u0111\u00e3 tham chi\u1ebfu package b\u1eb1ng `file:../LocalPackages/com.dreamy.feature.progression`. Project kh\u00e1c d\u00f9ng Package Manager > + > Install package from disk v\u00e0 ch\u1ecdn package.json, ho\u1eb7c Git URL c\u1ee7a repository n\u1ed9i b\u1ed9. C\u00e0i c\u1ea3 dependency Dreamy/Git v\u00e0o manifest c\u1ee7a game; version dependency kh\u00f4ng t\u1ef1 c\u1ea5u h\u00ecnh registry ri\u00eang.\n\nDependency tr\u1ef1c ti\u1ebfp theo package.json:\n\n- `com.dreamy.core` (1.1.2)\n- `com.dreamy.dataconfig` (0.2.0)\n- `com.dreamy.datasave` (0.2.0)\n- `com.dreamy.feature.economy` (0.5.0)\n- `com.unity.nuget.newtonsoft-json` (3.2.1)\n- `com.dreamy.ui` (0.2.0)\n- `com.cysharp.unitask` (2.5.10)\n\n## C\u1ea5u tr\u00fac v\u00e0 asmdef\n\n| Assembly | Reference | Ph\u1ea1m vi |\n| --- | --- | --- |\n| `Dreamy.Progression.Runtime` | Dreamy.Core.Runtime, Dreamy.DataConfig.Runtime, Dreamy.Datasave.Runtime, Dreamy.Economy.Runtime, Unity.Newtonsoft.Json | Runtime |\n\nTrong asmdef c\u1ee7a game, th\u00eam assembly ch\u1ee9a API tr\u1ef1c ti\u1ebfp s\u1eed d\u1ee5ng. Code bootstrap reference th\u00eam Core/DataConfig/Datasave/Economy theo nhu c\u1ea7u; code async reference UniTask. Code g\u1ecdi type sample reference assembly sample. Gi\u1eef Editor reference trong asmdef Editor-only.\n\n## C\u1ea5u tr\u00fac v\u00e0 tr\u00e1ch nhi\u1ec7m\n\nRuntime/Config ch\u1ee9a catalog; Contracts ch\u1ee9a service/view v\u00e0 adapter; Domain ch\u1ee9a quy t\u1eafc v\u00e0 state; Installation ch\u1ee9a installer; Persistence x\u1eed l\u00fd ti\u1ebfn tr\u00ecnh l\u01b0u. Presentation (n\u1ebfu c\u00f3) n\u1ed1i service v\u1edbi view. Samples~ l\u00e0 integration \u0111\u01b0\u1ee3c import v\u00e0o Assets; game s\u1edf h\u1eefu UI, gameplay, localization v\u00e0 adapter SDK.\n\n## C\u00e0i service \u1edf GameInstaller\n\nD\u00f9ng m\u1ed9t DataConfig v\u00e0 Datasave d\u00f9ng chung. Gh\u00e9p \u0111o\u1ea1n d\u01b0\u1edbi v\u00e0o root async; kh\u00f4ng t\u1ea1o l\u1ea1i c\u00e1c service trong panel. C\u00e0i v\u00e0 \u0111\u0103ng k\u00fd IResourceWallet d\u00f9ng chung tr\u01b0\u1edbc feature; wallet gi\u1eef transaction ID \u1ed5n \u0111\u1ecbnh.\n\n```csharp\nusing Dreamy.Core;\nusing Dreamy.DataConfig;\nusing Dreamy.Progression;\n\n// dataConfig: instance root \u0111\u00e3 t\u1ea1o, ch\u01b0a initialize.\nProgressionInstaller.RegisterConfig(dataConfig);\nawait dataConfig.InitializeAsync(cancellationToken);\nServiceLocator.Register<IDataConfigService>(dataConfig);\n// IDatasaveService v\u00e0 wallet (n\u1ebfu c\u1ea7n) \u0111\u00e3 \u0111\u0103ng k\u00fd tr\u01b0\u1edbc \u0111\u00e2y.\nIProgressionService service = ProgressionInstaller.Install();\n```\n\nV\u1edbi nhi\u1ec1u feature, g\u1ecdi t\u1ea5t c\u1ea3 RegisterConfig tr\u01b0\u1edbc m\u1ed9t InitializeAsync, r\u1ed3i m\u1edbi g\u1ecdi Install cho t\u1eebng feature. JSON c\u1ea7n c\u00f3 \u0111\u00fang m\u1ed9t Resources/DataConfig/progressionCatalog.json. Root unregister IProgressionSer"
+  },
+  {
+    "name": "com.dreamy.feature.daily-reward",
+    "commit": "db539e91ffa1705f6c6adb87414797885b3ceaef",
+    "package": {
+      "name": "com.dreamy.feature.daily-reward",
+      "version": "0.3.0",
+      "displayName": "Dreamy Daily Reward",
+      "description": "Reusable, MVP-based daily reward feature with JSON configuration and host-owned UI and reward delivery.",
+      "unity": "6000.0",
+      "type": "library",
+      "license": "UNLICENSED",
+      "author": {
+        "name": "Dreamy Game Studio"
+      },
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.dataconfig": "0.2.0",
+        "com.dreamy.datasave": "0.2.0",
+        "com.dreamy.audio": "0.1.0",
+        "com.dreamy.feature.economy": "0.7.0",
+        "com.dreamy.feature": "0.2.0",
+        "com.dreamy.ui": "0.2.0",
+        "com.cysharp.unitask": "2.5.10",
+        "com.dreamy.feedback": "0.4.0"
+      },
+      "keywords": [
+        "daily-reward",
+        "mvp",
+        "config",
+        "dreamy"
+      ],
+      "testables": [
+        "Tests"
+      ],
+      "samples": [
+        {
+          "displayName": "Daily Reward Feature",
+          "description": "Currency-only host integration: UIPanel, bundle-aware reward item, presenter installer, audio feedback, legacy demo wallet, and JSON configuration.",
+          "path": "Samples~/Daily Reward Feature"
+        },
+        {
+          "displayName": "Daily Reward Bundle",
+          "description": "Optional mixed currency/fake-item owner and bundle JSON; uses the Daily Reward Feature UI.",
+          "path": "Samples~/Daily Reward Bundle"
+        }
+      ]
+    },
+    "source": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.daily-reward/tree/db539e91ffa1705f6c6adb87414797885b3ceaef",
+    "readme": "# Dreamy Daily Reward\n\nPackage qu\u1ea3n l\u00fd l\u1ecbch th\u01b0\u1edfng v\u00e0 ti\u1ebfn tr\u00ecnh nh\u1eadn \u0111\u00e3 l\u01b0u theo m\u00f4 h\u00ecnh MVP. Game s\u1edf\nh\u1eefu UI, giao d\u1ecbch economy, audio, h\u00ecnh \u1ea3nh v\u00e0 b\u1ea3n \u0111\u1ecba ho\u00e1.\n\n## C\u00e0i \u0111\u1eb7t\n\nC\u00e0i package c\u00f9ng dependency trong package.json. \u0110\u0103ng k\u00fd l\u1ecbch tr\u01b0\u1edbc khi g\u1ecdi\nIDataConfigService.InitializeAsync:\n\n```csharp\nDailyRewardInstaller.RegisterConfig(dataConfig);\n```\n\nSau khi config/save s\u1eb5n s\u00e0ng, \u0111\u0103ng k\u00fd wallet c\u1ee7a game d\u01b0\u1edbi IResourceWallet,\ntu\u1ef3 ch\u1ecdn \u0111\u0103ng k\u00fd IRewardClock, r\u1ed3i c\u00e0i service:\n\n```csharp\nDailyRewardInstaller.Install();\n```\n\n\u0110\u00e2y l\u00e0 \u0111\u01b0\u1eddng legacy. Wallet c\u1ea7n x\u1eed l\u00fd TransactionId \u0111\u00e3 nh\u1eadn m\u00e0 kh\u00f4ng c\u1ea5p l\u1ea1i.\nIdentity c\u0169 gi\u1eef d\u1ea1ng scheduleId:cycle:entryId. N\u1ebfu grant \u0111\u00e3 th\u00e0nh c\u00f4ng nh\u01b0ng save\nclaim l\u1ed7i, Daily gi\u1eef nguy\u00ean state \u0111\u00e3 load nh\u01b0ng wallet c\u00f3 th\u1ec3 \u0111\u00e3 c\u1ea5p th\u01b0\u1edfng.\nKh\u00f4ng c\u00f3 b\u1ea3o \u0111\u1ea3m recovery h\u1ed3i t\u1ed1 cho grant ch\u01b0a \u0111\u01b0\u1ee3c ghi nh\u1eadn qua midnight;\nkh\u00f4ng bi\u1ebfn bool wallet b\u1ea5t k\u1ef3 th\u00e0nh strict gateway.\n\n## Nh\u1eadn bundle c\u00f3 recovery\n\nD\u00f9ng DailyRewardModel(schedule, save, gateway, clock, saveKey) ho\u1eb7c overload gateway\nc\u1ee7a DailyRewardInstaller.Install. Game cung c\u1ea5p IRewardDestination qua\nRewardDeliveryGateway; m\u1ed7i owner ph\u1ea3i l\u01b0u effect v\u00e0 receipt fingerprint trong c\u00f9ng\nsave document. C\u00e0i \u0111\u00fang phi\u00ean b\u1ea3n Economy c\u00f3 c\u00e1c API Rewards theo dependency hi\u1ec7n t\u1ea1i.\n\nM\u1ed7i entry khai b\u00e1o resourceId/amount ho\u1eb7c bundle, kh\u00f4ng khai b\u00e1o \u0111\u1ed3ng th\u1eddi:\n\n```json\n{\n  \"scheduleId\": \"daily-seven\",\n  \"revision\": \"1\",\n  \"cycleMode\": \"Repeat\",\n  \"resetProgressAfterMissedDay\": true,\n  \"rewards\": [{\n    \"id\": \"day-1\",\n    \"day\": 1,\n    \"bundle\": {\n      \"schemaVersion\": 1,\n      \"resolverVersion\": \"fixed-v1\",\n      \"entries\": [\n        { \"entryId\": \"coins\", \"kindId\": \"currency\", \"targetId\": \"currency.coin\", \"amount\": 100 },\n        { \"entryId\": \"card\", \"kindId\": \"item\", \"targetId\": \"item.demo-card\", \"amount\": 1 }\n      ]\n    }\n  }]\n}\n```\n\nBundle ch\u1ee9a reward c\u1ee5 th\u1ec3 \u0111\u00e3 resolve. Gateway ki\u1ec3m kind/target tr\u01b0\u1edbc delivery.\nRequest ID d\u00f9ng encoding length-prefixed c\u1ee7a Economy: save key, daily, schedule ID,\ncycle v\u00e0 entry ID. Revision ho\u1eb7c ng\u00e0y UTC kh\u00f4ng t\u1ea1o identity m\u1edbi \u0111\u1ec3 c\u1ea5p l\u1ea1i reward.\n\nSave v2 ch\u1ee9a active schedule, ng\u00e0y/k\u1ef3/revision g\u1ed1c c\u1ee7a pending claim, transition\nk\u1ebf ti\u1ebfp, payload c\u1ed1 \u0111\u1ecbnh v\u00e0 journal trong c\u00f9ng Daily document. Callback persistence\nl\u01b0u detached candidate; ti\u1ebfn tr\u00ecnh cu\u1ed1i v\u00e0 journal Completed \u0111\u01b0\u1ee3c commit c\u00f9ng nhau.\nClaim ph\u1ee5c h\u1ed3i pending tr\u01b0\u1edbc khi x\u00e9t ng\u00e0y/config m\u1edbi; qua midnight v\u1eabn ho\u00e0n t\u1ea5t\nclaim v\u1edbi ng\u00e0y g\u1ed1c. K\u1ebft qu\u1ea3 c\u00f3 Pending, Reason/Retryable ho\u1eb7c Busy khi g\u1ecdi l\u1ed3ng.\nHasPendingClaim cho bi\u1ebft c\u00f2n vi\u1ec7c c"
+  },
+  {
+    "name": "com.dreamy.feature.missions",
+    "commit": "2474d139cd2c9ca3d1667296be1cd30d579fb7bd",
+    "package": {
+      "name": "com.dreamy.feature.missions",
+      "version": "0.3.1",
+      "displayName": "Dreamy Missions",
+      "description": "Persistent one-time counter missions with explicit progress events and claimable economy rewards.",
+      "unity": "6000.0",
+      "license": "UNLICENSED",
+      "author": {
+        "name": "Dreamy Game Studio"
+      },
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.feature": "0.2.0",
+        "com.dreamy.dataconfig": "0.2.0",
+        "com.dreamy.datasave": "0.2.0",
+        "com.dreamy.feature.economy": "0.7.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.cysharp.unitask": "2.5.10"
+      },
+      "samples": [
+        {
+          "displayName": "Mission Feature",
+          "description": "Permanent mission panel, item prefab and example catalog. Requires Dreamy UI.",
+          "path": "Samples~/Mission Feature"
+        },
+        {
+          "displayName": "Periodic Missions",
+          "description": "Opt-in daily selection/reroll catalog. Import the shared Mission Feature UI first.",
+          "path": "Samples~/Periodic Missions"
+        }
+      ]
+    },
+    "source": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.missions/tree/2474d139cd2c9ca3d1667296be1cd30d579fb7bd",
+    "readme": "# Dreamy Missions\n\n## Phi\u00ean b\u1ea3n 0.3.1\n\nHide the periodic-missions sample rebuild menu; keep the supplied sample assets and validation entry points. Runtime/save contracts are unchanged.\n\nB\u1ea3n chu\u1ea9n b\u1ecb ph\u00e1t h\u00e0nh n\u1ed9i b\u1ed9 ng\u00e0y 2026-11-06; ch\u01b0a t\u1ea1o/push tag. Gi\u1eef nguy\u00ean c\u00e1c sample \u0111\u00e3 import v\u00e0 meta GUID; import m\u1edbi d\u00f9ng version 0.3.1. Xem [CHANGELOG](CHANGELOG.md).\n\nK\u1ef3 nhi\u1ec7m v\u1ee5, selection/reroll \u0111\u00e3 l\u01b0u, objective \u0111\u1ebfm gi\u00e1 tr\u1ecb kh\u00e1c nhau v\u00e0 claim\nreward c\u00f3 recovery \u0111\u01b0\u1ee3c m\u00f4 t\u1ea3 trong\n[t\u00e0i li\u1ec7u nhi\u1ec7m v\u1ee5 theo k\u1ef3](Documentation~/periodic-missions.md).\nM\u1eb7c \u0111\u1ecbnh v\u1eabn l\u00e0 Permanent d\u00f9ng to\u00e0n catalog v\u00e0 constructor wallet legacy.\n\nPackage thu\u1ed9c Dreamy Game Studio. H\u01b0\u1edbng d\u1eabn d\u01b0\u1edbi \u0111\u00e2y m\u00f4 t\u1ea3 c\u1ea5u tr\u00fac, c\u00e1ch c\u00e0i v\u00e0o project v\u00e0 t\u00edch h\u1ee3p \u1edf root/scene.\n\n## C\u00e0i package\n\nD\u00f9ng Unity 6000.0 tr\u1edf l\u00ean. Sandbox \u0111\u00e3 tham chi\u1ebfu package b\u1eb1ng `file:../LocalPackages/com.dreamy.feature.missions`. Project kh\u00e1c d\u00f9ng Package Manager > + > Install package from disk v\u00e0 ch\u1ecdn package.json, ho\u1eb7c Git URL c\u1ee7a repository n\u1ed9i b\u1ed9. C\u00e0i c\u1ea3 dependency Dreamy/Git v\u00e0o manifest c\u1ee7a game; version dependency kh\u00f4ng t\u1ef1 c\u1ea5u h\u00ecnh registry ri\u00eang.\n\nDependency tr\u1ef1c ti\u1ebfp theo package.json:\n\n- `com.dreamy.core` (1.1.2)\n- `com.dreamy.feature` (0.2.0)\n- `com.dreamy.dataconfig` (0.2.0)\n- `com.dreamy.datasave` (0.2.0)\n- `com.dreamy.feature.economy` (0.3.0)\n- `com.unity.nuget.newtonsoft-json` (3.2.1)\n\n## C\u1ea5u tr\u00fac v\u00e0 asmdef\n\n| Assembly | Reference | Ph\u1ea1m vi |\n| --- | --- | --- |\n| `Dreamy.Missions.Runtime` | Dreamy.Core.Runtime, Dreamy.DataConfig.Runtime, Dreamy.Datasave.Runtime, Dreamy.Economy.Runtime | Runtime |\n\nTrong asmdef c\u1ee7a game, th\u00eam assembly ch\u1ee9a API tr\u1ef1c ti\u1ebfp s\u1eed d\u1ee5ng. Code bootstrap reference th\u00eam Core/DataConfig/Datasave/Economy theo nhu c\u1ea7u; code async reference UniTask. Code g\u1ecdi type sample reference assembly sample. Gi\u1eef Editor reference trong asmdef Editor-only.\n\n## C\u1ea5u tr\u00fac v\u00e0 tr\u00e1ch nhi\u1ec7m\n\nRuntime/Config ch\u1ee9a catalog; Contracts ch\u1ee9a service/view v\u00e0 adapter; Domain ch\u1ee9a quy t\u1eafc v\u00e0 state; Installation ch\u1ee9a installer; Persistence x\u1eed l\u00fd ti\u1ebfn tr\u00ecnh l\u01b0u. Presentation (n\u1ebfu c\u00f3) n\u1ed1i service v\u1edbi view. Samples~ l\u00e0 integration \u0111\u01b0\u1ee3c import v\u00e0o Assets; game s\u1edf h\u1eefu UI, gameplay, localization v\u00e0 adapter SDK.\n\n## C\u00e0i service \u1edf GameInstaller\n\nD\u00f9ng m\u1ed9t DataConfig v\u00e0 Datasave d\u00f9ng chung. Gh\u00e9p \u0111o\u1ea1n d\u01b0\u1edbi v\u00e0o root async; kh\u00f4ng t\u1ea1o l\u1ea1i c\u00e1c service trong panel. C\u00e0i v\u00e0 \u0111\u0103ng k\u00fd IResourceWallet d\u00f9ng chung tr\u01b0\u1edbc feature; wallet gi\u1eef transaction ID \u1ed5n \u0111\u1ecbnh.\n\n```csharp\nusing Dreamy.Core;\nusing Dreamy.DataConfig;\nusing Dreamy.Missions;\n\n// dataConfig:"
+  },
+  {
+    "name": "com.dreamy.feature.tutorial",
+    "commit": "dbf1f6ef6f0ced68d5ee4f73740662c466c7d331",
+    "package": {
+      "name": "com.dreamy.feature.tutorial",
+      "version": "0.3.0",
+      "displayName": "Dreamy Tutorial",
+      "description": "Checkpointed cross-genre tutorials with model-owned save retry, scoped input, conditions, diagnostics and custom UI/world adapters.",
+      "unity": "6000.0",
+      "license": "UNLICENSED",
+      "author": {
+        "name": "Dreamy Game Studio"
+      },
+      "dependencies": {
+        "com.dreamy.core": "1.2.0",
+        "com.dreamy.dataconfig": "1.0.1",
+        "com.dreamy.datasave": "1.0.1",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.dreamy.ui": "1.1.0",
+        "com.unity.modules.physics2d": "1.0.0"
+      },
+      "samples": [
+        {
+          "displayName": "Tutorial Feature",
+          "description": "UI and 3D tutorial demo with ready-made prefabs and scenes.",
+          "path": "Samples~/Tutorial Feature"
+        }
+      ]
+    },
+    "source": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.tutorial/tree/dbf1f6ef6f0ced68d5ee4f73740662c466c7d331",
+    "readme": "# Dreamy Tutorial\n\n## Phi\u00ean b\u1ea3n 0.3.0 \u2014 2026-11-16\n\nPending completion/retry thu\u1ed9c model v\u00e0 gi\u1eef \u0111\u01b0\u1ee3c qua presenter reopen/pause trong c\u00f9ng service lifetime. B\u1ed5 sung capability progress/events/diagnostics, signal/condition bridge, input scope lease, timeout theo step, catalog audit v\u00e0 Inspector ch\u1ec9 \u0111\u1ecdc. C\u00f3 b\u1ed1n m\u1eabu t\u00edch h\u1ee3p puzzle/action/idle/simulation d\u00f9ng chung runtime. Contract service/view hi\u1ec7n c\u00f3 v\u00e0 save schema version 1 \u0111\u01b0\u1ee3c gi\u1eef nguy\u00ean; xem [h\u01b0\u1edbng d\u1eabn m\u1edf r\u1ed9ng 0.3](Documentation~/extensibility-0.3.md) v\u00e0 [CHANGELOG](CHANGELOG.md).\n\nPending trong RAM kh\u00f4ng b\u1ea3o \u0111\u1ea3m s\u1ed1ng qua process kill; game s\u1edf h\u1eefu \u0111\u1ed1i so\u00e1t gameplay kh\u00f4ng th\u1ec3 l\u1eb7p l\u1ea1i. Sample m\u1edbi l\u00e0 v\u00ed d\u1ee5 t\u00edch h\u1ee3p c\u00f3 test, kh\u00f4ng ph\u1ea3i b\u1ed1n game ho\u00e0n ch\u1ec9nh. Import \u0111\u00fang m\u1ed9t b\u1ea3n sample khi n\u00e2ng c\u1ea5p, tr\u00e1nh tr\u00f9ng assembly v\u1edbi b\u1ea3n c\u0169 trong Assets/Samples.\n\n## B\u1eaft \u0111\u1ea7u nhanh\n\nD\u1ec5 nh\u1ea5t l\u00e0 b\u1eaft \u0111\u1ea7u b\u1eb1ng m\u1ed9t flow tuy\u1ebfn t\u00ednh, overlay c\u00f3 s\u1eb5n v\u00e0 ba completion mode:\n\n| Mode | C\u00e1ch ho\u00e0n th\u00e0nh | D\u00f9ng cho |\n| --- | --- | --- |\n| `Next` | Ng\u01b0\u1eddi ch\u01a1i b\u1ea5m Next tr\u00ean view | Gi\u1edbi thi\u1ec7u/h\u01b0\u1edbng d\u1eabn \u0111\u1ecdc |\n| `TargetClick` | B\u1ea5m target \u0111\u00e3 \u0111\u0103ng k\u00fd \u0111\u00fang ID | Button UI ho\u1eb7c object 2D/3D |\n| `HostSignal` | Game x\u00e1c nh\u1eadn h\u00e0nh \u0111\u1ed9ng th\u00e0nh c\u00f4ng | Upgrade, placement, hit, objective |\n\n### 1. T\u1ea1o catalog\n\nCatalog m\u1eb7c \u0111\u1ecbnh \u0111\u1eb7t t\u1ea1i `Resources/DataConfig/tutorialCatalog.json`. Kh\u00f4ng t\u1ea1o nhi\u1ec1u document c\u00f9ng key. V\u00ed d\u1ee5:\n\n```json\n{\n  \"catalogId\": \"game-tutorial\",\n  \"revision\": 1,\n  \"flows\": [{\n    \"id\": \"onboarding\",\n    \"allowSkip\": true,\n    \"steps\": [\n      { \"id\": \"intro\", \"messageKey\": \"tutorial.intro\", \"completionMode\": \"Next\" },\n      { \"id\": \"upgrade\", \"messageKey\": \"tutorial.upgrade\", \"completionMode\": \"HostSignal\", \"signalKey\": \"upgrade.confirmed\" }\n    ]\n  }]\n}\n```\n\n### 2. C\u00e0i v\u00e0 bind \u1edf composition root\n\nTrong script root, d\u00f9ng namespace `Dreamy.Tutorial`; c\u00e1c component Unity thu\u1ed9c `Dreamy.Tutorial.Integration`. Root \u0111\u00e3 s\u1edf h\u1eefu DataConfig/Datasave: g\u1ecdi `TutorialInstaller.RegisterConfig(dataConfig)` **tr\u01b0\u1edbc** l\u1ea7n `dataConfig.InitializeAsync(...)` d\u00f9ng chung. Sau khi config/save s\u1eb5n s\u00e0ng:\n\n```csharp\n// dataConfig, datasave, controller, overlay v\u00e0 registry do root/scene cung c\u1ea5p.\nITutorialService tutorial = TutorialInstaller.Install(\n    dataConfig.GetTable<TutorialCatalogConfig>(), datasave, \"tutorials\");\ncontroller.Initialize(tutorial, overlay, registry);\noverlay.ResolveMessage = localization.Resolve; // Resolver c\u1ee7a game: string key -> string.\nTutorialResult result = tutorial.TryStart(\"onboarding\");\n// Root x\u1eed l\u00fd AlreadyCompleted/AlreadySkippe"
+  },
+  {
+    "name": "com.dreamy.feature.lucky-wheel",
+    "commit": "4819bd91663fa4eedb572ec1152fdcb663255b5b",
+    "package": {
+      "name": "com.dreamy.feature.lucky-wheel",
+      "version": "0.1.1",
+      "displayName": "Dreamy Lucky Wheel",
+      "description": "Reusable weighted lucky wheel with recoverable, idempotent economy rewards and host-owned presentation.",
+      "unity": "6000.0",
+      "type": "library",
+      "license": "UNLICENSED",
+      "author": {
+        "name": "Dreamy Studio"
+      },
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.dataconfig": "0.2.0",
+        "com.dreamy.datasave": "0.2.0",
+        "com.dreamy.feature.economy": "0.1.0",
+        "com.dreamy.feature": "0.1.0",
+        "com.dreamy.ui": "0.2.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.ugui": "2.0.0",
+        "com.cysharp.unitask": "2.5.10"
+      },
+      "keywords": [
+        "lucky-wheel",
+        "reward",
+        "economy",
+        "mvp",
+        "dreamy"
+      ],
+      "testables": [
+        "Tests"
+      ],
+      "samples": [
+        {
+          "displayName": "Lucky Wheel Feature",
+          "description": "Six-reward wheel with post-selection spin animation and a prefab variant of BaseFeaturePanel.",
+          "path": "Samples~/Lucky Wheel Feature"
+        }
+      ]
+    },
+    "source": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.lucky-wheel/tree/4819bd91663fa4eedb572ec1152fdcb663255b5b",
+    "readme": "# Dreamy Lucky Wheel\n\n`com.dreamy.feature.lucky-wheel` selects a weighted reward, persists the selected outcome, grants it through the shared economy wallet, then asks the host view to reveal that result. The animation never decides the reward.\n\n## Bootstrap\n\nRegister the config before `IDataConfigService.InitializeAsync`:\n\n```csharp\nLuckyWheelInstaller.RegisterConfig(dataConfig);\n```\n\nAfter DataConfig, Datasave and a persistent `IResourceWallet` are ready:\n\n```csharp\nLuckyWheelInstaller.Install();\n```\n\nThe wallet must treat a repeated `ResourceGrantRequest.TransactionId` as success without granting twice. A pending result is saved before the wallet is called, so a restart retries the same transaction and reveals the same segment.\n\n## Sample\n\nImport **Lucky Wheel Feature** from Package Manager. `LuckyWheelPanel.prefab` is a prefab variant of `com.dreamy.feature/Runtime/Prefabs/BaseFeaturePanel.prefab`. The sample contains six rewards and a coroutine-driven ease-out spin animation. LuckyWheelFeatureInstaller receives the host's persistent save and wallet; no memory-only fallback is installed.\n\nDevice UTC and local random selection are appropriate for offline casual games, not server-authoritative or regulated rewards.\n\n## Production integration and presenter lifecycle\n\nThe editable integration entry point is `LuckyWheelFeatureInstaller` in Samples~. Runtime `LuckyWheelInstaller` remains available for custom UI; games using the supplied views call only the feature installer. All presenters implement the engine-independent `IPanelPresenter` lifecycle in `Dreamy.UI.Presentation`.\n\n```csharp\nLuckyWheelFeatureInstaller.RegisterConfig(dataConfig); // Before dataConfig.InitializeAsync.\n// After config/save/wallet readiness, using the same factory as other features:\nLuckyWheelFeatureInstaller.Install(factory, config, save, wallet, clock, random);\n// Or reuse a host-owned service: LuckyWheelFeatureInstaller.Install(factory, service);\n```\n\nDependencies in this example belong to the composition root. No installer creates an in-memory wallet/save fallback. Model/service own rewards and checkpoints; views only render state and emit intent. Add direct asmdef references to the integration assembly and Dreamy.UI.Presentation wherever their APIs are used.\n\nAfter assigning the shared factory to the scene's PanelManager, any caller can open `LuckyWheelPanel` with Show/Transition by address, or Show with a prefab. Each opening creates one presenter; close, disable, destroy or "
+  },
+  {
+    "name": "com.dreamy.connectivity",
+    "commit": "522f4a4d7e47911e2683f32ecd34af11b5a1c1e4",
+    "package": {
+      "name": "com.dreamy.connectivity",
+      "version": "0.1.1",
+      "displayName": "Dreamy Connectivity",
+      "description": "Injectable connectivity checks, safe action recovery and mobile settings. Optional production UI integration is provided as a sample.",
+      "unity": "6000.0",
+      "author": {
+        "name": "Dreamy Game Studio"
+      },
+      "license": "UNLICENSED",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.10",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "samples": [
+        {
+          "displayName": "Connectivity Feature",
+          "description": "Production UI/root integration and Feature-base Retry prefab. Requires Dreamy UI, Dreamy Feature and UGUI installed separately.",
+          "path": "Samples~/Connectivity Feature"
+        },
+        {
+          "displayName": "Connectivity Diagnostics",
+          "description": "Development-only loss, recovery, timeout and server-failure controls using the same production recovery flow.",
+          "path": "Samples~/Connectivity Diagnostics"
+        }
+      ]
+    },
+    "source": "https://github.com/Dreamy-Game-Foundation/com.dreamy.connectivity/tree/522f4a4d7e47911e2683f32ecd34af11b5a1c1e4",
+    "readme": "# Dreamy Connectivity\n\nReusable connectivity checks, foreground action recovery and Android/iOS settings.\nVersion `0.1.1`, Unity 6000.0+. Domain is engine independent; gateways and UI are replaceable.\n\n## Install and import\n\nInstall `package.json` from disk, or use a pinned commit from `https://github.com/Dreamy-Game-Foundation/com.dreamy.connectivity.git`. This sandbox uses the Git submodule at `LocalPackages/com.dreamy.connectivity` through `file:../LocalPackages/com.dreamy.connectivity`. Release tag `v0.1.1` identifies this reviewed source; native/device gates remain in VALIDATION.md.\n\nPackage dependencies: UniTask 2.5.10+, UnityWebRequest and AndroidJNI modules. **Installing Connectivity does not install Dreamy UI, Dreamy Feature or UGUI.** All panel code, its presenter/composition and UI tests are shipped under `Samples~`, so they are not compiled unless imported.\n\nBefore importing **Connectivity Feature**, install these optional sample prerequisites yourself:\n\n- `com.dreamy.ui` 1.0.5 and its dependencies.\n- `com.dreamy.feature` 0.2.0, which contains `BaseFeaturePanel.prefab`.\n- `com.unity.ugui` 2.0.0, including TMP support.\n\nImport TMP Essential Resources, then Package Manager \u2192 Dreamy Connectivity \u2192 **Connectivity Feature**. This is the production integration with optional development simulation buttons on ConnectivityRoot. The live gateway remains the default; simulation never runs on startup and is disabled in release builds. Prefabs use the standard LiberationSans SDF from TMP Essential Resources; replace fonts/art/text for your game.\n\n- `Prefabs/ConnectivityRoot.prefab`: scene root, lifecycle bridge and Retry prefab reference (no pre-instantiated panel), using device reachability by default.\n- `Prefabs/ConnectionRetryPanel.prefab`: complete Canvas modal, safe area, buttons, text and serialized references.\n- `ConnectivityRoot`: initializes on Start by default. For your own GameInstaller, disable `Initialize On Start` and call `Initialize` at your chosen Ready stage.\n- `ConnectivityFeatureInstaller`: composition API for the shared presenter factory and injected recovery UI.\n\n`ConnectionRetryPanel` inherits `UIPanel` and is a variant of `BaseFeaturePanel`. The sample opens it exclusively through `PanelManager.Show<ConnectionRetryPanel>(address)`. The manager creates a `ConnectionRetryPresenter` through `PanelPresenterFactory` and disposes it on hide/disable/destroy. The view never opens itself or creates a presenter.\n\n## MVP ownership\n\n| Component "
+  },
+  {
+    "name": "com.dreamy.localization",
+    "commit": "bc656116b08861f445cca50f8f3bcc88c5e05383",
+    "package": {
+      "name": "com.dreamy.localization",
+      "version": "0.2.0",
+      "displayName": "Dreamy Localization",
+      "description": "JSON-per-locale authoring and Unity Localization runtime bindings for Dreamy projects.",
+      "unity": "6000.0",
+      "dependencies": {
+        "com.unity.localization": "1.5.5",
+        "com.unity.textmeshpro": "5.0.0",
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.cysharp.unitask": "2.5.10",
+        "com.unity.nuget.newtonsoft-json": "3.2.2"
+      },
+      "keywords": [
+        "localization",
+        "translation",
+        "json",
+        "textmeshpro",
+        "dreamy",
+        "csv"
+      ],
+      "author": {
+        "name": "Dreamy Game Studio"
+      },
+      "samples": [
+        {
+          "displayName": "Production Starter",
+          "description": "Editable locale JSON, full-source fonts with TMP fallbacks, profiles and reusable runtime prefabs. Import tables before first use.",
+          "path": "Samples~/Production Starter"
+        },
+        {
+          "displayName": "Settings Integration",
+          "description": "Optional language gateway for Dreamy Settings. Import only when the Settings package is installed.",
+          "path": "Samples~/Settings Integration"
+        },
+        {
+          "displayName": "Country Flags",
+          "description": "271 MIT-licensed rounded 256px flag Sprites, source receipts and editable locale mapping. Asset-only; optional Settings icon setup documented.",
+          "path": "Samples~/Country Flags"
+        }
+      ],
+      "type": "library",
+      "license": "UNLICENSED"
+    },
+    "source": "https://github.com/Dreamy-Game-Foundation/com.dreamy.localization/tree/bc656116b08861f445cca50f8f3bcc88c5e05383",
+    "readme": "# Dreamy Localization\n\nPackage thu\u1ed9c **Dreamy Game Studio**. JSON theo t\u1eebng ng\u00f4n ng\u1eef \u2192 Editor validate/import \u2192 Unity Localization Tables \u2192 service v\u00e0 component binding. Runtime s\u1eed d\u1ee5ng Unity Localization; kh\u00f4ng n\u1ea1p th\u00eam m\u1ed9t database JSON song song.\n\nPhi\u00ean b\u1ea3n m\u00e3 ngu\u1ed3n: **0.2.0**. Ch\u01b0a t\u1ea1o tag ho\u1eb7c publish release. \u0110\u00e2y l\u00e0 b\u01b0\u1edbc minor tr\u01b0\u1edbc 1.0 v\u00ec API async chuy\u1ec3n t\u1eeb Task sang UniTask v\u00e0 service c\u00f3 lifecycle IDisposable. Xem [CHANGELOG](CHANGELOG.md) v\u00e0 [migration](Documentation~/runtime-api.md).\n\n## Ph\u1ea7n c\u1eadp nh\u1eadt theo package v\u00e0 ph\u1ea7n game \u0111\u01b0\u1ee3c t\u00f9y ch\u1ec9nh\n\n| N\u01a1i l\u01b0u | Quy\u1ec1n s\u1edf h\u1eefu | C\u00e1ch l\u00e0m vi\u1ec7c |\n| --- | --- | --- |\n| `Runtime/`, `Runtime.UI/`, `Editor/`, asmdef v\u00e0 manifest trong Packages/LocalPackages | Package | Gi\u1eef nguy\u00ean trong consumer \u0111\u1ec3 nh\u1eadn c\u1eadp nh\u1eadt l\u00e2u d\u00e0i. S\u1eeda engine b\u1eb1ng thay \u0111\u1ed5i c\u00f3 review trong repository package, kh\u00f4ng s\u1eeda tr\u1ef1c ti\u1ebfp cache c\u1ee7a UPM. |\n| `Samples~/Production Starter` v\u00e0 `Samples~/Settings Integration` | B\u1ea3n g\u1ed1c \u0111i k\u00e8m package | Import b\u1eb1ng Package Manager; kh\u00f4ng s\u1eeda b\u1ea3n g\u1ed1c \u0111\u1ec3 l\u01b0u n\u1ed9i dung c\u1ee7a game. |\n| B\u1ea3n sample \u0111\u00e3 import v\u00e0o `Assets/Samples/...` r\u1ed3i chuy\u1ec3n sang `Assets/Game/Localization` | Game | \u0110\u01b0\u1ee3c s\u1eeda JSON, font, font fallback/atlas, profile, prefab, adapter v\u00e0 code composition theo s\u1ea3n ph\u1ea9m. Gi\u1eef `.meta` khi chuy\u1ec3n. C\u00e1c prefab starter d\u00f9ng \u0111\u01b0\u1ee3c trong scene s\u1ea3n ph\u1ea9m. |\n| Th\u01b0 m\u1ee5c generated c\u1ee7a JSON Import Profile | Game, sinh t\u1eeb JSON | Import l\u1ea1i khi \u0111\u1ed5i b\u1ea3n d\u1ecbch. Kh\u00f4ng ch\u1ec9nh table b\u1eb1ng tay r\u1ed3i coi JSON \u0111\u00e3 c\u1eadp nh\u1eadt. |\n\n\u201cGi\u1eef nguy\u00ean package\u201d l\u00e0 ranh gi\u1edbi b\u1ea3o tr\u00ec, kh\u00f4ng ph\u1ea3i kh\u00f3a k\u1ef9 thu\u1eadt. N\u00e2ng package s\u1ebd thay code package; kh\u00f4ng t\u1ef1 ghi \u0111\u00e8 sample \u0111\u00e3 \u0111\u01b0a v\u00e0o Assets. Xem [quy tr\u00ecnh t\u00f9y ch\u1ec9nh v\u00e0 c\u1eadp nh\u1eadt](Documentation~/customization-and-upgrades.md).\n\n## C\u00e0i \u0111\u1eb7t v\u00e0 dependencies\n\nUnity t\u1ed1i thi\u1ec3u khai b\u00e1o: **6000.0**. Consumer m\u1edbi v\u00e0 sandbox \u0111\u00e3 ki\u1ec3m ch\u1ee9ng b\u1eb1ng **6000.4.12f1**. Ch\u01b0a coi \u0111\u00e2y l\u00e0 x\u00e1c nh\u1eadn to\u00e0n b\u1ed9 n\u1ec1n t\u1ea3ng ho\u1eb7c to\u00e0n b\u1ed9 b\u1ea3n Unity 6.\n\nC\u00e0i b\u1eb1ng Package Manager \u2192 Install package from disk \u2192 ch\u1ecdn `package.json`, ho\u1eb7c d\u00f9ng repository Git:\n\n```text\nhttps://github.com/Dreamy-Game-Foundation/com.dreamy.localization.git\n```\n\nKhi c\u00f3 tag \u0111\u01b0\u1ee3c ph\u00e1t h\u00e0nh, pin consumer v\u00e0o tag/commit \u0111\u00e3 duy\u1ec7t. Hi\u1ec7n ch\u01b0a c\u00f3 tag `v0.2.0`; kh\u00f4ng d\u00f9ng URL tag n\u00e0y tr\u01b0\u1edbc khi release th\u1ef1c t\u1ebf.\n\n| Dependency trong package.json | Version khai b\u00e1o | \u0110\u00e3 resolve trong sandbox |\n| --- | --- | --- |\n| `com.unity.localization` | 1.5.5 | 1.5.8 |\n| `com.unity.textmeshpro` | 5.0.0 | 5.0.0, builtin |\n| `com.unity.ugui` | 2.0.0 | 2.0.0 |\n| `com.unity.modules.audio` | 1.0.0 "
+  }
+]

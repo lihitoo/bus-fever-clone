@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-11-16T17:36:13.170037+00:00",
+  "packages": [
+    {
+      "name": "com.dreamy.assets",
+      "declared": "https://github.com/Dreamy-Game-Foundation/com.dreamy.assets.git#v1.0.1",
+      "lock": {
+        "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.assets.git#v1.0.1",
+        "depth": 0,
+        "source": "git",
+        "dependencies": {
+          "com.unity.addressables": "2.7.2",
+          "com.cysharp.unitask": "2.5.10",
+          "com.dreamy.core": "1.1.2"
+        },
+        "hash": "8785340d88041f6c06e5986818f22d9d7eb1f547"
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Library\\PackageCache\\com.dreamy.assets@8785340d8804",
+      "sourceVersion": "1.0.1",
+      "sourceDigest": "8324369ce63d5bcbb15bacf2b92ba3236c482a7bc8db953d52e6fa92072d20b2",
+      "registryVersion": "0.1.1",
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.unity.addressables": "2.7.2",
+        "com.cysharp.unitask": "2.5.10",
+        "com.dreamy.core": "1.1.2"
+      }
+    },
+    {
+      "name": "com.dreamy.audio",
+      "declared": "https://github.com/Dreamy-Game-Foundation/com.dreamy.audio.git#v1.0.5",
+      "lock": {
+        "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.audio.git#v1.0.5",
+        "depth": 0,
+        "source": "git",
+        "dependencies": {
+          "com.unity.ugui": "2.0.0",
+          "com.unity.modules.audio": "1.0.0",
+          "com.unity.modules.physics": "1.0.0",
+          "com.unity.modules.particlesystem": "1.0.0"
+        },
+        "hash": "59e8d8256c1dd2b796ef31ffefe3ebdec9074d49"
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Library\\PackageCache\\com.dreamy.audio@59e8d8256c1d",
+      "sourceVersion": "1.0.5",
+      "sourceDigest": "51c7a0f315ba4d1d2906c90e133634172d6d55450e506a3cae61d9ad1052037c",
+      "registryVersion": "0.1.0",
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      }
+    },
+    {
+      "name": "com.dreamy.core",
+      "declared": "https://github.com/Dreamy-Game-Foundation/com.dreamy.core.git#v1.2.0",
+      "lock": {
+        "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.core.git#v1.2.0",
+        "depth": 0,
+        "source": "git",
+        "dependencies": {},
+        "hash": "ba844659fbc65655f21b082f89115295167f2405"
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Library\\PackageCache\\com.dreamy.core@ba844659fbc6",
+      "sourceVersion": "1.2.0",
+      "sourceDigest": "d5b4e41b3e9bafb4b0802a33d9585f318b0a6af391e1227ea86e30d86a56deed",
+      "registryVersion": "1.1.2",
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {}
+    },
+    {
+      "name": "com.dreamy.dataconfig",
+      "declared": "https://github.com/Dreamy-Game-Foundation/com.dreamy.dataconfig.git#v1.0.1",
+      "lock": {
+        "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.dataconfig.git#v1.0.1",
+        "depth": 0,
+        "source": "git",
+        "dependencies": {
+          "com.unity.nuget.newtonsoft-json": "3.2.1"
+        },
+        "hash": "df0a952f2ce95e3742b13d3607af2eb8dcb7df3c"
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Library\\PackageCache\\com.dreamy.dataconfig@df0a952f2ce9",
+      "sourceVersion": "1.0.1",
+      "sourceDigest": "1051a5a2107cc2eb6e50cca3117cb558d2dc93664eaa170ce4a704dd2f39f898",
+      "registryVersion": "0.2.0",
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
+    },
+    {
+      "name": "com.dreamy.datasave",
+      "declared": "https://github.com/Dreamy-Game-Foundation/com.dreamy.datasave.git#v1.0.1",
+      "lock": {
+        "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.datasave.git#v1.0.1",
+        "depth": 0,
+        "source": "git",
+        "dependencies": {
+          "com.unity.nuget.newtonsoft-json": "3.2.1"
+        },
+        "hash": "8e8fcc82ff953c92986167c794e7c076b0d48236"
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Library\\PackageCache\\com.dreamy.datasave@8e8fcc82ff95",
+      "sourceVersion": "1.0.1",
+      "sourceDigest": "ed7d477da4901e20a8bb45beac99105c59edca462adc85e1ff1c00bdf1125e9a",
+      "registryVersion": "0.2.0",
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
+    },
+    {
+      "name": "com.dreamy.debugger",
+      "declared": "https://github.com/Dreamy-Game-Foundation/com.dreamy.debugger.git#9ede4634253634b5c217667eb3fc54d728c242bb",
+      "lock": {
+        "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.debugger.git#9ede4634253634b5c217667eb3fc54d728c242bb",
+        "depth": 0,
+        "source": "git",
+        "dependencies": {
+          "com.unity.ugui": "2.0.0",
+          "com.unity.modules.imgui": "1.0.0",
+          "com.unity.modules.jsonserialize": "1.0.0",
+          "com.unity.modules.unitywebrequest": "1.0.0",
+          "com.unity.modules.imageconversion": "1.0.0",
+          "com.unity.modules.screencapture": "1.0.0",
+          "com.unity.modules.androidjni": "1.0.0",
+          "com.unity.modules.animation": "1.0.0",
+          "com.unity.modules.audio": "1.0.0"
+        },
+        "hash": "9ede4634253634b5c217667eb3fc54d728c242bb"
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Library\\PackageCache\\com.dreamy.debugger@9ede46342536",
+      "sourceVersion": "0.1.4",
+      "sourceDigest": "def9f4cdbbdeabc4a1b8da221916dc8251cefd53511f6aef9e9d063ffd55e266",
+      "registryVersion": null,
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.screencapture": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0"
+      }
+    },
+    {
+      "name": "com.dreamy.editor-tools",
+      "declared": "file:com.dreamy.editor-tools",
+      "lock": {
+        "version": "file:com.dreamy.editor-tools",
+        "depth": 0,
+        "source": "embedded",
+        "dependencies": {
+          "com.unity.nuget.newtonsoft-json": "3.2.1",
+          "com.unity.modules.screencapture": "1.0.0",
+          "com.unity.modules.imageconversion": "1.0.0"
+        }
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Packages\\com.dreamy.editor-tools",
+      "sourceVersion": "1.2.0",
+      "sourceDigest": "e7aeee1dfe1615183d80b5e82fecf95a919700e436c443611cd653aebef99825",
+      "registryVersion": "0.2.1",
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.screencapture": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    {
+      "name": "com.dreamy.feature",
+      "declared": "file:com.dreamy.feature",
+      "lock": {
+        "version": "file:com.dreamy.feature",
+        "depth": 0,
+        "source": "embedded",
+        "dependencies": {}
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Packages\\com.dreamy.feature",
+      "sourceVersion": "0.2.0",
+      "sourceDigest": "2c866bed8a284552ce33e3b19bb77a3e4ec00b4d7c75df8b230d0e8ae04e7602",
+      "registryVersion": null,
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {}
+    },
+    {
+      "name": "com.dreamy.feature.economy",
+      "declared": "file:com.dreamy.feature.economy",
+      "lock": {
+        "version": "file:com.dreamy.feature.economy",
+        "depth": 0,
+        "source": "embedded",
+        "dependencies": {
+          "com.dreamy.core": "1.1.2",
+          "com.dreamy.ui": "1.0.5",
+          "com.dreamy.datasave": "0.2.0",
+          "com.cysharp.unitask": "2.5.10",
+          "com.unity.ugui": "2.0.0",
+          "com.dreamy.feature": "0.2.0"
+        }
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Packages\\com.dreamy.feature.economy",
+      "sourceVersion": "0.8.1",
+      "sourceDigest": "363b7a40aa8718e1b846cc43ea20825256ecbe8b27e8e304ca302b72187b11c2",
+      "registryVersion": null,
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.ui": "1.0.5",
+        "com.dreamy.datasave": "0.2.0",
+        "com.cysharp.unitask": "2.5.10",
+        "com.unity.ugui": "2.0.0",
+        "com.dreamy.feature": "0.2.0"
+      }
+    },
+    {
+      "name": "com.dreamy.feature.settings",
+      "declared": "file:com.dreamy.feature.settings",
+      "lock": {
+        "version": "file:com.dreamy.feature.settings",
+        "depth": 0,
+        "source": "embedded",
+        "dependencies": {
+          "com.dreamy.core": "1.1.2",
+          "com.dreamy.audio": "0.1.0",
+          "com.cysharp.unitask": "2.5.10",
+          "com.dreamy.feature": "0.1.0",
+          "com.dreamy.ui": "0.2.0"
+        }
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Packages\\com.dreamy.feature.settings",
+      "sourceVersion": "0.3.0",
+      "sourceDigest": "38b265db9ad3dd5379d59762211fb95d2a4221f577ca9422320c8f9710dca799",
+      "registryVersion": null,
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.audio": "0.1.0",
+        "com.cysharp.unitask": "2.5.10",
+        "com.dreamy.feature": "0.1.0",
+        "com.dreamy.ui": "0.2.0"
+      }
+    },
+    {
+      "name": "com.dreamy.feature.shop",
+      "declared": "file:com.dreamy.feature.shop",
+      "lock": {
+        "version": "file:com.dreamy.feature.shop",
+        "depth": 0,
+        "source": "embedded",
+        "dependencies": {
+          "com.dreamy.core": "1.1.2",
+          "com.dreamy.dataconfig": "0.2.0",
+          "com.dreamy.feature.economy": "0.8.0",
+          "com.dreamy.feature": "0.2.0",
+          "com.dreamy.ui": "1.0.5",
+          "com.cysharp.unitask": "2.5.10",
+          "com.unity.nuget.newtonsoft-json": "3.2.1"
+        }
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Packages\\com.dreamy.feature.shop",
+      "sourceVersion": "0.3.0",
+      "sourceDigest": "dca9c280b7c6269698b5cff1e9cda37f35772c96c7ac2f94af66de7293289f19",
+      "registryVersion": null,
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.dataconfig": "0.2.0",
+        "com.dreamy.feature.economy": "0.8.0",
+        "com.dreamy.feature": "0.2.0",
+        "com.dreamy.ui": "1.0.5",
+        "com.cysharp.unitask": "2.5.10",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
+    },
+    {
+      "name": "com.dreamy.feedback",
+      "declared": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feedback.git#v0.4.1",
+      "lock": {
+        "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feedback.git#v0.4.1",
+        "depth": 0,
+        "source": "git",
+        "dependencies": {
+          "com.unity.ugui": "2.0.0",
+          "com.unity.modules.particlesystem": "1.0.0",
+          "com.cysharp.unitask": "2.5.10",
+          "com.unity.modules.imageconversion": "1.0.0"
+        },
+        "hash": "02de01d1f1aec1edaf689dfae2c53b949ee70650"
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Library\\PackageCache\\com.dreamy.feedback@02de01d1f1ae",
+      "sourceVersion": "0.4.1",
+      "sourceDigest": "6564029dbe62151903d0d078ebf2833d883af625e0164b8890448a2fa6c9fc22",
+      "registryVersion": "0.1.0",
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.cysharp.unitask": "2.5.10",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    {
+      "name": "com.dreamy.ui",
+      "declared": "file:com.dreamy.ui",
+      "lock": {
+        "version": "file:com.dreamy.ui",
+        "depth": 0,
+        "source": "embedded",
+        "dependencies": {
+          "com.unity.ugui": "2.0.0",
+          "com.cysharp.unitask": "2.5.10",
+          "com.demigiant.dotween": "0.0.3",
+          "com.dreamy.core": "1.1.2",
+          "com.dreamy.assets": "1.0.1"
+        }
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Packages\\com.dreamy.ui",
+      "sourceVersion": "1.1.0",
+      "sourceDigest": "16b8d7a2233e92dc1146d85c9ccb7fdf6cf533faa894f4944c79b7f5d11fe5a3",
+      "registryVersion": "0.1.1",
+      "decision": "retain installed source; no Dreamy upgrade; registry mismatch is consumer-limited, not organization compatibility certification",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.cysharp.unitask": "2.5.10",
+        "com.demigiant.dotween": "0.0.3",
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.assets": "1.0.1"
+      }
+    },
+    {
+      "name": "jp.hadashikick.vcontainer",
+      "declared": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.19.0",
+      "lock": {
+        "version": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.19.0",
+        "depth": 0,
+        "source": "git",
+        "dependencies": {},
+        "hash": "5401e5a7ebc4980a2b82141ffc26391a6547edd7"
+      },
+      "sourcePath": "D:\\Game\\bus-fever-clone\\Library\\PackageCache\\jp.hadashikick.vcontainer@dcf16cda6a65",
+      "sourceVersion": "1.19.0",
+      "sourceDigest": "caf0481d3f111a7eee1eb81968d7230119096724ff3ce989a9f44312406b7865",
+      "registryVersion": null,
+      "decision": "pin 1.19.0 for bounded Home pilot; no source generation",
+      "dependencies": {}
+    }
+  ],
+  "policy": "Embedded packages remain project-owned; no vendor cache edits. Runtime API scope limited to inspected source. Upstream candidates remain uninstalled until their feature."
+}

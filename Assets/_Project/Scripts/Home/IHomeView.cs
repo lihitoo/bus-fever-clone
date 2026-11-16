@@ -7,5 +7,6 @@ namespace Dreamy.Template.Home
         event Action<HomeDestination> DestinationRequested;
 
         void SetNavigationInteractable(bool interactable);
+        void RenderLevel(int level);
     }
 }

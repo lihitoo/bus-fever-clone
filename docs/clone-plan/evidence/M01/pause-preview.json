@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "kind": "pause-skin-presenter-preview",
+  "status": "partial",
+  "prefab": "Assets/_Project/Art/BusFever/UI/PauseSettingsPanel.prefab",
+  "guid": "2ad9db070d589124ba8d42efc17a401e",
+  "entry": "Normal Bootstrap/MainScene, then existing PanelManager.Show<SettingsPanel>(pausePrefab) through MCP",
+  "presenter": "Existing Settings feature factory, Settings service plus project presenter adapter",
+  "source": "R016-pause-stable and audited PausePanel hierarchy",
+  "image": "media/current/settings/m01-pause-skin.png",
+  "observed": ["Source Pause skin rendered", "Music/Sound/Vibration controls bound", "Restart intent returns No gameplay session active without a command handler", "Console error query returned zero"],
+  "notVerified": ["Gameplay pause/resume timing", "Actual restart/coin/life cost and progression", "Normal gameplay Pause button route, which depends on M02"]
+}

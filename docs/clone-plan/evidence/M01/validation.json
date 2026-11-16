@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "kind": "M01-functional-evidence",
+  "status": "partial",
+  "observedAt": "2026-11-16T18:35:31.538224+00:00",
+  "editorTests": {
+    "jobId": "5503398325bf4bb484c77267f0b16b81",
+    "passed": 36,
+    "failed": 0
+  },
+  "playModeTests": {
+    "jobId": "4d12d3fc2bea498fb27167de9636b850",
+    "passed": 3,
+    "failed": 0
+  },
+  "smoke": "runtime-smoke.json",
+  "sdk": "authorized local defaults, not real providers",
+  "acceptance": "UI implementation in normal routes; full visual/feel acceptance remains open",
+  "artifacts": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "5c2267e1cfb6e4988c00b5f6cf6dd196698807b0ddd5e60e811538f379a1bc27"
+    },
+    {
+      "path": "Packages/manifest.json",
+      "sha256": "abf4e74d088fd1acd9c4ed04e3e8dc1c7f06a43b0f11dc664d32cfbe8edaaf89"
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "sha256": "a4e79e46ff619cb49b9013786eda4ab3726ad81fb88537666f4bbe4ce26107ba"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Panel/HomePanel.prefab",
+      "sha256": "46db6594e5660bfefac3fe89cadcc0b26fff7b99d2e82327aecfbabeaed0c1dd"
+    },
+    {
+      "path": "Assets/_Project/_Feature/Dreamy Settings/0.2.2/Settings Feature/Prefabs/SettingsPanel.prefab",
+      "sha256": "a1d8d1d63b3977140ad206ae428a5a75426895f46b563e636a91d22e9b76f322"
+    },
+    {
+      "path": "docs/clone-plan/evidence/M01/runtime-smoke.json",
+      "sha256": "8b40cbf86e6df43fb61aa8fe27e84df72565f73a73bdb81e5f3e1bcecb797b75"
+    }
+  ]
+}

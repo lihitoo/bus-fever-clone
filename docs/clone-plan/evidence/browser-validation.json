@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "dashboard-browser-validation",
+  "status": "pass",
+  "observedAt": "2026-11-16T17:14:40.396584+00:00",
+  "planRevision": "bus-fever-plan-v1",
+  "dashboardSha256": "ff3ae646d3e5377cd2ab52986dc837fe7298e32ce62f02510233961d8541eec7",
+  "tool": "Orca embedded browser via orca-cli",
+  "desktopViewport": [
+    1440,
+    1000
+  ],
+  "mobileViewport": [
+    418,
+    900
+  ],
+  "checks": {
+    "cards": 114,
+    "localPreview": true,
+    "missing": true,
+    "official": "0%",
+    "officialUnchanged": true,
+    "overflow": false,
+    "pass": true,
+    "previewReset": true,
+    "recordings": [
+      {
+        "duration": 118.129633,
+        "error": null,
+        "index": "0",
+        "ready": 4
+      },
+      {
+        "duration": 178.851689,
+        "error": null,
+        "index": "1",
+        "ready": 4
+      },
+      {
+        "duration": 178.648733,
+        "error": null,
+        "index": "2",
+        "ready": 4
+      }
+    ],
+    "search": 9,
+    "settings": {
+      "image": 1080,
+      "thumbs": 2
+    },
+    "verifiedCount": 0
+  },
+  "mobileLayout": {
+    "viewport": 418,
+    "width": 403,
+    "overflow": false
+  },
+  "artifacts": [
+    {
+      "path": "evidence/dashboard-desktop.png",
+      "sha256": "ebf8e3ea82a8501954152fc028288b0946ad76b60dc0af8b19dd2a2625664f38"
+    },
+    {
+      "path": "evidence/dashboard-mobile.png",
+      "sha256": "83ad0a5b1bdff8be7ce49c11208fc7965c5ebbbcd215cda6aadea9e92736b94f"
+    }
+  ],
+  "limitations": [
+    "Current project media still absent; local file preview tested with a synthetic 1px PNG, then removed.",
+    "Reference recordings are low frame rate without audio.",
+    "This validates documentation UI, not Unity runtime or clone parity."
+  ]
+}

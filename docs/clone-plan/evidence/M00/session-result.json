@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "kind": "M00-partial-execution",
+  "status": "degraded",
+  "project": "D:/Game/bus-fever-clone",
+  "unity": "6000.4.12f1",
+  "instance": "bus-fever-clone@2d3e9060d6c81474",
+  "completed": [
+    "MCP project identity and clean Bootstrap scene verified",
+    "VContainer 1.19.0 installed through UPM",
+    "Home wrappers removed per user; original HomePresenter/HomeNavigator wiring retained",
+    "Current template loading and Home captures attached",
+    "package-check/project-inspect/asmdef passed; package source hashes and ownership ledger recorded"
+  ],
+  "finalEditMode": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"81b07f9517f3480bbe6b0d31af43c693\",\"status\":\"succeeded\",\"mode\":\"EditMode\",\"started_unix_ms\":1794850685246,\"finished_unix_ms\":1794850693467,\"last_update_unix_ms\":1794850693467,\"progress\":{\"completed\":34,\"total\":34,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1794850693210,\"last_finished_test_full_name\":\"Dreamy.Template.Tests.TemplateSaveTests.SaveAndLoad_PreservesDemoState(0)\",\"last_finished_unix_ms\":1794850693226,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"EditMode\",\"summary\":{\"total\":34,\"passed\":34,\"failed\":0,\"skipped\":0,\"durationSeconds\":1.6374151,\"resultState\":\"Passed\"},\"results\":[]}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "81b07f9517f3480bbe6b0d31af43c693",
+          "status": "succeeded",
+          "mode": "EditMode",
+          "started_unix_ms": 1794850685246,
+          "finished_unix_ms": 1794850693467,
+          "last_update_unix_ms": 1794850693467,
+          "progress": {
+            "completed": 34,
+            "total": 34,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1794850693210,
+            "last_finished_test_full_name": "Dreamy.Template.Tests.TemplateSaveTests.SaveAndLoad_PreservesDemoState(0)",
+            "last_finished_unix_ms": 1794850693226,
+            "stuck_suspected": false,
+            "editor_is_focused": false,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "EditMode",
+            "summary": {
+              "total": 34,
+              "passed": 34,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 1.6374151,
+              "resultState": "Passed"
+            },
+            "results": []
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  },
+  "playMode": {
+    "jobId": "c6c0b0834cb44b9c9965f5b36297b5e4",
+    "passed": 3,
+    "total": 3
+  },
+  "remaining": [
+    "T001 evidence review",
+    "T002 gameplay scope deferred to GAME per user direction",
+    "T003 normal-speed reference capture with audio/calibration",
+    "T004 asset import pilot not executed"
+  ],
+  "note": "No claim that M00 or clone fidelity is complete. Final compile has zero errors; existing BuildReport obsolete API warnings appeared after refresh."
+}

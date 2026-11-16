@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "cycles": 20,
+  "viewport": [
+    1080,
+    1920
+  ],
+  "checks": [
+    "Normal Bootstrap to Home",
+    "Settings opened/closed 20 times",
+    "Music persisted across reopen and original preference restored",
+    "Contact/Terms/Privacy/Restore emitted explicit SDK stub results",
+    "Exactly one Home panel"
+  ],
+  "sdk": "test stub, no external app/network/payment",
+  "observedAt": "2026-11-16T18:08:29.5048585Z"
+}

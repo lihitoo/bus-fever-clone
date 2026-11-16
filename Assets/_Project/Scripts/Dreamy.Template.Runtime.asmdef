@@ -2,6 +2,7 @@
     "name": "Dreamy.Template.Runtime",
     "rootNamespace": "Dreamy.Template",
     "references": [
+        "Dreamy.SDK.Runtime",
         "Dreamy.Core.Runtime",
         "Dreamy.Datasave.Runtime",
         "Dreamy.DataConfig.Runtime",

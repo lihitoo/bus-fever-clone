@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "taskId": "bus-fever-T001",
+  "status": "active",
+  "files": ["Packages/manifest.json", "Packages/packages-lock.json", "Assets/_Project/Scripts/Bootstrap/GameInstaller.cs"],
+  "objective": "Verify package and service ownership baseline before clone implementation",
+  "nextAction": "Inspect current source hashes and run the smallest read-only harness operation"
+}

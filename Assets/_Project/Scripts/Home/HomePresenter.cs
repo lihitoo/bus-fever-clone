@@ -10,17 +10,21 @@ namespace Dreamy.Template.Home
         private readonly HomeNavigator navigator;
         private bool disposed;
         private bool isBound;
+        private readonly int currentLevel;
 
-        public HomePresenter(IHomeView view, HomeNavigator navigator)
+        public HomePresenter(IHomeView view, HomeNavigator navigator, int currentLevel = 1)
         {
             this.view = view ?? throw new ArgumentNullException(nameof(view));
             this.navigator = navigator ?? throw new ArgumentNullException(nameof(navigator));
+            if (currentLevel < 1) throw new ArgumentOutOfRangeException(nameof(currentLevel));
+            this.currentLevel = currentLevel;
         }
 
         public void Show()
         {
             if (disposed || isBound) return;
             isBound = true;
+            view.RenderLevel(currentLevel);
             view.SetNavigationInteractable(true);
             view.DestinationRequested += OnDestinationRequested;
         }

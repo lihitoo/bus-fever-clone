@@ -2,6 +2,7 @@
     "name": "Dreamy.Template.Editor.Tests",
     "rootNamespace": "Dreamy.Template.Tests",
     "references": [
+        "Dreamy.SDK.Runtime",
         "Dreamy.Template.Runtime",
         "Dreamy.Core.Runtime",
         "Dreamy.Datasave.Runtime",

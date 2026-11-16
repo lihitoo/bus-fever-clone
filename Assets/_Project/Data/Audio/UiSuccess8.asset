@@ -19,13 +19,20 @@ MonoBehaviour:
   eventType: 0
   selectionMode: 0
   clips:
-  - {fileID: 8300000, guid: 2caff89e0dee2ea43bd9ee295b77edc0, type: 3}
+  - {fileID: 8300000, guid: 5bc6a6e81ee525d468b14700bc761379, type: 3}
+  clipWeights:
+  - 1
   volume: 1
   pitch: 1
-  randomPitch: 0.05
+  randomPitch: 0
   fadeInSeconds: 0
   fadeOutSeconds: 0.5
+  startSeconds: 0
+  endSeconds: 0
   loop: 0
+  loopMode: 0
+  loopStartSeconds: 0
+  loopEndSeconds: 0
   neverRepeat: 0
   timeMode: 0
   priority: 128

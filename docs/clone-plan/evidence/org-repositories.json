@@ -1,0 +1,163 @@
+[
+  {
+    "name": "com.dreamy.core",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.core",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.datasave",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.datasave",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.assets",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.assets",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.ui",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.ui",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "dreamy-template-project",
+    "url": "https://github.com/Dreamy-Game-Foundation/dreamy-template-project",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.dataconfig",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.dataconfig",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.editor-tools",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.editor-tools",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.localization",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.localization",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.audio",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.audio",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.feedback",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feedback",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "dreamy-codex-toolkit",
+    "url": "https://github.com/Dreamy-Game-Foundation/dreamy-codex-toolkit",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "dreamy-package-sandbox",
+    "url": "https://github.com/Dreamy-Game-Foundation/dreamy-package-sandbox",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.feature",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.feature.economy",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.economy",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.feature.daily-reward",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.daily-reward",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.feature.shop",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.shop",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.feature.settings",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.settings",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.feature.progression",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.progression",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  },
+  {
+    "name": "com.dreamy.feature.missions",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.missions",
+    "branch": "main",
+    "archived": false,
+    "description": "Persistent one-time missions for Dreamy Unity projects with base prefab variants"
+  },
+  {
+    "name": "com.dreamy.feature.tutorial",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.tutorial",
+    "branch": "main",
+    "archived": false,
+    "description": "Reusable Dreamy tutorial flows with UI and 3D targets, checkpoints, and host integration"
+  },
+  {
+    "name": "com.dreamy.feature.lucky-wheel",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.lucky-wheel",
+    "branch": "main",
+    "archived": false,
+    "description": "Dreamy Lucky Wheel Unity package"
+  },
+  {
+    "name": "com.dreamy.connectivity",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.connectivity",
+    "branch": "main",
+    "archived": false,
+    "description": "Reusable Unity connectivity checks, safe action recovery, mobile settings and production UI integration"
+  },
+  {
+    "name": "com.dreamy.debugger",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.debugger",
+    "branch": "main",
+    "archived": false,
+    "description": null
+  }
+]

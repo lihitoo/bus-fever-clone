@@ -64,17 +64,15 @@ namespace Dreamy.Template
             InstallEntitlementEffects();
         }
 
-        private UniTask<ShopGatewayPurchaseResult> PurchaseWithBillingAsync(
+        private async UniTask<ShopGatewayPurchaseResult> PurchaseWithBillingAsync(
             ShopGatewayPurchaseRequest request, CancellationToken cancellationToken)
         {
             if (cancellationToken.IsCancellationRequested)
-                return UniTask.FromResult(ShopGatewayPurchaseResult.Cancelled());
+                return ShopGatewayPurchaseResult.Cancelled();
 
-            // TODO: Replace simulation with DreamySDK.Purchase(request.StoreProductId, ...).
-            // Map the validated SDK result to Purchased(transactionId), Cancelled() or Failed().
-            var transactionId = $"simulated-iap-{Guid.NewGuid():N}";
-            Debug.Log($"[Shop] Simulated IAP purchase: {request.StoreProductId} ({transactionId}).", this);
-            return UniTask.FromResult(ShopGatewayPurchaseResult.Purchased(transactionId));
+            await Dreamy.SDK.DreamySDK.PurchaseAsync(request.StoreProductId, cancellationToken);
+            // The local SDK default never produces a payment or purchase receipt.
+            return ShopGatewayPurchaseResult.Cancelled();
         }
 
         private void InstallEntitlementEffects()

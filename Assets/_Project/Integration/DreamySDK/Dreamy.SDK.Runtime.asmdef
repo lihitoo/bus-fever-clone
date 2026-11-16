@@ -1,0 +1,7 @@
+{
+  "name": "Dreamy.SDK.Runtime",
+  "rootNamespace": "Dreamy.SDK",
+  "references": ["UniTask"],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

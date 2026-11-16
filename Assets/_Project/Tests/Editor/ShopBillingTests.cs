@@ -24,15 +24,15 @@ namespace Dreamy.Template.Tests
         public void TearDown() => Object.DestroyImmediate(root);
 
         [Test]
-        public void SimulatedPurchases_SucceedWithDistinctTransactionIds()
+        public void DreamySdkDefaults_CancelWithoutCreatingPaymentReceipts()
         {
             var first = Purchase();
             var second = Purchase();
 
-            Assert.That(first.IsSuccess, Is.True);
-            Assert.That(second.IsSuccess, Is.True);
-            Assert.That(first.TransactionId, Does.StartWith("simulated-iap-"));
-            Assert.That(second.TransactionId, Is.Not.EqualTo(first.TransactionId));
+            Assert.That(first.Status, Is.EqualTo(ShopGatewayPurchaseStatus.Cancelled));
+            Assert.That(second.Status, Is.EqualTo(ShopGatewayPurchaseStatus.Cancelled));
+            Assert.That(first.TransactionId, Is.Null);
+            Assert.That(second.TransactionId, Is.Null);
         }
 
         [Test]

@@ -66,6 +66,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "dreamy-template-project.slnx",
+    "dotnet.defaultSolution": "bus-fever-clone.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }

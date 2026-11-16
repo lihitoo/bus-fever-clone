@@ -17,12 +17,12 @@ namespace Dreamy.Feature.Settings.Integration
             return Install(factory, SettingsInstaller.Install(audio, platform, haptics, review, language), openRateUs);
         }
 
-        public static ISettingsService Install(PanelPresenterFactory factory, ISettingsService service, Action openRateUs)
+        public static ISettingsService Install(PanelPresenterFactory factory, ISettingsService service, Action openRateUs, Action restart = null)
         {
             if (factory == null) throw new ArgumentNullException(nameof(factory));
             if (service == null) throw new ArgumentNullException(nameof(service));
             if (openRateUs == null) throw new ArgumentNullException(nameof(openRateUs));
-            factory.Register<SettingsPanel>(view => new SettingsPresenter(service, view, openRateUs));
+            factory.Register<SettingsPanel>(view => new SettingsPanelPresenter(new SettingsPresenter(service, view, openRateUs), view, restart));
             factory.Register<RateUsPanel>(view => new RateUsPresenter(service, view));
             return service;
         }

@@ -1,0 +1,9 @@
+{
+  "commit": "cf9a013e84c4f5b805e57e61090bd41011176883",
+  "unity": "m_EditorVersion: 6000.4.12f1\nm_EditorVersionWithRevision: 6000.4.12f1 (3ca267ce8005)\n",
+  "hashes": {
+    "Packages\\manifest.json": "ba6f3592108d920e0f68f418fafcfcad3b10cb348396fac6f1832b08f6b074dc",
+    "Packages\\packages-lock.json": "0cc1bd305853a58dc5fdfba189c1cc6b63003dfcd8987780c993234df92f1379",
+    "ProjectSettings\\ProjectVersion.txt": "502ca0dae73628cfe37510f935f6ebef82f91340a18608c14d27e842d384b83e"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "kind": "project-planning-validation",
+  "status": "pass",
+  "observedAt": "2026-11-16T17:14:40.852357+00:00",
+  "planRevision": "bus-fever-plan-v1",
+  "tasks": 114,
+  "features": 35,
+  "referenceFeaturesWithImages": 13,
+  "referenceVideos": 3,
+  "checks": [
+    "unique IDs and valid acyclic dependency graph",
+    "all implementation statuses planned; verified=0",
+    "canonical JSON matches embedded dashboard",
+    "renderer byte-for-byte reproducible",
+    "Node JavaScript syntax",
+    "planning manifest/lock/Unity version hashes unchanged",
+    "relative media files and video SHA-256",
+    "Markdown local links",
+    "git changes restricted to docs/clone-plan"
+  ],
+  "markdownLinks": 300,
+  "notRun": [
+    "Unity compile/PlayMode/build; planning only"
+  ],
+  "dashboardSha256": "ff3ae646d3e5377cd2ab52986dc837fe7298e32ce62f02510233961d8541eec7"
+}

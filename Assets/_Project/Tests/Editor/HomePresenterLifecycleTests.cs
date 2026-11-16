@@ -18,6 +18,7 @@ namespace Dreamy.Template.Tests
                 remove => handlers -= value;
             }
             public void SetNavigationInteractable(bool interactable) => Interactable = interactable;
+            public void RenderLevel(int level) { }
         }
 
         [Test]
