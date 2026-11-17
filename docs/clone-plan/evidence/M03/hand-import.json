@@ -1,0 +1,19 @@
+{
+  "collection": "cab-451308001caad0eab0d11461a50d32c8",
+  "path_id": 8687298962773931779,
+  "asset_file": "CAB-451308001caad0eab0d11461a50d32c8",
+  "type": "Sprite",
+  "name": "Main_Guide_Hand",
+  "outputs": [
+    {
+      "path": "files/Sprite/0005_CAB-451308001caad0eab0d11461a50d32c8/Main_Guide_Hand__8687298962773931779.png",
+      "bytes": 25286,
+      "sha256": "26d72c02bfece762ea882bc162050adf5d4bef225be3812cc89383442572d686"
+    }
+  ],
+  "image_size": [
+    188,
+    194
+  ],
+  "status": "exported"
+}

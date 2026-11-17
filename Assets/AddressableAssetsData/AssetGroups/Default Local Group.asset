@@ -20,6 +20,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ae0d33afbcbc9643b3b70e447e6c3d4
+    m_Address: Panel/GameplayPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 230dc47490268320aacc3d2d6ee018e9
     m_Address: Panel/HomePanel.prefab
     m_ReadOnly: 0
@@ -30,8 +35,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ad9db070d589124ba8d42efc17a401e
+    m_Address: Panel/PauseSettingsPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 38d8c1e2b942447a8e425a434326091e
     m_Address: Panel/RateUsPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41ecb301a712a11488efebe6137181e8
+    m_Address: Panel/VictoryPanel.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

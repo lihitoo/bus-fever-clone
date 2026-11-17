@@ -1,0 +1,7 @@
+<test-case id="1410" name="NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" fullname="Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" methodname="NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" classname="Dreamy.Template.Tests.M02GameplayFlowTests" runstate="Runnable" seed="1005312188" result="Failed" start-time="2026-11-17 15:29:04Z" end-time="2026-11-17 15:29:11Z" duration="7.166418" asserts="0"><properties><property name="_JOINTYPE" value="UnityCombinatorial" /><property name="retryIteration" value="0" /><property name="repeatIteration" value="0" /></properties><failure><message><![CDATA[  Play keeps MainScene
+  Expected: -97584
+  But was:  -97584
+]]></message><stack-trace><![CDATA[at Dreamy.Template.Tests.M02GameplayFlowTests+<NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome>d__2.MoveNext () [0x00248] in D:\Game\bus-fever-clone\Assets\_Project\Tests\PlayMode\M02GameplayFlowTests.cs:52
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@996f223345ba\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace></failure><output><![CDATA[[DreamyDebugger] Bug Report handler set to Dreamy.Debugger.DebuggerRuntime+OutboxReportHandler
+]]></output></test-case>

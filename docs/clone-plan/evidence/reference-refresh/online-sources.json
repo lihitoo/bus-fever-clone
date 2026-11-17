@@ -1,0 +1,44 @@
+{
+  "priority": "Online visual/video first; open/play/capture original only when online reference is unavailable or insufficient. User clarification.",
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=DCy922r_a28",
+      "publisher": "MiniBoss",
+      "level": 2,
+      "published": "2026-09-09",
+      "local": "D:/GameAudit/bus-fever-1.3.2/runtime/online-level2-miniboss.mp4",
+      "inspectedFrames": [
+        1,
+        7
+      ],
+      "finding": "Initial12vehicle geometry, fourordinaryparking/threeextra bays and color set match local R019-level2-restarted; counts/timing still require frame analysis.",
+      "sha256": "71a77ed5856ae08c698446b431ef8e1a2363bca6e8f4e438b43b0fb91814986b"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DflWYKguJfU",
+      "publisher": "SolutionGuruji",
+      "level": 1,
+      "local": "D:/GameAudit/bus-fever-1.3.2/runtime/online-level1.mp4",
+      "inspectedFrames": [
+        1
+      ],
+      "finding": "A parked blue bus counter40 is visible. Current capacity6 is a provisional fixture and must not be treated as source capacity.",
+      "sha256": "aa71d08f06c2a533e59b818be8f28be5cf8aa97eda744102f6110dee53f7f98b"
+    }
+  ],
+  "cautions": [
+    "Walkthrough prose disagrees across pages; use actual video frames rather than text-derived move lists.",
+    "Videos do not identify exact APK version; compare layout against local audit before use.",
+    "Source videos stay outside project. No unobserved audio gain/haptic or trigger timing claimed."
+  ],
+  "retainedAuditFindings": [
+    {
+      "source": "docs/research/media/screens/R011-level1-result.png",
+      "finding": "Victory reward20, character/title/Next and fireworks."
+    },
+    {
+      "source": "docs/research/media/screens/R029-level2-victory.png",
+      "finding": "Level2 Victory reward20; this retained image resolves the reward unknown despite online clips ending before Victory."
+    }
+  ]
+}

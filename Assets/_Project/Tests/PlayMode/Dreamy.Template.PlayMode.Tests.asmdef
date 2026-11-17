@@ -1,6 +1,8 @@
 {
   "name": "Dreamy.Template.PlayMode.Tests",
   "references": [
+    "Dreamy.Template.Runtime",
+    "Dreamy.Feature.Settings.Integration.Runtime",
     "Dreamy.Datasave.Runtime",
     "Dreamy.Economy.Runtime",
     "Dreamy.Economy.UI.Runtime",

@@ -4,6 +4,7 @@ namespace Dreamy.Template.Home
     {
         Shop,
         Settings,
-        Demo
+        Demo,
+        Play
     }
 }

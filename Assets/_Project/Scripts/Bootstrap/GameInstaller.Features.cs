@@ -23,6 +23,8 @@ namespace Dreamy.Template
         {
             InstallSettings();
             InstallShop();
+            InstallTutorial();
+            InstallProgression();
         }
 
         private void InstallSettings()
@@ -45,7 +47,8 @@ namespace Dreamy.Template
             ServiceLocator.TryGet<ISettingsReviewGateway>(out var reviewGateway);
             TrackFeatureInstallation<ISettingsService>(() =>
                 SettingsFeatureInstaller.Install(presenterFactory, ServiceLocator.Get<IAudioService>(),
-                    () => OpenRateUsAsync().Forget(), settingsGateway, hapticsGateway, reviewGateway));
+                    () => OpenRateUsAsync().Forget(), settingsGateway, hapticsGateway, reviewGateway, restart: RestartGameplay,
+                    home: () => NavigateGameplayAsync(false).Forget()));
         }
 
         private void InstallShop()

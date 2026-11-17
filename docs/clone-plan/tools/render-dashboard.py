@@ -1,5 +1,5 @@
 from pathlib import Path
-import json,hashlib
+import json,hashlib,html
 D=Path(__file__).resolve().parents[1]
 plan=json.loads((D/'plan.json').read_text(encoding='utf-8'))
 payload=json.dumps(plan,ensure_ascii=False).replace('<','\\u003c')
@@ -48,5 +48,13 @@ document.getElementById('export').onclick=()=>{const blob=new Blob([JSON.stringi
 document.getElementById('import').onclick=()=>document.getElementById('file').click();document.getElementById('file').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{if(f.size>2000000)throw Error('File quá lớn');const v=JSON.parse(await f.text());if(v.schemaVersion!==1||v.revision!==plan.revision)throw Error('Không đúng schema/revision kế hoạch');state=clean(v.state);save();render();document.getElementById('feedback').textContent='Đã import ghi chú. Official verified không thay đổi.'}catch(err){document.getElementById('feedback').textContent='Import thất bại: '+err.message}e.target.value=''});render();
 </script></body></html>'''
 page=page.replace('__DATA__',payload).replace('__HASH__',hashlib.sha256((D/'plan.json').read_bytes()).hexdigest())
+closeout=plan.get('closeoutSummary')
+if closeout:
+    summary='<section class="notice" id="current-playable"><h2>'+html.escape(closeout['title'])+'</h2>'
+    summary+='<p>'+html.escape(closeout['checks'])+'</p><ul>'
+    summary+=''.join('<li>'+html.escape(item)+'</li>' for item in closeout['completed'])+'</ul>'
+    summary+='<p class="muted">'+html.escape(closeout['remaining'])+'</p>'
+    summary+='<a href="'+html.escape(closeout['report'],quote=True)+'">Kết quả và bằng chứng chi tiết</a></section>'
+    page=page.replace('<main>','<main>'+summary,1)
 (D/'dashboard.html').write_bytes(page.encode('utf-8'))
 print('Dashboard bytes',len(page.encode('utf-8')))

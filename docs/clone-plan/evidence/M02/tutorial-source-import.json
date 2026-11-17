@@ -1,0 +1,986 @@
+{
+  "kind": "source-derived-selected-import",
+  "assets": [
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\sactx-0-4096x8192-ASTC 4x4-home-be59b566_0.png",
+      "sourceSha256": "3a8f3ee4cd11308a22935163f575f422d4efc10b3ff90255910a1c08295ff91b",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/sactx-0-4096x8192-ASTC 4x4-home-be59b566_0.png",
+      "derivedSha256": "3a8f3ee4cd11308a22935163f575f422d4efc10b3ff90255910a1c08295ff91b",
+      "guid": "d3ffb6ac99c61714e8d9329e01f09e2e"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Prop_Vip_2.asset",
+      "sourceSha256": "227c8d83e497d43b409d4be4056e97d2b5500f471b889e96f434c1a3a09296cd",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Prop_Vip_2.asset",
+      "derivedSha256": "227c8d83e497d43b409d4be4056e97d2b5500f471b889e96f434c1a3a09296cd",
+      "guid": "934eb1ef51ee9654096aa6d7e0d46762"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\textmesh pro\\fonts\\fonts & materials\\Poppins-Bold SDF Atlas.png",
+      "sourceSha256": "6b879b2e08a5cca5d039e24a91edfd65e641f2558a89fd01605d6141835377cc",
+      "target": "Assets/_Project/Art/BusFever/Recovered/textmesh pro/fonts/fonts & materials/Poppins-Bold SDF Atlas.png",
+      "derivedSha256": "6b879b2e08a5cca5d039e24a91edfd65e641f2558a89fd01605d6141835377cc",
+      "guid": "25f7895e6b157ff448abb14626552c76"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\textmesh pro\\fonts\\fonts & materials\\Poppins-Bold SDF_OutlineBlack1.mat",
+      "sourceSha256": "6d387a9881055865e703f7c95f3fd30aff12c6d4c8739b45f8701accec52e80f",
+      "target": "Assets/_Project/Art/BusFever/Recovered/textmesh pro/fonts/fonts & materials/Poppins-Bold SDF_OutlineBlack1.mat",
+      "derivedSha256": "2eed0c3f898f8d283116512a801cab047d1036b3f83b108d9f3af7602bfbe8ef",
+      "guid": "01ea0195e5e3a0c42a433a7928d8dabd"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Prop_Sort_2.asset",
+      "sourceSha256": "c6718d9ddeda9902fef4aa081ea5ae53b14db69c4dd2393554d855aea3765c1d",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Prop_Sort_2.asset",
+      "derivedSha256": "c6718d9ddeda9902fef4aa081ea5ae53b14db69c4dd2393554d855aea3765c1d",
+      "guid": "c667103f44c30f143a6eb7f9057f786e"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Guide_Circle02_2.asset",
+      "sourceSha256": "9e0716d437d9b55b804c5ec7f6d90ffce1feb5a5ac5b8665847af93834717d47",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Guide_Circle02_2.asset",
+      "derivedSha256": "9e0716d437d9b55b804c5ec7f6d90ffce1feb5a5ac5b8665847af93834717d47",
+      "guid": "52a1aa11a2e73c64bb41f107fb2f263d"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Ani_HandGuide_0.anim",
+      "sourceSha256": "f6b8da115ac257ab07ce3882ea76dfb3f0149b8ba53efbece90c07302aa64a30",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Ani_HandGuide_0.anim",
+      "derivedSha256": "f6b8da115ac257ab07ce3882ea76dfb3f0149b8ba53efbece90c07302aa64a30",
+      "guid": "159dfb90aecccde42afc74ac5210d314"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimatorController\\Ani_HandGuide_0.controller",
+      "sourceSha256": "d3b1e802f70d02e9b0f01605a34021f7e582ed5fac9cc27d2d9d6dc55b9def29",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimatorController/Ani_HandGuide_0.controller",
+      "derivedSha256": "d3b1e802f70d02e9b0f01605a34021f7e582ed5fac9cc27d2d9d6dc55b9def29",
+      "guid": "a924428baca32844aa810e69fa23720b"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Prop_BtnShade2_4.asset",
+      "sourceSha256": "dc3a2594fe9b336c4ee9ff055d447b6905a6773ac12eb0cba07ae89d70a2bac8",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Prop_BtnShade2_4.asset",
+      "derivedSha256": "dc3a2594fe9b336c4ee9ff055d447b6905a6773ac12eb0cba07ae89d70a2bac8",
+      "guid": "e0d5ea0f0c0c8bd4495daeac463b5f76"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\textmesh pro\\fonts\\fonts & materials\\Poppins-Bold SDF_UnderlayGreen.mat",
+      "sourceSha256": "4403c35095f8aa6d4f321e9a308f7c10e000f9a45e118ce00a320d89c3fb0574",
+      "target": "Assets/_Project/Art/BusFever/Recovered/textmesh pro/fonts/fonts & materials/Poppins-Bold SDF_UnderlayGreen.mat",
+      "derivedSha256": "833c3675fa77dc86c6fdfd32a7ff6117853d174bbdbd4383faa135e21ec097ee",
+      "guid": "94f6a52a1946348498d102179675fe86"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_PropPanel_Btn_Bg_5.asset",
+      "sourceSha256": "2ff1e8467e9cdd10a28570cf810f3781de7a1b63384da52154b4e95029c1e305",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_PropPanel_Btn_Bg_5.asset",
+      "derivedSha256": "2ff1e8467e9cdd10a28570cf810f3781de7a1b63384da52154b4e95029c1e305",
+      "guid": "11026a311d2b9b9489b90e205cf17349"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Highlighted_13.anim",
+      "sourceSha256": "11c0bfc0348200c8a9d70e2ab44c681a447bb73e5ecfd20e0ac930e35e80ee07",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Highlighted_13.anim",
+      "derivedSha256": "11c0bfc0348200c8a9d70e2ab44c681a447bb73e5ecfd20e0ac930e35e80ee07",
+      "guid": "2e04525c7bbc40e4fb74150c44bd6c58"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Pressed_15.anim",
+      "sourceSha256": "0cfab22556235613aa714a116f39fc3c9abc3f95314c1bd9f932a0a86035c6f1",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Pressed_15.anim",
+      "derivedSha256": "0cfab22556235613aa714a116f39fc3c9abc3f95314c1bd9f932a0a86035c6f1",
+      "guid": "f8c33710097cd84408208e65d16d3d31"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Normal_15.anim",
+      "sourceSha256": "eaae5f9363dbf8ee56013af90136cac07a626f47b84f14338559b85147d93877",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Normal_15.anim",
+      "derivedSha256": "eaae5f9363dbf8ee56013af90136cac07a626f47b84f14338559b85147d93877",
+      "guid": "9a467b26d15e0834cacdd2390007fbbf"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Selected_15.anim",
+      "sourceSha256": "aa1d8d0f4eb37a88ce737f9e27a4cdfeddd702fe19d6bb9d8062078c60cdb5c2",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Selected_15.anim",
+      "derivedSha256": "aa1d8d0f4eb37a88ce737f9e27a4cdfeddd702fe19d6bb9d8062078c60cdb5c2",
+      "guid": "af0222ad0443d6a4fac74987d1b853d9"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Disabled_14.anim",
+      "sourceSha256": "fd758250c96b133b3195660a6c88a0591f91af5f7f5df43e83c9f19eaa013e51",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Disabled_14.anim",
+      "derivedSha256": "fd758250c96b133b3195660a6c88a0591f91af5f7f5df43e83c9f19eaa013e51",
+      "guid": "c1dd317c659789c459b3f2f797e9dc94"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimatorController\\Ani_Btn_1_3.controller",
+      "sourceSha256": "d80c74ef5c01caf99c4cf97347bed0c1aea3298304358499070ac3cb8472eb2b",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimatorController/Ani_Btn_1_3.controller",
+      "derivedSha256": "d80c74ef5c01caf99c4cf97347bed0c1aea3298304358499070ac3cb8472eb2b",
+      "guid": "f277c5aa9d7f6f14f8019431c966f84e"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Prop_Jumble_2.asset",
+      "sourceSha256": "c5288d1221d7d55037ad237ab25e2e1c0df0b88021dceb5bd6820b77ddad5028",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Prop_Jumble_2.asset",
+      "derivedSha256": "c5288d1221d7d55037ad237ab25e2e1c0df0b88021dceb5bd6820b77ddad5028",
+      "guid": "cb432dd349678e24fa16920e6645dd1f"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Setting_NewBg2_3.asset",
+      "sourceSha256": "6fc8952b923894dafce12db5915983ee54d876f35b93e0997861feab8721b8a2",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Setting_NewBg2_3.asset",
+      "derivedSha256": "6fc8952b923894dafce12db5915983ee54d876f35b93e0997861feab8721b8a2",
+      "guid": "12e8e04cfcd0d2541a54a54ede6fdcdc"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Prop_BtnShade_6.asset",
+      "sourceSha256": "d18253ffb80cdbd5098e1d16d269644eb087133053ecae3de3920c26cc188dd7",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Prop_BtnShade_6.asset",
+      "derivedSha256": "d18253ffb80cdbd5098e1d16d269644eb087133053ecae3de3920c26cc188dd7",
+      "guid": "f203bb5ce6f9f6346980b67285e3d252"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\textmesh pro\\fonts\\fonts & materials\\Poppins-Bold SDF Material.mat",
+      "sourceSha256": "5a4060c947d72ac58ac70bdbfcc0c0eb8472aae131b7fdd467c6ceac4d50edae",
+      "target": "Assets/_Project/Art/BusFever/Recovered/textmesh pro/fonts/fonts & materials/Poppins-Bold SDF Material.mat",
+      "derivedSha256": "22778b51a3fdc6c2980f651c6298c016e21f51e75c4d951fdec1b250506ac9cf",
+      "guid": "d07d200ac5683654da1377c8053f5ea2"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_GamePanel_Add2_6.asset",
+      "sourceSha256": "a418bfd844361322fd9289b4c023f5d5da9c33a7ce302f7ad36023ff056e015c",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_GamePanel_Add2_6.asset",
+      "derivedSha256": "a418bfd844361322fd9289b4c023f5d5da9c33a7ce302f7ad36023ff056e015c",
+      "guid": "f19e78895e8274a41b56e426a0fb5fa8"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\textmesh pro\\fonts\\fonts & materials\\Poppins-Bold SDF_UnderlayBlack3.mat",
+      "sourceSha256": "4f82b48e7e6ea1dd5bfda964989c119a88745bb74c58f7e3fe09ede6c5f88b6f",
+      "target": "Assets/_Project/Art/BusFever/Recovered/textmesh pro/fonts/fonts & materials/Poppins-Bold SDF_UnderlayBlack3.mat",
+      "derivedSha256": "8f8b4e906e79e2336105cac9d468a0d7ab3277f2723355842d719fc7b4f697e8",
+      "guid": "8d5a0f27458cef144945391b1987b4bd"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Guid_Bg_1.asset",
+      "sourceSha256": "ae0220e79acdce37918d7947285f6a7ed150f43aa520f65d0657759c5c0f5254",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Guid_Bg_1.asset",
+      "derivedSha256": "ae0220e79acdce37918d7947285f6a7ed150f43aa520f65d0657759c5c0f5254",
+      "guid": "c5891f559376e9649aa08ba888bc0bc7"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\textmesh pro\\fonts\\fonts & materials\\Poppins-Bold SDF_UnderlayGold2.mat",
+      "sourceSha256": "3541b70da09b2c5e31fcfef53447d94366f2bc1a5013820c5939672e61b8d1c8",
+      "target": "Assets/_Project/Art/BusFever/Recovered/textmesh pro/fonts/fonts & materials/Poppins-Bold SDF_UnderlayGold2.mat",
+      "derivedSha256": "90d7e971f039a898cae0e46fa52dacda16b4f73d29cfe51eda5745a1ba2bb0cd",
+      "guid": "16e084cad195e174eb5d03770c40e33c"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Guide_Hand_2.asset",
+      "sourceSha256": "96e1da28dfddb4c954695200b47c035e340ddd49a4f131f88b716a9ba66a06d2",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Guide_Hand_2.asset",
+      "derivedSha256": "96e1da28dfddb4c954695200b47c035e340ddd49a4f131f88b716a9ba66a06d2",
+      "guid": "0b3febfef305cfe409c91852903d05f3"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\textmesh pro\\fonts\\fonts & materials\\Poppins-Bold SDF.asset",
+      "sourceSha256": "681861fa82aac533ac9e72827a8704e094da61fcf5d80a6c122c799c6030b5f7",
+      "target": "Assets/_Project/Art/BusFever/Recovered/textmesh pro/fonts/fonts & materials/Poppins-Bold SDF.asset",
+      "derivedSha256": "99b42deaa3f2908d27ec6305589412966c6ec9b3511ab452cfb8747a1be8496c",
+      "guid": "76c00c8e0ad8a9b42aecc01ec511bfbc"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Prop_AD_5.asset",
+      "sourceSha256": "af596e5e24e1b55f40646fcbfc09ddb4b0fc1e87e2ebbf06d1f8674ce7047c23",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Prop_AD_5.asset",
+      "derivedSha256": "af596e5e24e1b55f40646fcbfc09ddb4b0fc1e87e2ebbf06d1f8674ce7047c23",
+      "guid": "910be9845e91aff428be33cc37383e66"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\textmesh pro\\fonts\\fonts & materials\\Poppins-Bold SDF_UnderlayYellow.mat",
+      "sourceSha256": "1f20e473e2c493dc711a43bd6c162b1f1be20312ace5402b0fc212aa0dbec253",
+      "target": "Assets/_Project/Art/BusFever/Recovered/textmesh pro/fonts/fonts & materials/Poppins-Bold SDF_UnderlayYellow.mat",
+      "derivedSha256": "3eb1e34c2e781ff44074d69a46f1a29a603a39e0704698feaccb336763df337e",
+      "guid": "12a559e97a4a0964e8fb638371191fa2"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Setting_NewBg3_3.asset",
+      "sourceSha256": "d9e045ec4a4ed1b25ffb9883dfb02e78ee2508e401651aca9d0704993e9be0b4",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Setting_NewBg3_3.asset",
+      "derivedSha256": "d9e045ec4a4ed1b25ffb9883dfb02e78ee2508e401651aca9d0704993e9be0b4",
+      "guid": "fb343d9b1c35cb640b18701938f586b6"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Prop_Bg_4.asset",
+      "sourceSha256": "dcdfeac62fd7f113aa47c5865642ab48300b774133b129157acfd054c1ae150e",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Prop_Bg_4.asset",
+      "derivedSha256": "dcdfeac62fd7f113aa47c5865642ab48300b774133b129157acfd054c1ae150e",
+      "guid": "8ffcb2591084aa04e9c96735f5d4483c"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Main_Setting_NewBg4_4.asset",
+      "sourceSha256": "5735c9c0f5492121828d68a8e3fd5494c20c1752b25ae4827e1d312e6a47bcb4",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Main_Setting_NewBg4_4.asset",
+      "derivedSha256": "5735c9c0f5492121828d68a8e3fd5494c20c1752b25ae4827e1d312e6a47bcb4",
+      "guid": "ae7c6e18939a4c8468f0a5476504daeb"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\BoxMaskMaterial_0.mat",
+      "sourceSha256": "ad34708d7b6327f232cf4b5526d0d3754a4cb43ee3f42f6958b31f324dfc3b21",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/BoxMaskMaterial_0.mat",
+      "derivedSha256": "0c99e967db554fb321b60f4d7c58c3dcd285fc7277e39481ab8ff9baa0b376e9",
+      "guid": "5296fde763bc0184c9b6e80db93e54d3"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\UI_Windows_In_4.anim",
+      "sourceSha256": "43805f86be640691997b2d83a31999127ff37407ef43ba7af7d5ddb9967b2fcf",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/UI_Windows_In_4.anim",
+      "derivedSha256": "43805f86be640691997b2d83a31999127ff37407ef43ba7af7d5ddb9967b2fcf",
+      "guid": "74fa151381b668944b658d68ae05da15"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimatorController\\UI_Windows_4.controller",
+      "sourceSha256": "09fb0c0788f7fef573a561201f0f5f88fd9e5a1f7f215d19f27dcc640fe33348",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimatorController/UI_Windows_4.controller",
+      "derivedSha256": "09fb0c0788f7fef573a561201f0f5f88fd9e5a1f7f215d19f27dcc640fe33348",
+      "guid": "212ef3d2e17e61540b2568d060b37f20"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "sourceSha256": "c2c55dcc0b62507d89ba1c6959668e120e45f08d73ff5150ac13b84e70e36a65",
+      "target": "Assets/_Project/Art/BusFever/Recovered/busjam/guide/bundleables/GuidePopPanel.prefab",
+      "derivedSha256": "a5db9be904faad1465ce7e2d0d994afe485dddf4242c9843df80d500966585b3",
+      "guid": "1c2b6f1c544e3bd4b8f49738f873abcc"
+    }
+  ],
+  "removedDummyComponents": [
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114494345407022765",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuidePopPanel.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114517377532936435",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_ClickItemCompleteLevel.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114493949256727870",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114045646810609841",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114023566878023198",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114548862692844868",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_Prop_Jumble.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114536148047902537",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114505490946690937",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\BusSharedBackground.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114630063386271700",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.UIExtensions\\SolitarySpark\\Runtime\\UI\\Components\\ButtonSoundPlayer.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114417625065123525",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114246380077148219",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114866108357657329",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114798711753984921",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114986746396254636",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114540037929436357",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114514281252195623",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114432223214076560",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114728442554800362",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114452237593846326",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114824711297872077",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114733197508254210",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114391381606989912",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114440584996359664",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_Prop_VIPCar.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114163714622165790",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114416982030819627",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\BusSharedBackground.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114835092874668729",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.UIExtensions\\SolitarySpark\\Runtime\\UI\\Components\\ButtonSoundPlayer.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114101133080060232",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114572022089494396",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114595037906316070",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114693745152320694",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114571634487674524",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114935484392440261",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114724920021757396",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideRaycastFilter.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114329408182955949",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114991980771705915",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_Prop_Arrange.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114845666568172818",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114738231418250705",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\BusSharedBackground.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114694102898667704",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.UIExtensions\\SolitarySpark\\Runtime\\UI\\Components\\ButtonSoundPlayer.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114652820779262545",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114750757863073866",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114373811383705645",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114518992898468572",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114905643976427265",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114234194311488037",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114920119946728444",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114874523320407919",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114969120320042352",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114030420127766190",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114823770748084144",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114837889324699812",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114382050602917825",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114475273974413852",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\UnityEngine.UI\\UnityEngine\\UI\\RawImage.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114311008779287018",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_VIP.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114173730186695914",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114625103733362120",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114043588713450242",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114286142285942158",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114881278313271603",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114988195802894380",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_Ambulance.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114363661268406493",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114439577530107520",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114376155919033083",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114876247903881688",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114359389490549736",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114567629510638393",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_Doubtful.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114969939494010357",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114910855355773451",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114682678762166674",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114403944969655680",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114868640879826322",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114535744792750200",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_Turn.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114235180746187507",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114598443666368413",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114219067365658135",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114158734134602401",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114243116046688445",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114601988992672481",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_GateQueue.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114680089284540369",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114704932178002781",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114317682953123289",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114173859728480218",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114686805865082731",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114806605012442519",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_Elevator.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114668567464662426",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114003859361203777",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114020354225312529",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114932602020916560",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114726563265672724",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114653300586273391",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_FireTruck.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114580809795275013",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114400816257586058",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114766875343807881",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_Police.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114024656917414756",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114285559684809351",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114261178848750679",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114109873753776189",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114911604714251892",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114416721661847891",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_Luxury.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114711460201648919",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114727026142793270",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114963944436750391",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114157225796802554",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114813483841318771",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114927993203066777",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_Combination.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114283944902282921",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114112789336740195",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114081238913537685",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114684591939922058",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114928470415872515",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114261232245163149",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_Garage.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114183587867889483",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114818799992470075",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114884696886870545",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114964709452464588",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114377254122483221",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114864117833599888",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_WrenchGear.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114463815587437239",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114138700934559906",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114140364388604573",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114949210333335372",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114685803188454089",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114996929721055303",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114254886910982982",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_CarRule_Linkage.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114914194998215968",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114714137875315640",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114749423200265741",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114807908418302383",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114044693498259140",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114078576959294455",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114488521324380137",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_QueueRule_LimitCount.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114077494628032211",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114328401241111368",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114791551034787141",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114480275217568070",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114816264566715399",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114633726887521881",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_QueueRule_TrafficLight.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114496531598172812",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114655519695436227",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Common\\ActionArea.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114042305225698680",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114000198748856600",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114201922557545720",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Localization\\SolitarySpark\\Localization\\TMProUGUILocalizationComponent.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114241420900957617",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\Guide_Activity_TaskBar.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114813647362649576",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BoxMaskItem.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114555724948320333",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\UIPostEventToDeep.cs"
+    },
+    {
+      "file": "busjam\\guide\\bundleables\\GuidePopPanel.prefab",
+      "component": "114439632178906712",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\ModuleCollections\\Guide\\GuideUIPosConvert.cs"
+    }
+  ],
+  "unresolvedGuids": [],
+  "materialMigration": "Shader cleared in derived copy; Editor assigns verified URP/TMP shaders and texture slots before use."
+}

@@ -1,0 +1,13 @@
+# M01?M03 polish refresh
+
+Status: partial; full phase parity is not accepted. Normal flow before final texture correction passed through actual NUnit leaf flow-20261117-165340-034.xml (32.86s). Final flow jobbed3618501684ac7969ea220191956cf PASSED1/1,31.53s after texture/scale correction. EditMode15/15 passed in polish-editmode.json; harness asmdef45passed; final Console0errors. New31.15s video has59actual frames,0missing,no audio. Latest Victory and Level2 images were opened and inspected; fireworks density/blend/timing remains under review. Official progress stays unchanged until all gates are reviewed.
+
+Changes: real Level2 Next in MainScene; seven source colors; longer recovered bus10; lit passengers with overflow branch; native AD bays; temporary gameplay Home/count HUD removed; Pause Home wired through existing Settings presenter; source SFX6keys via Dreamy Audio; source smoke via existing portable Dreamy VFX database and owned handles; native cloud/plane controller in existing loading prefab with cover/content/reveal ownership; source Spine3.8 jump/idle and Victory entrance; source UI fireworks via Coffee renderer. Both20coin rewards confirmed in retained R011/R029 audit. SDK stubs unchanged.
+
+Spine UPM3.8 has a placeholder instead of core source. Embedded package contains unmodified official core+Unity runtime pinned8b4844bd4b193ba9e54487ed397a777993cbad56; license and integration receipt retained. Coffee UI Particle4.13.0 pinned51a4708b7ba4daa8483a4936eae9bffe15d0bfd0 renders source particles. Dreamy remains owner of reusable progression/tutorial/audio/feedback and session scope. No competing framework added.
+
+Visual review caught flat overlapping passengers, missing slot branches, wrong short bus model, magenta new materials and untextured fireworks quads. Fixed each and retained failed receipts. Functional pass is distinct from visual/feel acceptance.
+
+Open: exact queue priority/spline/overflow movement; per-vehicle source capacity confirmation(40currently inferred from observed blue counter); source VAT/toon shading; audio/haptic timing/gain; coin fly; tutorial spotlight; difficulty variants; save fault injection; true source entry policy; Android/player/mobile performance. No new original-game capture was needed for this patch; online-first research policy retained.
+
+Final visual note: source character/title/coin/Next placement is substantially closer to R011; the latest sparse Victory frames do not demonstrate the expected fireworks bursts after disabling automatic scaling. Particle assets are bound, but visible burst timing/scale remains an unresolved visual defect. Do not mark fireworks acceptance passed. Gameplay loop still lacks the exact incoming road/junction and original spacing.

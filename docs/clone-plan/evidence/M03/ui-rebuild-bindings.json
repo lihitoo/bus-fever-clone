@@ -1,0 +1,1124 @@
+[
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -987349137527174068,
+      "type": "Sprite",
+      "name": "Main_Victory_Title",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-987349137527174068.png",
+    "sha256": "ec15bef0c2704a20a2377a48311d37c3dabea759dee6fb72667337845e71e825"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8031761115233838116,
+      "type": "Sprite",
+      "name": "Main_Victory_TitleMask",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8031761115233838116.png",
+    "sha256": "786d24c5c6e86f831217708f6f394560c1f07da3eef9a18ddef53c998a71d339"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -871262021355916264,
+      "type": "Sprite",
+      "name": "SoftMask_01",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-871262021355916264.png",
+    "sha256": "f3ac51834c958e077d754cf15854d70e96f23dabf9c7cf9760c770ce9ef32769"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 3678991458285099537,
+      "type": "Sprite",
+      "name": "SoftMask_02",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/3678991458285099537.png",
+    "sha256": "88356f6655b29e73153c2e219bb0c79fcc9ee2546b59c307ba9d43076d058a4e"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 7739162010587724341,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Coins2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/7739162010587724341.png",
+    "sha256": "44b55e7e96b10b12fa8c68845caba798c26f29e9b5e0e04a28d0431a41426e5e"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2633439362164437590,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Rewards_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2633439362164437590.png",
+    "sha256": "5b83be70439e015d2edc8bf8972bf939d7b4af0ce293e5a93f940ca85e39f816"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 1583203590547441241,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Rewards_DoubleBg_B",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/1583203590547441241.png",
+    "sha256": "356c2dd1f25f31b58f82995ac21d007c670acf7a26c3a8b919eb17c43149fe96"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -3573503415319483657,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Rewards_Shadow",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-3573503415319483657.png",
+    "sha256": "5a0671c63c96738d8e8037dc0f2dab6f8e9197625cfff0ad0462118b6f2ad59b"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 441425280922712233,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Rewards_Arrow",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/441425280922712233.png",
+    "sha256": "99083ccf16cca450622c1862991d20e9e185c811027c73ae12396f418185b97a"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -1514054274447463016,
+      "type": "Sprite",
+      "name": "Main_GamePanel_Add2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-1514054274447463016.png",
+    "sha256": "fdbf17b35b3c0d682d2fa66f1112fa35d9ca3c54c61209d5ad40e87da3e114c2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2115593887063615445,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2115593887063615445.png",
+    "sha256": "3d5ec1e2cd29291d242f8dae5ce9684ec9623800acc57c779f88d9b41ba2e3fa"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 4737534239850128753,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/4737534239850128753.png",
+    "sha256": "0ec7b9eec0619c413712ad3620db9a44c5c5dedef4439d5b11e89c0693e8abd2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2458821790389668421,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_BtnBg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2458821790389668421.png",
+    "sha256": "9be297497e49cfdc6456782c623409bf697de9326a93b77b31bc11d248490827"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -7593581556586285540,
+      "type": "Sprite",
+      "name": "Main_Prop_Gold",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-7593581556586285540.png",
+    "sha256": "0001a7204c048c3deb71f94f8dfaf8bdb96136a7d443b3882352b95dc3f107ef"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 4737534239850128753,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/4737534239850128753.png",
+    "sha256": "0ec7b9eec0619c413712ad3620db9a44c5c5dedef4439d5b11e89c0693e8abd2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -1514054274447463016,
+      "type": "Sprite",
+      "name": "Main_GamePanel_Add2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-1514054274447463016.png",
+    "sha256": "fdbf17b35b3c0d682d2fa66f1112fa35d9ca3c54c61209d5ad40e87da3e114c2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2115593887063615445,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2115593887063615445.png",
+    "sha256": "3d5ec1e2cd29291d242f8dae5ce9684ec9623800acc57c779f88d9b41ba2e3fa"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 4737534239850128753,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/4737534239850128753.png",
+    "sha256": "0ec7b9eec0619c413712ad3620db9a44c5c5dedef4439d5b11e89c0693e8abd2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2382399432355960644,
+      "type": "Sprite",
+      "name": "Main_PropPanel_Btn_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2382399432355960644.png",
+    "sha256": "943e6740b4ee059f63f89e6a219d8fd0c050ff688677e8418e3678a71e63471a"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 7296332677044026613,
+      "type": "Sprite",
+      "name": "Main_Prop_AD",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/7296332677044026613.png",
+    "sha256": "479db25eb46b6e688f957599b5079d0fdd658611c9a8ee757903770448e8ecb0"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2299393852451238475,
+      "type": "Sprite",
+      "name": "Main_GamePanel_Coin",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2299393852451238475.png",
+    "sha256": "0422425e89248ac40afcc74337b84e8583b1d3f656a9e3856eac11d31d88c6ae"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 4737534239850128753,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/4737534239850128753.png",
+    "sha256": "0ec7b9eec0619c413712ad3620db9a44c5c5dedef4439d5b11e89c0693e8abd2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -1514054274447463016,
+      "type": "Sprite",
+      "name": "Main_GamePanel_Add2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-1514054274447463016.png",
+    "sha256": "fdbf17b35b3c0d682d2fa66f1112fa35d9ca3c54c61209d5ad40e87da3e114c2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2115593887063615445,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2115593887063615445.png",
+    "sha256": "3d5ec1e2cd29291d242f8dae5ce9684ec9623800acc57c779f88d9b41ba2e3fa"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 4737534239850128753,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/4737534239850128753.png",
+    "sha256": "0ec7b9eec0619c413712ad3620db9a44c5c5dedef4439d5b11e89c0693e8abd2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2458821790389668421,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_BtnBg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2458821790389668421.png",
+    "sha256": "9be297497e49cfdc6456782c623409bf697de9326a93b77b31bc11d248490827"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -7593581556586285540,
+      "type": "Sprite",
+      "name": "Main_Prop_Gold",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-7593581556586285540.png",
+    "sha256": "0001a7204c048c3deb71f94f8dfaf8bdb96136a7d443b3882352b95dc3f107ef"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 4737534239850128753,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/4737534239850128753.png",
+    "sha256": "0ec7b9eec0619c413712ad3620db9a44c5c5dedef4439d5b11e89c0693e8abd2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 4955615763303184112,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Card_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/4955615763303184112.png",
+    "sha256": "fb18e7c555f52e3f25b306e83c821fad1b5f57a1ff2526fb10f7a89f96a25845"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 38861690050489314,
+      "type": "Sprite",
+      "name": "UISprite",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/38861690050489314.png",
+    "sha256": "9e2b539b7c88fe4464525abc282c724b964852950a0b8aa1df13414014b5f33c"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2115593887063615445,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2115593887063615445.png",
+    "sha256": "3d5ec1e2cd29291d242f8dae5ce9684ec9623800acc57c779f88d9b41ba2e3fa"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -634161537088884297,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Shade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-634161537088884297.png",
+    "sha256": "ac55fcf97436e917aacb7b867915762e4d8f6821986b037a8a2942e258a10a5e"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2588429726035717254,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Btn_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2588429726035717254.png",
+    "sha256": "3365fcdd7d02dbb8fb78e02ae3dff11cf0312f74706ff9cea0fdce660da5e6bd"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -634161537088884297,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Shade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-634161537088884297.png",
+    "sha256": "ac55fcf97436e917aacb7b867915762e4d8f6821986b037a8a2942e258a10a5e"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -7470634784794982609,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_BtnShade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-7470634784794982609.png",
+    "sha256": "d5dc8d769e050c9de59a01c85ccee36f9121480a1ea5c4d8853ac76549bee69f"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 6789081543841169958,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Light",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/6789081543841169958.png",
+    "sha256": "9099bec2a389aa0e9b1b323ff3c06b700a12dbb6fece3264f89bd2ce4f627743"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 841508277973102171,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Purple_Shadow",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/841508277973102171.png",
+    "sha256": "936ee9f4ac31b181364c343d43123039a224010e466fa714a84242e9eb490575"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 1584098401346948859,
+      "type": "Sprite",
+      "name": "Main_HomePanel_ADSIcon",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/1584098401346948859.png",
+    "sha256": "1f5eaca18cea8ae14943f852aa0658046d3e62f88522b3bb72997f7fdb0e7cd4"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -6839812083475654747,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Stars",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-6839812083475654747.png",
+    "sha256": "fafc84fda3ae186eb3c33ce3e6d6d3378121d73906a10d40602b3546b5bb1861"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 6279626527482149386,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Card1_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/6279626527482149386.png",
+    "sha256": "ecc3c1fa9bfe8bf089bf5090f6d35e8aeaaf5aa7c76c73546ab9d5d0176689da"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 38861690050489314,
+      "type": "Sprite",
+      "name": "UISprite",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/38861690050489314.png",
+    "sha256": "9e2b539b7c88fe4464525abc282c724b964852950a0b8aa1df13414014b5f33c"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2115593887063615445,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2115593887063615445.png",
+    "sha256": "3d5ec1e2cd29291d242f8dae5ce9684ec9623800acc57c779f88d9b41ba2e3fa"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -634161537088884297,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Shade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-634161537088884297.png",
+    "sha256": "ac55fcf97436e917aacb7b867915762e4d8f6821986b037a8a2942e258a10a5e"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2588429726035717254,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Btn_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2588429726035717254.png",
+    "sha256": "3365fcdd7d02dbb8fb78e02ae3dff11cf0312f74706ff9cea0fdce660da5e6bd"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -634161537088884297,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Shade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-634161537088884297.png",
+    "sha256": "ac55fcf97436e917aacb7b867915762e4d8f6821986b037a8a2942e258a10a5e"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 322139692575319118,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_RedLine",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/322139692575319118.png",
+    "sha256": "621caacbd664751404f7f71648416021ee3c4f1b11b21750576ae9c4e7f257d3"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -7470634784794982609,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_BtnShade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-7470634784794982609.png",
+    "sha256": "d5dc8d769e050c9de59a01c85ccee36f9121480a1ea5c4d8853ac76549bee69f"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 3129480175213340253,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Icon_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/3129480175213340253.png",
+    "sha256": "62199c4dc9aa507bb120532e6d808a3a84143766605fc5dff2e66cc0db8e2b39"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -9074385157969282624,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Ball",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-9074385157969282624.png",
+    "sha256": "720c144ef7a036e483833343fdc15d6797635258f641444bc8b4e7166138acd7"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 7738870052757457410,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Fly",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/7738870052757457410.png",
+    "sha256": "03830a4ae6a67f13cc8f7f793b54289830a5bafb583d7317e0e7f11821d0fe48"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8493825361498226869,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Arrange",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8493825361498226869.png",
+    "sha256": "bdf3696fb03322367da86612e0e01906e54f20ecd6687e7a9c294a7b86498062"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 6789081543841169958,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Light",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/6789081543841169958.png",
+    "sha256": "9099bec2a389aa0e9b1b323ff3c06b700a12dbb6fece3264f89bd2ce4f627743"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8689551253797173277,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Coin",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8689551253797173277.png",
+    "sha256": "e4234ce2cb2d39c61c45d4c8029517d19a80465ee2bbba189279c270b4658c8c"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -7228103194764441076,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Stars",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-7228103194764441076.png",
+    "sha256": "3a2b8a2eeb489caf6817db917e7619ef461f7dc5c074b67ba4d6e00fb435f6b2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8317462085592209363,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_SaleConer",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8317462085592209363.png",
+    "sha256": "d65097e246534b6d9333f0ed73eba17598d6ba5925c710d77c286e019fa7da42"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 3793473121620794998,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Card2_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/3793473121620794998.png",
+    "sha256": "9df0a872efca1ee9e859adf315e24e202b37708a8c32017159462bc413784a8f"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 38861690050489314,
+      "type": "Sprite",
+      "name": "UISprite",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/38861690050489314.png",
+    "sha256": "9e2b539b7c88fe4464525abc282c724b964852950a0b8aa1df13414014b5f33c"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2115593887063615445,
+      "type": "Sprite",
+      "name": "Main_Prop_BtnShade2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2115593887063615445.png",
+    "sha256": "3d5ec1e2cd29291d242f8dae5ce9684ec9623800acc57c779f88d9b41ba2e3fa"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -634161537088884297,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Shade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-634161537088884297.png",
+    "sha256": "ac55fcf97436e917aacb7b867915762e4d8f6821986b037a8a2942e258a10a5e"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2588429726035717254,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Btn_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2588429726035717254.png",
+    "sha256": "3365fcdd7d02dbb8fb78e02ae3dff11cf0312f74706ff9cea0fdce660da5e6bd"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -634161537088884297,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Shade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-634161537088884297.png",
+    "sha256": "ac55fcf97436e917aacb7b867915762e4d8f6821986b037a8a2942e258a10a5e"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 322139692575319118,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_RedLine",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/322139692575319118.png",
+    "sha256": "621caacbd664751404f7f71648416021ee3c4f1b11b21750576ae9c4e7f257d3"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -7470634784794982609,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_BtnShade",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-7470634784794982609.png",
+    "sha256": "d5dc8d769e050c9de59a01c85ccee36f9121480a1ea5c4d8853ac76549bee69f"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 6652073194213879107,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Icon1_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/6652073194213879107.png",
+    "sha256": "0191ceee573a68bd914a04f8915190ac2534eccff116a8929b808d46e6a2a984"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -9074385157969282624,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Ball",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-9074385157969282624.png",
+    "sha256": "720c144ef7a036e483833343fdc15d6797635258f641444bc8b4e7166138acd7"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 7738870052757457410,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Fly",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/7738870052757457410.png",
+    "sha256": "03830a4ae6a67f13cc8f7f793b54289830a5bafb583d7317e0e7f11821d0fe48"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8493825361498226869,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Arrange",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8493825361498226869.png",
+    "sha256": "bdf3696fb03322367da86612e0e01906e54f20ecd6687e7a9c294a7b86498062"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 6789081543841169958,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_Light",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/6789081543841169958.png",
+    "sha256": "9099bec2a389aa0e9b1b323ff3c06b700a12dbb6fece3264f89bd2ce4f627743"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 7739162010587724341,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Coins2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/7739162010587724341.png",
+    "sha256": "44b55e7e96b10b12fa8c68845caba798c26f29e9b5e0e04a28d0431a41426e5e"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -7228103194764441076,
+      "type": "Sprite",
+      "name": "Main_RevivePanel_Stars",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-7228103194764441076.png",
+    "sha256": "3a2b8a2eeb489caf6817db917e7619ef461f7dc5c074b67ba4d6e00fb435f6b2"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8317462085592209363,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_SaleConer",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8317462085592209363.png",
+    "sha256": "d65097e246534b6d9333f0ed73eba17598d6ba5925c710d77c286e019fa7da42"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 3414124638530063018,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_DarkPoint",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/3414124638530063018.png",
+    "sha256": "df71efef6303a9402b065976939dd5a84ce3114c9e0775444249b2cf14527d2a"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 7595759888487249929,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_LightPoint",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/7595759888487249929.png",
+    "sha256": "b507c8656419d0eac16306b95bad90a2f6525469c4fdda15fa95378fd1e77827"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 3414124638530063018,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_DarkPoint",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/3414124638530063018.png",
+    "sha256": "df71efef6303a9402b065976939dd5a84ce3114c9e0775444249b2cf14527d2a"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 7595759888487249929,
+      "type": "Sprite",
+      "name": "Main_VictoryPanel_LightPoint",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/7595759888487249929.png",
+    "sha256": "b507c8656419d0eac16306b95bad90a2f6525469c4fdda15fa95378fd1e77827"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 8868560416569346477,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_TaskBg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/8868560416569346477.png",
+    "sha256": "7e04fe3c7b18e9adcd2cbf5eded3306419a69f2783460c682753389dc34c0224"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -4503565249469954909,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_LoadingBg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-4503565249469954909.png",
+    "sha256": "ea8a8e40e827444018eeaa685f8751a5339b833de660e398ac5f132783ab36a5"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8982598047771518370,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_LoadingBg1",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8982598047771518370.png",
+    "sha256": "8712f46cf65b67a4367a497fc521e630195f95a38f8de988c0033be1ededbe59"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -5720452570952682090,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_LoadingBg2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-5720452570952682090.png",
+    "sha256": "0bd1c5be8e5a968c6c2bb153ae81212059b393dcab089c5b41d8737282694756"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 4487473528031195649,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_LoadingBg3",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/4487473528031195649.png",
+    "sha256": "96f78cd5f78b7c0236d164d97b0af915124c8d5d0f3632a56cf491ec4c9e4261"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -6021976138645874336,
+      "type": "Sprite",
+      "name": "Main_TaskBarPromoPanel_Bar",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-6021976138645874336.png",
+    "sha256": "9b5b335199bbfbe6b7f3c3030947a01635c4c4721f8488b3796204010e4226a9"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -7008780798297801764,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_BarDec",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-7008780798297801764.png",
+    "sha256": "567f92f4f807512d4ee9402580c12fa43480d1fe9b6afeef2274159cf778c607"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8391930248797559394,
+      "type": "Sprite",
+      "name": "Main_TaskBarPromoPanel_BarLeft_PassengerBlue",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8391930248797559394.png",
+    "sha256": "dae4a24267fcdce20c458056e29541148d379ba1fb0fa5e18c5fff1ceb1cf621"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 6864414554500786410,
+      "type": "Sprite",
+      "name": "Main_TaskBarPromoPanel_BarLeft_PassengerRed",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/6864414554500786410.png",
+    "sha256": "2695ab205c53d22779ad7f5908c1e334c2efeca560b60db29d45b32f44b7bd3c"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8719109690121172908,
+      "type": "Sprite",
+      "name": "Main_TaskBarPromoPanel_BarLeft_PassengerYellow",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8719109690121172908.png",
+    "sha256": "9aa2a6d0fd67f242555060e1af0245d9c7d2554991ebea7025d983439b514b77"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -5340227973287672632,
+      "type": "Sprite",
+      "name": "Main_TaskBarPromoPanel_BarLeft_PassengerGreen",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-5340227973287672632.png",
+    "sha256": "54654040e7a83e1372ba4e5ce44fcc59c71748512e3b747308b6ff67afee7b9a"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 2354731776218103858,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Gift1",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/2354731776218103858.png",
+    "sha256": "8080e9485b105d2f0e8c7638d9b2c42f1bcee561f25b3f42d0b2fb7560d41b32"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -1663073267038068622,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Gift2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-1663073267038068622.png",
+    "sha256": "f2b2212fd8c127ec3b546053c5168221ca894a420ba21ea6c6efbfdeb2a98bee"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -3337174393941065650,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Gift3",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-3337174393941065650.png",
+    "sha256": "0be849a5712ca3d5d07dcabac3f3bbabd388b38df482a978bd530e06eb2b4319"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -6089747590317679025,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Ball",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-6089747590317679025.png",
+    "sha256": "d80f5539b16c7b6252d94c8832cc7788c94a9fc9217fed9e8508e153f37400b0"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -7072799357411227918,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Arrange",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-7072799357411227918.png",
+    "sha256": "433ceb2ed3d8ebb9400e113c6b2ce7b028580c8dc4574654cea07f7b03e77483"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 5255828623375021092,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Car",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/5255828623375021092.png",
+    "sha256": "b53f2f3a05c576779897a5ad9304cd51150a99f696021672c9eddac9a8331a7b"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -5508153305482571382,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Coin1",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-5508153305482571382.png",
+    "sha256": "4912937895f1780334237312b4e278e3de8358614034f235acb29ae20ce89c31"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 6289115697296412872,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Coin2",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/6289115697296412872.png",
+    "sha256": "0ed693d72539e0f70fd2d11e6d4a1bb6e68efeae7a0ab2ae9a4f934275328a67"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 2354731776218103858,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Gift1",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/2354731776218103858.png",
+    "sha256": "8080e9485b105d2f0e8c7638d9b2c42f1bcee561f25b3f42d0b2fb7560d41b32"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 5255828623375021092,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Car",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/5255828623375021092.png",
+    "sha256": "b53f2f3a05c576779897a5ad9304cd51150a99f696021672c9eddac9a8331a7b"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -5508153305482571382,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Coin1",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-5508153305482571382.png",
+    "sha256": "4912937895f1780334237312b4e278e3de8358614034f235acb29ae20ce89c31"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -710795087642396767,
+      "type": "Sprite",
+      "name": "Main_TaskBarPanel_Bubble_Bg",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-710795087642396767.png",
+    "sha256": "d9c0e2cd26b3efc2bdc6ca4843cfab45342c2dee42327590cd1e71cdc16599ff"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -2299393852451238475,
+      "type": "Sprite",
+      "name": "Main_GamePanel_Coin",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-2299393852451238475.png",
+    "sha256": "0422425e89248ac40afcc74337b84e8583b1d3f656a9e3856eac11d31d88c6ae"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -9074385157969282624,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Ball",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-9074385157969282624.png",
+    "sha256": "720c144ef7a036e483833343fdc15d6797635258f641444bc8b4e7166138acd7"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": 7738870052757457410,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Fly",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/7738870052757457410.png",
+    "sha256": "03830a4ae6a67f13cc8f7f793b54289830a5bafb583d7317e0e7f11821d0fe48"
+  },
+  {
+    "source": {
+      "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+      "path_id": -8493825361498226869,
+      "type": "Sprite",
+      "name": "Main_ShopPanel_Icon_Arrange",
+      "resolved": true
+    },
+    "file": "Assets/_Project/Art/BusFever/UI/-8493825361498226869.png",
+    "sha256": "bdf3696fb03322367da86612e0e01906e54f20ecd6687e7a9c294a7b86498062"
+  }
+]

@@ -1,0 +1,13 @@
+<test-case id="1057" name="NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" fullname="Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" methodname="NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" classname="Dreamy.Template.Tests.M02GameplayFlowTests" runstate="Runnable" seed="1757547488" result="Failed" start-time="2026-11-17 14:25:48Z" end-time="2026-11-17 14:25:59Z" duration="11.331863" asserts="0"><properties><property name="_JOINTYPE" value="UnityCombinatorial" /><property name="retryIteration" value="0" /><property name="repeatIteration" value="0" /></properties><failure><message><![CDATA[  blue-top must be the first hit, ahead of UI/world blockers
+  Expected: same as <blue-top (Dreamy.Template.Gameplay.VehiclePointerTarget)>
+  But was:  null
+]]></message><stack-trace><![CDATA[at Dreamy.Template.Tests.M02GameplayFlowTests.TapVehicle (System.String id) [0x00091] in D:\Game\bus-fever-clone\Assets\_Project\Tests\PlayMode\M02GameplayFlowTests.cs:95
+at Dreamy.Template.Tests.M02GameplayFlowTests+<NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome>d__0.MoveNext () [0x004ad] in D:\Game\bus-fever-clone\Assets\_Project\Tests\PlayMode\M02GameplayFlowTests.cs:61
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@996f223345ba\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace></failure><output><![CDATA[[DreamyDebugger] Bug Report handler set to Dreamy.Debugger.DebuggerRuntime+OutboxReportHandler
+[DreamyDebugger] Bug Report handler set to Dreamy.Debugger.DebuggerRuntime+OutboxReportHandler
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+]]></output></test-case>

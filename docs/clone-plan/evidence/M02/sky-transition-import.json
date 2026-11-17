@@ -1,0 +1,272 @@
+{
+  "kind": "source-derived-selected-import",
+  "assets": [
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Round_01_3.png",
+      "sourceSha256": "66541e52d38e857ae70e0abc63476b80dd952141d58b79ced66f97a322f9eeca",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Round_01_3.png",
+      "derivedSha256": "66541e52d38e857ae70e0abc63476b80dd952141d58b79ced66f97a322f9eeca",
+      "guid": "8f2aa2231d6db884da1b77f7ed2ed7ac"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Round_01_Alp_2.mat",
+      "sourceSha256": "8c76cd1b52c17be6e9227a702a14c5c0aa171f780718d238ea8672186f65d894",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Round_01_Alp_2.mat",
+      "derivedSha256": "d1de9f835636a785f88e9f6adfc5b4e6431ed0e61301f0e4ba66d51e9398a4b7",
+      "guid": "86cd2c77725641b4ca86d4ebf650c9b3"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Yun3.png",
+      "sourceSha256": "22fdad06e9ba61b1c41f2a4d6ab43a6beec9b0ba2b4641fcfc8b37c9273eda4a",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Yun3.png",
+      "derivedSha256": "22fdad06e9ba61b1c41f2a4d6ab43a6beec9b0ba2b4641fcfc8b37c9273eda4a",
+      "guid": "3d6b34dffcb629849b000541704e915e"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Yun3.asset",
+      "sourceSha256": "1c1758e710676871c4238c829e4e393368498266b6528ad045d32d64ccb88723",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Yun3.asset",
+      "derivedSha256": "1c1758e710676871c4238c829e4e393368498266b6528ad045d32d64ccb88723",
+      "guid": "3419c7b9ecda5444da5e6eb7751a9d39"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Guangyun2.png",
+      "sourceSha256": "672682dc63e24c5558daa99645888bd71dea4df941035075ce7ad36e8bf05670",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Guangyun2.png",
+      "derivedSha256": "672682dc63e24c5558daa99645888bd71dea4df941035075ce7ad36e8bf05670",
+      "guid": "a7838f2af2306fe4190fbc16080e1444"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Guangyun2.asset",
+      "sourceSha256": "82c5cb17fd044c91e8228c5f8b17ef1f8e59d9f2f04d3a72e6294cdd40a6beeb",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Guangyun2.asset",
+      "derivedSha256": "82c5cb17fd044c91e8228c5f8b17ef1f8e59d9f2f04d3a72e6294cdd40a6beeb",
+      "guid": "1419c47d06519e548bf3adaf46b24694"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Yun5.png",
+      "sourceSha256": "cede80b7a4605fdbf293d801af0cf5eb6ee7561ac4ac39f9d3fc89a1548c3718",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Yun5.png",
+      "derivedSha256": "cede80b7a4605fdbf293d801af0cf5eb6ee7561ac4ac39f9d3fc89a1548c3718",
+      "guid": "7bb074ef569343644abcc9a2a1f88a2b"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Yun5.asset",
+      "sourceSha256": "7533a855f31ee699b0c3296e91e4ee2861b888a1e212e198d90afa2fddd0e83d",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Yun5.asset",
+      "derivedSha256": "7533a855f31ee699b0c3296e91e4ee2861b888a1e212e198d90afa2fddd0e83d",
+      "guid": "4f0af792745aa3e43825f6f9e67021c0"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Guangyun1.png",
+      "sourceSha256": "90791366176afdb33b5110112bdca9c3cd7e51c9032369795738a1ab712f1602",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Guangyun1.png",
+      "derivedSha256": "90791366176afdb33b5110112bdca9c3cd7e51c9032369795738a1ab712f1602",
+      "guid": "7c9b92b905271314c964bdc2ca8359f9"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Guangyun1.asset",
+      "sourceSha256": "4299d767d80f6f10f6e93fda55b7a6ee5940b29c07b3f341876474ec39789e0a",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Guangyun1.asset",
+      "derivedSha256": "4299d767d80f6f10f6e93fda55b7a6ee5940b29c07b3f341876474ec39789e0a",
+      "guid": "b223918ea3419e040b47b96b56df13e6"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Yun8.png",
+      "sourceSha256": "b6d0214cf37179440e8be2a4f445d36e18b385e87ddd981a2e57908b6e0d0197",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Yun8.png",
+      "derivedSha256": "b6d0214cf37179440e8be2a4f445d36e18b385e87ddd981a2e57908b6e0d0197",
+      "guid": "6a7786400f4bd704e90dcf97d41f0b0e"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Yun8.asset",
+      "sourceSha256": "f13ba88d402dd4978f574e829819d7076f112fb889a655f6bda3cd83410ec919",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Yun8.asset",
+      "derivedSha256": "f13ba88d402dd4978f574e829819d7076f112fb889a655f6bda3cd83410ec919",
+      "guid": "78d3575dee77844418f81311b6ea49b1"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Yun4.png",
+      "sourceSha256": "1a00e2cb3368eb09350455b7767fff07d5105bf6ace574f84b947fdc2de3a2bf",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Yun4.png",
+      "derivedSha256": "1a00e2cb3368eb09350455b7767fff07d5105bf6ace574f84b947fdc2de3a2bf",
+      "guid": "f420af04813dfa0449d46de2dcfe98fb"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Yun4.asset",
+      "sourceSha256": "4c6173250cb0b5567df41911e73a99d8259b33711d7f19349f72cd1cefd8b7a2",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Yun4.asset",
+      "derivedSha256": "4c6173250cb0b5567df41911e73a99d8259b33711d7f19349f72cd1cefd8b7a2",
+      "guid": "1baa6decc7281be4fa9cdcd02e915987"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Effect_SkyTransition.anim",
+      "sourceSha256": "5bf114ccf5d41cb85d81f6334d88f177b9265d1cc47e3df0b7d223a29e04878b",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Effect_SkyTransition.anim",
+      "derivedSha256": "5bf114ccf5d41cb85d81f6334d88f177b9265d1cc47e3df0b7d223a29e04878b",
+      "guid": "7c7f404b22b4d024493fe8fe76ee49a7"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Effect_SkyTransitionStay.anim",
+      "sourceSha256": "18416039da9c9f175b0bcc4b01212bd083a014688b5a8f5fa4fdae820bc5f726",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Effect_SkyTransitionStay.anim",
+      "derivedSha256": "18416039da9c9f175b0bcc4b01212bd083a014688b5a8f5fa4fdae820bc5f726",
+      "guid": "348adb1103f5e844c819f50e83260d99"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Ani_SkyTransition_Idle.anim",
+      "sourceSha256": "b0be24c3dcbf15cef5d50bf8e2906fcd7ae543a5365a619e200c596c03e931b2",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Ani_SkyTransition_Idle.anim",
+      "derivedSha256": "b0be24c3dcbf15cef5d50bf8e2906fcd7ae543a5365a619e200c596c03e931b2",
+      "guid": "a1b5a11f65bb36f4a8b086c7df880478"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Effect_SkyTransitionOut.anim",
+      "sourceSha256": "33fbfecd5dbb1dca6f94fc06cb544007d6756a189992ed72863cea667d8325e0",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Effect_SkyTransitionOut.anim",
+      "derivedSha256": "33fbfecd5dbb1dca6f94fc06cb544007d6756a189992ed72863cea667d8325e0",
+      "guid": "55389e6b973510449a7b73841692a74d"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimatorController\\Effect_SkyTransition.controller",
+      "sourceSha256": "a538eefbd1d05a3f29b4592959b46f664669c1dbc8c7773cf8db57fba10c45d0",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimatorController/Effect_SkyTransition.controller",
+      "derivedSha256": "a538eefbd1d05a3f29b4592959b46f664669c1dbc8c7773cf8db57fba10c45d0",
+      "guid": "0b53b426211038340a9b4abf1de28db5"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Feiji.png",
+      "sourceSha256": "30e96409c3679548963f448a557f5b8bd19cb639c0aaa38f97252a99a41c1763",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Feiji.png",
+      "derivedSha256": "30e96409c3679548963f448a557f5b8bd19cb639c0aaa38f97252a99a41c1763",
+      "guid": "4653922e39f1dcb48bbcbd3b4c663943"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Feiji.asset",
+      "sourceSha256": "09a859110fa346bca610928c2bbf16e876e1f746560ebc026cebe368d0ee0527",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Feiji.asset",
+      "derivedSha256": "09a859110fa346bca610928c2bbf16e876e1f746560ebc026cebe368d0ee0527",
+      "guid": "a30902adcafef0e47b62883ea7478337"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Light_01_0.png",
+      "sourceSha256": "0403ba016a7b74f91e7c13911bf17e9868bc5d75cdac2208ef81fd5d287a5219",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Light_01_0.png",
+      "derivedSha256": "0403ba016a7b74f91e7c13911bf17e9868bc5d75cdac2208ef81fd5d287a5219",
+      "guid": "176a8cc5b66cdee4c8bccaff4821a3f1"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Light_01_Add_0.mat",
+      "sourceSha256": "3fb1872fef1f530baca23ab737926e665195dd7a59f03af96254f7271ecf426c",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Light_01_Add_0.mat",
+      "derivedSha256": "5682239b4533099fcb93cd6819478345c6ce91d5e80a563cc1313b878684afa1",
+      "guid": "c99afb1fca4545945afb1c1f6d014ea7"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Yun1.png",
+      "sourceSha256": "422b7c071934a6aa505d491118314564fe5cc7e2dd6f691d33ea175749b74b3d",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Yun1.png",
+      "derivedSha256": "422b7c071934a6aa505d491118314564fe5cc7e2dd6f691d33ea175749b74b3d",
+      "guid": "2e26f3dd2b3c3c343bec20db7189f78a"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Yun1.asset",
+      "sourceSha256": "e96b6b81f5683dab318fa2c0a9885187a050b401a1742ae5f7706fdf7f3136ca",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Yun1.asset",
+      "derivedSha256": "e96b6b81f5683dab318fa2c0a9885187a050b401a1742ae5f7706fdf7f3136ca",
+      "guid": "61dcb4310146e084d8f39e9f9e294a2c"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Sky.png",
+      "sourceSha256": "71e3820bb1abd87b23817c2aecfdc0fd554ca5041ad8b30e497b937ed7fcdf93",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Sky.png",
+      "derivedSha256": "71e3820bb1abd87b23817c2aecfdc0fd554ca5041ad8b30e497b937ed7fcdf93",
+      "guid": "a9d8bb3ce9b1f3049aca473db899464f"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Sky.asset",
+      "sourceSha256": "42a006cc51635b6d078a94e55a3c847da9e33157df5622cbcf0c2dbbda5f0117",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Sky.asset",
+      "derivedSha256": "42a006cc51635b6d078a94e55a3c847da9e33157df5622cbcf0c2dbbda5f0117",
+      "guid": "9f6fa753a9a5ba343a0f5df67c35d04a"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Yun2.png",
+      "sourceSha256": "e7f326d254cf640e28ce7dcaf9571348c9678869c62a49c67c6b4a501971074c",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Yun2.png",
+      "derivedSha256": "e7f326d254cf640e28ce7dcaf9571348c9678869c62a49c67c6b4a501971074c",
+      "guid": "96f3b8b52456fa542afdc47694ff6bd0"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Yun2.asset",
+      "sourceSha256": "24c42766f09c15b315d7acc3d1c097b94be8859167f124560dd5717ea804b10f",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Yun2.asset",
+      "derivedSha256": "24c42766f09c15b315d7acc3d1c097b94be8859167f124560dd5717ea804b10f",
+      "guid": "02b193e5d7c793d42b603d8c690bfdd7"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Yun6.png",
+      "sourceSha256": "13c5da6f532737051a8b09c823355958e105489ee14aa392de3e988cb73618b1",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Yun6.png",
+      "derivedSha256": "13c5da6f532737051a8b09c823355958e105489ee14aa392de3e988cb73618b1",
+      "guid": "8da071402fb681c4fafd9566e9e59e1d"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Yun6.asset",
+      "sourceSha256": "69501aa0c48cc5367f79bf2237074641a9a438571de97da741f26d7c22c7f863",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Yun6.asset",
+      "derivedSha256": "69501aa0c48cc5367f79bf2237074641a9a438571de97da741f26d7c22c7f863",
+      "guid": "dbeae1a96c314ac498a6f19146e16819"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Img_Bg_Yun7.png",
+      "sourceSha256": "24a906d7ed5bc51db47a29a52f10e018d37095353dfc9be7cc16c90dbeb7d67e",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Img_Bg_Yun7.png",
+      "derivedSha256": "24a906d7ed5bc51db47a29a52f10e018d37095353dfc9be7cc16c90dbeb7d67e",
+      "guid": "7380d25ede6003a42809935ddedc6faf"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Sprite\\Img_Bg_Yun7.asset",
+      "sourceSha256": "0b41e6e2e6c959e2e6fc693bd098a99e7ea51182d6d25b10cde2f6881145befc",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Sprite/Img_Bg_Yun7.asset",
+      "derivedSha256": "0b41e6e2e6c959e2e6fc693bd098a99e7ea51182d6d25b10cde2f6881145befc",
+      "guid": "514b5aa3dfe9543449bf80dde36e0092"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\busjam\\game\\effect\\prefabs\\Effect_SkyTransition.prefab",
+      "sourceSha256": "e4503329f10f2649df711d58738688e7839ec7de9b721f7ec0642f762d0e5349",
+      "target": "Assets/_Project/Art/BusFever/Recovered/busjam/game/effect/prefabs/Effect_SkyTransition.prefab",
+      "derivedSha256": "a1fdc4d021c2160755271fc65155ccf0b27c36cc7b8f3b3db4a667f567f3be2f",
+      "guid": "ad2c158983f48ed4a84007bb4898e6bf"
+    }
+  ],
+  "removedDummyComponents": [
+    {
+      "file": "busjam\\game\\effect\\prefabs\\Effect_SkyTransition.prefab",
+      "component": "114161607090078389",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Home\\Loading.cs"
+    },
+    {
+      "file": "busjam\\game\\effect\\prefabs\\Effect_SkyTransition.prefab",
+      "component": "114002669891404536",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Feedbacks\\SolitarySpark\\Feedbacks\\FeedbacksPlayer.cs"
+    },
+    {
+      "file": "busjam\\game\\effect\\prefabs\\Effect_SkyTransition.prefab",
+      "component": "114621510681728303",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Unity.RenderPipelines.Universal.Runtime\\UnityEngine\\Rendering\\Universal\\UniversalAdditionalCameraData.cs"
+    },
+    {
+      "file": "busjam\\game\\effect\\prefabs\\Effect_SkyTransition.prefab",
+      "component": "114875609422105747",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\UnityEngine.UI\\UnityEngine\\UI\\RawImage.cs"
+    },
+    {
+      "file": "busjam\\game\\effect\\prefabs\\Effect_SkyTransition.prefab",
+      "component": "114217368724061974",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Coffee.UIParticle\\Coffee\\UIExtensions\\UIParticle.cs"
+    }
+  ],
+  "unresolvedGuids": [],
+  "materialMigration": "Shader cleared in derived copy; Editor assigns verified URP/TMP shaders and texture slots before use."
+}

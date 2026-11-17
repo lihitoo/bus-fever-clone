@@ -7,6 +7,9 @@ namespace Dreamy.Template
 
         // Panel
         public const string HomePanel = "Panel/HomePanel.prefab";
+        public const string GameplayPanel = "Panel/GameplayPanel.prefab";
+        public const string VictoryPanel = "Panel/VictoryPanel.prefab";
+        public const string PauseSettingsPanel = "Panel/PauseSettingsPanel.prefab";
         public const string FoundationDemoPanel = "Panel/FoundationDemoPanel.prefab";
         public const string ShopPanel = "Panel/ShopPanel.prefab";
         public const string SettingsPanel = "Panel/SettingsPanel.prefab";

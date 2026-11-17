@@ -1,0 +1,60 @@
+{
+  "catalogId": "bus-fever-onboarding",
+  "revision": 1,
+  "flows": [
+    {
+      "id": "level-one",
+      "allowSkip": false,
+      "steps": [
+        {
+          "id": "blue-top",
+          "targetId": "blue-top",
+          "messageKey": "tutorial.match-passengers",
+          "completionMode": "HostSignal",
+          "signalKey": "vehicle.dispatched.blue-top",
+          "blockOutsideTarget": true
+        },
+        {
+          "id": "blue-left",
+          "targetId": "blue-left",
+          "messageKey": "tutorial.match-passengers",
+          "completionMode": "HostSignal",
+          "signalKey": "vehicle.dispatched.blue-left",
+          "blockOutsideTarget": true
+        },
+        {
+          "id": "red-upper",
+          "targetId": "red-upper",
+          "messageKey": "tutorial.match-passengers",
+          "completionMode": "HostSignal",
+          "signalKey": "vehicle.dispatched.red-upper",
+          "blockOutsideTarget": true
+        },
+        {
+          "id": "red-bottom",
+          "targetId": "red-bottom",
+          "messageKey": "tutorial.match-passengers",
+          "completionMode": "HostSignal",
+          "signalKey": "vehicle.dispatched.red-bottom",
+          "blockOutsideTarget": true
+        },
+        {
+          "id": "yellow-left",
+          "targetId": "yellow-left",
+          "messageKey": "tutorial.match-passengers",
+          "completionMode": "HostSignal",
+          "signalKey": "vehicle.dispatched.yellow-left",
+          "blockOutsideTarget": true
+        },
+        {
+          "id": "yellow-right",
+          "targetId": "yellow-right",
+          "messageKey": "tutorial.match-passengers",
+          "completionMode": "HostSignal",
+          "signalKey": "vehicle.dispatched.yellow-right",
+          "blockOutsideTarget": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,11 @@
 # M01 execution checkpoint
 
+## Follow-up after commit 27b6d28
+
+Fixed two verified defects: Settings authoring disabled its modal mask raycast, allowing clicks through to Home; bottom navigation kept a fixed1080 width and overflowed tall/narrow canvases. Mask raycast is preserved. Tabs now occupy three equal flexible regions, controls have their own SafeArea owner, and decorative blue background bleeds to the bottom edge independently. No HomeComposition or SDK ownership changes.
+
+[Modal/layout regression](modal-layout-validation.json): four PlayMode tests passed. These use a real GraphicRaycaster and CanvasScaler with render-target profiles1080×1920,1080×2400,720×1600 and synthetic insets. Physical safe-area reporting and full visual/camera comparison remain separate. Three leader material emission-keyword changes appeared in the worktree during this session; they were preserved and are outside the modal/layout patch.
+
 ## Implemented in normal project routes
 
 - Existing HomePanel prefab/address/GUID retained. HomePresenter/HomeNavigator wiring retained. No HomeComposition/factory layer.

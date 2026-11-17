@@ -37,6 +37,7 @@ namespace Dreamy.Template.Editor
                 }
                 Set(panel,"closeButton",Find<Button>(root,"Btn_Close"));
                 Set(panel,"restartButton",Find<Button>(root,"Btn_Green_1"));
+                Set(panel,"homeButton",Find<Button>(root,"Btn_Yellow"));
                 var statusRoot=new GameObject("OperationStatus",typeof(RectTransform));statusRoot.transform.SetParent(safe,false);
                 var status=statusRoot.AddComponent<TextMeshProUGUI>();status.text="";status.fontSize=26;status.alignment=TextAlignmentOptions.Center;status.raycastTarget=false;
                 status.rectTransform.anchoredPosition=new Vector2(0,-560);status.rectTransform.sizeDelta=new Vector2(700,80);

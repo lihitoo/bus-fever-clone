@@ -18,7 +18,8 @@ namespace Dreamy.Template
 
         private void InstallPresentation()
         {
-            presenterFactory.Register<HomePanel>(view => new HomePresenter(view, new HomeNavigator()));
+            presenterFactory.Register<HomePanel>(view => new HomePresenter(view, new HomeNavigator(() => NavigateGameplayAsync(true)),progression.GetState().CurrentLevel));
+            InstallGameplayPresentation();
             presenterFactory.Register<FoundationDemoPanel>(view =>
                 new FoundationDemoRoot(view, datasave, () => dataConfig.GetTable<TemplateConfig>()));
             RegisterService<PanelPresenterFactory>(presenterFactory);

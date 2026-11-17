@@ -20,5 +20,11 @@ MonoBehaviour:
   musicCategories: []
   sounds:
   - {fileID: 11400000, guid: 6ff37d2fa46c95a4ea4e2f133338f5a7, type: 2}
+  - {fileID: 11400000, guid: a10a83230e8907a48a6b5424e8ed54d3, type: 2}
+  - {fileID: 11400000, guid: 6b15818fe8d231e49b4ea702e1edd651, type: 2}
+  - {fileID: 11400000, guid: ee949d302571981429bfe56e339b53b9, type: 2}
+  - {fileID: 11400000, guid: eb4c13bf2187a1a4bbd916d0f2adbf7e, type: 2}
+  - {fileID: 11400000, guid: 904fb0803654252479ffc71b30f7b5d6, type: 2}
+  - {fileID: 11400000, guid: 876019c28c9eb00499531b2b13f7485a, type: 2}
   music:
   - {fileID: 11400000, guid: e6238f7bc8301f64e8a5c6980a4c6ae4, type: 2}

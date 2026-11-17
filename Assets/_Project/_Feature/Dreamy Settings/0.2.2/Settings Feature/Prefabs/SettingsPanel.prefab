@@ -4384,7 +4384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.65}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6640,6 +6640,7 @@ MonoBehaviour:
   termsButton: {fileID: 1059913892027009876}
   privacyButton: {fileID: 7454476353924572113}
   operationStatus: {fileID: 1527512464571348899}
+  restartButton: {fileID: 0}
 --- !u!114 &6846887089675097535
 MonoBehaviour:
   m_ObjectHideFlags: 0

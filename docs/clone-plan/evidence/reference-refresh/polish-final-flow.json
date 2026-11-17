@@ -1,0 +1,60 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"bed3618501684ac7969ea220191956cf\",\"status\":\"succeeded\",\"mode\":\"PlayMode\",\"started_unix_ms\":1794934616701,\"finished_unix_ms\":1794934650562,\"last_update_unix_ms\":1794934650562,\"progress\":{\"completed\":1,\"total\":1,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1794934619084,\"last_finished_test_full_name\":\"Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome\",\"last_finished_unix_ms\":1794934650548,\"stuck_suspected\":false,\"editor_is_focused\":true,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"PlayMode\",\"summary\":{\"total\":1,\"passed\":1,\"failed\":0,\"skipped\":0,\"durationSeconds\":31.5267189,\"resultState\":\"Passed\"},\"results\":null}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "bed3618501684ac7969ea220191956cf",
+          "status": "succeeded",
+          "mode": "PlayMode",
+          "started_unix_ms": 1794934616701,
+          "finished_unix_ms": 1794934650562,
+          "last_update_unix_ms": 1794934650562,
+          "progress": {
+            "completed": 1,
+            "total": 1,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1794934619084,
+            "last_finished_test_full_name": "Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome",
+            "last_finished_unix_ms": 1794934650548,
+            "stuck_suspected": false,
+            "editor_is_focused": true,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "PlayMode",
+            "summary": {
+              "total": 1,
+              "passed": 1,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 31.5267189,
+              "resultState": "Passed"
+            },
+            "results": null
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

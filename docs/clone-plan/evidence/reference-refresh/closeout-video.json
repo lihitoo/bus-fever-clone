@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "job": "8ab3a67cbb7b465e8f9c14c8318c16f6",
+  "frames": 61,
+  "elapsedSeconds": 32.09804069999882,
+  "audio": false,
+  "decodeExitCode": 0,
+  "path": "media/current/M02/m02-m03-polish.mp4",
+  "sha256": "1780a5fcacfb1c17de5a511d8e5271f7d2e33e6b0a01006792ec6e32b88cf387",
+  "limitation": "Real Editor capture; sparse VFR about2FPS, not audio/tween/device acceptance."
+}

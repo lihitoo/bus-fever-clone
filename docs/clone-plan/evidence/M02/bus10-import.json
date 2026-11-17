@@ -1,0 +1,162 @@
+{
+  "kind": "source-derived-selected-import",
+  "assets": [
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Idle_boy02_blue_3.png",
+      "sourceSha256": "a06cde6a90faba0385f0edafb6909a0c70171edba194917111b60fae62cff3c0",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Idle_boy02_blue_3.png",
+      "derivedSha256": "a06cde6a90faba0385f0edafb6909a0c70171edba194917111b60fae62cff3c0",
+      "guid": "7dc51e0ecb52dce46b9f2f7210611d92"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Arrow_01_1.mat",
+      "sourceSha256": "2df8cb26a97cff9f8c881a0228672e092117901c2f4911e8446279fdfd03346e",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Arrow_01_1.mat",
+      "derivedSha256": "50330253e8ee3f780e65d8cca084a2d812698ccfe1f8a736c3853bbd0f0187f9",
+      "guid": "8259a91eb76e3be4281cc9238ca14e0d"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Round_01_4.png",
+      "sourceSha256": "66541e52d38e857ae70e0abc63476b80dd952141d58b79ced66f97a322f9eeca",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Round_01_4.png",
+      "derivedSha256": "66541e52d38e857ae70e0abc63476b80dd952141d58b79ced66f97a322f9eeca",
+      "guid": "87c653a81f17e2947a0eb7425f173c71"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Round_01_Alp_3.mat",
+      "sourceSha256": "ad43d017ae79bda2d373b8a66fd30f2843c562b41b0f71b14a4d74cddff91de3",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Round_01_Alp_3.mat",
+      "derivedSha256": "913cf9c6fdca445f4008dfecf1c3705dd8c80f3359a311a88d7c5ecedec1cb70",
+      "guid": "5d55cc89767889749b188fd563b276c4"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Mesh\\Wheel_001_6.asset",
+      "sourceSha256": "b151d984fe18317d336b2e605d6023da8ad8059d47dcf4091c6db49e07a80fed",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Mesh/Wheel_001_6.asset",
+      "derivedSha256": "b151d984fe18317d336b2e605d6023da8ad8059d47dcf4091c6db49e07a80fed",
+      "guid": "63cd2ff9cd972ea48bdcda8080faff63"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Bus_FakeShadow.png",
+      "sourceSha256": "02fc27ea555ea1dd9034ed49938adc259b78ca9ef6adcf7fe6c55b5f96b4eef5",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Bus_FakeShadow.png",
+      "derivedSha256": "02fc27ea555ea1dd9034ed49938adc259b78ca9ef6adcf7fe6c55b5f96b4eef5",
+      "guid": "9c1fc08ca8f22f9439de433382151520"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Bus_FakeShadow_1.mat",
+      "sourceSha256": "fd7798fdac75540bf3536d66197d1f09b0d524639f57f7564d899f309d80d518",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Bus_FakeShadow_1.mat",
+      "derivedSha256": "7b473b51f011ec5db933aea492a9dbbd08f6be2b8d0a9102b6448ed0a5a0111c",
+      "guid": "cf7202cb1bc06334c8307f256a7f245d"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Mesh\\Arrow_01_0.asset",
+      "sourceSha256": "d5b38e45f0eb55b7280110826f17939172251b92ff69f721a86c4c2edfb59577",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Mesh/Arrow_01_0.asset",
+      "derivedSha256": "d5b38e45f0eb55b7280110826f17939172251b92ff69f721a86c4c2edfb59577",
+      "guid": "50521acf20e364a4c8510fe9e8d51491"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Car_blue_new_0.mat",
+      "sourceSha256": "9f67577c2d7a742041aa0542cd43aa57cb272cf927a1950a69de3da6f0b3721c",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Car_blue_new_0.mat",
+      "derivedSha256": "04f894fa83806f6f7ce2e46656658d197ce980c0816d66bb6edd3884b98fb752",
+      "guid": "e59290e6527092c4d9155920afc25a36"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Mesh\\Bus_FakeShadow.asset",
+      "sourceSha256": "3191dc4238a28a5ea29b41cdb7dcd9206d26c16b59bc93107b4d93707321f17b",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Mesh/Bus_FakeShadow.asset",
+      "derivedSha256": "3191dc4238a28a5ea29b41cdb7dcd9206d26c16b59bc93107b4d93707321f17b",
+      "guid": "d41943fb6ad27e34a976d329c798aae6"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Mesh\\Arrow_02_1.asset",
+      "sourceSha256": "2c1560f56a71f8068b421fa0d1e19b16c81abf39cded67779e89c1bf9a490dbf",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Mesh/Arrow_02_1.asset",
+      "derivedSha256": "2c1560f56a71f8068b421fa0d1e19b16c81abf39cded67779e89c1bf9a490dbf",
+      "guid": "a71149253fd4b6945bfebdf40a1f7df4"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Bus_FakeShadow.mat",
+      "sourceSha256": "9b1688b33c0081bcfaf9c7a39165acb8913f446ce26593ed1294b5cb3b56ccc7",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Bus_FakeShadow.mat",
+      "derivedSha256": "e94044dabf0de969e0b8582fbc6d2d67423cc20ad8c6d900c8a8c135ff11c170",
+      "guid": "58572822a9120874ca6309523f41c72d"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Mesh\\Bus_001.asset",
+      "sourceSha256": "5f9846d9a63162735148b3ba0ffccca3623a742bd8c51a71988b29630db63e17",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Mesh/Bus_001.asset",
+      "derivedSha256": "5f9846d9a63162735148b3ba0ffccca3623a742bd8c51a71988b29630db63e17",
+      "guid": "7df5dd1ee5631844e81e9df393a5c4bb"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "sourceSha256": "db7e4d3d87964536f446c3f1f231a15e336fd6e2ecacfe30597c2e7e72f7ce2a",
+      "target": "Assets/_Project/Art/BusFever/Recovered/busjam/game/bundleables/busandpassenger/bus_normal_10.prefab",
+      "derivedSha256": "21f3ff271bbb757e74eac865d971ceffc7d31b2da18e72ab4c16b2d6e9c763d3",
+      "guid": "e1371f68afd55884b95bc0cdc7fbed03"
+    }
+  ],
+  "removedDummyComponents": [
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114977153420339851",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\VehicleNormal.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114256069497284392",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\HighlightPlus\\HighlightPlus\\HighlightEffect.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114161607090078389",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Animation\\SolitarySpark\\Animation\\AnimationMixerManager.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114002669891404536",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Animation\\SolitarySpark\\Animation\\AnimationClipOutput.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114470112387431263",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Animation\\SolitarySpark\\Animation\\AnimatorMixerOutput.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114313026266067498",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\SolitarySpark.Animation\\SolitarySpark\\Animation\\AnimationClipOutput.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114302127217294661",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\Utils\\ColliderInversionInfo.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114017697238300914",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\HighlightPlus\\HighlightPlus\\DontIncludeHighLight.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114841364053301648",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\HighlightPlus\\HighlightPlus\\DontIncludeHighLight.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114967328832014496",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\BusJam\\VehicleFakeShadow.cs"
+    },
+    {
+      "file": "busjam\\game\\bundleables\\busandpassenger\\bus_normal_10.prefab",
+      "component": "114107629493147155",
+      "script": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Scripts\\HighlightPlus\\HighlightPlus\\DontIncludeHighLight.cs"
+    }
+  ],
+  "unresolvedGuids": [],
+  "materialMigration": "Shader cleared in derived copy; Editor assigns verified URP/TMP shaders and texture slots before use."
+}

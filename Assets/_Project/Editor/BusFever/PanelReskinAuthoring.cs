@@ -22,6 +22,24 @@ namespace Dreamy.Template.Editor
 
         public static string DryRun() => $"Home: {AssetDatabase.AssetPathToGUID(HomePath)}; Settings: {AssetDatabase.AssetPathToGUID(SettingsPath)}. Replaces child art; keeps root panel identity and addresses.";
 
+        public static void RepairM01InputAndNavigation()
+        {
+            var home = PrefabUtility.LoadPrefabContents(HomePath);
+            try
+            {
+                ConfigureNavigation(home, home.transform.Find("BottomNavigation"));
+                PrefabUtility.SaveAsPrefabAsset(home, HomePath);
+            }
+            finally { PrefabUtility.UnloadPrefabContents(home); }
+            var settings = PrefabUtility.LoadPrefabContents(SettingsPath);
+            try
+            {
+                settings.transform.Find("Mask_Img").GetComponent<Image>().raycastTarget = true;
+                PrefabUtility.SaveAsPrefabAsset(settings, SettingsPath);
+            }
+            finally { PrefabUtility.UnloadPrefabContents(settings); }
+        }
+
         public static void ConfigureBackdrop()
         {
             var controller = AssetDatabase.LoadAssetAtPath<UnityEditor.Animations.AnimatorController>(Art + "/AnimatorController/Ani_Home_Bus.controller");
@@ -72,7 +90,9 @@ namespace Dreamy.Template.Editor
             {
                 ClearOldSkin(root);
                 CopyChildren("Assets/_Project/Art/BusFever/UI/HomePanel.prefab", root.transform);
-                CopyChildren(Art + "/busjam/home/bundleables/BottomNavigationBar.prefab", AddRect(root.transform, "BottomNavigation"));
+                var navigation = AddRect(root.transform, "BottomNavigation");
+                CopyChildren(Art + "/busjam/home/bundleables/BottomNavigationBar.prefab", navigation);
+                ConfigureNavigation(root, navigation);
                 var safe = root.transform.Find("All_Empty");
                 if (safe != null && safe.GetComponent<SafeArea>() == null) safe.gameObject.AddComponent<SafeArea>();
                 // M01 reference state has no active timed events yet.
@@ -184,6 +204,37 @@ namespace Dreamy.Template.Editor
             Set(panel, "tweenPlayer", null);
         }
 
+        private static void ConfigureNavigation(GameObject root, Transform navigation)
+        {
+            if (navigation.GetComponent<SafeArea>() == null) navigation.gameObject.AddComponent<SafeArea>();
+            var tabs = (RectTransform)navigation.Find("All/Tabs");
+            tabs.anchorMin = new Vector2(0,0); tabs.anchorMax = new Vector2(1,0);
+            tabs.pivot = new Vector2(.5f,0); tabs.sizeDelta = new Vector2(0,200); tabs.anchoredPosition = Vector2.zero;
+            var names = new[] { "ShopTab", "HomeTab", "RankingTab" };
+            for (int i = 0; i < names.Length; i++)
+            {
+                var tab = (RectTransform)tabs.Find(names[i]);
+                tab.anchorMin = new Vector2(i/3f,0); tab.anchorMax = new Vector2((i+1)/3f,1);
+                tab.sizeDelta = Vector2.zero; tab.anchoredPosition = Vector2.zero;
+            }
+            var selected = (RectTransform)tabs.Find("Selected");
+            selected.anchorMin = new Vector2(1f/3,0); selected.anchorMax = new Vector2(2f/3,1);
+            selected.sizeDelta = Vector2.zero; selected.anchoredPosition = Vector2.zero;
+            for (int i=1;i<=2;i++)
+            {
+                var divider = (RectTransform)tabs.Find("Divider"+i+"_Img");
+                divider.anchorMin = divider.anchorMax = new Vector2(i/3f,.5f); divider.anchoredPosition = Vector2.zero;
+            }
+            // Keep full-bleed decoration outside the safe controls, including the gesture strip.
+            var source = navigation.Find("All/Bg").GetComponent<Image>();
+            var existingBleed = root.transform.Find("NavigationBleed");
+            var bleed = existingBleed != null ? (RectTransform)existingBleed : AddRect(root.transform,"NavigationBleed").GetComponent<RectTransform>();
+            bleed.SetSiblingIndex(navigation.GetSiblingIndex());
+            bleed.anchorMin = Vector2.zero; bleed.anchorMax = new Vector2(1,0); bleed.pivot = new Vector2(.5f,0);
+            bleed.sizeDelta = new Vector2(0,200);
+            var image = bleed.GetComponent<Image>() ?? bleed.gameObject.AddComponent<Image>(); image.sprite = source.sprite; image.color = source.color; image.raycastTarget = false;
+        }
+
         private static void CopyChildren(string source, Transform target)
         {
             var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(source);
@@ -209,7 +260,7 @@ namespace Dreamy.Template.Editor
             foreach (var animator in root.GetComponentsInChildren<Animator>(true)) Object.DestroyImmediate(animator);
             foreach (var group in root.GetComponentsInChildren<CanvasGroup>(true)) group.alpha = 1;
             foreach (var graphic in root.GetComponentsInChildren<Graphic>(true))
-                graphic.raycastTarget = graphic.GetComponent<Selectable>() != null;
+                graphic.raycastTarget = graphic.name == "Mask_Img" || graphic.GetComponent<Selectable>() != null;
             foreach (var button in root.GetComponentsInChildren<Button>(true))
                 if (button.GetComponent<AudioButtonTrigger>() == null) button.gameObject.AddComponent<AudioButtonTrigger>();
             foreach (var text in root.GetComponentsInChildren<TMP_Text>(true))

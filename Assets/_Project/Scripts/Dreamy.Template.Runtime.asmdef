@@ -30,7 +30,10 @@
         "Dreamy.Shop.UI.Integration",
         "Dreamy.Debugger.Runtime",
         "Dreamy.Debugger.Engine",
-        "Dreamy.Debugger.Presentation"
+        "Dreamy.Debugger.Presentation",
+        "VContainer",
+        "Dreamy.Tutorial.Runtime",
+        "Dreamy.Progression.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,0 +1,9 @@
+{
+  "kind": "partial-editor-capture",
+  "frames": 58,
+  "missingFrames": 5,
+  "audio": false,
+  "durationSeconds": 15.922082900011446,
+  "sha256": "3b9a2dfd7597f0744a3e32577a9a783ae20852e3f03103502a40b802dbfd29e3",
+  "note": "Actual sparse Editor frames from a failed capture run. Partial flow preview only; no passing test or timing parity claim."
+}

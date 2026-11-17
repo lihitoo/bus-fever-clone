@@ -21,7 +21,10 @@
         "UnityEngine.UI",
         "Unity.Addressables.Editor",
         "Dreamy.Economy.UI.Runtime",
-        "Dreamy.Audio.Runtime"
+        "Dreamy.Audio.Runtime",
+        "Dreamy.Tutorial.Runtime",
+        "Dreamy.Progression.Runtime",
+        "Dreamy.Feedback.Contracts"
     ],
     "includePlatforms": [
         "Editor"

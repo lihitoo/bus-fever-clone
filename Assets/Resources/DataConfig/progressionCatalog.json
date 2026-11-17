@@ -1,0 +1,22 @@
+{
+  "catalogId": "bus-fever-levels-v1",
+  "mode": 0,
+  "levels": [
+    {
+      "id": "level-1",
+      "level": 1
+    },
+    {
+      "id": "level-2",
+      "level": 2,
+      "rewardResourceId": "currency.coin",
+      "rewardAmount": 20
+    },
+    {
+      "id": "level-3",
+      "level": 3,
+      "rewardResourceId": "currency.coin",
+      "rewardAmount": 20
+    }
+  ]
+}

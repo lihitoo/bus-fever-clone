@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d160af2082d4ebdad895a84b06ee6d3, type: 3}
   m_Name: PortableVfxDatabase
   m_EditorClassIdentifier: Dreamy.Feedback.Runtime::Dreamy.Feedback.VfxDatabase
+  assets: []
   entries:
   - id: reward
     prefab: {fileID: 8555849183882478860, guid: 369be32b747911d4ba099eb5b5301220, type: 3}
     prewarmCount: 2
+    despawnMode: 1
+    fixedLifetime: 1
+  - id: bus.departure
+    prefab: {fileID: 1489663517351050159, guid: b85b18fe53f5c58449c327a79d25ee5b, type: 3}
+    prewarmCount: 4
     despawnMode: 1
     fixedLifetime: 1

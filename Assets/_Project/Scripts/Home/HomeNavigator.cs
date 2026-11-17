@@ -12,6 +12,8 @@ namespace Dreamy.Template.Home
     {
         private bool isTransitioning;
         private bool disposed;
+        private readonly Func<UniTask> play;
+        public HomeNavigator(Func<UniTask> play = null) { this.play = play; }
 
         public async UniTask OpenAsync(HomeDestination destination)
         {
@@ -21,6 +23,9 @@ namespace Dreamy.Template.Home
             {
                 switch (destination)
                 {
+                    case HomeDestination.Play:
+                        if (play != null) await play();
+                        break;
                     case HomeDestination.Demo:
                         await PanelManager.Instance.Transition<FoundationDemoPanel>(Address.FoundationDemoPanel);
                         break;

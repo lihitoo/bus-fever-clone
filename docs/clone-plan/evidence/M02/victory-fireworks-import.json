@@ -1,0 +1,78 @@
+{
+  "kind": "source-derived-selected-import",
+  "assets": [
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Trail_02_0.png",
+      "sourceSha256": "899b964eb2f685e60aac973c2af87215f0e4fb6c76eeb16f967839b8c8a01cef",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Trail_02_0.png",
+      "derivedSha256": "899b964eb2f685e60aac973c2af87215f0e4fb6c76eeb16f967839b8c8a01cef",
+      "guid": "d5757b3601c9fd4498baeaf36cc7086b"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Trail_02_Add_0.mat",
+      "sourceSha256": "75c7d22fd3edabef413cfd5e0613a94f8c825b0f1eb20622fa2a6a0ef46a6ac3",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Trail_02_Add_0.mat",
+      "derivedSha256": "9c5b53900fd26f89e7682002db815f4cbba9a0ffc5dd3b05100ffd89c971888b",
+      "guid": "8eda96b9ec2d0f745a65f8be6664aa34"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Star_10_0.png",
+      "sourceSha256": "13ae681d57d768aed408fa055d59317c4f94523a41c65ee0cb866658f0a41884",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Star_10_0.png",
+      "derivedSha256": "13ae681d57d768aed408fa055d59317c4f94523a41c65ee0cb866658f0a41884",
+      "guid": "239ee30132a9b3449b18eeef7ed95d36"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Star_10_0.mat",
+      "sourceSha256": "2f64ff6e6bdc296e75e6334ca82c72fc55890ef521fb41cc672e30006ba28b1d",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Star_10_0.mat",
+      "derivedSha256": "daf9456c215467d245e32aa2ea2e836c88a9763e675364fd872e7791c5890073",
+      "guid": "e0450e3696ebd4848876752b6f8488e2"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Trail_02_Alp_0.mat",
+      "sourceSha256": "3fffa5686999cf683cd904666012bcc5595b0660822d4c90ccc567e8e8ddf623",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Trail_02_Alp_0.mat",
+      "derivedSha256": "77ceb14727c186d280c1b71b588409e29c89be556d4211e54e164b99f2dcb500",
+      "guid": "607392099bb02464991337ba613ac622"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Round_01_3.png",
+      "sourceSha256": "66541e52d38e857ae70e0abc63476b80dd952141d58b79ced66f97a322f9eeca",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Round_01_3.png",
+      "derivedSha256": "66541e52d38e857ae70e0abc63476b80dd952141d58b79ced66f97a322f9eeca",
+      "guid": "8f2aa2231d6db884da1b77f7ed2ed7ac"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Round_01_Alp_2.mat",
+      "sourceSha256": "8c76cd1b52c17be6e9227a702a14c5c0aa171f780718d238ea8672186f65d894",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Round_01_Alp_2.mat",
+      "derivedSha256": "d1de9f835636a785f88e9f6adfc5b4e6431ed0e61301f0e4ba66d51e9398a4b7",
+      "guid": "86cd2c77725641b4ca86d4ebf650c9b3"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Star_04_3.png",
+      "sourceSha256": "63094ae46febdd10cd23b47e7d04f7dcfcb2252e34c8c608bce07193a3c54770",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Star_04_3.png",
+      "derivedSha256": "63094ae46febdd10cd23b47e7d04f7dcfcb2252e34c8c608bce07193a3c54770",
+      "guid": "585b053cdb1ee6e42a26b367425e58fc"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Star_04_Add_2.mat",
+      "sourceSha256": "926df2ba26eb9c9d4f48b893dc33130a359858dba6312e1af643c598697f583c",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Star_04_Add_2.mat",
+      "derivedSha256": "e5be4401976f8e7861d622687c4a8e76169a755ce9f6997a4c2ac51cb552bbfb",
+      "guid": "86a44a3a1f980e7488cd40d7c4ad2a35"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\busjam\\game\\effect\\prefabs\\Effect_Fireworks.prefab",
+      "sourceSha256": "6b82c49dbfcf7328a71670ad971fd96c24c13071272d7bffdb650fea1d3251fe",
+      "target": "Assets/_Project/Art/BusFever/Recovered/busjam/game/effect/prefabs/Effect_Fireworks.prefab",
+      "derivedSha256": "0ca249a06fc68bd5290d08ac97f87bacfb10cbf2b6b507d77928e28b48bc9a96",
+      "guid": "f0c3a10c5087b00438f4ff696388b996"
+    }
+  ],
+  "removedDummyComponents": [],
+  "unresolvedGuids": [],
+  "materialMigration": "Shader cleared in derived copy; Editor assigns verified URP/TMP shaders and texture slots before use."
+}

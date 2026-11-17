@@ -1,0 +1,41 @@
+{
+  "kind": "source-derived-selected-import",
+  "assets": [
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Idle_boy01_red_0.png",
+      "sourceSha256": "aba0e2c600edf933172ce757fb00836162f68b312a5511a8d86eb1140f25f057",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Idle_boy01_red_0.png",
+      "derivedSha256": "aba0e2c600edf933172ce757fb00836162f68b312a5511a8d86eb1140f25f057",
+      "guid": "1fd843ad0784bb44fb52b0b156873a0c",
+      "actualImportedSha256": "aba0e2c600edf933172ce757fb00836162f68b312a5511a8d86eb1140f25f057"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Car_red_new.mat",
+      "sourceSha256": "5cdcba95677dd4e38fae823f6c3d6653f4cd302e2da100745f0c22934717c8f7",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Car_red_new.mat",
+      "derivedSha256": "afd9db44b59ea94cd72039591350cb06013a9cfeaa76a1067ecc6a3cc41e63df",
+      "guid": "0b69f55b9a6079342bf06e4b89bcd818",
+      "actualImportedSha256": "ccd455ccd23ffa9f6b260a7f1eccedb1bfe76288718273de17ea5f7a362dcdf9"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\Idle_girl02_yellow_0.png",
+      "sourceSha256": "fe5443f0e9a491152c18fd4b5d5c0ca170252ce05a2212af5c3ca19b96e2cf03",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/Idle_girl02_yellow_0.png",
+      "derivedSha256": "fe5443f0e9a491152c18fd4b5d5c0ca170252ce05a2212af5c3ca19b96e2cf03",
+      "guid": "b49dead079d815e4cb72954b3e38b213",
+      "actualImportedSha256": "fe5443f0e9a491152c18fd4b5d5c0ca170252ce05a2212af5c3ca19b96e2cf03"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\Car_yellow_new.mat",
+      "sourceSha256": "a8f89adaa5b4e27e81467c3faf92410d4e6aa142899700f4314dd3be6a7d0b7f",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/Car_yellow_new.mat",
+      "derivedSha256": "163f7c04214442055bbed63ffd9b09c00e4c5baa5b0036250330edb714966680",
+      "guid": "c3e12046d01ef8548b92979c4f89dee4",
+      "actualImportedSha256": "f54d6557914d899a8ca31496386e5e90527485a28234089afcb6e5938e9ca753"
+    }
+  ],
+  "removedDummyComponents": [],
+  "unresolvedGuids": [],
+  "materialMigration": "Shader cleared in derived copy; Editor assigns verified URP/TMP shaders and texture slots before use.",
+  "receiptNote": "sourceSha256 and derivedSha256 describe the extraction transform; actualImportedSha256 records the current material/editor migration result. Existing M01 dependencies were preserved."
+}

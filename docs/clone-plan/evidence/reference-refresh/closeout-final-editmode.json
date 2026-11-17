@@ -1,0 +1,214 @@
+{
+  "result": {
+    "success": true,
+    "message": "Test job status retrieved.",
+    "error": null,
+    "data": {
+      "job_id": "8505e39391234452bfdbdb95d03639b6",
+      "status": "succeeded",
+      "mode": "EditMode",
+      "started_unix_ms": 1794938046207,
+      "finished_unix_ms": 1794938047035,
+      "last_update_unix_ms": 1794938047035,
+      "progress": {
+        "completed": 19,
+        "total": 19,
+        "current_test_full_name": null,
+        "current_test_started_unix_ms": 1794938046968,
+        "last_finished_test_full_name": "Dreamy.Template.Tests.WinLevelIntegrationTests.SaveFailure_RetryReloadsDurableState_AndDeliversOnce(True)",
+        "last_finished_unix_ms": 1794938047006,
+        "stuck_suspected": false,
+        "editor_is_focused": true,
+        "blocked_reason": null,
+        "failures_so_far": [],
+        "failures_capped": false
+      },
+      "error": null,
+      "result": {
+        "mode": "EditMode",
+        "summary": {
+          "total": 19,
+          "passed": 19,
+          "failed": 0,
+          "skipped": 0,
+          "durationSeconds": 0.4075165,
+          "resultState": "Passed"
+        },
+        "results": [
+          {
+            "name": "AcceptedSignalPersistsCheckpoint_RejectsStaleSignal_CompletedFlowDoesNotReplay",
+            "fullName": "Dreamy.Template.Tests.DreamyTutorialIntegrationTests.AcceptedSignalPersistsCheckpoint_RejectsStaleSignal_CompletedFlowDoesNotReplay",
+            "state": "Passed",
+            "durationSeconds": 0.040979,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(1,6,7)",
+            "fullName": "Dreamy.Template.Tests.PuzzleCatalogTests.ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(1,6,7)",
+            "state": "Passed",
+            "durationSeconds": 0.0022356,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(2,12,4)",
+            "fullName": "Dreamy.Template.Tests.PuzzleCatalogTests.ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(2,12,4)",
+            "state": "Passed",
+            "durationSeconds": 0.002658,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "AuthoredLevel_CanBeSolvedWithoutLosingPassengers",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.AuthoredLevel_CanBeSolvedWithoutLosingPassengers",
+            "state": "Passed",
+            "durationSeconds": 0.0008108,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "BadConfiguration_IsRejectedBeforeSessionCreation",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.BadConfiguration_IsRejectedBeforeSessionCreation",
+            "state": "Passed",
+            "durationSeconds": 0.0001225,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "FiftySessionScopes_ReleaseAllPresenterSubscriptions",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.FiftySessionScopes_ReleaseAllPresenterSubscriptions",
+            "state": "Passed",
+            "durationSeconds": 0.0024957,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "ParkedPriorityUsesArrivalOrder_AndNeverBoardsAnotherColor",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.ParkedPriorityUsesArrivalOrder_AndNeverBoardsAnotherColor",
+            "state": "Passed",
+            "durationSeconds": 0.0000977,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "PausePreventsEveryAuthorityTransition",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.PausePreventsEveryAuthorityTransition",
+            "state": "Passed",
+            "durationSeconds": 0.0000509,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "RepeatTapAndSecondCar_CannotReserveOccupiedSlot",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.RepeatTapAndSecondCar_CannotReserveOccupiedSlot",
+            "state": "Passed",
+            "durationSeconds": 0.0000654,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "SlotIsReleasedOnlyAfterFullDeparture_AndDuplicateCallbacksDoNothing",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.SlotIsReleasedOnlyAfterFullDeparture_AndDuplicateCallbacksDoNothing",
+            "state": "Passed",
+            "durationSeconds": 0.0001131,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "VehicleInExitLane_BlocksWithoutReserving(Up,2,3)",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Up,2,3)",
+            "state": "Passed",
+            "durationSeconds": 0.000179,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "VehicleInExitLane_BlocksWithoutReserving(Down,2,1)",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Down,2,1)",
+            "state": "Passed",
+            "durationSeconds": 0.0000896,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "VehicleInExitLane_BlocksWithoutReserving(Right,3,2)",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Right,3,2)",
+            "state": "Passed",
+            "durationSeconds": 0.00012,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "VehicleInExitLane_BlocksWithoutReserving(Left,1,2)",
+            "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Left,1,2)",
+            "state": "Passed",
+            "durationSeconds": 0.0000843,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "ClosingVictory_StopsTransferWithoutNavigation",
+            "fullName": "Dreamy.Template.Tests.VictoryPresenterLifecycleTests.ClosingVictory_StopsTransferWithoutNavigation",
+            "state": "Passed",
+            "durationSeconds": 0.1346214,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "FreshWin_CompletedTransferNavigatesOnce",
+            "fullName": "Dreamy.Template.Tests.VictoryPresenterLifecycleTests.FreshWin_CompletedTransferNavigatesOnce",
+            "state": "Passed",
+            "durationSeconds": 0.0829342,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins",
+            "fullName": "Dreamy.Template.Tests.WinLevelIntegrationTests.OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins",
+            "state": "Passed",
+            "durationSeconds": 0.0387233,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "SaveFailure_RetryReloadsDurableState_AndDeliversOnce(False)",
+            "fullName": "Dreamy.Template.Tests.WinLevelIntegrationTests.SaveFailure_RetryReloadsDurableState_AndDeliversOnce(False)",
+            "state": "Passed",
+            "durationSeconds": 0.0323247,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          },
+          {
+            "name": "SaveFailure_RetryReloadsDurableState_AndDeliversOnce(True)",
+            "fullName": "Dreamy.Template.Tests.WinLevelIntegrationTests.SaveFailure_RetryReloadsDurableState_AndDeliversOnce(True)",
+            "state": "Passed",
+            "durationSeconds": 0.0378101,
+            "message": null,
+            "stackTrace": null,
+            "output": ""
+          }
+        ]
+      }
+    },
+    "hint": null
+  }
+}

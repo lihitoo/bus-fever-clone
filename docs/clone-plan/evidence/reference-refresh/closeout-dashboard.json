@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "tasks": 114,
+  "features": 35,
+  "dependencyGraph": "acyclic",
+  "embeddedPlan": "equal",
+  "mediaPaths": "exist",
+  "scriptSyntax": "pass",
+  "renderer": "reproducible",
+  "strictVerifiedCount": 2
+}

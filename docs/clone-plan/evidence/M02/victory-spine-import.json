@@ -1,0 +1,78 @@
+{
+  "kind": "source-derived-selected-import",
+  "assets": [
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\TextAsset\\victory.skel.bytes",
+      "sourceSha256": "ebf10cc866f081a9ad6fa0bbd567250736630ba3d7dcd9e019f80f7509a574f8",
+      "target": "Assets/_Project/Art/BusFever/Recovered/TextAsset/victory.skel.bytes",
+      "derivedSha256": "ebf10cc866f081a9ad6fa0bbd567250736630ba3d7dcd9e019f80f7509a574f8",
+      "guid": "cfb1305f9856c3249beadce3aa8c1c92"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Texture2D\\victory.png",
+      "sourceSha256": "5120bdf9278a5eebf6ec9514b8d883c86eb6ba29e08eeb71b13c4c5a95ede2cf",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Texture2D/victory.png",
+      "derivedSha256": "5120bdf9278a5eebf6ec9514b8d883c86eb6ba29e08eeb71b13c4c5a95ede2cf",
+      "guid": "dad45ad0875d6a6418a2d9e17a85022c"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\Material\\victory_Material.mat",
+      "sourceSha256": "3b6df7009352a944af40f21dbb03f5c119fc1b5e44638ead994b5b1eab3479d7",
+      "target": "Assets/_Project/Art/BusFever/Recovered/Material/victory_Material.mat",
+      "derivedSha256": "21a0d8592e1fd4b4aee616be1625e6c9549ac3d57bc7a293b729d9757ab4deb6",
+      "guid": "e3c75058b00f2834d990e22eb8f45b35"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\TextAsset\\victory.atlas.txt",
+      "sourceSha256": "11c6ce5b770c42be2684fec674cb1473c6bb0d3f3485080bbf71f3b01df7a5d3",
+      "target": "Assets/_Project/Art/BusFever/Recovered/TextAsset/victory.atlas.txt",
+      "derivedSha256": "11c6ce5b770c42be2684fec674cb1473c6bb0d3f3485080bbf71f3b01df7a5d3",
+      "guid": "f50c3766d2906494d8c7490ce1ae9316"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\MonoBehaviour\\victory_Atlas.asset",
+      "sourceSha256": "1935abbed8291fe5791c5c336ed248cca18bab62a275a6b3d02e0bf8211df61b",
+      "target": "Assets/_Project/Art/BusFever/Recovered/MonoBehaviour/victory_Atlas.asset",
+      "derivedSha256": "36074d029b2f366dc03eae780853a54e32458c197458d2f30a0fc4966f982185",
+      "guid": "99da8f91a8acdb74fad2fbfced323715"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\MonoBehaviour\\victory_SkeletonData.asset",
+      "sourceSha256": "12c81573e284e18eccc489fd798c21bc25a077e16ec94c4b6c58a4b5b9cea593",
+      "target": "Assets/_Project/Art/BusFever/Recovered/MonoBehaviour/victory_SkeletonData.asset",
+      "derivedSha256": "9e294811d3f99145859fe86c0743fb0cfc77ec41936f95796b878a1cceeedd35",
+      "guid": "a9467a3eb2e6ef84ea0d0a389fd68c66"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Effect_VictoryPanel_Idle.anim",
+      "sourceSha256": "99e303446c8c5383a3b2c65b31476089697e28dffda19b33d3e394d959811b37",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Effect_VictoryPanel_Idle.anim",
+      "derivedSha256": "99e303446c8c5383a3b2c65b31476089697e28dffda19b33d3e394d959811b37",
+      "guid": "e5cb5737a6019b944855ea206965c5cf"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Effect_VictoryPanel_In.anim",
+      "sourceSha256": "6fc54a744fc2751b0a9655fa112958af49615a79fa24770530e88e08ea033210",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Effect_VictoryPanel_In.anim",
+      "derivedSha256": "6fc54a744fc2751b0a9655fa112958af49615a79fa24770530e88e08ea033210",
+      "guid": "b373b96d68a17e0479e9f6b1a16adc5d"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimationClip\\Effect_VictoryPanel_Out.anim",
+      "sourceSha256": "842926a867e43d5e12c4faf6cfb6bf20df6dda1f59c06ccfdaf7ff745c6bd525",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimationClip/Effect_VictoryPanel_Out.anim",
+      "derivedSha256": "842926a867e43d5e12c4faf6cfb6bf20df6dda1f59c06ccfdaf7ff745c6bd525",
+      "guid": "51f27073a03769f4ea41178739c2900e"
+    },
+    {
+      "source": "D:\\GameAudit\\bus-fever-1.3.2\\full-assetripper\\ExportedProject\\Assets\\AnimatorController\\Effect_VictoryPanel.controller",
+      "sourceSha256": "83db7187377e280e385113e3e899ca95f5b9a6a31f6c92842d25a220598b8d0f",
+      "target": "Assets/_Project/Art/BusFever/Recovered/AnimatorController/Effect_VictoryPanel.controller",
+      "derivedSha256": "83db7187377e280e385113e3e899ca95f5b9a6a31f6c92842d25a220598b8d0f",
+      "guid": "11cafa482c436ef4db9046f9b8d10902"
+    }
+  ],
+  "removedDummyComponents": [],
+  "unresolvedGuids": [],
+  "materialMigration": "Shader cleared in derived copy; Editor assigns verified URP/TMP shaders and texture slots before use."
+}

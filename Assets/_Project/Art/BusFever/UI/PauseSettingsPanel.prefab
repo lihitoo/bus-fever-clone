@@ -465,13 +465,13 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
   m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
+  m_isOrthographic: 1
   m_isCullingEnabled: 0
   m_horizontalMapping: 0
   m_verticalMapping: 0
@@ -2145,7 +2145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1812455185180986558
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3009,6 +3009,7 @@ MonoBehaviour:
   privacyButton: {fileID: 0}
   operationStatus: {fileID: 3874595051535329873}
   restartButton: {fileID: 8986548940029578700}
+  homeButton: {fileID: 5967887549557334710}
 --- !u!114 &8025242627371508812
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -14,12 +14,14 @@ namespace Dreamy.Feature.Settings.Integration
         private CancellationTokenSource lifetime;
         private bool busy;
         private readonly Action restart;
+        private readonly Action home;
 
-        public SettingsPanelPresenter(IPanelPresenter settings, SettingsPanel view, Action restart = null)
+        public SettingsPanelPresenter(IPanelPresenter settings, SettingsPanel view, Action restart = null, Action home = null)
         {
             this.settings = settings ?? throw new ArgumentNullException(nameof(settings));
             this.view = view ?? throw new ArgumentNullException(nameof(view));
             this.restart = restart;
+            this.home = home;
         }
 
         public void Show()
@@ -28,12 +30,14 @@ namespace Dreamy.Feature.Settings.Integration
             lifetime = new CancellationTokenSource();
             view.ExternalActionRequested += Request;
             view.RestartRequested += Restart;
+            view.HomeRequested += Home;
             settings.Show();
         }
         public void Dispose()
         {
             view.ExternalActionRequested -= Request;
             view.RestartRequested -= Restart;
+            view.HomeRequested -= Home;
             lifetime?.Cancel(); lifetime?.Dispose(); lifetime = null;
             settings.Dispose();
         }
@@ -47,6 +51,7 @@ namespace Dreamy.Feature.Settings.Integration
             if (restart != null) restart();
             else view.RenderOperationStatus("No gameplay session active");
         }
+        private void Home() => home?.Invoke();
         private async UniTask RunAsync(SettingsExternalAction action, CancellationToken token)
         {
             busy = true;

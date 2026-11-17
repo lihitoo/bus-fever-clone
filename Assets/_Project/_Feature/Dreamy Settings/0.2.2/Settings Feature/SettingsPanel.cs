@@ -27,6 +27,8 @@ namespace Dreamy.Feature.Settings.Integration
         [SerializeField] private Button privacyButton;
         [SerializeField] private TMP_Text operationStatus;
         [SerializeField] private Button restartButton;
+        [SerializeField] private Button homeButton;
+        public event Action HomeRequested;
         public event Action RestartRequested;
         private bool canRestorePurchases;
         public event Action<SettingsExternalAction> ExternalActionRequested;
@@ -93,6 +95,7 @@ namespace Dreamy.Feature.Settings.Integration
             termsButton?.onClick.AddListener(RequestTerms);
             privacyButton?.onClick.AddListener(RequestPrivacy);
             restartButton?.onClick.AddListener(RequestRestart);
+            homeButton?.onClick.AddListener(RequestHome);
             if (operationStatus != null) operationStatus.text = "";
         }
 
@@ -110,6 +113,7 @@ namespace Dreamy.Feature.Settings.Integration
             termsButton?.onClick.RemoveListener(RequestTerms);
             privacyButton?.onClick.RemoveListener(RequestPrivacy);
             restartButton?.onClick.RemoveListener(RequestRestart);
+            homeButton?.onClick.RemoveListener(RequestHome);
             base.OnDisable();
         }
 
@@ -150,6 +154,7 @@ namespace Dreamy.Feature.Settings.Integration
         private void RequestTerms() => ExternalActionRequested?.Invoke(SettingsExternalAction.Terms);
         private void RequestPrivacy() => ExternalActionRequested?.Invoke(SettingsExternalAction.Privacy);
         private void RequestRestart() => RestartRequested?.Invoke();
+        private void RequestHome() => HomeRequested?.Invoke();
         private void RequestOpenRateUs() => OpenRateUsRequested?.Invoke();
         private void RequestClose() => CloseRequested?.Invoke();
     }

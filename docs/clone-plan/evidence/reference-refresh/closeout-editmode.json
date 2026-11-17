@@ -1,0 +1,60 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"1809891a08ff410a864181feff7f4dba\",\"status\":\"succeeded\",\"mode\":\"EditMode\",\"started_unix_ms\":1794936341343,\"finished_unix_ms\":1794936348715,\"last_update_unix_ms\":1794936348715,\"progress\":{\"completed\":15,\"total\":15,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1794936348417,\"last_finished_test_full_name\":\"Dreamy.Template.Tests.WinLevelIntegrationTests.OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins\",\"last_finished_unix_ms\":1794936348546,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"EditMode\",\"summary\":{\"total\":15,\"passed\":15,\"failed\":0,\"skipped\":0,\"durationSeconds\":1.3517522,\"resultState\":\"Passed\"},\"results\":null}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "1809891a08ff410a864181feff7f4dba",
+          "status": "succeeded",
+          "mode": "EditMode",
+          "started_unix_ms": 1794936341343,
+          "finished_unix_ms": 1794936348715,
+          "last_update_unix_ms": 1794936348715,
+          "progress": {
+            "completed": 15,
+            "total": 15,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1794936348417,
+            "last_finished_test_full_name": "Dreamy.Template.Tests.WinLevelIntegrationTests.OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins",
+            "last_finished_unix_ms": 1794936348546,
+            "stuck_suspected": false,
+            "editor_is_focused": false,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "EditMode",
+            "summary": {
+              "total": 15,
+              "passed": 15,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 1.3517522,
+              "resultState": "Passed"
+            },
+            "results": null
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

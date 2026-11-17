@@ -1,0 +1,31 @@
+{
+  "package": "com.dreamy.feature.tutorial",
+  "version": "0.3.0",
+  "manifest": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.tutorial.git#dbf1f6ef6f0ced68d5ee4f73740662c466c7d331",
+  "resolved": {
+    "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.tutorial.git#dbf1f6ef6f0ced68d5ee4f73740662c466c7d331",
+    "depth": 0,
+    "source": "git",
+    "dependencies": {
+      "com.dreamy.core": "1.2.0",
+      "com.dreamy.dataconfig": "1.0.1",
+      "com.dreamy.datasave": "1.0.1",
+      "com.unity.nuget.newtonsoft-json": "3.2.1",
+      "com.unity.ugui": "2.0.0",
+      "com.unity.modules.physics": "1.0.0",
+      "com.dreamy.ui": "1.1.0",
+      "com.unity.modules.physics2d": "1.0.0"
+    },
+    "hash": "dbf1f6ef6f0ced68d5ee4f73740662c466c7d331"
+  },
+  "removedLocalInfrastructure": [
+    "TutorialSequence",
+    "TutorialSequenceTests"
+  ],
+  "integration": [
+    "GameInstaller.Tutorial",
+    "GameplayTutorialBridge",
+    "Resources/DataConfig/tutorialCatalog.json"
+  ],
+  "gate": "Consumer EditMode12/12 passed; single-scene PlayMode rerun pending; exact parity remains review."
+}

@@ -1,0 +1,8 @@
+<test-case id="1057" name="NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" fullname="Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" methodname="NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" classname="Dreamy.Template.Tests.M02GameplayFlowTests" runstate="Runnable" seed="844569238" result="Failed" start-time="2026-11-17 16:17:51Z" end-time="2026-11-17 16:17:57Z" duration="6.432131" asserts="0"><properties><property name="_JOINTYPE" value="UnityCombinatorial" /><property name="retryIteration" value="0" /><property name="repeatIteration" value="0" /></properties><failure><message><![CDATA[  Accepted dispatch leases source smoke through Dreamy VFX
+  Expected: not null
+  But was:  null
+]]></message><stack-trace><![CDATA[at Dreamy.Template.Tests.M02GameplayFlowTests+<NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome>d__2.MoveNext () [0x002e5] in D:\Game\bus-fever-clone\Assets\_Project\Tests\PlayMode\M02GameplayFlowTests.cs:59
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@996f223345ba\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace></failure><output><![CDATA[[DreamyDebugger] Bug Report handler set to Dreamy.Debugger.DebuggerRuntime+OutboxReportHandler
+VFX id 'bus.departure' was not found.
+]]></output></test-case>

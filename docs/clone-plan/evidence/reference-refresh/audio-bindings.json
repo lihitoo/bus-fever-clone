@@ -1,0 +1,62 @@
+[
+  {
+    "name": "bus_moving_V5",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 1581407159596617684,
+    "duration_seconds": 0.27863946557044983,
+    "path": "media/audio/bus_moving_V5__1581407159596617684__0.wav",
+    "sha256": "80269c973da5f21345962c9af74d5aa1bf6a8266d78e326c064a8feacb92c920",
+    "key": "bus.move",
+    "target": "Assets/_Project/Art/BusFever/Audio/bus.move.wav"
+  },
+  {
+    "name": "level_win",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 2022182339323098527,
+    "duration_seconds": 7.5,
+    "path": "media/audio/level_win__2022182339323098527__0.wav",
+    "sha256": "dde2a20fcdbb91ab968a43febeb33614dec1fe003bc2893a4e73fcfec7103647",
+    "key": "level.win",
+    "target": "Assets/_Project/Art/BusFever/Audio/level.win.wav"
+  },
+  {
+    "name": "passenger_up_01",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 4108167528112681485,
+    "duration_seconds": 0.10829932242631912,
+    "path": "media/audio/passenger_up_01__4108167528112681485__0.wav",
+    "sha256": "885466ae8edaf0a30b3ef4fe6ef317e09058cb0f7f59ef4b118a421da87c9c81",
+    "key": "passenger.board",
+    "target": "Assets/_Project/Art/BusFever/Audio/passenger.board.wav"
+  },
+  {
+    "name": "bus_hit_V5",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 4261325980184314117,
+    "duration_seconds": 0.9424943327903748,
+    "path": "media/audio/bus_hit_V5__4261325980184314117__0.wav",
+    "sha256": "4a4da076dbb2ceb6982ed52d471ee9f43248bc7d9c97c134df91c9f5e5d7b57e",
+    "key": "bus.hit",
+    "target": "Assets/_Project/Art/BusFever/Audio/bus.hit.wav"
+  },
+  {
+    "name": "bus_full V2",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 5605709965120113242,
+    "duration_seconds": 2.931020498275757,
+    "path": "media/audio/bus_full V2__5605709965120113242__0.wav",
+    "sha256": "fb5258e34d562551a94bbf55d1b1ce65c25038d02f1a6a29c2afab253a8d82f8",
+    "key": "bus.full",
+    "target": "Assets/_Project/Art/BusFever/Audio/bus.full.wav"
+  },
+  {
+    "name": "level_switch",
+    "collection": "CAB-804a7329345415f9c2f13d443af706b7",
+    "path_id": 7525644745830895630,
+    "duration_seconds": 3.3030385971069336,
+    "path": "media/audio/level_switch__7525644745830895630__0.wav",
+    "sha256": "f8f021104c8bf60ebe87aa42271be5d62de93c9111702d8bf9e6d065c494b512",
+    "key": "level.switch",
+    "target": "Assets/_Project/Art/BusFever/Audio/level.switch.wav"
+  }
+]

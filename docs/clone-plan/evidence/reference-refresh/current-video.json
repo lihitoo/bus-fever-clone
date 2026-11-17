@@ -1,0 +1,10 @@
+{
+  "path": "media/current/M02/m02-m03-polish.mp4",
+  "frames": 59,
+  "missingFrames": 0,
+  "audio": false,
+  "durationSeconds": 31.148015700000542,
+  "sha256": "18a5ce6bf50cde9be3ec77cef2a9c7c10f1bc6f300534a3e1e8e7e52255e95f0",
+  "decodeExitCode": 0,
+  "limitation": "Sparse real Editor capture; no audio. Does not prove normal-speed tween or audio mix parity."
+}

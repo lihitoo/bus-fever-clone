@@ -1,0 +1,196 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"aa53a2f7acdc47c694c77954a1d12c32\",\"status\":\"succeeded\",\"mode\":\"EditMode\",\"started_unix_ms\":1794931353375,\"finished_unix_ms\":1794931360506,\"last_update_unix_ms\":1794931360506,\"progress\":{\"completed\":15,\"total\":15,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1794931360259,\"last_finished_test_full_name\":\"Dreamy.Template.Tests.WinLevelIntegrationTests.OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins\",\"last_finished_unix_ms\":1794931360362,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"EditMode\",\"summary\":{\"total\":15,\"passed\":15,\"failed\":0,\"skipped\":0,\"durationSeconds\":1.2093664,\"resultState\":\"Passed\"},\"results\":[{\"name\":\"AcceptedSignalPersistsCheckpoint_RejectsStaleSignal_CompletedFlowDoesNotReplay\",\"fullName\":\"Dreamy.Template.Tests.DreamyTutorialIntegrationTests.AcceptedSignalPersistsCheckpoint_RejectsStaleSignal_CompletedFlowDoesNotReplay\",\"state\":\"Passed\",\"durationSeconds\":0.1102216,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(1,6,7)\",\"fullName\":\"Dreamy.Template.Tests.PuzzleCatalogTests.ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(1,6,7)\",\"state\":\"Passed\",\"durationSeconds\":0.0215177,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(2,12,4)\",\"fullName\":\"Dreamy.Template.Tests.PuzzleCatalogTests.ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(2,12,4)\",\"state\":\"Passed\",\"durationSeconds\":0.0019896,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"AuthoredLevel_CanBeSolvedWithoutLosingPassengers\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.AuthoredLevel_CanBeSolvedWithoutLosingPassengers\",\"state\":\"Passed\",\"durationSeconds\":0.0035922,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"BadConfiguration_IsRejectedBeforeSessionCreation\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.BadConfiguration_IsRejectedBeforeSessionCreation\",\"state\":\"Passed\",\"durationSeconds\":0.0044003,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FiftySessionScopes_ReleaseAllPresenterSubscriptions\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.FiftySessionScopes_ReleaseAllPresenterSubscriptions\",\"state\":\"Passed\",\"durationSeconds\":0.0263616,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ParkedPriorityUsesArrivalOrder_AndNeverBoardsAnotherColor\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.ParkedPriorityUsesArrivalOrder_AndNeverBoardsAnotherColor\",\"state\":\"Passed\",\"durationSeconds\":0.0008256,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"PausePreventsEveryAuthorityTransition\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.PausePreventsEveryAuthorityTransition\",\"state\":\"Passed\",\"durationSeconds\":0.000238,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RepeatTapAndSecondCar_CannotReserveOccupiedSlot\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.RepeatTapAndSecondCar_CannotReserveOccupiedSlot\",\"state\":\"Passed\",\"durationSeconds\":0.0002391,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SlotIsReleasedOnlyAfterFullDeparture_AndDuplicateCallbacksDoNothing\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.SlotIsReleasedOnlyAfterFullDeparture_AndDuplicateCallbacksDoNothing\",\"state\":\"Passed\",\"durationSeconds\":0.0004462,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"VehicleInExitLane_BlocksWithoutReserving(Up,2,3)\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Up,2,3)\",\"state\":\"Passed\",\"durationSeconds\":0.000888,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"VehicleInExitLane_BlocksWithoutReserving(Down,2,1)\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Down,2,1)\",\"state\":\"Passed\",\"durationSeconds\":0.0001025,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"VehicleInExitLane_BlocksWithoutReserving(Right,3,2)\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Right,3,2)\",\"state\":\"Passed\",\"durationSeconds\":0.0000614,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"VehicleInExitLane_BlocksWithoutReserving(Left,1,2)\",\"fullName\":\"Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Left,1,2)\",\"state\":\"Passed\",\"durationSeconds\":0.0000626,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins\",\"fullName\":\"Dreamy.Template.Tests.WinLevelIntegrationTests.OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins\",\"state\":\"Passed\",\"durationSeconds\":0.1013474,\"message\":null,\"stackTrace\":null,\"output\":\"\"}]}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "aa53a2f7acdc47c694c77954a1d12c32",
+          "status": "succeeded",
+          "mode": "EditMode",
+          "started_unix_ms": 1794931353375,
+          "finished_unix_ms": 1794931360506,
+          "last_update_unix_ms": 1794931360506,
+          "progress": {
+            "completed": 15,
+            "total": 15,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1794931360259,
+            "last_finished_test_full_name": "Dreamy.Template.Tests.WinLevelIntegrationTests.OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins",
+            "last_finished_unix_ms": 1794931360362,
+            "stuck_suspected": false,
+            "editor_is_focused": false,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "EditMode",
+            "summary": {
+              "total": 15,
+              "passed": 15,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 1.2093664,
+              "resultState": "Passed"
+            },
+            "results": [
+              {
+                "name": "AcceptedSignalPersistsCheckpoint_RejectsStaleSignal_CompletedFlowDoesNotReplay",
+                "fullName": "Dreamy.Template.Tests.DreamyTutorialIntegrationTests.AcceptedSignalPersistsCheckpoint_RejectsStaleSignal_CompletedFlowDoesNotReplay",
+                "state": "Passed",
+                "durationSeconds": 0.1102216,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(1,6,7)",
+                "fullName": "Dreamy.Template.Tests.PuzzleCatalogTests.ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(1,6,7)",
+                "state": "Passed",
+                "durationSeconds": 0.0215177,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(2,12,4)",
+                "fullName": "Dreamy.Template.Tests.PuzzleCatalogTests.ObservedCatalog_HasExpectedLayoutAndSolvesWithConservedPassengers(2,12,4)",
+                "state": "Passed",
+                "durationSeconds": 0.0019896,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "AuthoredLevel_CanBeSolvedWithoutLosingPassengers",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.AuthoredLevel_CanBeSolvedWithoutLosingPassengers",
+                "state": "Passed",
+                "durationSeconds": 0.0035922,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "BadConfiguration_IsRejectedBeforeSessionCreation",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.BadConfiguration_IsRejectedBeforeSessionCreation",
+                "state": "Passed",
+                "durationSeconds": 0.0044003,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FiftySessionScopes_ReleaseAllPresenterSubscriptions",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.FiftySessionScopes_ReleaseAllPresenterSubscriptions",
+                "state": "Passed",
+                "durationSeconds": 0.0263616,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ParkedPriorityUsesArrivalOrder_AndNeverBoardsAnotherColor",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.ParkedPriorityUsesArrivalOrder_AndNeverBoardsAnotherColor",
+                "state": "Passed",
+                "durationSeconds": 0.0008256,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "PausePreventsEveryAuthorityTransition",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.PausePreventsEveryAuthorityTransition",
+                "state": "Passed",
+                "durationSeconds": 0.000238,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RepeatTapAndSecondCar_CannotReserveOccupiedSlot",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.RepeatTapAndSecondCar_CannotReserveOccupiedSlot",
+                "state": "Passed",
+                "durationSeconds": 0.0002391,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SlotIsReleasedOnlyAfterFullDeparture_AndDuplicateCallbacksDoNothing",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.SlotIsReleasedOnlyAfterFullDeparture_AndDuplicateCallbacksDoNothing",
+                "state": "Passed",
+                "durationSeconds": 0.0004462,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "VehicleInExitLane_BlocksWithoutReserving(Up,2,3)",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Up,2,3)",
+                "state": "Passed",
+                "durationSeconds": 0.000888,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "VehicleInExitLane_BlocksWithoutReserving(Down,2,1)",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Down,2,1)",
+                "state": "Passed",
+                "durationSeconds": 0.0001025,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "VehicleInExitLane_BlocksWithoutReserving(Right,3,2)",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Right,3,2)",
+                "state": "Passed",
+                "durationSeconds": 6.14e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "VehicleInExitLane_BlocksWithoutReserving(Left,1,2)",
+                "fullName": "Dreamy.Template.Tests.PuzzleSessionTests.VehicleInExitLane_BlocksWithoutReserving(Left,1,2)",
+                "state": "Passed",
+                "durationSeconds": 6.26e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins",
+                "fullName": "Dreamy.Template.Tests.WinLevelIntegrationTests.OnlyWonSessionAdvances_RepeatAndReloadNeverDuplicateTwentyCoins",
+                "state": "Passed",
+                "durationSeconds": 0.1013474,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              }
+            ]
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

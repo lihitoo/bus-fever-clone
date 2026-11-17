@@ -1,0 +1,23 @@
+{
+  "resolved": {
+    "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.progression.git#c49961d8a94af999635ff40be74a047a8c39a5ad",
+    "depth": 0,
+    "source": "git",
+    "dependencies": {
+      "com.dreamy.core": "1.1.2",
+      "com.dreamy.dataconfig": "0.2.0",
+      "com.dreamy.datasave": "0.2.0",
+      "com.dreamy.feature.economy": "0.5.0",
+      "com.unity.nuget.newtonsoft-json": "3.2.1",
+      "com.dreamy.ui": "0.2.0",
+      "com.cysharp.unitask": "2.5.10"
+    },
+    "hash": "c49961d8a94af999635ff40be74a047a8c39a5ad"
+  },
+  "consumer": "Unity6000.4.12f1; Core1.2.0 / ConfigSave1.0.1 / UI1.1.0 / Economy0.8.1",
+  "checks": [
+    "victory-editmode.json",
+    "victory-flow.json"
+  ],
+  "scope": "Level1 award20 + persisted level2 milestone; playable Level2 not recovered"
+}

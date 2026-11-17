@@ -9,12 +9,13 @@ namespace Dreamy.Template.Editor
     {
         public const string Root = "Assets/_Project/Art/BusFever/Recovered";
 
-        public static string MigrateMaterials()
+        public static string MigrateMaterials(string[] selectedPaths = null)
         {
             int count = 0;
-            foreach (string guid in AssetDatabase.FindAssets("t:Material", new[] { Root }))
+            var paths = selectedPaths ?? Array.ConvertAll(AssetDatabase.FindAssets("t:Material", new[] { Root }), AssetDatabase.GUIDToAssetPath);
+            foreach (string path in paths)
             {
-                var material = AssetDatabase.LoadAssetAtPath<Material>(AssetDatabase.GUIDToAssetPath(guid));
+                var material = AssetDatabase.LoadAssetAtPath<Material>(path);
                 var properties = new SerializedObject(material);
                 var textures = properties.FindProperty("m_SavedProperties.m_TexEnvs");
                 Texture texture = null;

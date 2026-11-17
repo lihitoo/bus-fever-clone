@@ -21,6 +21,31 @@ namespace Dreamy.Template
 
         private bool _isLoading;
 
+        /// <summary>Same persistent cover for root/prefab changes; no extra loading scene or loader.</summary>
+        public async UniTask TransitionContentAsync(Func<UniTask> changeContent, CancellationToken cancellationToken = default)
+        {
+            if (changeContent == null) throw new ArgumentNullException(nameof(changeContent));
+            if (_isLoading) throw new InvalidOperationException("SceneLoader is already transitioning.");
+            using var lifetime = CancellationTokenSource.CreateLinkedTokenSource(this.GetCancellationTokenOnDestroy(), cancellationToken);
+            var token = lifetime.Token; token.ThrowIfCancellationRequested();
+            _isLoading = true;
+            try
+            {
+                InitializeLoading();
+                await loadingScreen.WaitUntilCoveredAsync(token);
+                await changeContent();
+                token.ThrowIfCancellationRequested();
+                ReportProgress(1);
+                loadingScreen.Hide();
+                await UniTask.WaitUntil(() => !loadingScreen.gameObject.activeSelf, cancellationToken:token);
+            }
+            finally
+            {
+                if (loadingScreen != null) loadingScreen.Deactive();
+                _isLoading = false;
+            }
+        }
+
         /// <summary>
         /// Cancellation stops presentation, not Unity's scene operation. A started load
         /// is allowed to activate and drained before another request can start.
@@ -46,6 +71,8 @@ namespace Dreamy.Template
             try
             {
                 InitializeLoading();
+
+                await loadingScreen.WaitUntilCoveredAsync(token);
 
                 OnScenePreloading?.Invoke();
                 token.ThrowIfCancellationRequested();

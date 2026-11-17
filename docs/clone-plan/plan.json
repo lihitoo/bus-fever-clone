@@ -4,7 +4,7 @@
   "title": "Bus Fever · Dreamy Clone Plan",
   "mode": "implementation-started",
   "implementationVerified": 2,
-  "policy": "UI thay trong route thật từng feature. SDK ngoài qua DreamySDK local test stubs theo user; production/provider acceptance riêng. Verified cần receipts reviewed; notes browser là tự báo cáo.",
+  "policy": "UI thay trong route thật từng feature. SDK ngoài qua DreamySDK local test stubs theo user; production/provider acceptance riêng. Verified cần receipts reviewed; notes browser là tự báo cáo. MainScene chung cho Home/Gameplay prefab roots; ?u ti?n import package Dreamy organization tr??c khi vi?t infrastructure ri?ng.",
   "phases": [
     "M00",
     "M01",
@@ -74,6 +74,10 @@
         "note": "UI đã thay trong route thật. Xem evidence/M01/execution.md để biết coverage và sai khác còn lại."
       },
       "references": [
+        {
+          "label": "Verified modal input + synthetic tall/narrow/inset regression",
+          "href": "evidence/M01/modal-layout-validation.json"
+        },
         {
           "label": "DreamySDK rule / default API contract",
           "href": "11-dreamy-sdk-boundary.md"
@@ -156,6 +160,10 @@
       },
       "references": [
         {
+          "label": "Verified modal input + synthetic tall/narrow/inset regression",
+          "href": "evidence/M01/modal-layout-validation.json"
+        },
+        {
           "label": "DreamySDK rule / default API contract",
           "href": "11-dreamy-sdk-boundary.md"
         },
@@ -216,7 +224,7 @@
         "Background/relaunch không kẹt loading"
       ],
       "source": "R002-playstore-launch; R018-restart-prompt",
-      "gaps": "Cold fresh/return full route và network errors cần khảo sát",
+      "gaps": "Source sky/cloud/plane animation uses the existing persistent loader; awaits cover, readiness and reveal. Startup, root swap/restart/Next/Home flow passed. Cold/return source behavior and device timing remain open.",
       "paths": [
         "Features/Launch",
         "Presentation/Transitions",
@@ -235,12 +243,17 @@
         ],
         "currentImages": [
           {
-            "src": "media/current/home/m00-template-home.png",
-            "label": "M00 current template loading"
+            "src": "media/current/M02/native-sky-transition.png",
+            "label": "Recovered sky/cloud/plane transition in existing SceneLoader"
           }
         ],
-        "currentVideos": [],
-        "note": "Current template baseline; chưa phải UI clone."
+        "currentVideos": [
+          {
+            "src": "media/current/M02/m02-m03-polish.mp4",
+            "label": "Latest real Editor flow ? 61 sparse frames / no audio"
+          }
+        ],
+        "note": "Native source sky/cloud/plane controller integrated in existing SceneLoader; cover/readiness/reveal awaited, cancellation timer cleanup verified. Cold-entry policy and exact visual/device acceptance remain open."
       },
       "references": [
         {
@@ -274,6 +287,10 @@
         {
           "label": "Audio cue audit",
           "href": "../research/audio-audit.md"
+        },
+        {
+          "label": "Current polish evidence and gaps",
+          "href": "evidence/reference-refresh/execution.md"
         }
       ]
     },
@@ -294,7 +311,7 @@
         "Camera/colors/material/shadow match cùng layout"
       ],
       "source": "R003-after-loading; R021-level2-top-cleared",
-      "gaps": "Source priority, collision boundaries, complete loop/fail logic và AES chưa đủ",
+      "gaps": "Level1/2 catalog and real Next implemented; source longer buses, seven passenger colors, native extra bays, SFX and Dreamy smoke. Queue priority/path, all capacities, toon/VAT and final mix remain approximations under review.",
       "paths": [
         "Domain/Board",
         "Domain/Passengers",
@@ -313,9 +330,19 @@
             "label": "R021-level2-top-cleared"
           }
         ],
-        "currentImages": [],
-        "currentVideos": [],
-        "note": "Chưa có capture project hiện tại được xác minh cho feature này."
+        "currentImages": [
+          {
+            "src": "media/current/M02/M03-level2.png",
+            "label": "Current Level2 / native HUD and source bus variant; queue/path parity still in review"
+          }
+        ],
+        "currentVideos": [
+          {
+            "src": "media/current/M02/m02-m03-polish.mp4",
+            "label": "Latest actual M02/M03 flow / sparse VFR / no audio"
+          }
+        ],
+        "note": "Level1/2 catalog and real Next implemented; source longer buses, seven passenger colors, native extra bays, SFX and Dreamy smoke. Queue priority/path, all capacities, toon/VAT and final mix remain approximations under review."
       },
       "references": [
         {
@@ -365,6 +392,10 @@
         {
           "label": "Audio cue audit",
           "href": "../research/audio-audit.md"
+        },
+        {
+          "label": "Current polish evidence and gaps",
+          "href": "evidence/reference-refresh/execution.md"
         }
       ]
     },
@@ -372,7 +403,7 @@
       "id": "TUTORIAL",
       "title": "Tutorial bàn tay/spotlight/target gate",
       "phase": "M03",
-      "packages": "feature.tutorial candidate / UI / Feedback",
+      "packages": "com.dreamy.feature.tutorial v0.3.0 @ dbf1f6ef6f0ced68d5ee4f73740662c466c7d331",
       "flow": "First entry → target resolved → lock input subset → accepted action → next → finish",
       "config": "TutorialCatalog, stable target IDs, unlock steps",
       "save": "Package tutorial checkpoint; session target references không persist instance IDs",
@@ -383,7 +414,7 @@
         "Hand/outline/card đúng target sau camera resize"
       ],
       "source": "R004-level1-blocked-test; R048-vip-select-target",
-      "gaps": "Xác nhận replay và persistence của từng step",
+      "gaps": "Dreamy Tutorial owns checkpoints/tokens/retry. Source card/hand and world-space yellow outline captured; first-level adapter verified. Later VIP tutorial, exact target order, resize and full persistence-failure coverage remain open.",
       "paths": [
         "Features/Tutorial",
         "Integration/TutorialTargets",
@@ -400,9 +431,19 @@
             "label": "R048-vip-select-target"
           }
         ],
-        "currentImages": [],
-        "currentVideos": [],
-        "note": "Chưa có capture project hiện tại được xác minh cho feature này."
+        "currentImages": [
+          {
+            "src": "media/current/M02/M03-tutorial-latest.png",
+            "label": "Current source card / hand / yellow outline ? presentation-only capture, saved tutorial cursor preserved"
+          }
+        ],
+        "currentVideos": [
+          {
+            "src": "media/current/M02/m02-m03-polish.mp4",
+            "label": "Latest real Editor flow ? 61 sparse frames / no audio"
+          }
+        ],
+        "note": "Dreamy Tutorial0.3.0 owns checkpoints/tokens/retry; custom source hand/card retained. Spotlight/source target order and full persistence failure coverage remain open."
       },
       "references": [
         {
@@ -416,6 +457,10 @@
         {
           "label": "Audio cue audit",
           "href": "../research/audio-audit.md"
+        },
+        {
+          "label": "Current polish evidence and gaps",
+          "href": "evidence/reference-refresh/execution.md"
         }
       ]
     },
@@ -423,7 +468,7 @@
       "id": "VICTORY",
       "title": "Victory, reward và Next",
       "phase": "M03",
-      "packages": "Progression candidate / Economy / UI / Feedback / Audio",
+      "packages": "Dreamy Progression0.2.1 + existing Economy/Datasave/UI",
       "flow": "Final passenger → win fact → persistent reward → Victory → Next → next layout",
       "config": "WinRewardTable, difficulty variants, Spine/animation cues",
       "save": "Win receipt/session ID chống grant2; progression và wallet consistency",
@@ -434,7 +479,7 @@
         "Coin fly/counter không thay authoritative balance"
       ],
       "source": "R011-level1-result",
-      "gaps": "Hard/superhard/taskbar reward chưa capture",
+      "gaps": "Coin balance + Dreamy IconFly and close cancellation implemented. Save faults before/after write recover once; double Next and real Level2 passed. Source Spine/fireworks render; exact trail shape/timing/audio and hard/superhard variants remain open.",
       "paths": [
         "Features/Victory",
         "Application/WinLevel",
@@ -445,11 +490,25 @@
           {
             "src": "../research/media/screens/R011-level1-result.png",
             "label": "R011-level1-result"
+          },
+          {
+            "src": "../research/media/screens/R029-level2-victory.png",
+            "label": "R029 Level2 reward20 confirmation"
           }
         ],
-        "currentImages": [],
-        "currentVideos": [],
-        "note": "Chưa có capture project hiện tại được xác minh cho feature này."
+        "currentImages": [
+          {
+            "src": "media/current/M02/M03-victory-latest.png",
+            "label": "Current source Spine / Victory / fireworks polish"
+          }
+        ],
+        "currentVideos": [
+          {
+            "src": "media/current/M02/m02-m03-polish.mp4",
+            "label": "Latest real Editor flow ? 61 sparse frames / no audio"
+          }
+        ],
+        "note": "Dreamy Progression0.2.1 owns durable advancement and20coin rewards for Level1/2(R011/R029); real Next to Level2; native source Spine jump/idle, title, coin and fireworks integrated. Coin fly, hard/superhard, failure injection and exact mix/timing remain open."
       },
       "references": [
         {
@@ -495,6 +554,10 @@
         {
           "label": "Audio cue audit",
           "href": "../research/audio-audit.md"
+        },
+        {
+          "label": "Current polish evidence and gaps",
+          "href": "evidence/reference-refresh/execution.md"
         }
       ]
     },
@@ -2449,8 +2512,10 @@
         "reviewed parity checklist"
       ],
       "source": "R063-board-state",
-      "blocker": "Functional test evidence passed. Exact visual/feel, alternate aspect/inset, fresh-entry/pause gameplay integration remain unverified.",
-      "evidence": [],
+      "blocker": "Modal input and synthetic control/card bounds passed. Full aspect visuals, device inset reporting, exact feel and gameplay dependencies remain unverified.",
+      "evidence": [
+        "evidence/M01/modal-layout-validation.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2570,8 +2635,10 @@
         "reviewed parity checklist"
       ],
       "source": "R016-pause-stable; R067-home-settings",
-      "blocker": "Functional test evidence passed. Exact visual/feel, alternate aspect/inset, fresh-entry/pause gameplay integration remain unverified.",
-      "evidence": [],
+      "blocker": "Modal input and synthetic control/card bounds passed. Full aspect visuals, device inset reporting, exact feel and gameplay dependencies remain unverified.",
+      "evidence": [
+        "evidence/M01/modal-layout-validation.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2582,7 +2649,7 @@
       "depends": [
         "T010"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 1,
       "steps": [
         "Mở audit/source theo IDs, bổ sung mọi gap trước khi implementation semantics.",
@@ -2604,8 +2671,14 @@
         "source-state matrix"
       ],
       "source": "R002-playstore-launch; R018-restart-prompt",
-      "blocker": "Cold fresh/return full route và network errors cần khảo sát",
-      "evidence": [],
+      "blocker": "Source sky/cloud/plane animation uses the existing persistent loader; awaits cover, readiness and reveal. Startup, root swap/restart/Next/Home flow passed. Cold/return source behavior and device timing remain open.",
+      "evidence": [
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json",
+        "evidence/reference-refresh/closeout.md",
+        "evidence/reference-refresh/closeout-final-editmode.json",
+        "evidence/reference-refresh/closeout-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2616,7 +2689,7 @@
       "depends": [
         "T011"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 3,
       "steps": [
         "Tạo owner tại Features/Launch, Presentation/Transitions, Scripts/Bootstrap theo architecture.",
@@ -2645,8 +2718,14 @@
         "source→Unity GUID binding receipt"
       ],
       "source": "R002-playstore-launch; R018-restart-prompt",
-      "blocker": "Cold fresh/return full route và network errors cần khảo sát",
-      "evidence": [],
+      "blocker": "Source sky/cloud/plane animation uses the existing persistent loader; awaits cover, readiness and reveal. Startup, root swap/restart/Next/Home flow passed. Cold/return source behavior and device timing remain open.",
+      "evidence": [
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json",
+        "evidence/reference-refresh/closeout.md",
+        "evidence/reference-refresh/closeout-final-editmode.json",
+        "evidence/reference-refresh/closeout-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2657,7 +2736,7 @@
       "depends": [
         "T012"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 2,
       "steps": [
         "Init cancel không publish ready",
@@ -2684,8 +2763,14 @@
         "reviewed parity checklist"
       ],
       "source": "R002-playstore-launch; R018-restart-prompt",
-      "blocker": "Cold fresh/return full route và network errors cần khảo sát",
-      "evidence": [],
+      "blocker": "Source sky/cloud/plane animation uses the existing persistent loader; awaits cover, readiness and reveal. Startup, root swap/restart/Next/Home flow passed. Cold/return source behavior and device timing remain open.",
+      "evidence": [
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json",
+        "evidence/reference-refresh/closeout.md",
+        "evidence/reference-refresh/closeout-final-editmode.json",
+        "evidence/reference-refresh/closeout-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2696,7 +2781,7 @@
       "depends": [
         "T013"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 1,
       "steps": [
         "Mở audit/source theo IDs, bổ sung mọi gap trước khi implementation semantics.",
@@ -2718,8 +2803,13 @@
         "source-state matrix"
       ],
       "source": "R003-after-loading; R021-level2-top-cleared",
-      "blocker": "Source priority, collision boundaries, complete loop/fail logic và AES chưa đủ",
-      "evidence": [],
+      "blocker": "Level1/2 catalog and real Next implemented; source longer buses, seven passenger colors, native extra bays, SFX and Dreamy smoke. Queue priority/path, all capacities, toon/VAT and final mix remain approximations under review.",
+      "evidence": [
+        "evidence/M02/recovered-import.json",
+        "feature-contracts/GAME.md",
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2730,7 +2820,7 @@
       "depends": [
         "T014"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 5,
       "steps": [
         "Tạo owner tại Domain/Board, Domain/Passengers, Application/PuzzleSession, Features/Gameplay, Presentation/Vehicles theo architecture.",
@@ -2762,8 +2852,13 @@
         "source→Unity GUID binding receipt"
       ],
       "source": "R003-after-loading; R021-level2-top-cleared",
-      "blocker": "Source priority, collision boundaries, complete loop/fail logic và AES chưa đủ",
-      "evidence": [],
+      "blocker": "Level1/2 catalog and real Next implemented; source longer buses, seven passenger colors, native extra bays, SFX and Dreamy smoke. Queue priority/path, all capacities, toon/VAT and final mix remain approximations under review.",
+      "evidence": [
+        "evidence/M02/recovered-import.json",
+        "feature-contracts/GAME.md",
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2774,7 +2869,7 @@
       "depends": [
         "T015"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 2,
       "steps": [
         "Blocked car không đi xuyên",
@@ -2803,8 +2898,13 @@
         "reviewed parity checklist"
       ],
       "source": "R003-after-loading; R021-level2-top-cleared",
-      "blocker": "Source priority, collision boundaries, complete loop/fail logic và AES chưa đủ",
-      "evidence": [],
+      "blocker": "Level1/2 catalog and real Next implemented; source longer buses, seven passenger colors, native extra bays, SFX and Dreamy smoke. Queue priority/path, all capacities, toon/VAT and final mix remain approximations under review.",
+      "evidence": [
+        "evidence/M02/recovered-import.json",
+        "feature-contracts/GAME.md",
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2815,7 +2915,7 @@
       "depends": [
         "T016"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 1,
       "steps": [
         "Mở audit/source theo IDs, bổ sung mọi gap trước khi implementation semantics.",
@@ -2837,8 +2937,16 @@
         "source-state matrix"
       ],
       "source": "R004-level1-blocked-test; R048-vip-select-target",
-      "blocker": "Xác nhận replay và persistence của từng step",
-      "evidence": [],
+      "blocker": "Dreamy Tutorial owns checkpoints/tokens/retry. Source card/hand and world-space yellow outline captured; first-level adapter verified. Later VIP tutorial, exact target order, resize and full persistence-failure coverage remain open.",
+      "evidence": [
+        "feature-contracts/TUTORIAL.md",
+        "evidence/M03/editmode-tool.json",
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json",
+        "evidence/reference-refresh/closeout.md",
+        "evidence/reference-refresh/closeout-final-editmode.json",
+        "evidence/reference-refresh/closeout-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2849,7 +2957,7 @@
       "depends": [
         "T017"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 3,
       "steps": [
         "Tạo owner tại Features/Tutorial, Integration/TutorialTargets, Prefabs/BusFever/Tutorial theo architecture.",
@@ -2879,8 +2987,16 @@
         "source→Unity GUID binding receipt"
       ],
       "source": "R004-level1-blocked-test; R048-vip-select-target",
-      "blocker": "Xác nhận replay và persistence của từng step",
-      "evidence": [],
+      "blocker": "Dreamy Tutorial owns checkpoints/tokens/retry. Source card/hand and world-space yellow outline captured; first-level adapter verified. Later VIP tutorial, exact target order, resize and full persistence-failure coverage remain open.",
+      "evidence": [
+        "feature-contracts/TUTORIAL.md",
+        "evidence/M03/editmode-tool.json",
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json",
+        "evidence/reference-refresh/closeout.md",
+        "evidence/reference-refresh/closeout-final-editmode.json",
+        "evidence/reference-refresh/closeout-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2891,7 +3007,7 @@
       "depends": [
         "T018"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 2,
       "steps": [
         "Wrong target không advance",
@@ -2918,8 +3034,16 @@
         "reviewed parity checklist"
       ],
       "source": "R004-level1-blocked-test; R048-vip-select-target",
-      "blocker": "Xác nhận replay và persistence của từng step",
-      "evidence": [],
+      "blocker": "Dreamy Tutorial owns checkpoints/tokens/retry. Source card/hand and world-space yellow outline captured; first-level adapter verified. Later VIP tutorial, exact target order, resize and full persistence-failure coverage remain open.",
+      "evidence": [
+        "feature-contracts/TUTORIAL.md",
+        "evidence/M03/editmode-tool.json",
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json",
+        "evidence/reference-refresh/closeout.md",
+        "evidence/reference-refresh/closeout-final-editmode.json",
+        "evidence/reference-refresh/closeout-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2930,7 +3054,7 @@
       "depends": [
         "T019"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 1,
       "steps": [
         "Mở audit/source theo IDs, bổ sung mọi gap trước khi implementation semantics.",
@@ -2952,8 +3076,16 @@
         "source-state matrix"
       ],
       "source": "R011-level1-result",
-      "blocker": "Hard/superhard/taskbar reward chưa capture",
-      "evidence": [],
+      "blocker": "Coin balance + Dreamy IconFly and close cancellation implemented. Save faults before/after write recover once; double Next and real Level2 passed. Source Spine/fireworks render; exact trail shape/timing/audio and hard/superhard variants remain open.",
+      "evidence": [
+        "feature-contracts/VICTORY.md",
+        "evidence/M03/victory-editmode.json",
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json",
+        "evidence/reference-refresh/closeout.md",
+        "evidence/reference-refresh/closeout-final-editmode.json",
+        "evidence/reference-refresh/closeout-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -2964,7 +3096,7 @@
       "depends": [
         "T020"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 3,
       "steps": [
         "Tạo owner tại Features/Victory, Application/WinLevel, Prefabs/BusFever/Victory theo architecture.",
@@ -2993,8 +3125,16 @@
         "source→Unity GUID binding receipt"
       ],
       "source": "R011-level1-result",
-      "blocker": "Hard/superhard/taskbar reward chưa capture",
-      "evidence": [],
+      "blocker": "Coin balance + Dreamy IconFly and close cancellation implemented. Save faults before/after write recover once; double Next and real Level2 passed. Source Spine/fireworks render; exact trail shape/timing/audio and hard/superhard variants remain open.",
+      "evidence": [
+        "feature-contracts/VICTORY.md",
+        "evidence/M03/victory-editmode.json",
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json",
+        "evidence/reference-refresh/closeout.md",
+        "evidence/reference-refresh/closeout-final-editmode.json",
+        "evidence/reference-refresh/closeout-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -3005,7 +3145,7 @@
       "depends": [
         "T021"
       ],
-      "status": "planned",
+      "status": "review",
       "weight": 2,
       "steps": [
         "Double Next không skip2level",
@@ -3032,8 +3172,16 @@
         "reviewed parity checklist"
       ],
       "source": "R011-level1-result",
-      "blocker": "Hard/superhard/taskbar reward chưa capture",
-      "evidence": [],
+      "blocker": "Coin balance + Dreamy IconFly and close cancellation implemented. Save faults before/after write recover once; double Next and real Level2 passed. Source Spine/fireworks render; exact trail shape/timing/audio and hard/superhard variants remain open.",
+      "evidence": [
+        "feature-contracts/VICTORY.md",
+        "evidence/M03/victory-editmode.json",
+        "evidence/reference-refresh/execution.md",
+        "evidence/reference-refresh/polish-final-flow.json",
+        "evidence/reference-refresh/closeout.md",
+        "evidence/reference-refresh/closeout-final-editmode.json",
+        "evidence/reference-refresh/closeout-final-flow.json"
+      ],
       "verifiedRevision": null
     },
     {
@@ -6532,5 +6680,18 @@
     ],
     "currentBaseline": "M01 current clone UI · Unity6000.4.12f1 Editor · 1080×1920 · source-derived editable art. Wallet/avatar khác account reference; SDK actions là local test stubs.",
     "policy": "Ảnh gắn theo feature từ source audit; session video là thư viện chung, không khẳng định feature nằm trong clip. Current trống là thiếu capture, không phải UI đã clone."
+  },
+  "closeoutSummary": {
+    "title": "B?n ch?i M01?M03 ? ?? ki?m tra trong Unity Editor",
+    "checks": "19/19 EditMode ? 1/1 lu?ng ch?i ??y ?? ? 45 asmdef h?p l? ? ?nh m?i ?? m? ??i chi?u.",
+    "completed": [
+      "Home ? Play ? Level1 ? Pause/Restart ? Victory ? Next ? Level2 ? Home trong m?t MainScene.",
+      "Dreamy Progression/Economy c?p th??ng m?t l?n; retry sau l?i ghi save; Next ch?ng b?m l?p.",
+      "Victory c? s? d? xu v? Dreamy IconFly; ??ng panel h?y hi?u ?ng ?ang ch?y.",
+      "Tutorial d?ng checkpoint c?a Dreamy; card ngu?n, hand v? vi?n v?ng ???c bind v?o gameplay th?t.",
+      "S?a incoming road, h?ng ng??i co l?i sau boarding, m?u ??/v?ng, ph?o hoa v? b? c?c Victory."
+    ],
+    "remaining": "??i chi?u y h?t game g?c v?n ?ang review: th? t? h?ng ng??i/capacity, toon/VAT/shadow, h?nh d?ng trail ph?o hoa, mix SFX/tween v? ki?m tra m?y th?t. Level3/hard/superhard ch?a c? n?i dung ch?i.",
+    "report": "evidence/reference-refresh/closeout.md"
   }
 }

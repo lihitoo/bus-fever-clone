@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "kind": "m01-modal-and-layout-regression",
+  "status": "pass",
+  "baselineCommit": "27b6d28",
+  "unity": "6000.4.12f1",
+  "project": "D:/Game/bus-fever-clone",
+  "jobId": "56fd263a30d548eb8407dd8fb26be80f",
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0
+  },
+  "checks": [
+    "Actual GraphicRaycaster blocks an underlying button outside the Settings card, then releases input when the modal is disabled",
+    "Home CTA and Settings card geometry inside baseline 1080x1920 viewport",
+    "Home CTA and Settings card geometry inside 1080x2400 with top100/bottom96 synthetic insets",
+    "Home CTA and Settings card geometry inside 720x1600 with top48/bottom32 synthetic insets"
+  ],
+  "redBeforeFix": [
+    {
+      "jobId": "e55c2ebe77bd4744ba1b07b3208de7fa",
+      "failure": "Outside-card tap hit Underlying Home action instead of Mask_Img"
+    },
+    {
+      "jobId": "8bb6da56899e47849737a51fbcb18b78",
+      "failure": "Fixed-width navigation exceeded horizontal bounds on tall/narrow targets"
+    }
+  ],
+  "runnerIssues": [
+    "d88d2cf79a4045a59e0255960e1b49dd interrupted by script domain reload; orphan cleared after editor reported tests not running",
+    "25e0a100ad9f4334a24a575d62806359 initialization timed out with zero tests started; stopped test play mode and restored clean BootstrapScene before retry"
+  ],
+  "limits": [
+    "Synthetic profiles render through a camera target texture and real CanvasScaler; normalized inset anchors applied to disabled SafeArea components",
+    "Proves control/card geometry and modal input, not complete pixel fidelity, camera composition at each aspect or physical device safe-area reporting",
+    "Native runner progress counter incorrectly reported completed8/total4; terminal test result summary was four tests passed"
+  ],
+  "observedAt": "2026-11-17T12:32:36.661577+00:00",
+  "rawToolResult": "modal-layout-final-tool.json",
+  "artifacts": [
+    {
+      "path": "Assets/_Project/Tests/PlayMode/M01LayoutTests.cs",
+      "sha256": "38a395b7ed46f03ba63c0f392befbd81842ba61e575065ed0822ff4e05f3ea72"
+    },
+    {
+      "path": "Assets/_Project/Tests/PlayMode/M01ModalInputTests.cs",
+      "sha256": "3dbc2cd10ca72b71d3964d1abc71069ac71827714b8d9ceb11045f4350727cf2"
+    },
+    {
+      "path": "Assets/_Project/Editor/BusFever/PanelReskinAuthoring.cs",
+      "sha256": "9f0661969f20293599b9a038f4118e7d8139940d58797d0b720197d913abba5c"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Panel/HomePanel.prefab",
+      "sha256": "41553ebc25c695740f1adf9be891560a4a6f9cdbe877029d1a40004a23c527f8"
+    },
+    {
+      "path": "Assets/_Project/_Feature/Dreamy Settings/0.2.2/Settings Feature/Prefabs/SettingsPanel.prefab",
+      "sha256": "7190b7a7041783b06b697c75b829f2acc294464b71fccf002975ec8c191c6964"
+    }
+  ]
+}

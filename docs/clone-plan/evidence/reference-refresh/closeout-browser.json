@@ -1,0 +1,11 @@
+{
+  "id": "58a7ecdd-4dda-4bba-9c9c-ed1a147ad884",
+  "ok": true,
+  "result": {
+    "result": "{\"summary\":true,\"images\":[{\"src\":\"../research/media/screens/R063-board-state.png\",\"complete\":true,\"width\":1080},{\"src\":\"media/current/M02/M03-tutorial-latest.png\",\"complete\":true,\"width\":1080},{\"src\":\"../research/media/screens/R004-level1-blocked-test.png\",\"complete\":true,\"width\":1080}],\"videos\":[{\"src\":\"media/current/M02/m02-m03-polish.mp4\",\"ready\":4,\"duration\":32.64,\"error\":null},{\"src\":\"media/reference/session01-v1.3.3.mp4\",\"ready\":4,\"duration\":118.129633,\"error\":null}]}",
+    "origin": "file:///D:/Game/bus-fever-clone/docs/clone-plan/dashboard.html"
+  },
+  "_meta": {
+    "runtimeId": "52e104fe-4bf0-484b-a912-1969526f5e63"
+  }
+}

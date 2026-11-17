@@ -7,6 +7,16 @@
       "dependencies": {},
       "hash": "3aea959649c771299ce93958ff4d58b4a3874f37"
     },
+    "com.coffee.ui-particle": {
+      "version": "https://github.com/mob-sakai/ParticleEffectForUGUI.git#51a4708b7ba4daa8483a4936eae9bffe15d0bfd0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "hash": "51a4708b7ba4daa8483a4936eae9bffe15d0bfd0"
+    },
     "com.coplaydev.unity-mcp": {
       "version": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
       "depth": 0,
@@ -132,6 +142,21 @@
         "com.dreamy.feature": "0.2.0"
       }
     },
+    "com.dreamy.feature.progression": {
+      "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.progression.git#c49961d8a94af999635ff40be74a047a8c39a5ad",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.dataconfig": "0.2.0",
+        "com.dreamy.datasave": "0.2.0",
+        "com.dreamy.feature.economy": "0.5.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.dreamy.ui": "0.2.0",
+        "com.cysharp.unitask": "2.5.10"
+      },
+      "hash": "c49961d8a94af999635ff40be74a047a8c39a5ad"
+    },
     "com.dreamy.feature.settings": {
       "version": "file:com.dreamy.feature.settings",
       "depth": 0,
@@ -158,6 +183,22 @@
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       }
     },
+    "com.dreamy.feature.tutorial": {
+      "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.tutorial.git#dbf1f6ef6f0ced68d5ee4f73740662c466c7d331",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.dreamy.core": "1.2.0",
+        "com.dreamy.dataconfig": "1.0.1",
+        "com.dreamy.datasave": "1.0.1",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.dreamy.ui": "1.1.0",
+        "com.unity.modules.physics2d": "1.0.0"
+      },
+      "hash": "dbf1f6ef6f0ced68d5ee4f73740662c466c7d331"
+    },
     "com.dreamy.feedback": {
       "version": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feedback.git#v0.4.1",
       "depth": 0,
@@ -181,6 +222,12 @@
         "com.dreamy.core": "1.1.2",
         "com.dreamy.assets": "1.0.1"
       }
+    },
+    "com.esotericsoftware.spine.spine-unity": {
+      "version": "file:com.esotericsoftware.spine.spine-unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.2d.animation": {
       "version": "14.0.4",

@@ -1,0 +1,37 @@
+{
+  "result": {
+    "success": true,
+    "message": "Test job status retrieved.",
+    "error": null,
+    "data": {
+      "job_id": "8ab3a67cbb7b465e8f9c14c8318c16f6",
+      "status": "succeeded",
+      "mode": "PlayMode",
+      "started_unix_ms": 1794937942048,
+      "finished_unix_ms": 1794937982446,
+      "last_update_unix_ms": 1794937982446,
+      "progress": {
+        "completed": 1,
+        "total": 1,
+        "current_test_full_name": null,
+        "current_test_started_unix_ms": 1794937949888,
+        "last_finished_test_full_name": "Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome",
+        "last_finished_unix_ms": 1794937982392,
+        "stuck_suspected": false,
+        "editor_is_focused": true,
+        "blocked_reason": null,
+        "failures_so_far": [],
+        "failures_capped": false
+      },
+      "error": null,
+      "result": null
+    },
+    "hint": null
+  },
+  "actualLeafReceipt": {
+    "path": "docs/clone-plan/evidence/M02/tests/flow-20261117-175302-393.xml",
+    "result": "Passed",
+    "duration": "32.497345",
+    "test": "Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome"
+  }
+}

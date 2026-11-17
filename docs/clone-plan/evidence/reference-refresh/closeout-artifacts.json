@@ -1,0 +1,51 @@
+{
+  "status": "reviewed-local-functional",
+  "playModeJob": "8ab3a67cbb7b465e8f9c14c8318c16f6",
+  "editModeJob": "8505e39391234452bfdbdb95d03639b6",
+  "files": [
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/VictoryPanel.cs",
+      "sha256": "2296308dcd7f6ad4831d43954c038ae25c7bb8dea3ccbb35368cfc335abf2499"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/WinLevelService.cs",
+      "sha256": "cdffad28d739fbde01787aa5990258d3bbfd5b2d20e82ba1836e8718c652b14a"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/PassengerTrack.cs",
+      "sha256": "b591b6f10136d7335454738b682bd9e835dcfcf8d0707697e680541435bc6adf"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/GameplayPanel.cs",
+      "sha256": "5019997fda3d6b4216ddeeb4ea14b160114a59d1234d88405f1d20ddad1a9185"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Panel/VictoryPanel.prefab",
+      "sha256": "29d78b2998e6129a24c09c65ecafbd6eaad67d3bb72b33365b520e1179d8013d"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Panel/GameplayPanel.prefab",
+      "sha256": "87cc66d659ef93bab3060fd68b1a441c199aee15158b06f9b944358b304638db"
+    },
+    {
+      "path": "Assets/_Project/Art/BusFever/UI/GameplayWorld.prefab",
+      "sha256": "114a794ee77c403e504676eab0e5d932f28ca4b0dac0726e7a08f619e33c483a"
+    },
+    {
+      "path": "Assets/_Project/Art/BusFever/UI/SourceParticleAlpha.shader",
+      "sha256": "0da11455406eb0afdfc078964b538658b33b3049c9b8ab329ca0aad6a50d24e5"
+    },
+    {
+      "path": "Assets/_Project/Art/BusFever/UI/TutorialVehicleOutline.shader",
+      "sha256": "6fe19d306d813386a4b4764cc8bc7259fa8f1781c32fcac63b8812a29f3aa60f"
+    },
+    {
+      "path": "docs/clone-plan/media/current/M02/M03-tutorial-latest.png",
+      "sha256": "0044b101e98c0857f578fec4b80190c75b342a62d28c2e955727e4c69e5691ab"
+    },
+    {
+      "path": "docs/clone-plan/media/current/M02/M03-victory-latest.png",
+      "sha256": "e9de66b2b767dcf2876c337b5939657e62062561b09a01df99d7a11135217385"
+    }
+  ]
+}

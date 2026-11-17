@@ -1,0 +1,29 @@
+{
+  "source": {
+    "collection": "cab-c8832cbea2d488313bd7602312fbcbb2",
+    "path_id": -9132761157237679273,
+    "asset_file": "CAB-c8832cbea2d488313bd7602312fbcbb2",
+    "type": "Sprite",
+    "name": "Main_Guid_Bg",
+    "outputs": [
+      {
+        "path": "files/Sprite/0004_CAB-c8832cbea2d488313bd7602312fbcbb2/Main_Guid_Bg__-9132761157237679273.png",
+        "bytes": 6857,
+        "sha256": "a74deef60eed4292e860d759005ed3e33dce3a7e293f4f2fffcb098b021d4e0d"
+      }
+    ],
+    "image_size": [
+      138,
+      132
+    ],
+    "status": "exported"
+  },
+  "target": "Assets/_Project/Art/BusFever/UI/TutorialCard.png",
+  "sourceSpriteGuid": "c5891f559376e9649aa08ba888bc0bc7",
+  "border": [
+    63,
+    66,
+    61,
+    55
+  ]
+}

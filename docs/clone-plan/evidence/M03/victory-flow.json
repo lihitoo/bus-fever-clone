@@ -1,0 +1,70 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"10f7b0b068464c04a2f6d416e7291223\",\"status\":\"succeeded\",\"mode\":\"PlayMode\",\"started_unix_ms\":1794930020957,\"finished_unix_ms\":1794930056835,\"last_update_unix_ms\":1794930056835,\"progress\":{\"completed\":1,\"total\":1,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1794930029280,\"last_finished_test_full_name\":\"Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome\",\"last_finished_unix_ms\":1794930056793,\"stuck_suspected\":false,\"editor_is_focused\":true,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"PlayMode\",\"summary\":{\"total\":1,\"passed\":1,\"failed\":0,\"skipped\":0,\"durationSeconds\":27.6022364,\"resultState\":\"Passed\"},\"results\":[{\"name\":\"NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome\",\"fullName\":\"Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome\",\"state\":\"Passed\",\"durationSeconds\":27.5074323,\"message\":null,\"stackTrace\":null,\"output\":\"[DreamyDebugger] Bug Report handler set to Dreamy.Debugger.DebuggerRuntime+OutboxReportHandler\\r\\n\"}]}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "10f7b0b068464c04a2f6d416e7291223",
+          "status": "succeeded",
+          "mode": "PlayMode",
+          "started_unix_ms": 1794930020957,
+          "finished_unix_ms": 1794930056835,
+          "last_update_unix_ms": 1794930056835,
+          "progress": {
+            "completed": 1,
+            "total": 1,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1794930029280,
+            "last_finished_test_full_name": "Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome",
+            "last_finished_unix_ms": 1794930056793,
+            "stuck_suspected": false,
+            "editor_is_focused": true,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "PlayMode",
+            "summary": {
+              "total": 1,
+              "passed": 1,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 27.6022364,
+              "resultState": "Passed"
+            },
+            "results": [
+              {
+                "name": "NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome",
+                "fullName": "Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome",
+                "state": "Passed",
+                "durationSeconds": 27.5074323,
+                "message": null,
+                "stackTrace": null,
+                "output": "[DreamyDebugger] Bug Report handler set to Dreamy.Debugger.DebuggerRuntime+OutboxReportHandler\r\n"
+              }
+            ]
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

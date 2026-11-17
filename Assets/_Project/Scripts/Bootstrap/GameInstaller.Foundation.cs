@@ -88,6 +88,9 @@ namespace Dreamy.Template
         {
             dataConfig = new DataConfigService(new ResourcesJsonConfigSource());
             dataConfig.Register<TemplateConfig>("templateConfig");
+            dataConfig.Register<Gameplay.PuzzleCatalog>("puzzleCatalog");
+            Dreamy.Tutorial.TutorialInstaller.RegisterConfig(dataConfig);
+            Dreamy.Progression.ProgressionInstaller.RegisterConfig(dataConfig);
             dataConfig.Register<TestConfigTable>("testConfigs");
             ShopFeatureInstaller.RegisterConfig(dataConfig);
 

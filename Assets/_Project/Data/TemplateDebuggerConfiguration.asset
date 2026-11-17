@@ -21,7 +21,7 @@ MonoBehaviour:
   SessionSeconds: 300
   PersistRuntimePreferences: 1
   PreferenceRevision: 1
-  InitialHud: 2
+  InitialHud: 0
   ShowCornerTrigger: 1
   TapPosition: 0
   InitialHudPosition: 3

@@ -1,0 +1,24 @@
+<test-case id="1057" name="NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" fullname="Dreamy.Template.Tests.M02GameplayFlowTests.NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" methodname="NormalRoute_BlockedTap_Pause_Restart_Complete_ReturnHome" classname="Dreamy.Template.Tests.M02GameplayFlowTests" runstate="Runnable" seed="1532133063" result="Failed" start-time="2026-11-17 16:23:22Z" end-time="2026-11-17 16:23:29Z" duration="7.265971" asserts="0"><properties><property name="_JOINTYPE" value="UnityCombinatorial" /><property name="retryIteration" value="0" /><property name="repeatIteration" value="0" /></properties><failure><message><![CDATA[Unhandled log message: '[Exception] ObjectDisposedException: The CancellationTokenSource has been disposed.'. Use UnityEngine.TestTools.LogAssert.Expect]]></message><stack-trace><![CDATA[System.Threading.CancellationTokenSource.Cancel (System.Boolean throwOnFirstException) (at <f713e1c3c5f545ce9b1df47230f4f853>:0)
+System.Threading.CancellationTokenSource.Cancel () (at <f713e1c3c5f545ce9b1df47230f4f853>:0)
+Cysharp.Threading.Tasks.CancellationTokenSourceExtensions.CancelCancellationTokenSourceState (System.Object state) (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/CancellationTokenSourceExtensions.cs:19)
+Cysharp.Threading.Tasks.PlayerLoopTimer.Cysharp.Threading.Tasks.IPlayerLoopItem.MoveNext () (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/PlayerLoopTimer.cs:127)
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:175)
+Cysharp.Threading.Tasks.Internal.<>c:<.ctor>b__9_0(Exception) (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:25)
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore() (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:189)
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:Update() (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:145)
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:Run() (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:104)
+
+]]></stack-trace></failure><output><![CDATA[[DreamyDebugger] Bug Report handler set to Dreamy.Debugger.DebuggerRuntime+OutboxReportHandler
+ObjectDisposedException: The CancellationTokenSource has been disposed.
+System.Threading.CancellationTokenSource.Cancel (System.Boolean throwOnFirstException) (at <f713e1c3c5f545ce9b1df47230f4f853>:0)
+System.Threading.CancellationTokenSource.Cancel () (at <f713e1c3c5f545ce9b1df47230f4f853>:0)
+Cysharp.Threading.Tasks.CancellationTokenSourceExtensions.CancelCancellationTokenSourceState (System.Object state) (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/CancellationTokenSourceExtensions.cs:19)
+Cysharp.Threading.Tasks.PlayerLoopTimer.Cysharp.Threading.Tasks.IPlayerLoopItem.MoveNext () (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/PlayerLoopTimer.cs:127)
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:175)
+UnityEngine.Debug:LogException(Exception)
+Cysharp.Threading.Tasks.Internal.<>c:<.ctor>b__9_0(Exception) (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:25)
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore() (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:189)
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:Update() (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:145)
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:Run() (at ./Library/PackageCache/com.cysharp.unitask@360e370345b9/Runtime/Internal/PlayerLoopRunner.cs:104)
+
+]]></output></test-case>

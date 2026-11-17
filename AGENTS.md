@@ -8,6 +8,11 @@ Installed Codex agents: dreamy_architect, dreamy_build_engineer, dreamy_code_rev
 
 ## Project architecture
 
+- Reference research priority (user clarification): search online images/videos first, inspect the actual frames and compare their layout/version with the supplied audit. Open/play/capture the original game only when online material is unavailable or insufficient for the specific question. Do not infer authoritative mechanics from walkthrough prose or silently treat a different board/version as matching reference.
+
+- Before implementing each feature, inspect the current Dreamy-Game-Foundation organization repositories, tags, package manifest and source. Import and reuse an existing suitable Dreamy package through a separate feature installer; do not recreate its model, state machine, persistence, transaction or presenter infrastructure locally. Project code owns only game-specific domain rules, adapters and reference art. If a capability is missing, record the source-grounded gap and propose a package extension before creating a parallel framework.
+- User decision: MainScene hosts Home and Gameplay prefab roots; do not add a GameplayScene. Each gameplay root owns one session scope, released on restart/exit. Existing persistent SceneLoader owns the transition cover for both root swaps and the initial scene load. Await cover, content readiness and reveal; do not add a LoadingScene or another loader to animate transitions.
+
 - Follow the imported Dreamy template, explicit constructor DI, MVP, SOLID and purpose-driven patterns. Prefer existing owners over extra composition wrappers. Home retains HomeNavigator; do not add HomeComposition or another Home presenter factory without a demonstrated requirement.
 - Keep feature installation separate: GameInstaller orchestrates, each Dreamy feature installer owns its feature wiring. Foundation services keep exactly one owner and reverse teardown.
 - Use VContainer sparingly for the future gameplay session scope; do not spread resolver access into views/domain or create a scope per entity.

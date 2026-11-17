@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.borodar.rainbow-folders": "https://github.com/Borod4r/Rainbow-Folders-2.git?path=Assets/Plugins/Borodar/RainbowFolders",
+    "com.coffee.ui-particle": "https://github.com/mob-sakai/ParticleEffectForUGUI.git#51a4708b7ba4daa8483a4936eae9bffe15d0bfd0",
     "com.coplaydev.unity-mcp": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.demigiant.dotween": "https://github.com/grashaar/DOTween.git",
@@ -13,10 +14,13 @@
     "com.dreamy.editor-tools": "file:com.dreamy.editor-tools",
     "com.dreamy.feature": "file:com.dreamy.feature",
     "com.dreamy.feature.economy": "file:com.dreamy.feature.economy",
+    "com.dreamy.feature.progression": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.progression.git#c49961d8a94af999635ff40be74a047a8c39a5ad",
     "com.dreamy.feature.settings": "file:com.dreamy.feature.settings",
     "com.dreamy.feature.shop": "file:com.dreamy.feature.shop",
+    "com.dreamy.feature.tutorial": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.tutorial.git#dbf1f6ef6f0ced68d5ee4f73740662c466c7d331",
     "com.dreamy.feedback": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feedback.git#v0.4.1",
     "com.dreamy.ui": "file:com.dreamy.ui",
+    "com.esotericsoftware.spine.spine-unity": "file:com.esotericsoftware.spine.spine-unity",
     "com.unity.addressables": "2.9.1",
     "com.unity.ai.navigation": "2.0.13",
     "com.unity.collab-proxy": "2.12.4",

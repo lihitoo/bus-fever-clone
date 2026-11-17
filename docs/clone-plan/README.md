@@ -1,3 +1,5 @@
+[B?n ch?i M01?M03: k?t qu? m?i nh?t](evidence/reference-refresh/closeout.md) ? [Dashboard ?nh/video](dashboard.html)
+
 # Bus Fever — kế hoạch clone toàn bộ game
 
 **Trạng thái: M01 Home/Settings đã gắn vào route thật, đang review visual/feel. Unity MCP hoạt động; Home giữ HomeNavigator, không thêm composition/factory mới. SDK ngoài dùng DreamySDK local test stubs theo user.**
